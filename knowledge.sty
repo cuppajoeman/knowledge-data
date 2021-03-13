@@ -3,6 +3,7 @@
   [2011/01/11 v0.01 LaTeX package for my own purpose]
 
 \RequirePackage[most]{tcolorbox}
+\RequirePackage{amsmath,amsthm}
 
 \newtcbtheorem{defn}%
   {Definition}{fonttitle=\bfseries\upshape, fontupper=\slshape,
@@ -10,7 +11,16 @@
 
 \newtcbtheorem{theo}%
   {Definition}{fonttitle=\bfseries\upshape, fontupper=\slshape,
-     arc=0mm, colback=blue!5!white,colframe=blue!75!black}{definition}
+     arc=0mm, colback=blue!5!white,colframe=blue!75!black}{theorem}
+
+\newenvironment{pf}[1][\proofname]{%
+  \begin{proof}[#1]$ $\par\nobreak\ignorespaces
+}{%
+  \end{proof}
+}
+
+\renewcommand\qedsymbol{$\blacksquare$}
+
 
 \endinput
 
