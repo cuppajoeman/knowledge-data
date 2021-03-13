@@ -1,0 +1,13 @@
+A field is a set <math display="inline">\mathbb{F}</math>, containing at least two elements on which two operations <math display="inline">+</math> (addition) and <math display="inline">\cdot</math> (multiplication) are defined so that for each pair of elements <math display="inline">x, y \in \mathbb{F}</math> there are unique elements <math display="inline">x  +  y</math> and <math display="inline">x  \cdot y</math> in <math display="inline">\mathbb{F}</math> for which the following conditions hold for all elements <math display="inline">x, y , z \in \mathbb{F}</math>
+
+# <math display="inline">x  +  y = y  +  x</math> (commutativity of addition)
+# <math display="inline">\left(  x  +  y  \right)   +  z= x  +  \left( y  +  z \right)</math> (associativity of addition)
+# There is an element <math display="inline">0 \in \mathbb{F}</math>, which is named <math display="inline">0</math> such that <math display="inline">x  +  0 = x</math> (existance of additive identity)
+# For each <math display="inline">x</math>, we have an element <math display="inline">-x \in \mathbb{F}</math> such that <math display="inline">x  +  \left( -x \right) = 0</math> (existance of additive inverse)
+# <math display="inline">xy = yx</math> (commutivity of multiplication)
+# <math display="inline">\left( x  \cdot y \right)  \cdot z = x  \cdot z  +  y  \cdot z</math> and <math display="inline">x  \cdot  \left(  y  +  z \right)= x  \cdot y  + x  \cdot z</math> (distributivity)
+# There is an element <math display="inline">1 \in \mathbb{F}</math>, such that <math display="inline">1 \neq 0</math> and <math display="inline">x  \cdot 1 =x</math> (existance of a multiplicative identity)
+# if <math display="inline">x \neq 0</math>, then there is an element <math display="inline">x ^{-1} \in \mathbb{F}</math> such that <math display="inline">x  \cdot  x ^{-1} = 1</math> (existance of multiplicative inverses)
+
+== Knowledge Used ==
+* {{link|target=Set}}

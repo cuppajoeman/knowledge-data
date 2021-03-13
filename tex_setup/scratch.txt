@@ -1,0 +1,11 @@
+Let <math display="inline">a, b, c, d \in \mathbb{Z}</math> such that <math display="inline">\chi: ad  +  bc \neq 0</math>. Prove that if <math display="inline">ad  +  bc</math> divides each of <math display="inline">a, b, c, d</math> then one has <math display="block">\left| ad  +  bc  \right| = 1</math>
+
+Proof By our assumption of divisibility we get <math display="inline">k_{a}, k_{b}, k_{c}, k_{d} \in \mathbb{Z}</math> such that for any <math display="inline">x \in \left\{ aa, b, c, d \right\}</math> we have <math display="block">\phi: \quad \left( ad  +  bc  \right)  \cdot k_{x} = x</math>
+
+Therefore <math display="block">\gamma: \quad ad  +  bc = \left( ad  +  bc \right)  \cdot \left( k_{a}k_{d}  +  k_{b}k_{c} \right)  \Leftrightarrow k_{a}k_{d}  +  k_{b}k_{c} = 1</math>
+
+And by using <math display="inline">\phi</math> we see that <math display="inline">ad = \left( ad  +  bc \right) ^{2} k_{a} k_{d}</math> and <math display="inline">ad = \left( ad  +  bc \right) ^{2} k_{b} k_{c}</math>, therefore <math display="block">ad  +  bc = \left( ad  +  bc  \right) ^{2} \left( k_{a}k_{d}  +  k_{b}k_{c} \right) \stackrel{\gamma }{=} \left( ad  +  bc \right) ^{2} \left( 1 \right)</math>
+
+Therefore <math display="inline">ad  +  bc = 1</math>
+
+{{Knowledge Metadata|Probability|Theorem}}
