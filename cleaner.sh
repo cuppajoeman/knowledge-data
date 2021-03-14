@@ -1,6 +1,6 @@
 #!/bin/bash
 shopt -s extglob nullglob
-files=(!(.git|cleaner.sh|*.tex|*.sty|*.pdf|output.txt|new.sh))
+files=(!(.git|cleaner.sh|edit.sh|*.tex|*.sty|*.pdf|output.txt|new.sh))
 
 # ${#files[@]} is the number of entries in the file array
 if (( ${#files[@]} > 0 )); then
