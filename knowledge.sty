@@ -2,6 +2,7 @@
 \ProvidesPackage{knowledge}
   [2011/01/11 v0.01 LaTeX package for my own purpose]
 
+% For colored boxes
 \RequirePackage[most]{tcolorbox}
 \RequirePackage{amsmath,amsthm}
 
@@ -13,13 +14,26 @@
   {Theorem}{fonttitle=\bfseries\upshape, fontupper=\slshape,
      arc=0mm, colback=blue!5!white,colframe=blue!75!black}{theorem}
 
-\newenvironment{pf}[1][\proofname]{%
-  \begin{proof}[#1]$ $\par\nobreak\ignorespaces
-}{%
-  \end{proof}
-}
+\newtcbtheorem{prop}%
+  {Proposition}{fonttitle=\bfseries\upshape, fontupper=\slshape,
+     arc=0mm, colback=purple!5!white,colframe=purple!75!black}{proposition}
+
+%\newenvironment{pf}[1][\proofname]{%
+%  \begin{proof}[#1]$ $\par\nobreak\ignorespaces
+%}{%
+%  \end{proof}
+%}
 
 \renewcommand\qedsymbol{$\blacksquare$}
+
+\usepackage[explicit]{titlesec}
+\RequirePackage{xhfill}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\filcenter}{}{0em}{\xrfill[0.3ex]{1.5pt}~#1~\xrfill[0.3ex]{1.5pt}}
+
+\newenvironment{pf}{\section{Proof}}{\hfill$\blacksquare$}
+
 
 
 \endinput
