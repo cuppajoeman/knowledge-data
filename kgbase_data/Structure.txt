@@ -1,3 +1,4 @@
+Table Name: Structure, ID: tab-MVVF6vQI4G2jDqgcLJM
 {'edges': [{'fromId': 'row-MVVN4tl5UOMTHjSTKUg',
             'label': 'Sub Structures',
             'toId': 'row-MVVOKyGps4C0JaLn5-y'},

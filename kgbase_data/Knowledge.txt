@@ -1,3 +1,4 @@
+Table Name: Knowledge, ID: tab-MVVDy_ojQuAFVL6HAK1
 {'edges': [{'fromId': 'row-MVVFsXnJ25ojgHHfN12',
             'label': 'Type',
             'toId': 'row-MVXSSn_vJuk_qhboEni'},
