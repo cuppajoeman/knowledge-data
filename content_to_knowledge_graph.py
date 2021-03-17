@@ -13,6 +13,7 @@ q.login(
 )
 
 from pprint import pprint
+import pprint
 project_id = q.get_user_projects()[0]['projectId']
 
 project_schema = q.get_schema(project_id)
@@ -23,21 +24,13 @@ tables = {}
 
 for table_data in project_tables:
     name = table_data['displayName']
-    tables[name] = table_data
+    with open("kgbase_data/" + name + ".txt", 'w') as f:
+        s = pprint.pformat(q.get_graph(project_id, table_data['tableId']))
+        f.write(s)
 
-kt = tables['Knowledge']
-tt = tables['Type']
-st = tables['Status']
-strt = tables['Structure']
 
-kt_id = kt['tableId']
-tt_id = tt['tableId']
-st_id = st['tableId']
-strt_id = strt['tableId']
 
-pprint(q.get_graph(project_id, strt_id))
-
-values={
+values = {
     'col-0': 'Test',
     'col-2': 'https://gitlab.com/cuppajoeman/...',
     'col-7': True
