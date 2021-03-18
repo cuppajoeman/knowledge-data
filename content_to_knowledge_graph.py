@@ -18,6 +18,8 @@ project_id = q.get_user_projects()[0]['projectId']
 
 project_schema = q.get_schema(project_id)
 
+pprint.pprint(project_schema)
+
 project_tables = project_schema['tables']
 
 table_to_id = {
@@ -71,11 +73,11 @@ args = [ "Title", "Type", "Content", "Status", "Parent", "Knowledge Used", "Form
 
 argument_to_column= {
      "Title": "col-0" ,
-     "Type": "col-3" ,
-     "Content": "col-8" ,
-     "Status": "col-2" ,
-     "Parent": "col-3" ,
-     "Knowledge Used": "col-4",
+     "Type": "col-8" ,
+     "Content": "col-2" ,
+     "Status": "col-3" ,
+     "Parent": "col-4" ,
+     "Knowledge Used": "col-6",
      "Formatted": "col-7"
  }
 
@@ -89,6 +91,13 @@ argument_is_relationship = {
      "Formatted": False, # url
  }
 
+relationship_arg_to_table_name = {
+    "Type": "Type",
+    "Status": "Status",
+    "Parent": "Structure",
+    "Knowledge Used": "Knowledge"
+}
+
 values = {}
 edges = []
 
@@ -101,7 +110,8 @@ for i, line in enumerate(argfile):
         if arg_values != ['']:
             for v in arg_values:
                 # Assuming one to one relations between title and id
-                edge_id = tables['Knowledge'][v]
+                table_name = relationship_arg_to_table_name[arg_name]
+                edge_id = tables[table_name][v]
                 edges.append((arg_name, edge_id))
     else:
         # When it's not an edge, then there is only one value for it.
@@ -116,11 +126,12 @@ pprint.pprint(edges)
 while "the answer is invalid":
     reply = str(input("Are you ok with pushing this to the kg?"+' (y/n): ')).lower().strip()
     if reply[0] == 'y':
-        #result = q.create_vertex(
-        #    project_id,
-        #    table_to_id['Knowledge'],
-        #    values,
-        #    edges
-        #)
-        print("pushed")
+        result = q.create_vertex(
+            project_id,
+            table_to_id['Knowledge'],
+            values,
+            edges
+        )
+        break
+    if reply[0] == 'n':
         break
