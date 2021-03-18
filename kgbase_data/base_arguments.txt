@@ -1,7 +1,7 @@
 Title = X
-Type = X
+Type = Definition.Theorem.Proposition.Property
 Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
-Status = X
-Parent = X
-Knowledge Used = X
-Formatted = X
+Status = Complete.Work In Progress
+Parent = P
+Knowledge Used = 
+Formatted = True.False

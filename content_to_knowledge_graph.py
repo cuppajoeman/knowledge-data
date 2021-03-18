@@ -131,6 +131,8 @@ while "the answer is invalid":
             values,
             edges
         )
+        print("ID: " + result)
+        # LEAVE THIS HERE!!!!
         break
     if reply[0] == 'n':
         break
