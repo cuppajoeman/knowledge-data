@@ -62,6 +62,7 @@
                'Product Law for Limits': 'row-MVsGBVtQBY_nFkFabaA',
                'Property': 'row-MVrlg2B1NM57XhEZeZm',
                'Proposition': 'row-MVoAVO12AKScs-d2ECR',
+               'Radius': 'row-MW5aryVK6q2r_hGx66h',
                'Relation': 'row-MVXjXdVCmE3tZYfi2Q7',
                'Rolles Theorem': 'row-MVmcr7bGBOMBTVhoH4S',
                'Secant Line': 'row-MVmctu4YPf4I67Jd2uA',
