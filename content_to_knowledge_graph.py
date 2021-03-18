@@ -131,7 +131,8 @@ while "the answer is invalid":
             values,
             edges
         )
-        print("ID: " + result)
+        print("Responce: ")
+        pprint.pprint(result)
         # LEAVE THIS HERE!!!!
         break
     if reply[0] == 'n':
