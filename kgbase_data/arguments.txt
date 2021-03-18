@@ -1,7 +1,7 @@
-Title = Vector Space
+Title = Basis
 Type = Definition
 Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
 Status = Complete
 Parent = Linear Algebra
-Knowledge Used = Field
+Knowledge Used = List,Vector Space
 Formatted = True
