@@ -1,5 +1,5 @@
-Title = X
-Type = Definition
+Title = Finite Geometric Sum
+Type = Proposition
 Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
 Status = Complete
 Parent = Algebra
