@@ -1,7 +1,7 @@
-Title = Basis
+Title = Jean
 Type = Definition
-Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
+Content = Automatically
 Status = Complete
-Parent = Linear Algebra
-Knowledge Used = List,Vector Space
+Parent = Mathematics
+Knowledge Used = Velocity
 Formatted = True

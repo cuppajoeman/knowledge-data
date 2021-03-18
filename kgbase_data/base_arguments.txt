@@ -1,6 +1,6 @@
 Title = X
 Type = Definition.Theorem.Proposition.Property
-Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
+Content = Automatically
 Status = Complete.Work In Progress
 Parent = P
 Knowledge Used = 
