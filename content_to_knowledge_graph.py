@@ -2,7 +2,7 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-import os
+import os,sys
 
 from kgbase import Query
 q = Query()
@@ -132,6 +132,32 @@ while "the answer is invalid":
             edges
         )
         print("Responce: ")
+        pprint.pprint(result)
+
+        file_name = sys.argv[1]
+
+        id_suffix = result['vertex']['id'][3:]
+
+        os.rename(file_name + '.tex', file_name + id_suffix + '.tex')
+        os.rename(file_name + '.pdf', file_name + id_suffix + '.pdf')
+
+        # Update URL
+        new_url = "https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/" + file_name + id_suffix + '.pdf'
+
+        print( project_id, table_to_id['Knowledge'], result['vertex']['id'])
+                
+        
+        print("Updating filename with ID: ")
+
+        result = q.update_vertex(
+            project_id=project_id,
+            table_id=table_to_id['Knowledge'],
+            vertex_id=result['vertex']['id'],
+            values={
+                'col-2': new_url
+            },
+            edges= []
+        )
         pprint.pprint(result)
         # LEAVE THIS HERE!!!!
         break

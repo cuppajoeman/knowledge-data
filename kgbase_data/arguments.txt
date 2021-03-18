@@ -1,7 +1,7 @@
-Title = Field
+Title = X
 Type = Definition
-Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Field.pdf
+Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
 Status = Complete
 Parent = Algebra
-Knowledge Used = Set
+Knowledge Used = 
 Formatted = True

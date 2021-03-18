@@ -22,7 +22,7 @@ sh ./kgbase_data/reset_argfile.sh
 vim -O kgbase_data/arguments.txt kgbase_data/tables.txt
 
 # push data to online
-python3 content_to_knowledge_graph.py
+python3 content_to_knowledge_graph.py $2
 
 # push to github
 git add -A && git commit && git push
