@@ -1,7 +1,7 @@
-Title = Line
+Title = Arc
 Type = Definition
 Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Line.pdf
-Status = Complete
+Status = Work In Progress
 Parent = Geometry
 Knowledge Used = 
 Formatted = True
