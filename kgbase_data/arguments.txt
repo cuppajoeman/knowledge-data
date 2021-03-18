@@ -1,0 +1,7 @@
+Title = Line
+Type = Definition
+Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Line.pdf
+Status = Complete
+Parent = Geometry
+Knowledge Used = 
+Formatted = True

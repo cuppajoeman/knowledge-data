@@ -1,0 +1,7 @@
+Title = X
+Type = X
+Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
+Status = X
+Parent = X
+Knowledge Used = X
+Formatted = X

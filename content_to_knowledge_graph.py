@@ -20,6 +20,11 @@ project_schema = q.get_schema(project_id)
 
 project_tables = project_schema['tables']
 
+table_to_id = {
+        'Structure':  'tab-MVVF6vQI4G2jDqgcLJM',
+        'Knowledge': 'tab-MVVDy_ojQuAFVL6HAK1'
+        }
+
 # The first layer is a directory of the tables, the second layer shows the rows of the table and their associated ids
 tables = {}
 
@@ -27,8 +32,6 @@ tables = {}
 
 cols = ["Type", "Status", "Parent", "Knowledge_Used"]
 
-
-types_to_id = {}
 
 # A vertex represents a row, they are the same thing
 
@@ -43,7 +46,6 @@ for table_data in project_tables:
     #pprint.pprint(vertices)
     # Generate the table 
     for row in vertices:
-        pprint.pprint(row)
         # This code will break when we have two vertices with the same name
         for row_entry in row['values']:
             # We are looking at it's title
@@ -53,56 +55,72 @@ for table_data in project_tables:
                 # Exits inner loop, outer continues
                 break
 
-    # Also write it to a file, because why not
-    with open("kgbase_data/" + table_name + ".txt", 'w') as f:
-        f.write("Table Name: " + table_name + ", ID: " + table_data['tableId'] + '\n')
-        s = pprint.pformat(q.get_graph(project_id, table_data['tableId']))
-        f.write(s)
+# Also write it to a file, because why not
+with open("kgbase_data/tables.txt", "w") as f:
+    s = pprint.pformat(tables)
+    f.write(s)
 
-pprint.pprint(tables)
+# Create a new node - in the Knowledge table
 
-# Create a new node
+# Read lines from file
 
-table_to_id = {
-        'Structure':  'tab-MVVF6vQI4G2jDqgcLJM',
-        'Knowledge': 'tab-MVVDy_ojQuAFVL6HAK1'
-        }
+argfile = open("kgbase_data/arguments.txt")
 
-values = {
-    'col-0': 'Test',
-    'col-2': 'https://gitlab.com/cuppajoeman/...',
-    'col-7': True
-}
+# TODO: Dynamically construct this
+args = [ "Title", "Type", "Content", "Status", "Parent", "Knowledge Used", "Formatted"]
 
-edges = [
-        # Property - do this dynamically next time
-        ("Type", "row-MVrlg2B1NM57XhEZeZm"),
-        ("Status", "row-MVXhdD9Mbtt901kMYRX"),
-        ("Parent", "row-MVVGSO2GHfyB6ZfxkhD")
-]
+argument_to_column= {
+     "Title": "col-0" ,
+     "Type": "col-3" ,
+     "Content": "col-8" ,
+     "Status": "col-2" ,
+     "Parent": "col-3" ,
+     "Knowledge Used": "col-4",
+     "Formatted": "col-7"
+ }
 
-#result = q.create_vertex(
-#    project_id,
-#    table_to_id['Knowledge'],
-#    values,
-#    edges
-#)
+argument_is_relationship = {
+     "Title": False, # string
+     "Type": True, # enum
+     "Content": False, # url
+     "Status": True, # enum
+     "Parent": True, # Points to a structure
+     "Knowledge Used": True, # Points to many knowledge
+     "Formatted": False, # url
+ }
 
+values = {}
+edges = []
 
-# Title = 
-# Type = 
-# Content = 
-# Status =  
-# Parent = 
-# Knowledge_Used = 
-# Formatted = 
-# 
+for i, line in enumerate(argfile):
+    rhs_of_equality = line.split("=")[1].strip()
+    arg_values = [x.strip() for x in rhs_of_equality.split(",")]
+    arg_name = args[i]
+    if argument_is_relationship[arg_name]:
+        # Create the edges
+        if arg_values != ['']:
+            for v in arg_values:
+                # Assuming one to one relations between title and id
+                edge_id = tables['Knowledge'][v]
+                edges.append((arg_name, edge_id))
+    else:
+        # When it's not an edge, then there is only one value for it.
+        if arg_name != "Formatted":
+            values[argument_to_column[arg_name]] = arg_values[0]
+        else:
+            values[argument_to_column[arg_name]] = False if arg_values[0] == "False" else True
 
-# col-0 Title
-# col-8 Type
-# col-2 Content
-# col-3 Status
-# col-4 Parent
-# col-6 Knowledge Used
-# col-7 Formatted
+pprint.pprint(values)
+pprint.pprint(edges)
 
+while "the answer is invalid":
+    reply = str(input("Are you ok with pushing this to the kg?"+' (y/n): ')).lower().strip()
+    if reply[0] == 'y':
+        #result = q.create_vertex(
+        #    project_id,
+        #    table_to_id['Knowledge'],
+        #    values,
+        #    edges
+        #)
+        print("pushed")
+        break
