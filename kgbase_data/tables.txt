@@ -63,6 +63,7 @@
                'Property': 'row-MVrlg2B1NM57XhEZeZm',
                'Proposition': 'row-MVoAVO12AKScs-d2ECR',
                'Radius': 'row-MW5aryVK6q2r_hGx66h',
+               'Ray': 'row-MW5cBylS6SHDrS_tu7q',
                'Relation': 'row-MVXjXdVCmE3tZYfi2Q7',
                'Rolles Theorem': 'row-MVmcr7bGBOMBTVhoH4S',
                'Secant Line': 'row-MVmctu4YPf4I67Jd2uA',

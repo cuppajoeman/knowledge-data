@@ -1,7 +1,7 @@
-Title = Ray
+Title = Angle
 Type = Definition
-Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Ray.pdf
+Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Angle.pdf
 Status = Complete
 Parent = Geometry
-Knowledge Used = Line
+Knowledge Used = Ray
 Formatted = True
