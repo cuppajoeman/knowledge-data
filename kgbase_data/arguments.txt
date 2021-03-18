@@ -1,7 +1,7 @@
-Title = Plane
+Title = Circle
 Type = Definition
-Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Plane.pdf
+Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Circle.pdf
 Status = Complete
 Parent = Geometry
-Knowledge Used = Dimension
+Knowledge Used = Shape
 Formatted = True
