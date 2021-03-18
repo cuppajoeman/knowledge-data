@@ -1,7 +1,7 @@
-Title = Finite Geometric Sum
-Type = Proposition
+Title = Satwik
+Type = Definition
 Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
 Status = Work In Progress
-Parent = Algebra
-Knowledge Used = 
+Parent = Linear Algebra
+Knowledge Used = Velocity
 Formatted = True

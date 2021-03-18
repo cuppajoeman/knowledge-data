@@ -21,7 +21,7 @@
                'Disjoint Sets': 'row-MVVUKPf65sMpyPMannL',
                'Electromagnetic Induction': 'row-MVc6CcZibEW1w0fkIIg',
                'Field': 'row-MW5ktrJKxY4h10Gu2et',
-               'Finite Geometric Sum': 'row-MW5tFfyzYNCQH1wReHW',
+               'Finite Geometric Sum': 'row-MW5vqeyIjCQLslPywnX',
                'Fluid': 'row-MVgKodx_Pi-uXPWSFTY',
                'Force': 'row-MVdx6GFBxm-tNfJn3Rb',
                'Frame of Reference': 'row-MVljHCjxm4DcGwbU0u1',
