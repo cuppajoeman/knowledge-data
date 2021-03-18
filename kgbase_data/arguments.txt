@@ -1,7 +1,7 @@
-Title = Satwik
+Title = Vector Space
 Type = Definition
 Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
-Status = Work In Progress
+Status = Complete
 Parent = Linear Algebra
-Knowledge Used = Velocity
+Knowledge Used = Field
 Formatted = True
