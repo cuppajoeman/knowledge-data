@@ -18,8 +18,6 @@ project_id = q.get_user_projects()[0]['projectId']
 
 project_schema = q.get_schema(project_id)
 
-pprint.pprint(project_schema)
-
 project_tables = project_schema['tables']
 
 table_to_id = {
@@ -44,7 +42,8 @@ for table_data in project_tables:
     # Instantiate table to empty dictionary
     tables[table_name] = {}
 
-    vertices = q.get_graph(project_id, table_id)['vertices']
+    #pprint.pprint(q.get_graph(project_id, table_id))
+    vertices = q.get_graph(project_id, table_id, limit=9999999)['vertices']
     #pprint.pprint(vertices)
     # Generate the table 
     for row in vertices:

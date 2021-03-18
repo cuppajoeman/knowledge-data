@@ -13,7 +13,7 @@ latexmk -pdf $2.tex
 sh ./cleaner.sh
 
 # Update kgbase tables
-python3 kgbase_data/update_tables.py && echo tables updated
+python3 kgbase_data/update_kg_table.py && echo tables updated
 
 # open tables and arguments file
 vim -O kgbase_data/arguments.txt kgbase_data/tables.txt

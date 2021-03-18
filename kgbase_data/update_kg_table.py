@@ -33,7 +33,7 @@ for table_data in project_tables:
     # Instantiate table to empty dictionary
     tables[table_name] = {}
 
-    vertices = q.get_graph(project_id, table_id)['vertices']
+    vertices = q.get_graph(project_id, table_id, limit=99999)['vertices']
     #pprint.pprint(vertices)
     # Generate the table 
     for row in vertices:
@@ -46,6 +46,7 @@ for table_data in project_tables:
                 # Exits inner loop, outer continues
                 break
 
+pprint.pprint(tables)
 # Also write it to a file, because why not
 with open("tables.txt", "w") as f:
     s = pprint.pformat(tables)
