@@ -1,7 +1,7 @@
-Title = Circle
+Title = Radius
 Type = Definition
-Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Circle.pdf
-Status = Complete
+Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Radius.pdf
+Status = Work In Progress
 Parent = Geometry
-Knowledge Used = Shape
+Knowledge Used = Circle
 Formatted = True
