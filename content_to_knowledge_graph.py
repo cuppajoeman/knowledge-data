@@ -125,13 +125,14 @@ pprint.pprint(edges)
 while "the answer is invalid":
     reply = str(input("Are you ok with pushing this to the kg?"+' (y/n): ')).lower().strip()
     if reply[0] == 'y':
+        # Push empty data to get an id
         result = q.create_vertex(
             project_id,
             table_to_id['Knowledge'],
-            values,
-            edges
+            {"col-0": "Temp-Placeholder"},
+            []
         )
-        print("Responce: ")
+        print("Husk: ")
         pprint.pprint(result)
 
         file_name = sys.argv[1]
@@ -143,20 +144,20 @@ while "the answer is invalid":
 
         # Update URL
         new_url = "https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/" + file_name + id_suffix + '.pdf'
+        values[argument_to_column['Content']] = new_url
 
         print( project_id, table_to_id['Knowledge'], result['vertex']['id'])
                 
         
-        print("Updating filename with ID: ")
+        print("Filling Husk")
 
+        # push the actual data
         result = q.update_vertex(
             project_id=project_id,
             table_id=table_to_id['Knowledge'],
             vertex_id=result['vertex']['id'],
-            values={
-                'col-2': new_url
-            },
-            edges= []
+            values=values,
+            edges=edges
         )
         pprint.pprint(result)
         # LEAVE THIS HERE!!!!

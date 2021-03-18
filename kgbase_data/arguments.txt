@@ -1,7 +1,7 @@
 Title = Finite Geometric Sum
 Type = Proposition
 Content = https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/X.pdf
-Status = Complete
+Status = Work In Progress
 Parent = Algebra
 Knowledge Used = 
 Formatted = True
