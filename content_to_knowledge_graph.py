@@ -1,4 +1,6 @@
-# settings.py
+# This program takes in the name of a .tex file without extension
+# It generates an empty vertex in the graph, stores that id
+# Then fills that husk with the actual data
 from dotenv import load_dotenv
 load_dotenv()
 
