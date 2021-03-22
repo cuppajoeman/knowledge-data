@@ -1,7 +1,7 @@
-Title = Shift Equivalence for Intervals
-Type = Theorem
+Title = Chord Integer Notation
+Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Music Theory
-Knowledge Used = Semitone Integer Notation, Musical Interval
+Knowledge Used = Note Integer Notation, Semitone Integer Notation, List
 Formatted = True

@@ -85,6 +85,7 @@
                'Set Membership': 'row-MVXmSc0loy53bVxW9yt',
                'Set Theory': 'row-MVXiY8um9Ms1h806cuu',
                'Shape': 'row-MW5ZmYdh8GRjyqRoDTf',
+               'Shift Equivalence for Intervals': 'row-MWP_-vAPD3M0NwqX1lO',
                'Subset': 'row-MVXmNs04e9-DYkqezn1',
                'Sum Law for Limits': 'row-MVsG9g_7CAc44hxGLCm',
                'Summation of 1 to n': 'row-MVVFsXnJ25ojgHHfN12',
