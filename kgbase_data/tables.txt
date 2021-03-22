@@ -57,6 +57,7 @@
                'Mechanics': 'row-MVgG3F0edG1Go-0SVRN',
                'Motion': 'row-MVe1Jb2ydloteuu3Pfr',
                'Music Theory': 'row-MWPIHSGgLACJl6hYa6X',
+               'Musical Interval': 'row-MWPWxQBGMEAT7EG2raU',
                'N-Tuple': 'row-MVVQpUp-JTXnMzajTsU',
                'Newton': 'row-MVgG65-0UyVUgcq8LNA',
                'Non-Trivial Solution': 'row-MVVQhASMGbo-2Rl_jVE',
