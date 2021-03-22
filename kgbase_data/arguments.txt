@@ -1,7 +1,7 @@
-Title = Jean
+Title = Note Integer Notation
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Mathematics
-Knowledge Used = Velocity
+Parent = Music Theory
+Knowledge Used = 
 Formatted = True

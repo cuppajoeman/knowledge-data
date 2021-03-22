@@ -1,0 +1,30 @@
+\documentclass[preview]{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{Semitone Integer Notation}
+  \begin{itemize}
+    \item Is a notational system so that for any two notes $x_{n}, y_{n} \in \mathbb{W}$ (written in Note Integer Notation), we denote the number of semitones between the two notes as an integer. 
+      \begin{itemize}
+        \item So instead of saying, $y_{n}$ is a perfect 5th above $x_{n}$, we would say $y_{n}$ is seven above $x_{n}$, and write $x_{n}  +  7 = y_{n}$ 
+      \end{itemize}
+    \item Since $x_{n}, y_{n}$ are written in NIN, we have that for any $\alpha \in \mathbb{Z}$ that the note $x_{n}  +  \alpha = \left( x  +  \alpha \right)_{n}$ 
+    \item In general the interval which must be added to $x_{n}$ to get to $y_{n}$ is $y - x$ 
+      \begin{itemize}
+        \item From the above it holds: 
+          \[
+          x_{n}  +  \left( y  -  x \right) = \left( x  +  y  - x \right)_{n} = y_{n}
+          \]
+      \end{itemize}
+  \end{itemize}
+    \subsubsection*{Examples}
+    \begin{itemize}
+      \item If $x = 5$ and $y = 9$, then the interval which must be added is $9 - 5 = 4$ 
+      \item It's also possible for it to be a negative number, if $x = 11$ and $y = 2$, then you have to add $2  -  11 = -9$ semitones to $x_{n}$ to get to $y_{n}$, this corresponds to moving down $9$ semitones
+    \end{itemize}
+
+\end{defn*}
+
+\end{document}
