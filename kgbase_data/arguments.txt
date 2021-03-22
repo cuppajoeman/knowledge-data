@@ -1,7 +1,7 @@
-Title = Divides
+Title = Congruence
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Algebra
-Knowledge Used =  
+Parent = Modular Arithmetic
+Knowledge Used = Divides
 Formatted = True
