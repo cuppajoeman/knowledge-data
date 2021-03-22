@@ -1,7 +1,7 @@
-Title = Congruence
+Title = Modulus Operator
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Modular Arithmetic
-Knowledge Used = Divides
+Knowledge Used = Congruence
 Formatted = True
