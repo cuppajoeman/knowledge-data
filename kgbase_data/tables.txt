@@ -79,6 +79,7 @@
                'Relation': 'row-MVXjXdVCmE3tZYfi2Q7',
                'Rolles Theorem': 'row-MVmcr7bGBOMBTVhoH4S',
                'Secant Line': 'row-MVmctu4YPf4I67Jd2uA',
+               'Semitone Integer Notation': 'row-MWPMKjIpQc_h-jmsOtB',
                'Set': 'row-MVXkrUXjeI-RFdZ5rgn',
                'Set Membership': 'row-MVXmSc0loy53bVxW9yt',
                'Set Theory': 'row-MVXiY8um9Ms1h806cuu',

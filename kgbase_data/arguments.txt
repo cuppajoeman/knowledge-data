@@ -1,7 +1,7 @@
-Title = Semitone Integer Notation
+Title = Musical Interval
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Music Theory
-Knowledge Used = Note Integer Notation
+Knowledge Used = Semitone Integer Notation,Note Integer Notation
 Formatted = True
