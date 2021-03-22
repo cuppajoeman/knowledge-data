@@ -1,7 +1,7 @@
-Title = Chord Integer Notation
+Title = Chord with respect to a different Root
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Music Theory
-Knowledge Used = Note Integer Notation, Semitone Integer Notation, List
+Knowledge Used = Chord Integer Notation, Musical Interval
 Formatted = True
