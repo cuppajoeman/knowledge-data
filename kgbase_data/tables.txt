@@ -9,6 +9,7 @@
                'Calculus': 'row-MVmPGUvyu4pPRdox7T6',
                'Cartesian Product': 'row-MVXmQCk1J7WTCHQBBeD',
                'Chord Integer Notation': 'row-MWPeJc6fjuxP6_Gkp1D',
+               'Chord with respect to a different Root': 'row-MWQGQBwBRXrxWqzFAMM',
                'Circle': 'row-MW5aM0pQuT0-XZutGZC',
                'Combinatorics': 'row-MVgRkgDKhzX5QTQiFf7',
                'Complete': 'row-MVXhdD9Mbtt901kMYRX',

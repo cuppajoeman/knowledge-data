@@ -1,7 +1,7 @@
-Title = Chord with respect to a different Root
-Type = Definition
+Title = Formula for a Chord with respect to a different Root
+Type = Theorem
 Content = Automatically
 Status = Complete
 Parent = Music Theory
-Knowledge Used = Chord Integer Notation, Musical Interval
+Knowledge Used = Chord with respect to a different Root, Musical Interval
 Formatted = True
