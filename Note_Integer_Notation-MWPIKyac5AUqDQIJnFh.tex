@@ -27,8 +27,22 @@
         \[
         \widehat{x} = \widehat{x  +  12  \cdot k}
         \]
-        Which says if you add 12 semitones to any note, it will be the same note differing by an integer number of octaves
+        Which says if you add 12 semitones to any note, it will be the same note differing by an integer number of octaves. Even more concisely we can say that for any two $a, b \in \mathbb{Z}$ where $a  \equiv b \;(\bmod\; 12) $:
+        \[
+        \widehat{a} = \widehat{b}
+        \]
+       \item Specifically that means for any $j \in \mathbb{Z}$ 
+         \[
+          \widehat{j} = \widehat{j ~\%~ 12}
+         \]
+         which means that any note can be represented by one of $ \left\{ \widehat{0}, \ldots, \widehat{11} \right\}$ 
       \end{itemize}
+  \end{itemize}
+  \subsubsection*{Examples}
+  \begin{itemize}
+    \item $ \widehat{24} = \widehat{0  +  2  \cdot 12} = \widehat{0}$ 
+    \item $ \widehat{61} = \widehat{61 ~\%~ 12} = \widehat{1}$ 
+    \item $ \widehat{-3} = \widehat{9   +  \left( -1 \right)12} = \widehat{9} $ 
   \end{itemize}
 \end{defn*}
 
