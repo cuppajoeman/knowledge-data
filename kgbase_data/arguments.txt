@@ -1,7 +1,7 @@
-Title = Note Integer Notation
+Title = Semitone Integer Notation
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Music Theory
-Knowledge Used = 
+Knowledge Used = Note Integer Notation
 Formatted = True
