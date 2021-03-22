@@ -6,23 +6,21 @@
 
 \begin{defn*}{Semitone Integer Notation}
   \begin{itemize}
-    \item Is a notational system so that for any two notes $\widehat{x}, \widehat{y} \in \mathbb{W}$ (written in Note Integer Notation), we denote the number of semitones between the two notes as an integer. 
-      \begin{itemize}
-        \item So instead of saying, $\widehat{y}$ is a perfect 5th above $\widehat{x}$, we would say $\widehat{y}$ is seven above $\widehat{x}$, and write $\widehat{x}  +  7 = \widehat{y}$ 
-      \end{itemize}
-  \item Since $\widehat{x}, \widehat{y}$ are written in NIN, we have that for any $\alpha \in \mathbb{Z}$ that the note $\widehat{x}  +  \alpha = \widehat{\left( x  +  \alpha \right)}$ 
-    \item In general the interval which must be added to $\widehat{x}$ to get to $\widehat{y}$ is $y - x$ 
-      \begin{itemize}
-        \item From the above it holds: 
-          \[
-            \widehat{x}  +  \left( y  -  x \right) = \widehat{\left( x  +  y  - x \right)} = \widehat{y}
-          \]
-      \end{itemize}
+    \item For any $\alpha \in \mathbb{Z}$
+      \[
+      \widehat{x}  +  \alpha \stackrel{\mathtt{D}}{=} \widehat{\left( x  +  \alpha \right)}
+      \]
   \end{itemize}
     \subsubsection*{Examples}
     \begin{itemize}
-      \item If $x = 5$ and $y = 9$, then the interval which must be added is $9 - 5 = 4$ 
-      \item It's also possible for it to be a negative number, if $x = 11$ and $y = 2$, then you have to add $2  -  11 = -9$ semitones to $\widehat{x}$ to get to $\widehat{y}$, this corresponds to moving down $9$ semitones
+      \item If $x = 5$ and $\alpha = 9$
+        \[
+        \widehat{5}  +  9 = \widehat{14} = \widehat{2}
+        \] 
+      \item $x = 9$ $\alpha = -14$ 
+        \[
+        \widehat{9}  +   - 14 = \widehat{9  -  14} = \widehat{  - 5} = \widehat{7}
+        \]
     \end{itemize}
 
 \end{defn*}
