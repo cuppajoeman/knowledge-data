@@ -1,4 +1,4 @@
-Title = Injective Function
+Title = Surjective Function
 Type = Definition
 Content = Automatically
 Status = Complete

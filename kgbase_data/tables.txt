@@ -42,6 +42,7 @@
                'Generator': 'row-MVc53r4ThkfgkMH1pex',
                'Geometry': 'row-MW4i_wslKALrJzhJ6ll',
                'Infinite Union of Sets': 'row-MVVUBd16FAO3QC3i4pp',
+               'Injective Function': 'row-MWWyT1yqJKtmQwvRj5C',
                'Integral': 'row-MVo4d_XzAHmClECX3YN',
                'Jean': 'row-MW6askHt-no26hyeGKX',
                'Joule': 'row-MVgGBeA1aOT6cYPz79h',
