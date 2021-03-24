@@ -31,7 +31,7 @@
                'Differentiability implies Continuity': 'row-MVsGDRmhBBho-MEMM2U',
                'Differentiable': 'row-MVmSFyLbJ0k5eVpT5T-',
                'Dimension': 'row-MW5XhWXWHVxg0CQtgZ4',
-               'Disjoint Sets': 'row-MVVUKPf65sMpyPMannL',
+               'Disjoint Sets': 'row-MW_NObrzVcoNm_QGKPL',
                'Divides': 'row-MWQPMxHzYdGA05JKFxV',
                'Dot Product': 'row-MWX3VdAOkPgoj15vgAQ',
                'Electromagnetic Induction': 'row-MVc6CcZibEW1w0fkIIg',
