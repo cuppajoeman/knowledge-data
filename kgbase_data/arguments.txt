@@ -1,7 +1,7 @@
-Title = Self Map
-Type = Definition
+Title = Number of K-Combinations of a Set
+Type = Theorem
 Content = Automatically
 Status = Complete
-Parent = Set Theory
-Knowledge Used = Function, Domain, Codomain
+Parent = Combinatorics
+Knowledge Used = Number of K-Permutations of a Set with N Elements
 Formatted = True
