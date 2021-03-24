@@ -91,6 +91,7 @@
                'Norm of a Vector': 'row-MWX3DV2E5iV7jAvhXpi',
                'Note Integer Notation': 'row-MWPIKyac5AUqDQIJnFh',
                'Number of Combinations of a Set': 'row-MVgRzROsB9TtxEvBH_b',
+               'Number of K-Combinations of a Set': 'row-MW_qTYau7aGrhulttyP',
                'Number of K-Permutations of a Set with N Elements': 'row-MW_kFNvpz_Ry_R7F465',
                'Number of Permutations on N Elements': 'row-MW_eY5dqq64Q-w7GIbw',
                'Open Ball': 'row-MW_ENOxzneOhUYwtJrS',

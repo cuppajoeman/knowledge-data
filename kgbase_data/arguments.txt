@@ -1,7 +1,7 @@
-Title = Number of K-Combinations of a Set
-Type = Theorem
+Title = K-Permutation
+Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Combinatorics
-Knowledge Used = Number of K-Permutations of a Set with N Elements
+Knowledge Used = N-Tuple
 Formatted = True
