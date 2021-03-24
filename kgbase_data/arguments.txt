@@ -1,7 +1,7 @@
-Title = Factorial
+Title = Self Map
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Combinatorics
-Knowledge Used = 
+Parent = Set Theory
+Knowledge Used = Function, Domain, Codomain
 Formatted = True

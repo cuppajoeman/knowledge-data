@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Input is a name of the file without the extension
+vim $1.tex
 
 # Compile it to pdf
 latexmk -pdf $1.tex

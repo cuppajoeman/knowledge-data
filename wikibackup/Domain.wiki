@@ -1,6 +1,6 @@
-The domain of a function <math>f</math> is the set into which all of the inputs of the function are constrained to fall. 
+The domain of a function $f$ is the set into which all of the inputs of the function are constrained to fall. 
 
-We denote the domain of a function with <math>\operatorname{dom}(f)</math>
+We denote the domain of a function with $\operatorname{dom}(f)$
 
 == Knowledge Used ==
 
