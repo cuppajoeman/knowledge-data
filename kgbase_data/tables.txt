@@ -81,6 +81,7 @@
                'Music Theory': 'row-MWPIHSGgLACJl6hYa6X',
                'Musical Interval': 'row-MWPWxQBGMEAT7EG2raU',
                'N-Tuple': 'row-MVVQpUp-JTXnMzajTsU',
+               'Natural Numbers': 'row-MW_Vg3Ll8-lulCaoJH6',
                'Newton': 'row-MVgG65-0UyVUgcq8LNA',
                'Non-Trivial Solution': 'row-MVVQhASMGbo-2Rl_jVE',
                'Norm of a Vector': 'row-MWX3DV2E5iV7jAvhXpi',
