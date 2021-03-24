@@ -16,3 +16,5 @@ else
  printf 'no files found to be deleted:\n'
 fi
 
+# Clean up any accidental files
+rm .aux .fdb_latexmk .fls .log
