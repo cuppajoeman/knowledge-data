@@ -1,7 +1,7 @@
-Title = Set Raised to a Power
+Title = Function
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Set Theory
-Knowledge Used = Set,N-Tuple,Cartesian Product
+Knowledge Used = Relation
 Formatted = True
