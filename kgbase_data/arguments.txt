@@ -1,7 +1,7 @@
-Title = K-Permutation
-Type = Definition
+Title = Number of Elements in a Finite Union
+Type = Theorem
 Content = Automatically
 Status = Complete
 Parent = Combinatorics
-Knowledge Used = N-Tuple
+Knowledge Used = Binomial Theorem, 
 Formatted = True

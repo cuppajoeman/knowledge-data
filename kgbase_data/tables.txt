@@ -62,6 +62,7 @@
                'Jean': 'row-MW6askHt-no26hyeGKX',
                'Joule': 'row-MVgGBeA1aOT6cYPz79h',
                'K-Combination': 'row-MW_XphF8nhkZdnO7jiJ',
+               'K-Permutation': 'row-MW_sL75ICv7oYpKkRYG',
                'Kinematics': 'row-MVljAp4AmH44TpHQ96O',
                'Lift': 'row-MVgKyBopZEEsRiVqxjK',
                'Limit': 'row-MVmPHE8L8v3JCIiAHtf',
