@@ -1,6 +1,12 @@
-Inverse Function: Let <math display="inline">f : A \to B</math> be a function. The inverse of <math display="inline">f</math> is another function, written: <math display="block">f^{-1} : B \to A</math> defined by
+Inverse Function: Let <math display="inline">f : A \to B</math> be a function. The inverse of <math display="inline">f</math> is another function, written: 
+\[
+	f^{-1} : B \to A
+\] defined by
 
-<math display="block">\forall x \in A, \forall y \in B, x = f^{-1}\left(y\right) \Leftrightarrow y = f\left(x\right)</math>
+
+\[
+	\forall x \in A, \forall y \in B, x = f^{-1}\left(y\right) \Leftrightarrow y = f\left(x\right)
+\]
 
 Assuming that <math display="inline">f^{-1}</math> is a function.
 

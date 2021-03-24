@@ -1,7 +1,7 @@
-Title = Bijective Function
+Title = Inverse Function
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Set Theory
-Knowledge Used = Injective Function, Surjective Function
+Knowledge Used = Function
 Formatted = True

@@ -5,6 +5,7 @@
                'Arc': 'row-MW55xYapfdvC2HBBUwN',
                'Basis': 'row-MW66g19votOVMchI7SD',
                'Basis Representation Function': 'row-MW6BTs_U0lB-mgExWm0',
+               'Bijective Function': 'row-MWWzsptS35HzuB5AmU0',
                'Binomial Theorem': 'row-MVgSGWeieJH2cuLy5z1',
                'Calculus': 'row-MVmPGUvyu4pPRdox7T6',
                'Cartesian Product': 'row-MWWeYQlw4rLsml7Bf9Y',
