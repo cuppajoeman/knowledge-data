@@ -1,7 +1,7 @@
-Title = Inverse Function
+Title = Dot Product
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Set Theory
-Knowledge Used = Function
+Parent = Linear Algebra
+Knowledge Used = Norm of a Vector
 Formatted = True
