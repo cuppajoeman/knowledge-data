@@ -1,7 +1,7 @@
-Title = Function
+Title = Injective Function
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Set Theory
-Knowledge Used = Relation
+Knowledge Used = Function
 Formatted = True
