@@ -1,7 +1,7 @@
-Title = Closure of a Set
-Type = Definition
+Title = Interior Subset Closure Superset
+Type = Theorem
 Content = Automatically
 Status = Complete
 Parent = Topology
-Knowledge Used = Open Ball, Empty Set
+Knowledge Used = Interior of a Set, Closure of a Set
 Formatted = True

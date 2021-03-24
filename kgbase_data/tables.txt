@@ -16,6 +16,7 @@
                'Circle': 'row-MW5aM0pQuT0-XZutGZC',
                'Closed Ball': 'row-MW_EmAEb4xlOsj_RN4u',
                'Closure Point': 'row-MW_HygtZt4--eWW_L3O',
+               'Closure of a Set': 'row-MW_IUOZX2JkYEz8UlNI',
                'Combinatorics': 'row-MVgRkgDKhzX5QTQiFf7',
                'Complete': 'row-MVXhdD9Mbtt901kMYRX',
                'Congruence': 'row-MWQPhOXanUNyNLRZh1k',
