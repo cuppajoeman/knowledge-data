@@ -1,7 +1,7 @@
-Title = Projection
+Title = Cross Product
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Linear Algebra
-Knowledge Used = 
+Knowledge Used = Norm of a Vector
 Formatted = True

@@ -86,6 +86,7 @@
                'Probability': 'row-MVVRrurswL2z4kSVHGi',
                'Probability of an Event': 'row-MVVUDit_kOHPgSZRlSQ',
                'Product Law for Limits': 'row-MVsGBVtQBY_nFkFabaA',
+               'Projection': 'row-MWXE2GdIqoAZf02GqaS',
                'Property': 'row-MVrlg2B1NM57XhEZeZm',
                'Proposition': 'row-MVoAVO12AKScs-d2ECR',
                'Radian': 'row-MW5dxG1RlhVTnKDAHTt',
