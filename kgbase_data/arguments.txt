@@ -3,5 +3,5 @@ Type = Theorem
 Content = Automatically
 Status = Complete
 Parent = Combinatorics
-Knowledge Used = Binomial Theorem, 
+Knowledge Used = Binomial Theorem, Number of K-Combinations of a Set
 Formatted = True
