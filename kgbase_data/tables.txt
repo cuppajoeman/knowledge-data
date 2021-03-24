@@ -78,6 +78,7 @@
                'Norm of a Vector': 'row-MWX3DV2E5iV7jAvhXpi',
                'Note Integer Notation': 'row-MWPIKyac5AUqDQIJnFh',
                'Number of Combinations of a Set': 'row-MVgRzROsB9TtxEvBH_b',
+               'Open Ball': 'row-MW_ENOxzneOhUYwtJrS',
                'Perpendicular': 'row-MVgKus2yralg7pc-TEq',
                'Physics': 'row-MVdx5BD8nEkIuad5bh2',
                'Plane': 'row-MW5Z0qUUHDFVD014zYG',
