@@ -1,0 +1,10 @@
+Given two sets <math>A_1, A_2</math>their union is given by:
+
+<math display="block">A_1 \cup A_2  \stackrel{\text{def}}{=} \{x : x \in A \text{ or } x \in B \}</math>
+
+The definition can be expanded to more than two sets as follows:<math display="block">\bigcup_{1 \le i \le n}A_{i} \stackrel{\text{def}}{=} \bigcup_{i=1}^{n}A_{i} \stackrel{\text{def}}{=} A_1 \cup A_2 \cup \dotsb \cup A_n =\left\{ x: x \in A_{i} \text{ for some  } i \in \left[ n \right] \right\}</math>
+
+== Remarks ==
+
+* Notice that there is no bracketing in the expanded version of the union, we don't use any bracketing, this is allowed since we have proven that the union is associative
+{{Knowledge Metadata|Set Theory|Definition}}

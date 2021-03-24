@@ -1,0 +1,3 @@
+If we have <math>X = \left\{ x_1, \ldots, x_{l} \right\}</math> where <math>l \in \mathbb{N}^{\ge1}</math>, for any <math>1 \le j, k, \le l</math> (where <math>j \neq k</math>) we have that <math>x_{j}\neq x_{k}</math> then the cardinality of <math>X</math> is <math>l</math> and in that case we write:<math display="block">\left| X \right|=l</math>
+[[Category:Definition]]
+[[Category:Set Theory]]

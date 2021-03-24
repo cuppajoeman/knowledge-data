@@ -1,0 +1,6 @@
+Let <math>w = (w_1, w_2, ..., w_n)</math> be a string over an alphabet, then the reverse of <math>w</math> written as <math>w^{\mathcal{R}}</math>, is the string obtained by reversing the order of <math>w</math>, that is:<math display="block">w^{\mathcal{R}} = (w_n, ..., w_2, w_1)</math>
+
+== Knowledge used ==
+
+* [[String over an Alphabet]]
+{{Knowledge Metadata|Computability|Definition}}

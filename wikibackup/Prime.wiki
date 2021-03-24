@@ -1,0 +1,2 @@
+<math display="block">\operatorname{prime}(n): n \ge 1 \land \left( \forall d \in \mathbb{N}, d \mid n \Rightarrow d = 1 \lor d = n \right) \text{, where }  \in \mathbb{N}</math>
+{{Knowledge Metadata|Number Theory|Definition}}

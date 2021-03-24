@@ -1,0 +1,8 @@
+The class of Turing Machines with stay option has the same power as the class of standard Turing Machines.
+
+Let <math display="inline">M</math> be a standard Turing Machine, we need to show that there is a Turing Machine with stay option <math display="inline">M_s</math> such that <math display="inline">\mathcal{L}\left(M\right)= \mathcal{L}\left(M_{s}\right)</math>, fix <math display="inline">M_{s} \in C_{s}</math> as an arbitrary one
+
+* suppose that <math display="inline">s \in \mathcal{L}\left(M\right)</math>, then surely it is accept also by <math display="inline">M_{s}</math> where the stay option is simply not used.
+* suppose that <math display="inline">s \in \mathcal{L}\left(M_{s}\right)</math>, we can see that <math>M</math> accepts as anytime the stay option is used, we simply transition to the next character and then back to the same character, in other words staying in the same place. 
+
+{{Knowledge Metadata|Turing Machines|Definition}}

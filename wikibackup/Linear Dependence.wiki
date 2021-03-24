@@ -1,0 +1,3 @@
+We say the vectors <math display="inline">\vec{v}_{1}, \vec{v}_{2},  \dots ,\vec{v}_{n - 1},\vec{v}_{n}</math> are linearly dependent if there is a non-trivial solution to <math display="block">\alpha_{1}\vec{v}_{1}  +  \alpha_{2}\vec{v}_{2}  +  \dotsb  +  \alpha_{n - 1}\vec{v}_{n - 1}  +  \alpha_{n}\vec{v}_{n} = \vec{0}</math> That is, not all coefficients are zero.
+
+{{Knowledge Metadata|Linear Algebra|Definition}}

@@ -1,0 +1,3 @@
+A directed graph in which for each pair of vertices <math display="inline">x, y</math> at most one of <math display="inline">x  \mathrel{\bullet  \!\!\! \rightarrow} y</math>, <math display="inline">x \ \mathrel{\leftarrow  \!\!\! \bullet} y</math> is present is called an oriented graph.
+[[Category:Graph Theory]]
+[[Category:Definition]]

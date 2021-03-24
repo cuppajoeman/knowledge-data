@@ -1,0 +1,5 @@
+[[Category:Music Theory]]
+[[Category:Section]]
+[C-D-EF-G-A-B]
+
+move up by 2n semitones, means move up by n notes + (# of barriers you passed) semitones

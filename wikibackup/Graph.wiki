@@ -1,0 +1,12 @@
+A graph is a pair <math>G = (V, E)</math> where <math>V</math> is a set whose elements are called vertices and <math>E \subseteq V \times V</math> a set whose elements are called edges.
+
+When <math>(x,y) \in E</math> we will write <math> x \mathrel{\bullet  \! {-} \! \bullet} y</math>
+
+== Knowledge Used ==
+
+* [[Set]]
+* [[N-Tuple]]
+* [[Cartesian Product]]
+
+Parent:{{link|target=Graph Theory}}
+[[isA::Definition]]

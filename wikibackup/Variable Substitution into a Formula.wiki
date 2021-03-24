@@ -1,0 +1,23 @@
+Suppose that <math>\phi</math> is an <math>\mathcal{L}\text{-formula}</math>, <math>t</math> is a term, and <math>x</math>  is a variable. We define the formula <math>\phi_{t}^{x}</math> as follows:
+# If <math>\phi :\equiv =u_1u_2</math> then <math>\phi_{t}^{x}</math> is <math>=\left( u_1 \right)_{t}^{x}\left( u_2 \right)_{t}^{x}</math>
+# If <math>\phi :\equiv =Ru_1u_2\ldots u_{n}</math> then <math>\phi_{t}^{x}</math> is <math>R\left( u_1 \right)_{t}^{x}\left( u_2 \right)_{t}^{x}\ldots\left( u_{n} \right)_{t}^{x}</math>
+# If <math>\phi :\equiv \neg\left( \alpha \right)</math>, then <math>\phi _{t}^{x}</math> is <math>\neg\left( \alpha_{t}^{x} \right)</math> 
+# If <math>\phi :\equiv \left( \alpha \lor \beta \right)</math>, then <math>\phi _{t}^{x}</math> is <math>\left( \alpha_{t}^{x}\lor\beta_{t}^{x} \right)</math> 
+# If <math>\phi :\equiv \left( \forall y \right)\left( \alpha \right)</math>, then<math display="block">
+\phi _{t}^{x}=
+\begin{cases}
+  \phi \text{ if } x \text{ is } y \\
+  \left( \forall y \right)\left( \alpha_{t}^{x} \right) \text{ otherwise }
+\end{cases}
+</math>
+----Remark: The reason why we leave <math>\phi</math> as is in the last clause is because you are simply replacing the variable being quantified and wouldn't change the meaning of the statement (Is this true?)
+----For example, if we had <math>\phi</math> as the formulas<math display="block">
+  P\left(x,y\right) \to \left[ \left( \forall x \right)\left( Q\left(g\left(x\right), z\right) \right)\lor \left( \forall y \right)\left( R\left(x, h\left(x\right)\right) \right) \right]
+</math>
+
+And the term <math>t</math> is <math>g\left(c\right)</math>, then <math>\phi_{t}^{x}</math> is <math display="block">
+  P\left(g\left(c\right), y\right) \to \left[ \left( \forall x \right)\left( Q\left(g\left(x\right), z\right) \right) \lor \left( \forall y \right)\left( R\left(g\left(c\right), h\left(g\left(c\right)\right)\right) \right) \right]
+</math>
+[[Category:Substitutions]]
+[[Category:Definition]]
+[[Category:Verification Required]]

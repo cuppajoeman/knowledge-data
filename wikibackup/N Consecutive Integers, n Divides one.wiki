@@ -1,0 +1,15 @@
+Suppose that we have <math>n \in \mathbb{N} </math> consecutive integers, then at least one will be divisible by <math>n</math>. 
+
+== Proof ==
+
+* Let <math>n \in \mathbb{N} </math> and <math>k \in \mathbb{Z} </math>  our goal is to show that there is a number divisible by <math>n</math> in the range <math>k</math> and <math>k  + n  - 1</math> inclusive 
+** There are consecutive <math>n</math> integers from <math>k</math> to <math>k  + n  - 1</math>  because the [[Number of Integers Between Two Integers|amount of numbers between the two]] is given by <math>\left( k  + n  - 1 \right)  - k  + 1 = n</math>
+** Set <math>m =\left\lfloor \frac{k + n  - 1}{n}  \right\rfloor </math>, then by the definition of the [[Floor Function|floor function]] one has <math display="block">m \le \frac{k + n  - 1}{n} < m  + 1</math>
+** So <math>mn \le k  +  n  - 1 < mn  + n</math>, from the second part of that inequality we get <math>k  - 1 < mn</math>  then attaching it to the leftmost part of the same inequality we get <math>k  - 1 < mn \le k  + n  - 1 </math>, 
+*** Since <math>mn \in \mathbb{Z} </math>  by closure of <math>\mathbb{Z} </math> under multiplication we can increase the lower bound by 1, to obtain <math>k \le  mn \le k  + n  - 1</math>  and so the element <math>mn \in \mathbb{Z}</math> works.
+
+== Knowledge Used ==
+
+* [[Floor Function]]
+* [[Number of Integers Between Two Integers]]
+{{Knowledge Metadata|Number Theory|Proposition}}

@@ -1,0 +1,4 @@
+We say that two sets <math>A, B</math> are disjoint when <math>A \cap B = \emptyset </math>
+
+
+{{Knowledge Metadata|Set Theory|Definition}}

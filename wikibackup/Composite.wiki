@@ -1,0 +1,3 @@
+<math display="block">\operatorname{composite}(n):  \exists d \in \left\{ 2, \ldots, n-1 \right\}, d \mid n   \text{, where } n \in \mathbb{N}</math>
+[[Category:Definition]]
+[[Category:Number Theory]]

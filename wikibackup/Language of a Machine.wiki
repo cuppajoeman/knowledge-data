@@ -1,0 +1,6 @@
+If <math>A</math> is the set of all strings that a machine <math>\mathcal{M}</math> accepts then we say that <math>A</math> is the language of machine <math>\mathcal{M}</math> and we write <math>\mathcal{L}(\mathcal{M}) = A</math>, symbolically:<math display="block">\mathcal{L}(M) \stackrel{\text{def}}{=} \{ w \in \Sigma^*: M \text{ accepts } w\}</math>
+   
+
+
+Parent: {{link|target=Automata and Languages}}
+[[isA::Definition]]

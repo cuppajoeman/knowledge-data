@@ -1,0 +1,3 @@
+When <math display="inline">G = \left( V, E \right)</math> is a graph and <math display="inline">C</math> is a set of elements called colors, a proper coloring of <math display="inline">G</math> is a function <math display="inline">\phi  : V \to C</math> such that if <math display="inline">x  \mathrel{\bullet  \! {-} \! \bullet} y \in E</math> then <math display="inline">\phi \left(x\right) \neq  \phi \left(y\right)</math>
+[[Category:Graph Theory]]
+[[Category:Definition]]

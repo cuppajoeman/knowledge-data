@@ -1,0 +1,8 @@
+Suppose that <math>v</math> is a variable and <math>\phi</math> is a [[Formula|formula]]. We will say that <math>v</math> is free in <math>\phi</math> if:
+
+# <math>\phi</math> is atomic and <math>v</math> occurs in (is a symbol in) <math>\phi</math>, or
+# <math>\phi :\equiv \left( \neg \alpha  \right)</math> and <math>v</math> is free in <math>\alpha</math> , or
+# <math>\phi :\equiv \left( \alpha \lor \beta \right)</math>  and <math>v</math>  is free in at least one of <math>\alpha</math> or <math>\beta</math>, or
+#<math>\phi :\equiv \left( \forall u \right)\left( \alpha \right)</math>  and <math>v</math> is not <math>u</math> and <math>v</math> is free in <math>\alpha</math> .
+[[Category:Definition]]
+[[Category:Language]]

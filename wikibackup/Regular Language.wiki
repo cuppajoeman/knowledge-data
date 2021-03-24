@@ -1,0 +1,2 @@
+A language such that a finite automaton recognizes
+{{Knowledge Metadata|Computability|Definition}}

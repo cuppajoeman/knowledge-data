@@ -1,0 +1,6 @@
+* Let <math>n \in \mathbb{N}</math> we claim that the number of lattice paths from from <math>\left( 0, 0 \right)</math> to <math>\left( n, n \right)</math> which never go above the diagonal line <math>y = x</math> is the [[Catalan Number|<math>n</math>-th catalan number]].
+
+== Proof ==
+
+{{Knowledge Metadata|Lattice Paths|Theorem}}
+[[isA::PIP]]

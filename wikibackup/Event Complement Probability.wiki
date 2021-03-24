@@ -1,0 +1,13 @@
+Let <math display="inline">X</math> be a sample space and <math display="inline">E \subseteq S</math> an event, then we know that <math display="inline">S = E \cup \overline{E}</math> and by <math display="inline">\alpha</math>: <math display="inline">E</math> and <math display="inline">\overline{E}</math> are disjoint, thus by the second and third axiom of <math display="inline">\beta</math> we have <math display="block">1 = P\left(S\right) = P\left(E \cup \overline{E}\right) = P\left(E\right)  +  P\left(\overline{E}\right)</math>
+
+Therefore
+
+<math display="block">P\left(\overline{E}\right)= 1  -  P\left(E\right)</math>
+
+== Knowledge Used ==
+
+* [[Sample Space]]
+* [[Event]]
+* <math>\alpha</math>: [[Disjoint Sets]]
+* <math>\beta</math>: [[Probability of an Event]]
+{{Knowledge Metadata|Probability|Proposition}}

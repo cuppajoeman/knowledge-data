@@ -1,0 +1,7 @@
+== Definitions ==
+
+# [[Substitutions/Variable Substitution into a Term|Variable Substitution into a Term]]
+# [[Substitutions/Variable Substitution into a Formula|Variable Substitution into a Formula]]
+# [[Substitutions/Substitutable|Substitutable]]
+[[Category:Section]]
+[[Category:First Order Logic]]

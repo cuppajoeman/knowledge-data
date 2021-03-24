@@ -1,0 +1,53 @@
+== Definitions ==
+
+[[isA::Section]]
+
+{{#ask:
+ [[Category:Deduction]]
+ [[Category:Definition]]
+ |format=ul
+}}
+== Theorems ==
+{{#ask:
+ [[Category:Deduction]]
+ [[Category:Theorem]]
+ |format=ul
+}}
+== Propositions ==
+{{#ask:
+ [[Category:Deduction]]
+ [[Category:Proposition]]
+ |format=ul
+}}
+== Lemmas ==
+{{#ask:
+ [[Category:Deduction]]
+ [[Category:Lemma]]
+ |format=ul
+}}
+
+== Axioms ==
+
+# [[Deductions/Equality Axiom (E1)|Equality Axiom (E1)]]
+# [[Deductions/Equality Axiom (E2)|Equality Axiom (E2)]]
+# [[Deductions/Equality Axiom (E3)|Equality Axiom (E3)]]
+# [[Deductions/Quantifier Axiom (Q1)|Quantifier Axiom (Q1)]]
+# [[Deductions/Quantifier Axiom (Q2)|Quantifier Axiom (Q2)]]
+# [[Deductions/Logical Axioms|Logical Axioms]]
+
+== Algorithms ==
+{{#ask:
+ [[Category:Deduction]]
+ [[Category:Algorithm]]
+ |format=ol
+}}
+
+== Questions ==
+{{#ask:
+ [[Category:Deduction]]
+ [[Category:Question]]
+ |format=ul
+}}
+
+[[Category:First Order Logic]]
+[[Category:Section]]

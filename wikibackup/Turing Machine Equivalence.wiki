@@ -1,0 +1,3 @@
+Two Turing Machines <math display="inline">M_{1}</math> and <math display="inline">M_{2}</math> are said to be equivalent if the recognize the same language, that is <math display="inline">\mathcal{L}\left(M_{1}\right) = \mathcal{L}\left(M_{2}\right)</math>
+
+{{Knowledge Metadata|Turing Machines|Definition}}

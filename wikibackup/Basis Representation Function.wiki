@@ -1,0 +1,5 @@
+Let <math display="inline">\mathcal{B} = \left( b_{1}, b_{2},  \dots ,b_{n - 1},b_{n} \right)</math> be a basis for a finite dimensional vector space <math display="inline">V</math>. Then for <math display="inline">\vec{x} \in V</math>, <math display="inline">\exists ! c_{1}, c_{2},  \dots ,c_{n - 1},c_{n} \in \mathbb{R}</math> such that <math display="block">\vec{x}= \sum_{i=1}^{n} c_{i}b_{i}</math>
+
+Then we define the function <math display="inline">\left[ \vec{ \text{ } } \right]_{\mathcal{B}} : V \to \mathbb{R}^{n}</math>: <math display="block">\left[ \vec{x} \right]_{\mathcal{B}}  {\stackrel{\text{def}}{=}} \begin{bmatrix} c_1 \\ c_2 \\ \vdots \\ c_n \end{bmatrix}</math>
+
+{{Knowledge Metadata|Linear Algebra|Definition}}

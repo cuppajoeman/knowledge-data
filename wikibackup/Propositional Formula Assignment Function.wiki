@@ -1,0 +1,9 @@
+Supposing <math>\phi</math> is a [[Propositional Formula|propositional formula]], then it is a function defined as follows:<math display="block">\bar{v}\left(\phi \right)=
+\begin{cases}
+  v\left(\phi \right) \text{ if } \phi \text{ is a propositional variable }\\
+  F \text{ if } \phi :\equiv \left( \neg A \right) \text{ and } \bar{v}\left(A\right)=T \\
+  F \text{ if } \phi :\equiv \left( A \lor B\right) \text{ and } \bar{v}\left(A\right)=\bar{v}\left(B\right)=F\\
+  T \text{ otherwise }
+\end{cases}</math>
+[[Category:Definition]]
+[[Category:Propositional Logic]]

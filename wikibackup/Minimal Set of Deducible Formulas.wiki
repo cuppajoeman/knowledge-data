@@ -1,0 +1,27 @@
+Fix sets of <math>\mathcal{L}</math> -formulas <math>\Sigma</math> and <math>\Lambda</math> and a collection of rules of inference. The set <math>\mathrm{Thm}_{\Sigma}=\{\phi \mid \Sigma \vdash \phi\}</math> is the smallest set <math>C</math> such that
+
+# <math>\Sigma \subseteq C</math>.
+# <math>\Lambda \subseteq C</math>
+# If <math>(\Gamma, \theta)</math> is a rule of inference and <math>\Gamma \subseteq C,</math> then <math>\theta \in C</math>.
+
+== Proof ==
+
+=== Verification of the properties ===
+* Let <math>\phi  \in \Sigma \cup \Lambda</math>, if this is the case then the single line deduction <math>\sigma</math> works (by the first 2 clauses of the definition of deduction), and so <math>\sigma \in \text{Thm}_{\Sigma}</math>
+* Otherwise We start by assuming that <math>\left( \Gamma, \theta \right)</math> is a rule of inference and <math>\Gamma \subseteq \text{Thm}_{\Sigma}</math>, this means if <math>\Gamma = \left\{ \gamma_{1}, \gamma_{2},  \dots ,\gamma_{n - 1},\gamma_{n} \right\}</math> then each one of them have their own deduction, now we roll out the proof for each one of them.
+** So for one of these deductions we concatenate them one after another, finally appending <math>\theta</math>, therefore <math>\Sigma \vdash \theta</math> so <math>\theta \in \text{Thm}_{\Sigma}</math>.
+
+=== Minimal Set ===
+
+* Through [[minimality]], we let <math>C</math> be a collection of elements satisfying the given properties, we will show that <math>\text{Thm}_{\Sigma} \subseteq C</math>.
+** Let <math>\phi \in \text{Thm}_{\Sigma}</math>, again as before if <math>\phi  \in \Sigma \cup \Lambda</math> we already know that <math>\Sigma \subseteq C</math> and <math>\Lambda \subseteq C</math> so <math>\phi \in C</math>
+** Supposing that <math>\phi </math>  was deduced by <math>\left( \chi _{1}, \chi _{2},  \dots ,\chi _{n - 1},\chi _{n} \right)</math>, we will show that <math>\chi_{i} \in C</math> by induction.
+*** Base Case
+**** We know that <math>\phi_{1} \in \Sigma \cup \Lambda</math> (because you have to start a proof with a fact?, what about if your axioms allowed you to generate stuff from nothing?, then vacuous truth?),
+*** Then let <math>i \in \mathbb{N}^{\ge 1}_{\le n}</math> and assume that for all  <math>\left\{ \phi _{1}, \phi _{2},  \dots ,\phi _{i - 1},\phi _{i} \right\} \subseteq C</math>, we'd like to show that <math>\phi _{i + 1} \in C</math>
+**** For the third time, if <math>\phi _{i + 1} \in \Sigma \cup \Lambda</math> then we know that <math>\phi _{i + 1} \in C</math>
+**** Now if <math>\phi _{i + 1}</math> is deduced by a rule of inference <math>\left( \left\{ \lambda_{1}, \lambda_{2},  \dots ,\lambda_{l - 1},\lambda_{l} \right\} , \phi _{i + 1}\right)</math> then by the third clause of a deduction, we know that <math>\left\{ \lambda_{1}, \lambda_{2},  \dots ,\lambda_{l - 1},\lambda_{l} \right\}\subseteq \left\{ \phi _{1}, \phi _{2},  \dots ,\phi _{i - 1},\phi _{i} \right\} \stackrel{\text{IH}}{\subseteq} C</math> thus <math>\phi _{i + 1} \in C</math> by the third property of the original statement.
+
+Therefore by induction we know that <math>\left( \chi _{1}, \chi _{2},  \dots ,\chi _{n - 1},\chi _{n} \right) \subseteq C</math> and so by (3) we get that <math>\phi  \in C</math>
+[[Category:Deduction]]
+[[Category:Proposition]]

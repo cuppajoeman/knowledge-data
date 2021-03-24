@@ -1,0 +1,1 @@
+Let <math>x \in  \mathbb{F} ^{n} </math>, when we think of <math>x</math> as the arrow starting at <math>0 \in  \mathbb{F} ^{n} </math>  and ending at <math>x</math>, then refer to <math>x</math>  as a vector

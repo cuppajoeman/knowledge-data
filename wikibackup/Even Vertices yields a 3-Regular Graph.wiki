@@ -1,0 +1,12 @@
+For each even number <math display="inline">n</math> greater than <math display="inline">2</math>, there exists a <math display="inline">3</math>-regular graph with <math display="inline">n</math> vertices.
+
+{{Proof|content=Let <math display="inline">n</math> be an even number greater than <math display="inline">2</math>. Construct a graph <math display="inline">G = \left( V, E \right)</math> with <math display="inline">n</math> nodes as follows. Since <math display="inline">\left| V \right|= n</math>, <math display="inline">V = \left\{ v_0, v_1, \ldots, v_n-1 \right\}</math> and the set of edges of <math display="inline">G</math> is the set <math display="block">E = \left\{ v_i \mathrel{\bullet  \! {-} \! \bullet} v_{i  +  1}: \text{ for } 0 \le i \le n-2 \right\} \cup \left\{ v_{n-1} \mathrel{\bullet  \! {-} \! \bullet} v_0 \right\} \cup \left\{ v_i \mathrel{\bullet  \! {-} \! \bullet} v_{i  +  \frac{n}{2}}: \text{ for }  0 \le i \le \frac{n}{2}  -  1 \right\}</math>
+Visually you align all your nodes on a circle, and then give it a perimeter, and create edges by joining vertices by rotating <math>\pi</math>.
+}}
+
+== Knowledge Used ==
+
+* [[Graph]]
+* [[Even Number]]
+* [[K-Regular Graph]]<br />
+{{Knowledge Metadata|Graph Theory|Proposition}}

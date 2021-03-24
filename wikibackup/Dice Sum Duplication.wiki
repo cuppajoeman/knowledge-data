@@ -1,0 +1,16 @@
+* Recall there are <math display="inline">3</math> red, <math display="inline">5</math> green and <math display="inline">8</math> blue dice. After the dice have been rolled, then we may consider all sums of triples of this form 
+<math display="block">S_i =   x_a + x_b + x_c</math>where <math display="inline">x_a, x_b, x_c</math> are the values of the respective number on a rolled die.
+
+* We can see that for each blank, there will be 3, 5, and 8 options respectively, therefore the total number of different sums (different meaning using different dice) is given by <math display="block">3  \cdot 5  \cdot 8 = 3  \cdot 40 = 120</math>
+
+* Recall that if exactly 3 of the sums out of the <math display="inline">120</math> are identical, then we will have found three distinct triples summing to the same number. So let's assume that's not the case
+** If exactly 2 out of the <math display="inline">120</math> sums are identical that means that there are <math display="inline">119</math> different sums, the final case is if all of the sums are identical, and we would have <math display="inline">120</math> distinct sums.
+** Now consider the bound on the sum <math display="inline">S_i</math> we know that it is at most <math display="inline">60</math> as each roll is a <math display="inline">20</math>, and it is at a minimum <math display="inline">3</math> by rolling all ones. There are <math display="inline">58</math> different numbers from <math display="inline">3</math> to <math display="inline">60</math>, and so if we consider all the different sums in a line<math display="block">S_{1}, \ldots, S_{58}| S_{59}, \ldots, S_{116}| S_{117}, S_{118}, S_{119}, S_{120}</math>
+** We will show the minimum number of duplicates in this list will be 3. 
+*** Assume that there are no duplicate sums from <math display="inline">S_{1}</math> to <math display="inline">S_{58}</math>, by the pigeon hole principle <math display="inline">S_{59}</math> will be a duplicate element
+**** To minimize duplicates assume that <math display="inline">S_{59}, \ldots, S_{116}</math> is duplicate free (if it was not, the proof would be done)
+**** Because of the above two facts we will know that <math display="inline">S_{1}, \ldots, S_{116}</math> uses each number from <math display="inline">3</math> to <math display="inline">60</math> each number twice. 
+***** Finally since <math display="inline">S_{117} \in \left\{ 3, \ldots, 60 \right\}</math> we know that we will obtain a third duplicate element 
+****** This is true by using the pigeon hole principle on <math display="inline">S_{1}, \ldots, S_{58}</math> & <math>S_{117}</math> for example
+***** That means that we have found 3 distinct triples which sum to the same number. 
+****** We also note that this is valid because if we don't because our assumption was that there were at least <math>119</math> distinct sums

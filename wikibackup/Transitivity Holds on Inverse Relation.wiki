@@ -1,0 +1,7 @@
+Suppose that <math display="inline">E \subseteq X \times X</math> is a transitive relation, we will show that <math display="inline">E^{-1}</math> is a transitive relation
+
+== Proof ==
+
+* Let <math display="inline">x, y, z \in X</math> and assume that <math display="inline">\left(  x E^{-1} y \right) \land \left( y E^{-1} z \right)</math> we want to show <math display="inline">z E^{-1} z</math>. 
+* If <math display="inline">\left(  x E^{-1} z \right) \land \left( y E^{-1} z \right)</math> then we know that <math display="inline">\left(  y E x \right) \land \left( z E y \right) \Leftrightarrow  \left(   z E y\right) \land \left( y E x \right) \Rightarrow z E x \Leftrightarrow x E^{-1} z</math>  using the fact that <math>E</math> is transitive and the definition of <math>E^{-1}</math>
+{{Knowledge Metadata|Relations|Proposition}}

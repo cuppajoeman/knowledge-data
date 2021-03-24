@@ -1,0 +1,17 @@
+Suppose that <math display="inline">u</math> is a term, <math display="inline">x</math> is a variable, and <math display="inline">t</math> is a term. If <math display="inline">s : Vars \to A</math> is a variable assignment function and that <math display="inline">s' = s\left[ x \mid \bar{s}\left(t\right) \right]</math>, then we have <math display="inline">\bar{s}\left( u_{t}^{x} \right)= \bar{s'}\left( u \right)</math>
+
+== Proof ==
+* We proceed with induction on the complexity of the term <math display="inline">u</math>. If <math display="inline">u</math> is the variable <math display="inline">x</math>, then <math display="inline">\bar{s}\left(u_{t}^{x}\right)=\bar{s}\left(x_{t}^{x}\right)=\bar{s}\left(t\right)=\bar{s'}\left(x\right)=\bar{s'}\left(u\right)</math>, where the second last equality follows from the modification of a term assignment function.
+* Otherwise, suppose that <math display="inline">u</math> is the variable <math display="inline">y</math> where <math display="inline">y</math> is different from <math display="inline">x</math>, then we can see <math display="inline">\bar{s}\left(u_{t}^{x}\right)=\bar{s}\left(y_{t}^{x}\right)=\bar{s}\left( y \right)=s'\left(y\right)=\bar{s'}\left( u \right)</math>, where the equality from <math display="inline">s</math> to <math display="inline">s'</math> uses the fact that these functions operate the same way except on the variable <math display="inline">x</math>.
+* If <math display="inline">u</math> is a constant symbol <math display="inline">c</math>, then <math display="inline">\bar{s}\left(u_{t}^{x}\right)=\bar{s}\left( c_{t}^{x} \right)=\bar{s}\left( c  \right)=c^{\mathfrak{A}}=\bar{s'}\left( u \right)</math>, from the same logic that the two functions operate in the same way on anything other than <math display="inline">x</math>
+* Now the induction step, assume that <math display="inline">u</math> is <math display="inline">f\left(r_{1}, r_{2},  \dots ,r_{n - 1},r_{n}\right)</math> with each <math display="inline">r_{i}</math> being a term where the claim holds. <math display="block">\begin{aligned}
+        \bar{s}\left(u_{t}^{x}\right)&=\bar{s}\left(\left[ f\left(r_{1}, r_{2},  \dots ,r_{n - 1},r_{n}\right) \right]_{t}^{x}\right)\\
+        &= \bar{s}\left(f\left(\left( r_{1} \right)_{t}^{x}, \left( r_{2} \right)_{t}^{x}\right),\ldots, \left( r_{n} \right)_{t}^{x} \right)\\
+        &= f^{\mathfrak{A}}\left(\bar{s}\left[ \left( r_{1} \right)_{t}^{x} \right], \bar{s}\left[ \left( r_{2} \right)_{t}^{x} \right], \ldots, \bar{s}\left[ \left( r_{n} \right)_{t}^{x} \right]\right) \quad \text{definition of } \bar{s}\\
+        &= f^{\mathfrak{A}}\left(\bar{s'}\left( r_{1} \right), \bar{s'}\left( r_{2} \right), \ldots, \bar{s'}\left( r_{n} \right) \right) \quad \text{induction hypothesis}\\
+        &= \bar{s'}\left(f\left(r_{1}, r_{2},  \dots , r_{n}\right)\right) \quad \text{definition of } \bar{s'}\\
+        &= \bar{s'}\left(u\right)
+      \end{aligned}</math>
+* Therefore for every term <math display="inline">u</math>, <math display="inline">\bar{s}\left(u_{t}^{x}\right)=\bar{s'}\left(u\right)</math> .
+[[Category:Lemma]]
+[[Category:Deduction]]

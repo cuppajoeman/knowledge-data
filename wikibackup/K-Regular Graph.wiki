@@ -1,0 +1,6 @@
+A graph such that the degree of every vertex is <math>k \in \mathbb{N}</math>
+
+== Knowledge Used ==
+
+* [[Graph]]
+{{Knowledge Metadata|Graph Theory|Definition}}

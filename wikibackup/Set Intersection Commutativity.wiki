@@ -1,0 +1,10 @@
+<math display="block">A \cap B = B \cap A</math>
+
+== Proof ==
+
+* <math display="inline">\subseteq</math> 
+** Let <math display="inline">x \in A \cap B</math> then <math display="inline">x \in A</math> and <math display="inline">x \in B</math>, therefore <math display="inline">x \in B \cap A</math>
+* <math display="inline">\supseteq</math>
+** Let <math display="inline">x \in B \cap A</math> then <math display="inline">x \in B</math> and <math display="inline">x \in A</math>, therefore <math display="inline">x \in A \cap B</math>
+
+{{Knowledge Metadata|Set Theory|Proposition}}

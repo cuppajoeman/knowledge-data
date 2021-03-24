@@ -1,0 +1,4 @@
+A multiset is a set where the number of occurrences of members is accounted when comparing two sets, when using multisets, we will use square brackets to not confuse with a normal set, so we have: <math display="block">[ a, a, b ] \neq [a , b]</math>
+
+Parent: {{link|target=Set Theory}}
+[[isA::Definition]]

@@ -1,0 +1,22 @@
+Let <math>f_{0}=1</math> and, for all <math>n \in \mathbb{N},</math> let <math>f_{n}</math> be the number of permutations <math>\sigma:[n] \rightarrow[n]</math> with the property that <math>\sigma(\sigma(i))=i</math> for all <math>i \in[n]</math>
+# Find a recurrence relation for <math>f_{n}</math>.
+# Find the exponential generating function for the sequence <math>\left(f_{n}\right)_{n=0}^{\infty}</math>
+== Solution ==
+
+=== Part 1 ===
+We obtain the recurrence relation via a partition, let <math>n \in \mathbb{N}^{\ge 2}</math> and then assume that <math>\sigma : \left[ n \right] \to \left[ n \right] </math> satisfies the given property. 
+* If <math>\sigma\left(n\right)=n</math>, then we count the number of permutations on <math>\left[ n \right]</math> and glue, these two permutations together, there will by <math>f_{n-1}</math> such permutations
+* If <math>\sigma\left(n\right)\neq n</math>, then <math>\sigma\left(n\right)=x</math> for some <math>x \in \left[ n-1 \right]</math> if that's the case we require <math>\sigma\left( x \right)=n</math> to satisfy <math>\sigma\left(\sigma\left(n\right)\right)=n</math> thus we already know where two of the elements from the domain must map, for the rest of them, we have <math>n-2</math> elements and so for every permutation satisfying the constraints we know that gluing them together creates a valid permutation on <math>\left[ n \right]</math> thus there are <math>f_{n-2}</math> such permutation.
+* Because this works for any <math>x \in \left[ n-1 \right]</math>  of this we may conclude that for all <math>n \in \mathbb{N}^{\ge 2}</math>
+<math display="block">  f_{n}=f_{n-1} + \left( n-1 \right) f_{n-2}</math>
+
+=== Part 2 ===
+We consider the exponential generating function for the sequence <math>( f _{ n })_{ n = 0 } ^ \infty </math> which is given by <math>F\left(x\right)=\sum_{n=0}^{\infty} f_{n}\frac{x^{n}}{n!}</math> we then apply the recursive definition to terms such that <math>n \ge 2</math> so we obtain<math display="block">\sum_{n=0}^{\infty} f_{n}\frac{x^{n}}{n!}=f_{0} + f_{1}x +\sum_{n=2}^{\infty} f_{n-1}\frac{x^{n}}{n!} + \sum_{n=2}^{\infty} f_{n-2}(n-1)\frac{x^{n}}{n!}</math> 
+
+Then we can try differentiating both sides, left hand side yields<math display="block">  \sum_{n=1}^{\infty} f_{n}\frac{x^{n-1}}{\left( n-1 \right)!}</math>And right hand side gives<math display="block">  f_{1} + \sum_{n=2}^{\infty} f_{n-1}\frac{x^{n-1}}{\left( n-1 \right)!}  + \sum_{n=2}^{\infty} f_{n-2}(n-1)\frac{x^{n-1}}{\left( n-1 \right)!}= f_{0} + \sum_{n=2}^{\infty} f_{n-1}\frac{x^{n-1}}{\left( n-1 \right)!}  + x \sum_{n=2}^{\infty} f_{n-2}\frac{x^{n-2}}{\left( n-2 \right)!}= F\left(x\right)  + x F\left(x\right)</math>
+
+
+At this point the right hand side looks pretty simple so we can see: (Assuming <math>F(x) \neq 0</math>)
+<math display="block">  \frac{d}{dx}\left[ F\left(x\right) \right]=F\left(x\right) + xF\left(x\right) \Leftrightarrow \frac{\frac{d}{dx}\left[ F\left(x\right) \right]}{F\left(x\right)} =1  + x</math>
+
+Then by integrating both sides we obtain <math>\ln(F\left(x\right))=x + \frac{x^2}{2} + c</math> then raising both sides to the power of <math>e</math> we obtain <math>F\left(x\right)=e^{x  + \frac{x^2}{2} + c}</math>, since <math>F\left(0\right)=f_0=1</math> then <math>c = 0</math> works and our solution is <math>F\left(x\right)=e^{x + \frac{x^2}{2}}</math>

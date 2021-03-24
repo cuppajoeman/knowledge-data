@@ -1,0 +1,13 @@
+Let <math>n \in \mathbb{N}</math>, and choose <math>\left\lfloor \frac{n}{2} \right\rfloor + 2</math> distinct natural numbers, then we will always have a pair of numbers who's sum or difference is disivible by <math>n</math> 
+
+== Proof ==
+Let <math>n \in \mathbb{N}</math> and <math>S \subseteq \mathbb{N}, \left| S \right|= \left\lfloor \frac{n}{2} \right\rfloor + 1</math>
+* We define the following set <math>X_n=\{ \{a, b\}: a, b \in \left\{ 0, \ldots, n-1 \right\} \text{ such that  } a + b = n \}</math> and we claim it's length is <math>\left\lfloor \frac{n}{2} \right\rfloor + 1</math> (add proof)
+* If <math>n =2k</math> for some <math>k \in \mathbb{N}</math> then <math>\left| X_{n} \right|=k + 1</math> 
+* If <math>n =2k + 1</math> for some <math>k \in \mathbb{N}</math> then <math>\left| X_{n} \right|= \left\lfloor \frac{2k + 1}{2} \right\rfloor + 1=\left\lfloor k  + \frac{1}{2} \right\rfloor + 1=k + 1</math> 
+* Recall that <math>\left\lfloor \frac{n}{2} \right\rfloor=k</math> 
+
+* Consider the function <math>f : S \to X_{n} </math> such that <math>f\left(x\right)</math> is the set in <math>X_{n}</math> that contains <math>x</math>'s remainder mod <math>n</math> 
+* Since <math>\left| S \right|= k + 2</math> and <math>\left| X_{n} \right|=k + 1</math> then by the pigeon whole principle we have <math>x, y \in S</math> such that <math>f\left(x\right)=f\left(y\right)</math> 
+** If <math>x</math> and <math>y</math> have the same remainder mod <math>n</math> then their difference is a multiple of <math>n</math> (namely it is zero)
+** If <math>x</math> and <math>y</math> have a different remainder, since they reside within the same two element set their sum is equal to <math>n</math> so the sum of <math>x</math> and <math>y </math> is a multiple of <math>n</math> .

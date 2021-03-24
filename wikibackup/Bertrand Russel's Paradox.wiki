@@ -1,0 +1,5 @@
+Let <math display="inline">R = \left\{ x : x \not\in x \right\}</math>, Then <math display="inline">R \in R</math> implies that <math display="inline">R \not\in R</math> and <math display="inline">R \not\in R</math> implies <math display="inline">R \in R</math>.
+
+This paradox may be avoied by limiting the condidition to some set <math display="inline">\left\{ x \in A: P\left(x\right) \right\}</math>, Proof of why
+
+{{Knowledge Metadata|Set Theory|Paradox}}

@@ -1,0 +1,14 @@
+Let <math>a, b, c \in  \mathbb{R} </math>  and assume <math>a \neq 0</math>, we would like to find a solution for <math>x</math> to solve <math>ax^2  + bx + c= 0</math>, in that case the solutions are given by<math display="block">x= \frac{ - b \pm \sqrt{b^2  - 4ac} }{2a} </math> 
+
+== Proof ==
+<math display="block">\begin{align}
+ax^2  + bx + c = 0 &\Leftrightarrow a\left( x^2  + \frac{b}{a} x + \frac{c}{a}  \right) = 0 \\
+ &\Leftrightarrow a\left( x^2  + \frac{b}{a} x  +  \frac{b^2 }{4a^2 }  + \frac{c}{a}  - \frac{b^2 }{4a^2 }  \right) = 0 \\
+ &\Leftrightarrow a\left( x^2  + \frac{b}{a} x  + \frac{b^2 }{4a^2 } \right) + c  - \frac{b^2 }{4a} = 0\\
+ &\Leftrightarrow a\left( x + \frac{b}{2a}  \right) ^2  = \frac{b^2  - 4ac}{4a} \\
+ &\Leftrightarrow x + \frac{b}{2a} = \pm \sqrt{\frac{b^2  - 4ac}{4a^2 } } \\
+ &\Leftrightarrow x =  \frac{ - b \pm \sqrt{b^2  - 4ac} }{2a}
+\end{align}
+</math>
+[[Category:Equation]]
+[[Category:Algebra]]

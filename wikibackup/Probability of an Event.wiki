@@ -1,0 +1,21 @@
+Let <math>S</math> be a sample space, <math>E \subseteq S</math> be any event and a function <math>P</math> satisfying the following properties
+
+* <math>P(E) \in [0,1]</math>
+* <math>P(S) = 1</math>
+* For disjoint events <math>E_1, E_2, E_3, \dots</math> <math display="block">P\left( \bigcup_{i=1}^{\infty} E_{i}\right) = \sum_{i=1}^{\infty} P\left(E_{i}\right)
+</math>
+
+Then we denote <math>P(E)
+</math> as the probability of the event <math>E
+</math>
+
+== Remarks ==
+* Set <math display="inline">E_{1}= S</math> and for every <math display="inline">i \in \mathbb{N} ^{ \ge 2}, E_{i} = \varnothing</math>, and note that any set and the empty set are disjoint, therefore by the third axiom one sees that <math display="block">P\left(S\right)= \sum_{i=1}^{\infty} P\left(E_{i}\right) = P\left(S\right)  +  \sum_{i=2}^{\infty} P\left( \varnothing\right)</math>Thus <math display="inline">P\left( \varnothing\right) = 0</math>
+* Following that, the third axiom allows us to talk about a finite number of disjoint sets <math display="inline">E_{1} , E_{2} , \dotsc  , E_{n - 1} , E_{n}</math> as well, to do so, set each each <math display="inline">E_{i} = \varnothing</math> for <math display="inline">i > n</math> to get <math display="block">P\left( \bigcup_{i=1}^{n} E_{i}\right) = P\left( \bigcup_{i=1}^{\infty} E_{i}\right)= \sum_{i=1}^{n} P\left(E_{i}\right)  +  \sum_{i=n  +  1}^{\infty} P\left( \varnothing\right) = \sum_{i=1}^{n} P\left(E_{i}\right)</math>
+== Knowledge Used ==
+
+* [[Infinite Union of Sets]]
+* [[Function]]
+* [[Disjoint Sets]]
+
+{{Knowledge Metadata|Probability|Definition}}

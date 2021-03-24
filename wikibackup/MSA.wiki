@@ -1,0 +1,57 @@
+
+  '''algorithm''' MSA(low, high, A) '''is'''
+      '''if''' low = high '''then'''
+          '''return''' (low, high a[low])
+      ''
+      midpoint <math>\leftarrow</math> <math>\left \lfloor \frac{\text{low} + \text{high}}{2} \right \rfloor</math>
+      LEFT_SOLUTION <math>\leftarrow</math> MSA(low, mid, A)
+      RIGHT_SOLUTION <math>\leftarrow</math> MSA(mid + 1, high, A)
+      CROSSING_SOLUTION <math>\leftarrow</math> CMSA(low, mid, high, A)      
+      SOLUTIONS <math>\leftarrow</math> [LEFT_SOLUTION, RIGHT_SOLUTION, CROSSING_SOLUTION]
+      ''
+      '''return''' <math>\operatorname{argmax}_{x\in \texttt{SOLUTIONS}}(x)</math>
+      ''
+  '''algorithm''' CMSA(low, midpoint, high, A) '''is'''
+      '''if''' low = high '''then'''
+          '''return''' (low, high a[low])
+      ''
+      l_max, r_max <math>\leftarrow</math> <math>-\infty</math>
+      ''
+      curr_sum <math>\leftarrow</math> 0
+      '''for''' i <math>\leftarrow</math> mid downto low do
+          curr_sum <math>\leftarrow</math> curr_sum + A[i]
+          if curr_sum > l_max then
+              l_max <math>\leftarrow</math> curr_sum
+              l_start <math>\leftarrow</math> i
+      ''
+      curr_sum <math>\leftarrow</math> 0
+      '''for''' i <math>\leftarrow</math> mid + 1 to high do
+          curr_sum <math>\leftarrow</math> curr_sum + A[i]
+          if curr_sum > r_max then
+              r_max <math>\leftarrow</math> curr_sum
+              r_end <math>\leftarrow</math> i 
+      ''
+      total_sum <math>\leftarrow</math> l_max + r_max
+      ''
+       '''return''' (l_start, r_end, total_sum)
+
+  '''algorithm''' QUICK_MSA(low, high, A) '''is'''
+    '''if''' low = high '''then'''
+      '''return''' [A[high]] * 4
+    '''else'''
+      midpoint <math>\leftarrow</math> <math>\left \lfloor \frac{\text{low} + \text{high}}{2} \right \rfloor</math>
+      LEFT_INFO <math>\leftarrow</math> QUICK_MSA(low, mid, A)
+      RIGHT_INFO <math>\leftarrow</math> QUICK_MSA(mid + 1, high, A)
+      '''return''' MSA_COMBINE(LEFT_INFO, R_CHILD,A)
+
+  '''algorithm''' MSA_COMBINE(L_CHILD, R_CHILD, A) '''is'''
+    max_prefix <math>\leftarrow</math> max(max_prefix(L_CHILD), sum(L_CHILD) + max_prefix(R_CHILD))
+    max_suffix <math>\leftarrow</math> max(max_suffix(R_CHILD), sum(R_CHILD) + max_suffix(L_CHILD))
+    size <math>\leftarrow</math> L_CHILD.size + R_CHILD.size
+    total_max <math>\leftarrow</math> max(L_CHILD.non_cross_solution_sum, R_CHILD.non_cross_solution_sum, L_CHILD.max_suffix + R_CHILD.max_prefix)
+    '''return''' [max_prefix, max_suffix, size, total_max]      
+
+
+----
+Parent: {{link|target=Algorithms}}
+[[isA::Algorithm]]

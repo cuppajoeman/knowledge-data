@@ -1,0 +1,8 @@
+A predicate on a set <math>X</math> is a boolean valued [[function]] of the following form:<math display="block">P: X \to \{\texttt{T}, \texttt{F}\}</math>
+
+== Knowledge Used ==
+
+* [[Boolean Value]]
+* [[Function]]
+
+{{Knowledge Metadata|Functions|Definition}}

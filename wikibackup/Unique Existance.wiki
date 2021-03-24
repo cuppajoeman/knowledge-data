@@ -1,0 +1,2 @@
+Let <math display="inline">X</math> be a set we say that <math display="inline">x \in X</math> is the unique element such that <math display="inline">\phi\left( x \right)</math> holds and write <math>\exists ! x, \phi(x)</math> when we have the following <math display="block">\left[ \phi\left( x \right) \right] \land \left[ \forall y \in X, \phi\left( y \right) \implies y = x \right]</math>
+[[Category:Definition]]

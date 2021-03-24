@@ -1,0 +1,20 @@
+<math display="block">\left( A \cup B \right) \cup C = A \left( B \cup C \right)</math>
+
+== Proof ==
+
+* <math display="inline">\subseteq</math>
+** Let <math display="inline">x \in \left( A \cup B  \right) \cup C</math> then <math display="inline">x \in \left( A \cup B \right)</math> or <math display="inline">x \in C</math>, we would like to show that <math display="inline">x \in A \cup  \left( B \cup C \right)</math> that is 
+**# <math display="inline">x \in A</math> or, 
+**# <math display="inline">x \in B \cup C</math>.
+** Suppose that <math display="inline">x \in \left(  A \cup B \right)</math> if that's the case then <math display="inline">x \in A</math> or <math display="inline">x \in B</math>
+*** if <math display="inline">x \in A</math> then we satisfy 1. otherwise if <math display="inline">x \in B</math> then <math display="inline">x \in B \cup C</math>, which satisfies 2.
+*** If <math display="inline">x \in C</math> then <math display="inline">x \in B \cup C</math>.
+** Therefore in any case <math display="inline">x \in A \cup \left(  B \cup C \right)</math>.
+* <math display="inline">\supseteq</math>
+** Let <math display="inline">x \in A \cup \left(  B \cup C \right)</math> that is <math display="inline">x \in A</math> or <math display="inline">x \in B \cup C</math>
+*** We would like to verify that <math display="inline">x \in \left(  A \cup B \right) \cup C</math>, in that case we must check 
+***# <math display="inline">x \in \left(  A \cup B \right)</math> or, 
+***# <math display="inline">x \in C</math>
+*** If <math display="inline">x \in A</math> then <math display="inline">x \in A \cup B</math>, 
+*** If <math display="inline">x \in B \cup C</math> then <math display="inline">x \in B</math> or <math display="inline">x \in C</math>, but if <math display="inline">x \in B</math> then <math display="inline">x \in A \cup B</math> and if <math display="inline">x \in C</math> then we immediately satisfy 2 as required.
+{{Knowledge Metadata|Set Theory|Proposition}}

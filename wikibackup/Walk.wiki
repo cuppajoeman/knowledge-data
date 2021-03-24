@@ -1,0 +1,3 @@
+A sequence <math>(x_1, x_2, ..., x_n)</math> of vertices from a graph is called a walk when <math>x_i \mathrel{\bullet \! {-} \! \bullet}x_{i+1}</math> is an edge for each <math>i = 1, 2, ..., n-1</math>
+
+{{Knowledge Metadata|Graph Theory|Definition}}

@@ -1,0 +1,2 @@
+If we have a string <math>x</math> of length <math>m</math> and a string <math>y</math> of length <math>n</math>, the concatenation of <math>x</math> and <math>y</math>, written as <math>xy</math>, is the string obtained by appending <math>y</math> and the end of <math>x</math> to obtain <math display="block">x_1, \dotsb x_my_1, \dotsb y_n</math>Repeated concatenation will be represented via superscripts, so that <math display="block">x^k \stackrel{\text{def}}{=} \underbrace{xx \dotsb x}_{k \text{ times}}</math>
+{{Knowledge Metadata|Computability|Definition}}

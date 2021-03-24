@@ -1,0 +1,19 @@
+
+* We start by defining the following predicate: <math display="block">P(n):  \exists p \in \mathbb{N}, \operatorname{prime}\left(p\right) \land p \mid n \text{, where } n \in \mathbb{N}</math>
+* '''Base Case:'''
+** We show that <math display="inline">P(2)</math> holds, we know that <math display="inline">2</math> is prime, and <math display="inline">2 \mid 2</math> so we are done
+* '''Induction Step:'''
+** Let <math display="inline">k \in \mathbb{N}</math> and assume that <math display="inline">\forall x \in \left\{ 2, \ldots, k \right\}, P(x)</math> holds.
+*** We'll show that <math display="inline">P(k + 1)</math> holds
+**** If <math display="inline">k + 1</math> is prime then it divides itself, like the base case
+**** If it is composite we have <math display="inline">d \in \left\{ 2, \ldots, k \right\}</math> such that <math display="inline">d \mid k + 1</math> which means there is <math display="inline">l \in \mathbb{Z}</math> such that:<math display="block">k + 1 = dl</math>
+**** But note that the inductive hypothesis applies to <math display="inline">d</math> and so <math display="inline">d</math> has a prime divisor, but <math display="inline">k + 1</math> is a multiple of <math display="inline">d</math> so the same prime divisor divides <math display="inline">k + 1</math>
+Thus by the principle of complete induction we have proven the original statement.
+
+==Knowledge Used==
+
+* [[Predicate]]
+* [[Complete Induction]]
+* [[Prime]]
+
+{{Knowledge Metadata|Number Theory|Theorem}}

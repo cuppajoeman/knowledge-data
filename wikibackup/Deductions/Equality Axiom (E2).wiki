@@ -1,0 +1,3 @@
+Assume that <math>x_{1}, x_{2},  \dots ,x_{n - 1},x_{n}</math> are variables, that <math>y_{1}, y_{2},  \dots ,y_{n - 1},y_{n}</math> are variables as well, and finally that <math>f</math> is an <math>n-ary</math> function symbol, the axiom is:<math display="block">
+  \left[ \left( x_1=y_1 \right) \land \left( x_2=y_2 \right)\land \dotsb \land\left( x_{n}=y_{n} \right) \right] \to \left( f\left(x_{1}, x_{2},  \dots ,x_{n - 1},x_{n}\right)=f\left(y_{1}, y_{2},  \dots ,y_{n - 1},y_{n}\right) \right)
+</math>

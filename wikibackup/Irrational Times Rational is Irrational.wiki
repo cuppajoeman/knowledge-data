@@ -1,0 +1,5 @@
+Let <math display="inline">x \in \mathbb{R}\setminus \mathbb{Q}</math> and <math display="inline">\frac{p}{q} \in \mathbb{Q}</math> where <math display="inline">\frac{p}{q} \neq 0</math>.
+
+Assume for the sake of contradiction that <math display="inline">x  \cdot  \frac{p}{q} = \frac{m}{n}</math> where <math display="inline">\frac{m}{n} \in \mathbb{Q}</math> then <math display="inline">x = \frac{mq}{np} \in \mathbb{Q}</math> since <math display="inline">\mathbb{Q}</math> is closed under multiplication. That is a contradiction, so any irrational number times a non-zero rational number is irrational.
+
+{{Knowledge Metadata|Number Theory|Theorem}}

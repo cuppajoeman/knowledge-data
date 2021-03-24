@@ -1,0 +1,7 @@
+A path is a trail with no repeated vertices
+
+== Knowledge Used ==
+
+* [[Trail]]
+
+{{Knowledge Metadata|Graph Theory|Definition}}

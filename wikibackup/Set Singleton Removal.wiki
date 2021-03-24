@@ -1,0 +1,7 @@
+Rather than removing something from a list of elements and hoping that whoever is looking at it notices that something is missing, we explicitly show the removal of such an element using the following notation. Suppose <math display="inline">X = \left\{ x_{1}, x_{2},  \dots ,x_{n - 1},x_{n} \right\}</math> then <math display="block">X \setminus \left\{ x_{j} \right\} = \left\{ x_{1}, x_{2},  \dots ,x_{j - 1},  x_{j + 1}, \ldots, x_{n-1}, x_{n} \right\} \stackrel{\text{def}}{=} \left\{ x_{1}, x_{2},  \dots \widehat{x_{j}} \ldots, x_{n-1}, x_{n} \right\}</math>
+
+== Knowledge Used ==
+
+* [[Set]]
+
+{{Knowledge Metadata|Set Theory|Notation}}

@@ -1,0 +1,14 @@
+Find a set <math display="inline">A</math> such that <math display="inline">A = \left\{ t \right\} \cup A \times A</math>
+
+== Proof ==
+
+* We know that <math display="inline">t \in A \Rightarrow \left( t,t \right) \in A</math> by the right hand side of the equation, iterating on that <math display="inline">\left( t, \left( t,t \right) \right), \left( \left( t,t \right),t \right) \in A</math> also <math display="inline">\left(  \left( t,t \right), \left( t,t \right) \right) \in A</math>.
+
+* This motivates iteration on the following function: 
+<math display="block">F\left(X\right)= \left\{ t  \right\} \cup \left(  X \times X \right)</math>
+
+* Set <math display="inline">B_n = F^{n}\left(\varnothing\right)</math>, so then we can see that <math display="inline">B_{1}= \left\{ t \right\}, B_{2} = \left\{ t, \left( t,t \right) \right\}, B_3 = \left\{ t, (t, t), (t, (t, t)), ((t, t), t), ((t,t), (t,t)) \right\}</math> and so on
+
+* Therefore we claim that <math display="inline">A = \bigcup_{i=1}^{\infty} B_{i}</math> [proof that it satifies]
+
+{{Knowledge Metadata|Sets|Question}}

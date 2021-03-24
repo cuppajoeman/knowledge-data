@@ -1,0 +1,9 @@
+Suppose that <math display="inline">E \subseteq X \times X</math> is antisymmetric, we will show that <math display="inline">E^{-1}</math> is antisymmetric.
+
+== Proof ==
+
+* Assume that <math display="inline">\left(  x E^{-1} y \right) \land \left( y E^{-1} x \right)</math> we want to show that <math display="inline">x = y</math>
+
+* Since <math display="inline">\left(  x E^{-1} y \right) \land \left( y E^{-1} x \right)</math>, we obtain that <math display="inline">\left(  y E x \right) \land \left( x E y \right)</math> from the definition of <math display="inline">E^{-1}</math> and then obtain that <math display="inline">y = x</math> but <math display="inline">=</math> is reflexive so <math display="inline">x = y</math> as needed.
+
+{{Knowledge Metadata|Relations|Proposition}}

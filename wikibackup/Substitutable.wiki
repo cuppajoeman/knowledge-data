@@ -1,0 +1,9 @@
+Suppose that <math>\phi</math> is an <math>\mathcal{L}\text{-formulas}</math> ,  <math>t</math> a term and <math>x</math> is a variable, we say that <math>t</math> is substitutable for <math>x</math> in <math>\phi</math>  if 
+# <math>\phi</math> atomic, or
+# <math>\phi  :\equiv \neg\left( \alpha \right)</math> and <math>t</math> is substitutable for <math>x \in \alpha</math>, or
+# <math>\phi :\equiv \left( \alpha \lor \beta \right)</math> and <math>t</math> is substitutable for <math>x</math> in both <math>\alpha</math> and <math>\beta</math>, or 
+# <math>\phi  :\equiv \left( \forall y \right)\left( \alpha \right)</math> and either
+## <math>x</math> is not free in <math>\phi</math>, or 
+## <math>y</math> does not occur in <math>t</math> and <math>t</math>  is substitutable for <math>x</math> in <math>\alpha</math>
+[[Category:Definition]]
+[[Category:Substitutions]]

@@ -1,0 +1,32 @@
+== Fundamental Properties ==
+
+* In nearly all musical traditions there is a unifying feature, namely a way to recognize two frequencies as being equivalent to each other
+* A partition into equal sizes of the frequencies between any frequency and the closest frequency which is equivalent
+* A single note which will generate all the others using the above two properties.
+
+== Generalized Construction ==
+
+* Let two frequencies be equal if they differ by a multiple of <math>c \in \mathbb{R}</math>, we denote this as the '''equivalence ratio'''
+* Let us partition the frequencies between any two closest equivalent frequencies into <math>m \in \mathbb{N}</math> parts
+** The distance between any two frequencies shall be called an '''atomic unit'''
+* Let <math>b \in \mathbb{R}</math> be a single note in our system, we call <math>b</math> the '''base frequency'''
+* Using the above rules, the set of all possible pitches that can be played is as follows, and we will denote this as a '''musical system'''<math display="block">\mathcal{N}\left(b, c, m \right) = \{ b \cdot c^{\frac{k}{m}} : k \in \mathbb{Z} \}</math>
+
+== Western Construction ==
+
+* In the above generalized construction we set concrete values as <math display="block">\mathbb{W} \stackrel{\mathtt{D}}{ = } \mathcal{N}\left(440\text{Hz}, 2, 12 \right) = \{ 440\text{Hz} \cdot 2^{\frac{k}{12}} : k \in \mathbb{Z} \}</math>
+
+== Notation ==
+
+*Although this is completely correct, going up to a musician and asking them to play <math>440\text{Hz}\cdot 2 ^{\frac{-39}{12}}</math>isn't really possible. And anyways, that notation is quite unwieldy
+*Also, on the antipodal stance, if someone asks you to play the note A, then this is not enough information either, which A shall we play
+* TODO: Show the notation I use which is integer notation with octave band
+
+== Styles ==
+* Jazz [TODO]
+
+==Content==
+{{WhatLinksHere}}
+
+
+{{Free Structure|Music}}

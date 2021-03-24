@@ -1,0 +1,8 @@
+How many strings are there over the alphabet <math display="inline">\left\{ 0, 1 \right\}^{n}</math> with <math display="inline">m</math> zeros, such that there there is at most 1 consecutive zero in the string.
+
+== Proof ==
+Place <math display="inline">n  - m</math> ones in a row, place a gap between each one like so <math display="block">\_1 \_1 \_1 \_1 \dotsb  \_1\_1\_1\_1\_</math>
+
+In each of the gaps we can place at most one zero. So out of the <math display="inline">n - m  +  1</math> gaps we choose <math display="inline">m</math> of them, thus there are <math display="block">\binom{n - m  +  1}{m}</math> such strings
+
+{{Knowledge Metadata|Combinatorics|Question}}

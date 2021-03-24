@@ -1,0 +1,6 @@
+A trail is a walk which doesn't use the same edge twice
+
+== Knowledge Used ==
+
+* [[Walk]]
+{{Knowledge Metadata|Graph Theory|Definition}}

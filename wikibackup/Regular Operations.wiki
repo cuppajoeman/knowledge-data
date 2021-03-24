@@ -1,0 +1,17 @@
+Let <math display="inline">A</math> and <math display="inline">B</math> be languages. We define the regular operations as follows:
+
+* Union: <math display="inline">A \cup B = \left\{ x : x \in A \text{ or } x \in B \right\}</math>
+* Concatenation: <math display="inline">A \circ B = \left\{ xy : x \in A \text{ and } y \in B \right\}</math>
+* Star: <math display="inline">A^{*} = \left\{ x_{1}x_{2}\ldots x_{k}: k \ge 0 \text{ and each } x_{i} \in A\right\}</math>
+
+== Remarks ==
+
+* The star operation is a unary operation on a single language, since <math>k = 0</math> is a possibility this injects <math>\varepsilon</math>, no matter if the original language had it
+
+== Examples ==
+
+* <math>\Sigma = \{\texttt{a, b, c, ..., z} \}</math>, <math>A = \{ \texttt{juice}, \texttt{berry}\}</math> and <math>B = \{ \texttt{box}, \texttt{crate} \}</math>
+** <math>A \cup B = \{ \texttt{juice}, \texttt{berry}, \texttt{box}, \texttt{crate} \}</math>
+** <math>A \circ B = \{ \texttt{juicebox},\texttt{juicecrate} \texttt{berrybox}, \texttt{berrycrate} \}</math>
+** <math display="block">A^*= \{ \varepsilon, \texttt{juice},\texttt{berry}, \texttt{juicejuice}, \texttt{juiceberry} \texttt{berryberry},\texttt{berryjuice} \texttt{juicejuicejuice}, \texttt{juicejuiceberry}, \texttt{juiceberryjuice}, \texttt{juiceberryberry}, ... \}</math>
+{{Knowledge Metadata|Computability|Definition}}

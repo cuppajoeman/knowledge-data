@@ -1,0 +1,6 @@
+If <math>\Gamma</math> is a finite set of <math>\mathcal{L}</math> -formulas, <math>\phi</math> is an <math>\mathcal{L}</math> -formula, and <math>\phi</math> is a [[Propositional Consequence for FOL|propositional consequence]] of <math>\Gamma,</math> then <math>(\Gamma, \phi)</math> is a rule of inference of type Propositional Consequence, abbreviated as: <math>(\mathrm{PC})</math>
+
+== Knowledge Used ==
+
+* [[Propositional Consequence for FOL]]
+{{Knowledge Metadata|Deductions|Definition}}

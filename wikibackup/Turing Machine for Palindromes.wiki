@@ -1,0 +1,16 @@
+Design a Turing Machine on the alphabet <math display="inline">\left\{ 0, 1 \right\}</math> for the language: <math display="block">P = \left\{ y y^{R}\mid y \in \left\{ 0, 1 \right\}^{*} \right\}</math>
+
+==== Intuition: ====
+
+* A palindrome has a recursive definition, namely given an a string <math display="inline">s = a_{1} a_{2}  \dots a_{n- 1}a_{n}</math> <math display="inline">s</math> is a palindrome if and only if <math display="inline">a_{1}=a_{n}</math> and <math display="inline">a_{2} \ldots a_{n-1}</math> is a palindrome. For the base case we assume that <math display="inline">\epsilon</math> is a palindrome as it vacuously satisfies the constraint.
+
+==== Turing Machine: ====
+
+* ''Verify first and last:''
+** Let <math display="inline">x</math> be the first letter:
+*** If <math display="inline">x \neq \sqcup</math>
+**** Write <math display="inline">\sqcup</math> to that location and move right until you find another <math display="inline">\sqcup</math>, move one left and check if the final character is <math display="inline">x</math> if it is then write <math display="inline">\sqcup</math> to that location. Begin ''Reset''
+*** If <math display="inline">x = \sqcup</math>, then we accept the string (see base case)
+* ''Reset:''
+** Move left until you find the a <math display="inline">\sqcup</math> move right and restart the algorithm.
+{{Knowledge Metadata|Computability|Example}}

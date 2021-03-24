@@ -1,0 +1,5 @@
+Given set <math>X</math> we may write <math>X^{n}</math> to represent the set of <math>n
+
+</math> tuples over <math>X
+
+</math>:<math display="block">\left\{ \left( x_1, x_2, \ldots, x_{n-1}, x_{n} \right): \forall i \in \left[ n \right], x_{i} \in X \right\}</math>The notation is suggestive of <math>\underbrace{X \times X \times \ldots \times X}_{n\text{ times }}</math> even though elements from this set would have many nested inner tuples, which do not matter.

@@ -1,0 +1,19 @@
+The class of regular languages is closed under the union operation. That is if <math display="inline">A_{1}, A_{2}</math> are regular languages, so is <math display="inline">A_{1} \cup A_{2}</math>
+
+{{Proof|content=
+Since <math display="inline">A_{1}</math> and <math display="inline">A_{2}</math> are regular we get two finite automatons <math display="inline">M_{1} = \left( Q_{1}, \Sigma_{1}, \delta_{1}, q_{1}, F_{1} \right)</math> <math display="inline">M_{2} = \left( Q_{2}, \Sigma_{2}, \delta_{2}, q_{2}, F_{2} \right)</math> that accept the languages we want to show that there is a finite automaton <math display="inline">M</math> that recognizes <math display="inline">A_{1} \cup A_{2}</math>. To do so we simulate the string passing through both machines at once and verify that it is accepted by at least one of the machines.
+
+* Let <math display="inline">Q = Q_{1} \times Q_{2}</math>
+* Let <math display="inline">\Sigma = \Sigma_{1 }\cup \Sigma_{2}</math>
+* For each <math display="inline">\left( r_{1}, r_{2} \right) \in Q</math> and <math display="inline">a \in \Sigma</math>, let <math display="block">\delta\left( \left( r_{1}, r_{2} \right), a \right) \stackrel{\text{def}}{=} \left( \delta_{1}\left(r_{1}, a\right), \delta_{2}\left( r_{2}, a \right) \right)</math>
+** This allows us to move through both machines simultaneously
+*<math display="inline">q_{0} = \left( q_{1}, q_{2} \right)</math>
+*<math display="inline">F</math> is defined to be the set of pairs such that either member is an an accepting state of <math display="inline">M_{1}</math> or <math display="inline">M_{2}</math>, in other words <math display="block">F = \left( F_{1} \times Q_{2} \right) \cup \left( Q_{1} \times F_{2} \right)</math>
+}}
+
+== Knowledge Used ==
+
+* [[Regular Language]]
+* [[Regular Operations]]
+* [[Closed Set]]
+{{Knowledge Metadata|Computability|Theorem}}

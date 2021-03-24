@@ -1,0 +1,16 @@
+<math display="block">\left(  A \cup B \right) \cap C = \left( A \cap C \right) \cup \left( B \cap C \right)</math>
+
+== Proof ==
+*<math display="inline">\subseteq</math>
+** Let <math display="inline">x \in \left( A \cup B \right) \cap C</math>, then <math display="inline">x \in \left( A \cup B \right)</math> and <math display="inline">x \in C</math> we must show that <math display="inline">x \in \left( A \cap C \right) \cup \left( B \cap C \right)</math>, in other words
+***<math display="inline">x \in \left( A \cap C  \right)</math> or,
+***<math display="inline">x \in \left( B \cap C  \right)</math>
+**<math display="inline">x \in \left( A \cup B \right)</math> so <math display="inline">x \in A</math> or <math display="inline">x \in B</math>, we already know that <math display="inline">x \in C</math>, therefore if <math display="inline">x \in A</math> then <math display="inline">x \in A \cap C</math> and if <math display="inline">x \in B</math> then <math display="inline">x \in B \cap C</math> .
+*<math display="inline">\supseteq</math>
+** Let <math display="inline">x \in \left( A \cap C  \right) \cup \left(  B \cap C \right)</math> we will show that <math display="inline">x \in \left( A \cup B  \right) \cap C</math>, one must show that
+***<math display="inline">x \in \left( A \cup B \right)</math> and,
+***<math display="inline">x \in C</math>
+** We know that <math display="inline">x \in \left( A \cap C \right)</math> or <math display="inline">x \in \left( B \cap C \right)</math>, let's suppose that <math display="inline">x \in \left( A \cap C \right)</math>, that is <math display="inline">x \in A</math> and <math display="inline">x \in C</math>, then we know that <math display="inline">x \in A \cup B</math> and that <math display="inline">x \in C</math>, as needed
+** If <math display="inline">x \in \left( B \cap C \right)</math> then <math display="inline">x \in A \cup B</math> (since it's in <math display="inline">B</math>) and <math display="inline">x \in C</math> again.
+
+{{Knowledge Metadata|Set Theory|Proposition}}

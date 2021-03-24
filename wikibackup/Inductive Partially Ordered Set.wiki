@@ -1,0 +1,8 @@
+Let <math>(X, <)</math>be a partially ordered set, <math display="inline">x\in X</math> has inductive property with respect to a set <math display="inline">Y\subseteq X</math> if and only if: <math display="block">(y \in X) \land (y < x) \implies y \in Y</math>
+
+We say <math display="inline">Y</math> is inductive if and only if every <math display="inline">x\in X</math> with the aforementioned inductive property is also a member of <math>Y</math>
+
+== Examples ==
+
+* <math>(-\infty, 0) \subseteq \mathbb{R}</math>
+{{Knowledge Metadata|Relations|Definition}}

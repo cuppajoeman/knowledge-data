@@ -1,0 +1,7 @@
+<math display="block">A \subseteq B \Rightarrow \overline{B} \subseteq \overline{A}</math>
+
+== Proof ==
+
+* Let <math display="inline">x \in \overline{B}</math> so <math display="inline">x \not\in B</math> then we must show that <math display="inline">x \not\in A</math> Assume <math display="inline">x \in A</math> then <math display="inline">x \in A</math> but <math display="inline">x \not\in B</math> that's a contradiction because <math display="inline">A \subseteq B</math> therefore <math display="inline">x \not\in A</math> as needed
+
+{{Knowledge Metadata|Set Theory|Proposition}}

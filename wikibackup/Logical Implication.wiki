@@ -1,0 +1,3 @@
+Suppose that <math>\Delta</math> and <math>\Gamma</math> are sets of [[Language/Formula|<math>\mathcal{L}\text{-formulas}</math>]]. We will say that <math>\Delta</math> logically implies <math>\Gamma</math> and write <math>\Delta \models \Gamma</math> if for every <math>\mathcal{L}\text{-structure}</math> <math>\mathfrak{A}</math>, if <math>\mathfrak{A}\models \Delta</math>, then <math>\mathfrak{A} \models \Gamma</math>
+[[Category:Definition]]
+[[Category:Structure & Truth]]

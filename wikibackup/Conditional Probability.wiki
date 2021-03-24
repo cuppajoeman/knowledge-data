@@ -1,0 +1,7 @@
+Let <math display="inline">E, F \subseteq S</math> be events of some sample space the the probability that <math display="inline">E</math> occurs given that <math display="inline">F</math> has occurred, written as <math display="inline">P\left(E \mid F\right)</math>, is defined to be:<math display="block">P\left(E \mid F\right) \stackrel{\mathtt{D}}{=} \frac{P\left(E \cap F\right)}{P\left(F\right)}</math>For <math display="inline">P\left(F\right) > 0</math>
+
+== Motivation ==
+
+* If the the event <math display="inline">F</math> occurs then in order for <math display="inline">E</math> to occur it is necessary that the actual occurrence to be a point both in <math display="inline">E</math> and <math display="inline">F</math> in other words the occurrence is in <math display="inline">E \cap F</math>. 
+** Additionally since <math display="inline">F</math> has already occurred, it becomes our new sample space, therefore the probability that the event <math display="inline">E \cap F</math> occurs is the probability of <math display="inline">E \cap F</math> relative to the probability of <math display="inline">F</math>.
+{{Knowledge Metadata|Probability|Definition}}

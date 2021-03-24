@@ -1,0 +1,3 @@
+The diagonal of a set <math display="inline">A</math> is <math display="block">{\nearrow} A \stackrel{\text{def}}{=}\left\{ \left( a, a \right): a \in A \right\} \subseteq A \times A</math>
+
+{{Knowledge Metadata|Set Theory|Definition}}

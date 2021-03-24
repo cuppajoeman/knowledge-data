@@ -1,0 +1,3 @@
+If <math display="inline">f\left(z\right)</math> is complex differentiable for all <math display="inline">z</math> in an open set <math display="inline">\Omega \subseteq \mathbb{C}</math> so then is <math display="inline">f'</math>, (hence <math display="inline">f^{\prime\prime}, f^{\prime\prime\prime}</math> and we say that <math display="inline">f</math> is infinitely complex-differentiable)
+
+{{Knowledge Metadata|Complex Analysis|Theorem}}

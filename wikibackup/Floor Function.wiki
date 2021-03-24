@@ -1,0 +1,5 @@
+<math>\left\lfloor \cdot \right\rfloor: \mathbb{R} \to \mathbb{Z}</math>, given a real number, it returns the largest integer less than or equal to it. That is:
+
+* For <math>x \in \mathbb{R}</math>, such that  st <math>x - \varepsilon \in \mathbb{Z}</math>  where <math>\varepsilon \in [0,1)</math>, then <math>\left\lfloor x \right\rfloor=x</math>
+
+{{Knowledge Metadata|Well Known Functions|Definition}}

@@ -1,0 +1,9 @@
+Let <math display="inline">z \in \mathbb{C}</math>, recall that <math display="inline">\mathbb{C}=\left\{ a  +  bi: a, b \in \mathbb{R} \right\}</math> so <math display="inline">z = x  +  yi</math>, we define the following functions<math display="block">\mathfrak{R}z \stackrel{\text{def}}{=} x \qquad \mathfrak{I}z \stackrel{\text{def}}{=} y</math> 
+
+
+And note that the following holds:<math display="block">\mathfrak{R}z = \frac{z  +  \overline{z}}{2} \qquad \mathfrak{I}z = \frac{z  -  \overline{z}}{2i}</math> 
+
+
+We say that <math display="inline">z</math> is purely imaginary when <math display="inline">\mathfrak{R}z = 0</math>
+
+{{Knowledge Metadata|Complex Numbers|Definition}}

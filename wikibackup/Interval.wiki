@@ -1,0 +1,124 @@
+== Definition ==
+An interval is the difference in pitch between two sounds. 
+
+== Well Known Intervals ==
+Some of the most well known intervals are measured in terms of semitones, here is a table of the most used
+{| class="wikitable"
+|-
+! Number of<br />[[Semitones]]
+! Name of Interval
+! Short Hand
+! Alternative name
+! Short Hand
+! Widely used<br />alternative names
+! Short
+|-
+| 0
+| Perfect unison
+| P1
+| Diminished second
+| d2
+| 
+| 
+|-
+| 1
+| Minor second
+| m2
+| Augmented unison
+| A1
+| Semitone, half tone, half step
+| S
+|-
+| 2
+| Major second
+| M2
+| Diminished third
+| d3
+| Tone, whole tone, whole step
+| T
+|-
+| 3
+| Minor third
+| m3
+| Augmented second
+| A2
+| 
+| 
+|-
+| 4
+| Major third
+| M3
+| Diminished fourth
+| d4
+| 
+| 
+|-
+| 5
+| Perfect fourth
+| P4
+| Augmented third
+| A3
+| 
+| 
+|-
+| rowspan="2" | 6
+| rowspan="2" | 
+| rowspan="2" | 
+| Diminished fifth
+| d5
+| rowspan="2" | Tritone
+| rowspan="2" | TT
+|-
+| Augmented fourth
+| A4
+|-
+| 7
+| Perfect fifth
+| P5
+| Diminished sixth
+| d6
+| 
+| 
+|-
+| 8
+| Minor sixth
+| m6
+| Augmented fifth
+| A5
+| 
+| 
+|-
+| 9
+| Major sixth
+| M6
+| Diminished seventh
+| d7
+| 
+| 
+|-
+| 10
+| Minor seventh
+| m7
+| Augmented sixth
+| A6
+| 
+| 
+|-
+| 11
+| Major seventh
+| M7
+| Diminished octave
+| d8
+| 
+| 
+|-
+| 12
+| Perfect octave
+| P8
+| Augmented seventh
+| A7
+| 
+| 
+|}
+[[Category:Definition]]
+[[Category:Intervals]]

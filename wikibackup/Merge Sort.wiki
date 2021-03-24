@@ -1,0 +1,54 @@
+  '''Algorithm''' MERGE-SORT '''is'''
+    '''inputs''': A, start, end
+    '''if''' start = end '''then'''
+      return
+    '''end'''
+    mid <math display="inline">\leftarrow</math> <math display="inline">\left\lfloor \frac{\text{end} - \text{start}}{2} \right\rfloor</math>
+    MERGE-SORT(A, start, mid)
+    MERGE-SORT(A, mid + 1, end)
+    MERGE(A, start, mid, end)
+  '''end Algorithm''' MERGE-SORT
+
+  '''algorithm''' Merge '''is'''
+    '''Inputs''': A, start, mid, end,
+    n1 <math display="inline">\leftarrow</math> mid - start + 1
+    n2 <math display="inline">\leftarrow</math> end - mid
+    Let L[1 ... n1 + 1] and R[1 ... n2 + 1] be arrays
+    '''for''' <math display="inline">i = 1</math> '''to''' n4
+      L[i] = A[start+i-1]
+    '''end'''
+    '''for''' <math display="inline">j = 1</math> '''to''' n3
+      R[j] = A[mid + j]
+    L[n1 + 1] <math display="inline">\leftarrow \infty</math>
+    R[n2 + 1] <math display="inline">\leftarrow \infty</math>
+    i,j <math display="inline">\leftarrow</math> 1
+    '''end'''
+    '''for''' k <math display="inline">\leftarrow</math> start to end
+      '''if''' L[i] &lt;= R[j] '''then'''
+        A[k] <math display="inline">\leftarrow</math> L[i]
+        i <math display="inline">\leftarrow</math> i + 1
+      '''else'''
+        A[k] <math display="inline">\leftarrow</math> R[j]
+        j = j + 1
+    '''end'''
+  '''end'''
+
+==Proof of Correctness==
+
+======Base Case======
+
+*We are dealing with a section of the list of size one, thus it is already sorted
+
+=====Induction Step=====
+
+*Assume that MERGE-SORT correctly sorts A[start .. mid], A[mid+1 .. end], we want to show that after MERGE is called that A[start .. end] is sorted. To do so we must investigate the implementation of MERGE.
+**Let A[x] be an element in A[start+1 .. end], we want to show that A[x-1] <= A[x]
+***If A[x-1] and A[x] are both from A[start .. mid], then we know that A[x-1] <= A[x] because of the fact that the for loop count increments by one, so that a(x-1) and ax are two consecutive elements from A[start .. mid] and it was already sorted so indeed A[x-1] <= A[x]. A similar argument happens when they both come from A[mid+1 .. end]
+***When A[x-1] and A[x] come from different sections of the split, say wlog that A[x] was in L, so we can write it as L[i], and A[x] comes from R so we write it as R[j], this means that L[i] <= R[j], and so A[x-1] <math>\leftarrow</math> L[i] (see the if statement), then after that we compared L[i+1] with R[j] and found that L[i+1] > R[j], so then we set A[x] <math>\leftarrow</math> R[j], from the code. So indeed A[x-1]  <= A[x]
+**Therefore A[start .. end] is sorted.
+Since the above two facts hold, then for any input, (A, start, end) MERGE-SORT sorts A[start .. end]
+
+==Time Complexity==
+
+*Since this is a [[Divide & Conquer]] algorithm, we can use the [[Master Theorem]] with <math>a = b = 2, d = 1</math> so the runtime of the algorithm is <math>\in \Theta(n \log(n))</math>
+{{Knowledge Metadata|Algorithms|Algorithm}}

@@ -1,0 +1,4 @@
+For a relation <math>R</math> we say it is symmetric if for any <math>x</math> and <math>y</math>, <math>xRy \Rightarrow yRx</math>
+
+Parent: {{link|target=Relations}}
+[[isA::Definition]]

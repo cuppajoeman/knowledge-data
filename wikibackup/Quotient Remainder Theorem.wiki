@@ -1,0 +1,30 @@
+<math>\forall n \in \mathbb{Z}, d \in  \mathbb{N}^{\ge 1}, \exists ! q, r \in \mathbb{Z} </math>  such that <math>n =dq  + r </math> & <math>0 \le r < d</math>
+
+== Proof ==
+
+* Let <math>n \in \mathbb{Z}, d \in \mathbb{N}^{\ge 1}</math> and set <math display="block">S =\left\{ n-dk : n -dk \in \mathbb{N} \land k \in \mathbb{Z}  \right\}</math>
+
+* Claim <math>\left| S \right|\ge 1</math>
+** If <math>n \ge 0</math> , them <math>n = n - d0 \in \mathbb{N}</math>, so <math>n \in S</math>
+** Else <math>n < 0</math> ,<math>n - nd =n\left( 1-d \right) \ge 0</math>  
+*** Because <math>d \ge 1 \Leftrightarrow 0 \ge 1-d</math>, and <math>n < 0</math>
+*** So <math>n - nd \in  S</math>
+
+* By the principle of well ordering there is a least element <math>r \in S </math>  and therefore we have <math>q \in \mathbb{Z} </math> such that <math>r=n- dq \Leftrightarrow n = r  + dq \quad (\alpha)</math>
+
+* One must show that <math>r < d</math>  
+** But if <math>r \ge d \quad (\beta)</math>, then <math>n - d\left( q+1 \right) =n - dq - d \stackrel{\alpha}{=} r - d \stackrel{\beta}{\ge} 0</math>
+** Then <math>n - d\left( q + 1 \right) \in S</math> , but <math>n - d\left( q + 1 \right) < n - dq = r</math>, so then <math>r</math> would not have been the smallest element in <math>S</math>
+** That is a contradiction, therefore <math>r < d</math>
+
+=== Uniqueness ===
+
+* Note without assumption on <math display="inline">n \in \mathbb{Z}</math> by the above prove we get <math display="inline">q_1, r_1, q_2, r_2  \in \mathbb{Z}</math> such that <math display="inline">n = d q_1   + r_{1}</math> and <math display="inline">n = d q_{2}  + r_{2}</math>, then we obtain:<math display="block">r_{1} - r_{2}= d \left( q_{1}  -  q_{2} \right)</math> 
+** so <math display="inline">q \mid \left( r_{1} - r_{2} \right)</math>, then since <math display="inline">0 \le r_{1}, r_{2} < d</math> then we know that<math display="block">-d < r_{1}  -  r_{2} < d</math> 
+** But since <math display="inline">d \mid r_{1}  -  r_{2}</math> then <math display="inline">r_{1}  -  r_{2} = 0</math> and we get <math display="inline">r_{1}=r_{2}</math>, if that's the case then <math display="inline">d \left( q_{1}  -  q_{2} \right)=0</math> but <math display="inline">d > 0</math> so similarly we have <math display="inline">q_{1}=q_{2}</math> 
+
+== Knowledge Used ==
+
+* [[Well Ordering Principle]]
+* [[Proof by Contradiction]]
+{{Knowledge Metadata|Number Theory|Theorem}}

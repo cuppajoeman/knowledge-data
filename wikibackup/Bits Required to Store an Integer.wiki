@@ -1,0 +1,23 @@
+Let <math display="inline">n \in \mathbb{N}</math>, suppose <math display="inline">n</math> requires <math display="inline">d</math> digits in it's base 2 representation,  then <math display="block">d = \lfloor \log_2(n)  \rfloor+1</math>
+
+== Proof ==
+
+At most we have <math display="inline">n = 1 \ldots 1</math>, that is <math display="inline">d</math> 1's in a row. But we know that is <math display="block">\sum_{i=0}^{d-1} 2^i = 2^d - 1</math>
+
+At a minimum the first digit is a 1 and the rest are zeros (since the powers start at 0 right to left, this is <math display="inline">2^{d - 1}</math>).
+
+We now have the following bound on <math display="inline">n</math>.<math display="block">2^{d-1 } \le n \le 2^d - 1</math> 
+
+
+Taking log base 2 on on the above inequality yields: (Call this inequality <math display="inline">\beta</math>)<math display="block">d - 1 \le \log_2 (n) \le \log_2(2^d -1 )</math>''Note'': Taking the log respects the inequalities because <math display="inline">\log_2(\cdot)</math> is a strictly increasing function (check it's derivative) 
+
+
+
+We will attempt to take the floor of <math display="inline">\beta</math>. Since <math display="inline">d-1</math> is an integer <math display="inline">\lfloor d-1 \rfloor = d-1</math>, as for <math display="inline">\log_2(2^d-1)</math>, we must look a little closer. Since <math display="inline">2^{d-1} \le 2^d - 1 < 2^d</math> and , we know that <math display="block">d-1 = \log_2(2^{d-1}) \le \log_2(2^d - 1) < log_2(2^d) = d</math>
+
+Therefore <math display="inline">\lfloor \log_2(2^d - 1) \rfloor = d-1</math> and so the result of taking the floor of <math display="inline">\beta</math> yields<math display="block">d - 1 \le \lfloor \log_2 (n) \rfloor \le \lfloor \log_2(2^d -1 ) \rfloor = d-1</math>
+
+In other words<math display="block">d - 1 \le \lfloor \log_2 (n) \rfloor \le d-1</math>
+
+
+So<math display="block">d - 1 = \lfloor \log_2 (n) \rfloor \Leftrightarrow d = \lfloor \log_2 (n) \rfloor + 1</math> {{Knowledge Metadata|Binary|Theorem}}

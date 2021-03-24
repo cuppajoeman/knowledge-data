@@ -1,0 +1,4 @@
+Usually writen as one of <math>A, B, C, \ldots Z</math>, these variables can be assigned one of two values <math>T</math> or <math>F</math>
+
+[[Category:Definition]]
+[[Category:Propositional Logic]]

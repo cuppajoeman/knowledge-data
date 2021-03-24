@@ -1,0 +1,8 @@
+Direct: For Every edge adds a degree for each of the two vertices it is attached to
+
+Induction: Each time you add an new edge the sum increases by two
+
+
+
+Property: {{link|target=Graph Theory}}
+[[isA::Theorem]]

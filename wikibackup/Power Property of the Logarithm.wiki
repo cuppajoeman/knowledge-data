@@ -1,0 +1,9 @@
+Power Property of the Logarithm <math display="block">\log_{b}(x^{k})=k  \cdot  \log_{b}(x)</math>
+
+== Proof ==
+
+Let <math display="inline">m = \log_{b}(x) \Leftrightarrow x = b^{m}</math>, therefore <math display="inline">\left( x \right)^{k} = \left( b^{m} \right)^{k}</math> so we have <math display="block">x ^{k}=b^{mk}</math>
+
+By taking the logarithm with base <math display="inline">b</math> on both sides, we see <math display="block">\log_{b}(x^{k})=m  \cdot k</math> But recall <math display="inline">m = \log_{b}(x)</math> so then <math display="block">\log_{b}(x^{k})= k  \cdot  \log_{b}(x)</math> as required.
+
+{{Knowledge Metadata|Logarithms|Proposition}}

@@ -1,0 +1,3 @@
+Two partially ordered sets <math display="inline">\left( X, E \right)</math> and <math display="inline">\left(  Y,G \right)</math> are said to be order-isomorphic if and only if there exists a bijection <math display="inline">f : X \to Y</math> such that for any <math display="inline">x,y \in X</math>, <math display="inline">u E x</math> if and only if <math display="inline">f\left(x\right) G f\left(y\right)</math>. In this case we say that <math>f</math> is an order isomorphism.
+
+{{Knowledge Metadata|Relations|Definition}}

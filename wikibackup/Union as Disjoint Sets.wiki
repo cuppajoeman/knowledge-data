@@ -1,0 +1,20 @@
+Let <math display="inline">X, Y \subseteq U</math> be subsets of a set <math>U</math>, then the union can be rewritten in terms of disjoint sets: <math display="block">X \cup Y = X \cup \left( \overline{X} \cap Y \right)</math>
+
+== Proof ==
+*<math display="inline">\subseteq</math>
+** Let <math display="inline">a \in X \cup Y</math>
+*** If <math display="inline">a \in X</math> then we are done.
+*** If <math display="inline">a \in Y</math> then <math display="inline">a \in \left( \overline{X} \cap Y \right)</math>
+*<math display="inline">\supseteq</math>
+** Let <math display="inline">b \in X \cup \left(  \overline{X} \cap Y \right)</math>
+*** If <math display="inline">b \in X</math> then <math display="inline">b \in X \cup Y</math>
+*** If <math display="inline">b \in \left( \overline{X} \cap Y \right)</math> then <math display="inline">b \in Y</math> so <math display="inline">b \in X \cup Y</math>
+*Disjoint:
+** Let <math display="inline">c \in X \cap \left( \overline{X} \cap Y \right)</math> then <math display="inline">c \in X</math> but from <math display="inline">\left(  \overline{X} \cap Y \right)</math> then <math display="inline">x \not\in X</math> thus a contradiction so there is no element both in <math display="inline">X</math> and <math display="inline">\left(  \overline{X } \cap Y \right)</math>
+
+
+
+== Knowledge Used ==
+
+* [[Set Complement]]
+{{Knowledge Metadata|Set Theory|Proposition}}

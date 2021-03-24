@@ -1,0 +1,10 @@
+* Suppose that <math>\Gamma</math> is a finite set of <math>\mathcal{L}</math> -formulas and <math>\phi</math> is an <math>\mathcal{L}</math> -formula. 
+** We will say that <math>\phi</math> is a propositional consequence of <math>\Gamma</math> if:
+***<math>\phi_{P}</math> is a [[Propositional Consequence|propositional consequence]] of <math>\Gamma_{P},</math>
+*** where <math>\phi_{P}</math> and <math>\Gamma_{P}</math> are the results of applying the [[Formula Conversion from FOL to PL|formula conversion algorithm]] uniformly to <math>\phi</math> and all of the formulas in <math>\Gamma</math>.
+
+== Knowledge Used ==
+
+* [[Propositional Consequence]]
+* [[Formula Conversion from FOL to PL]]
+{{Knowledge Metadata|Deductions|Definition}}

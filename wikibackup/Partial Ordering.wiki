@@ -1,0 +1,9 @@
+Given a set <math display="inline">X</math>, a partial ordering is a transitive, antisymmetric relation <math display="inline">E \subseteq X \times X</math>.
+
+''Note: a partial ordering will be called strict when <math>x E x</math> does not hold for any <math>x</math>, otherwise it is reflexive''
+
+== Knowledge Used ==
+
+* [[Transitive Relation]]
+* [[Antisymmetric Relation]]
+{{Knowledge Metadata|Relations|Definition}}

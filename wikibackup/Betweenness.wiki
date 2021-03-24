@@ -1,0 +1,14 @@
+
+The betweenness of an edge is how many shortest paths travel through it
+
+For every pair of nodes A,B, we say there is one unit of “flow” along the edges from A to B
+
+Flow between A to B divides evenly among all shortest paths from A to B
+
+If there are k shortest paths that uses edge (A,B), 1/k flows through each of these k shortest paths
+
+
+-----
+Parent: {{link|target=Graph Theory}} 
+Parent: {{link|target=Social Networks}} 
+[[IsA::Definition]]

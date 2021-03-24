@@ -1,0 +1,3 @@
+For <math display="inline">z \in \mathbb{C}</math> we say that the modulus of <math display="inline">Z</math> is the distance between <math display="inline">z</math> and the origin, so we have <math display="block">\left| z \right| \stackrel{\text{def}}{=} \sqrt{x^{2} +  y^{2}}</math>
+
+{{Knowledge Metadata|Complex Numbers|Definition}}

@@ -1,0 +1,4 @@
+A list is a tuple <math>\left( x_{1}, x_{2},  \dots ,x_{n - 1},x_{n} \right)</math> written as<math display="block">x_1, x_2, \ldots ,x_{n-1}, x_{n}</math>
+==Knowledge Used==
+*[http://keepaskingwhy.com/mediawiki/index.php/N-Tuple N-Tuple]
+{{Knowledge Metadata|Set Theory|Definition}}

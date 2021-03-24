@@ -1,0 +1,15 @@
+If <math>x, y \in \mathbb{F}^{n},</math> then <math>x+y=y+x</math>
+
+== Proof ==
+Suppose <math>x=\left(x_{1}, \ldots, x_{n}\right)</math> and <math>y=\left(y_{1}, \ldots, y_{n}\right) .</math> Then<math display="block">
+\begin{aligned}
+x+y &=\left(x_{1}, \ldots, x_{n}\right)+\left(y_{1}, \ldots, y_{n}\right) \\
+&=\left(x_{1}+y_{1}, \ldots, x_{n}+y_{n}\right) \\
+&=\left(y_{1}+x_{1}, \ldots, y_{n}+x_{n}\right) \qquad (\text{By commutivity of } \mathbb{F})\\
+&=\left(y_{1}, \ldots, y_{n}\right)+\left(x_{1}, \ldots, x_{n}\right) \\
+&=y+x
+\end{aligned}
+</math>
+
+
+{{Knowledge Metadata|Vector Spaces|Proposition}}

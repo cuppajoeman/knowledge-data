@@ -1,0 +1,20 @@
+[[File:Horizontal fret table.svg|center|frameless|893x893px]]
+
+== Description ==
+
+* The top row of the diagram represents each of <math>\mathcal{S}_0, \mathcal{S}_1, \mathcal{S}_2, \mathcal{S}_3, \mathcal{S}_4, \mathcal{S}_5</math> written in interval notation (without the interval band, for simplicity), the boxes that contain the numbers with arrows and plus-minus symbol represent the difference in semitones between each string given which direction you are moving.
+* Any other row has a circle in it, this circle represents a reference/anchor point for the player, if we are in the context of playing a chord, then it could be referring to the root. In any case it shows that in reference to this fixed point, by moving horizontally & staying on the same fret we move increase/decrease by this many semitones.
+* Every number is given modulo 12, and it's negative version as well. The negative version is nice if you are finding a note which is a few semitones lower than your current.
+
+== Example Usage ==
+
+* Suppose we are trying to play <math> \hat{v} \in \mathcal{V}(\mathcal{C})</math>, then firstly we can take the note <math>n</math> which has the smallest integer representation, we can then find one instance on <math>\mathbb{F}</math>, from this note we will construct the others using the table, suppose this note is on string 3. 
+** If that's the case we look in the 7th column (as that represents the 3rd string) and find the row which has a circle in it, this represents where our finger is anchored
+** Suppose we one of the intervals in <math>\hat{v}</math> is 9 semitones higher than <math>n</math>, we can see that moving horizontally 3 times will add 9 semitones to <math>n</math>, therefore this can be used to play the chord. Also note that the table is self describing via the top row.
+** Continuing like this for each of the chord tones we have constructed our own chord.
+
+== Knowledge Used ==
+
+* [[Guitar Fretboard]]
+* [[Chord]]
+{{Knowledge Metadata|Guitar Fretboard|Definition}}

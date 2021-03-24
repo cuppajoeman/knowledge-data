@@ -1,0 +1,7 @@
+A bijection is a function which is a surjection and an injection
+== Knowledge Used ==
+
+* [[Function]]
+* [[Surjection]]
+* [[Injection]]
+{{Knowledge Metadata|Functions|Definition}}

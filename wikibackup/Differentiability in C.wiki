@@ -1,0 +1,5 @@
+We say a function <math display="inline">f : \mathbb{C} \to \mathbb{C}</math> or <math display="inline">f : \Omega \to \mathbb{C}</math> for some open subset <math display="inline">\Omega \subseteq \mathbb{C}</math> is complex-differentiable at <math display="inline">a</math> if the following limit exits: <math display="block">\lim_{h\to0}\frac{f\left(a + h\right) - f\left(a\right)}{h}</math>
+
+Note that <math>h \in \mathbb{C}</math> and when the limit exists we write it as <math>f'(a)</math>
+
+{{Knowledge Metadata|Complex Analysis|Definition}}

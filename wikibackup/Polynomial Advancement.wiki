@@ -1,0 +1,18 @@
+Let <math>x \in \mathbb{R}, x \neq 0 .</math> Prove, by induction, that for all <math>m \in \mathbb{N}</math> and <math>0 \leq i<m,</math> the function <math>f(n)=n^{i} x^{n}</math> is a solution to the advancement equation <math>(A-x)^{m} f=0</math>.
+
+== Proof ==
+
+=== Base Case ===
+
+* Suppose <math>m =1</math>,so we must have <math>i=0</math> , in that case we would like to show that <math>f\left(n\right)=n^{0}x^{n}=x^{n}</math> is a solution to<math display="block">  \left( A  - x \right)^{1}f\left(n\right)=0</math> 
+* That's the case if <math>f\left(n + 1\right) - xf\left(x\right) = 0 \Leftrightarrow x^{n + 1} - x  \cdot x^{n} =0</math> which is true. 
+
+=== Induction Step ===
+
+* Let <math>k \in \mathbb{N}^{\ge 1}</math> and assume that for all <math>i \in \left\{ 0, \ldots, k-1 \right\}</math> that <math>f\left(n\right)=n^{i}x^{n}</math> is a solution to <math>\left( A - x \right)^{k}f\left(n\right)=0</math>
+
+* Now we'll show that for all <math>i \in \left\{ 0, \ldots, k \right\}</math> that <math>f\left(n\right)=n^{i}x^{n}</math> is a solution to <math>\left( A  -  x \right)^{k + 1}f\left(n\right)=0</math>
+** If <math>i \in \left\{ 1, \ldots, k-1 \right\}</math> then we may use our induction hypothesis as follows<math display="block">  \left( A - x \right)^{k + 1}f\left(n\right)=\left( A - x \right)\left( A - x \right)^{k}f\left(n\right) \stackrel{\text{IH}}{=} \left( A - x \right) 0 = 0</math>
+** Else wise <math>i = k</math> and we'd like to have <math>f(n) = n^k x^n</math> as a solution to <math>(A-x)^{k+1}f(n) = 0</math>   
+** By the binomial theorem <math display="block">(A-x)^{k+1} = \sum_{i=0}^{k + 1} A^{i} ( -x )^{k+1-i}\binom{k + 1}{i}=\sum_{i=0}^{k + 1} A^{i}( x )^{k+1-i}\left( -1 \right)^{k+1-i}\binom{k + 1}{i}</math> and that <math>A^{i}f\left(n\right)=f\left(n + i\right)=\left( n + i \right)^{k}x^{n+i}</math>, then substituting that into <math>\left( A - x \right)^{k + 1}</math> we obtain<math display="block">(A - x)^{k+1}f(n)=\sum_{i=0}^{k+1} x^{k+n+1}(-1)^{k + 1 - i}(n + i)^{k}\binom{k + 1}{i}= x^{k + n + 1}\sum_{i=0}^{k + 1} (-1)^{k + 1 - i}(n + i)^{k}\binom{k + 1}{i}
+</math>At this point I am do not have a proof that this large summation on the right hand side of the above equation is zero, but if it is, then we would be done (which I think might have to do with an alternating sum of n choose k's). Otherwise, I have not found a way to solve the case when <math>i = k</math>

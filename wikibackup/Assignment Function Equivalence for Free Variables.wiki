@@ -1,0 +1,6 @@
+Suppose that <math display="inline">s_1</math> and <math display="inline">s_2</math> are variable assignment functions into a structure <math display="inline">\mathfrak{A}</math> such that <math display="inline">s_1\left(v\right)=s_2\left(v\right)</math> for every free variable <math display="inline">v</math> in the formula <math display="inline">\phi</math>. Then <math display="inline">\mathfrak{A}\models \phi \left[ s_1 \right]</math> if and only if <math display="inline">\mathfrak{A}\models \phi \left[ s_2 \right]</math>
+
+== Proof ==
+[[Category:Proposition]]
+[[Category:Structure & Truth]]
+[[Category:Proof Required]]

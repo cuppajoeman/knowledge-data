@@ -1,0 +1,40 @@
+
+
+Given two positive integers <math display="inline">m</math> and <math display="inline">n</math> find their greatest common divisor, that is, the largest positive integer that evenly divides both <math display="inline">m</math> and <math display="inline">n</math>.
+
+# Divide <math display="inline">m</math> by <math display="inline">n</math> and let <math display="inline">r</math> be the remainder where <math display="inline">0 \le r < n</math>
+# If <math display="inline">r =0</math>, the algorithm terminates; <math display="inline">n</math> is the answer.
+# Set <math display="inline">m \leftarrow n</math>, <math display="inline">n \leftarrow r</math> and return to step 1
+
+=== Pseudocode ===
+ '''algorithm''' Euclid_Alg '''is'''
+     '''inputs''': <math>n</math>,<math>m</math>
+     <math>r \leftarrow m~\%~n  </math>
+     '''if''' <math>r = 0</math>
+       '''return''' <math>r</math>
+ 
+     '''return''' Euclid_Alg(<math>n, r</math>)
+
+==Proof of Correctness==
+*Note that if we proved that <math>\gcd(m,n) = \gcd(n,r)</math>, then each time we go to step 3 this chain of equalities would expand by one
+**To see why we would be applying the quotient remainder theorem on <math>n</math> in the next iteration to obtain <math>n = q n_1 + r_1</math>, then we would have <math display="block">\gcd(n,m) = \gcd(n,r) = \gcd(n_1, r_1)</math>
+***After finitely many iterations our algorithm get to the second step and say it's called with <math>n_t, r_t</math> (<math>t</math> for termination)
+****It's in the second step so  <math>r_t = 0</math> and <math>n_t = \gcd(n_t,0) = \gcd(n_t, r_t) = ... \gcd(n_1, r_1) = \gcd(n, r) = gcd(m,n)</math> (the chain of equalities) 
+*****Our output would be <math>n_t = \gcd(n,m)</math>, as required.
+
+=== Proof that <math>gcd(m,n) = gcd(n,r)</math> ===
+
+* By the quotient remainder theorem we know that <math display="inline">m = qn  + r</math> for some <math display="inline">q, r</math> and <math display="inline">0 \le r < d</math>
+** In other words <math display="inline">m  -  qn = r</math>. 
+*** If <math display="inline">d \mid m</math> and <math display="inline">d \mid n</math>, then <math display="inline">d</math> must also divide <math display="inline">r</math>, suggested by the above equation
+*** But if <math display="inline">d</math> is a divisor of <math display="inline">n</math> and <math display="inline">r</math>, then it also divides <math display="inline">m</math>, suggested by the original application of quotient remainder theorem
+** Therefore if we consider all the divisors of <math display="inline">n</math> and <math display="inline">m</math> each one of them also divides <math display="inline">r</math>, so the set of divisors of <math>m</math> and <math>n</math> is  <math display="block">\mathcal{D}=\left\{ d \in \mathbb{N}: d \mid n \land d \mid m \land d \mid r \right\}</math>
+** We also consider all the divisors <math display="inline">d</math> of <math display="inline">n</math> and <math display="inline">r</math>, from our previous observations <math display="inline">d</math> also divides <math display="inline">m</math> so the set of divisors is also <math display="inline">\mathcal{D}</math>, therefore the maximum element from both of these sets is the same and we have <math display="block">\gcd(n,m)=\gcd(n,r)</math>
+
+== Proof of Termination ==
+
+* The program terminates if <math>r = 0</math>, the value of <math>n</math> decreases by at least 1 after each iteration specified by the strict inequality from the quotient remainder theorem, therefore if <math>n_k</math> is the value of <math>n</math> after <math>k</math> iterations then <math>n_0, n_1, ...</math> is a decreasing sequence of positive integers, and so it must be finite, therefore there is a <math>r \in \mathbb{N}</math> such that the algorithm terminates on iteration <math>r</math> (as <math>n_r = 0</math>)
+
+[[isA::Algorithm]]
+
+Parent: {{Link|target=Number Theory}}

@@ -1,0 +1,31 @@
+Suppose that <math display="inline">\phi</math> is an <math display="inline">\mathcal{L}</math>-formula, <math display="inline">x</math> a variable, <math display="inline">t</math> is a term, and <math display="inline">t</math> is substitutable for <math display="inline">x</math> in <math display="inline">\phi</math>. Suppose that <math display="inline">s : Vars \to A</math> is a variable assignment function and that <math display="inline">s'=s \left[ x \mid \bar{s}\left(t\right) \right]</math>. Then <math display="inline">\mathfrak{A}\models \phi _{t}^{x}\left[ s \right]</math> if and only if <math display="inline">\mathfrak{A} \models \phi \left[ s' \right]</math> Proof by induction on the complexity of <math display="inline">\phi</math>.
+
+== Proof ==
+* The first case is when we have <math display="inline">\phi \equiv u_{1}=u_{2}</math> where <math display="inline">u_{1}</math> and <math display="inline">u_{2}</math> are terms. Then we can see that each of the following lines are equivalent: <math display="block">\begin{align}
+      &\mathfrak{A}\models \phi_{t}^{x}\left[ s \right]\\
+      &\mathfrak{A}\models \left( u_{1} \right)_{t}^{x}=\left( u_{2} \right)_{t}^{x}\left[ s \right]\\
+      &\bar{s}\left(\left( u_{1} \right)_{t}^{x}\right)=\bar{s}\left( \left( u_{2} \right)_{t}^{x} \right) \quad \text{ definition of satisfaction }\\
+      &\bar{s'}\left( u_{1} \right)=\bar{s'}\left(u_{2}\right) \text{Equivalence of Modification of Term Assignment Function and Term Substitution}\\
+      &\mathfrak{A}\models \phi\left[ s' \right]
+    \end{align}</math>
+* When <math display="inline">\phi \equiv R\left(u_{1}, u_{2},  \dots ,u_{n - 1},u_{n}\right)</math>. It follows the same logic as the above case.
+* Inductive cases that use the connectives <math display="inline">\lor</math> and <math display="inline">\neg</math> follow after applying the 3 or 4th clade of the definition of satisfaction and using the induction hypothesis.
+* So then for the case that <math display="inline">\phi \equiv \forall y \psi</math>
+** If <math display="inline">\phi \equiv \forall y \psi</math> and <math display="inline">y</math> is <math display="inline">x</math> then <math display="inline">\phi_{t}^{x}</math> is <math display="inline">\phi</math>, so <math display="inline">\mathfrak{A} \models \phi_{t}^{x}\left[ s \right]</math> if and only if <math display="inline">\mathfrak{A} \models \phi \left[ s \right]</math>.
+** Now recall that the only difference between <math display="inline">s</math> and <math display="inline">s'</math> is that <math display="inline">s'</math> sends the variable <math display="inline">x</math> to <math display="inline">\bar{s}\left(t\right)</math>, and that the variable <math display="inline">x</math> is not free, therefore <math display="inline">s</math> and <math display="inline">s'</math> agree on all the free variables of <math display="inline">\phi</math>, so by the Assignment Function Equivalence for Free Variables, one sees that <math display="inline">\mathfrak{A} \models \phi \left[ s \right]</math> if and only if <math display="inline">\mathfrak{A} \models \phi \left[ s' \right]</math> as needed.
+* Otherwise if we have <math display="inline">\phi \equiv \forall y \psi</math> where <math display="inline">y</math> is not in <math display="inline">x</math>
+** If <math display="inline">x</math> is not free in <math display="inline">\psi</math>, then by Z we have that <math display="inline">\phi_{t}^{x}</math> is <math display="inline">\phi</math> and therefore <math display="inline">\phi_{t}^{x}</math> is <math display="inline">\phi</math> by the definition of Variable substitution..., so then we have the following equivalencies <math display="inline">\mathfrak{A} \models \phi_{t}^{x}\left[ s \right] \Leftrightarrow \mathfrak{A} \models \phi\left[ s \right] \Leftrightarrow \mathfrak{A} \models \phi \left[ s' \right]</math>, again using the fact that <math display="inline">s</math> and <math display="inline">s'</math> agree on the free variables of <math display="inline">\phi</math>.
+** Supposing that <math display="inline">x</math> is free in <math display="inline">\psi</math>, then because of the assumption that <math display="inline">t</math> is substitutable for <math display="inline">x</math> in <math display="inline">\phi</math>, by the 5th clause of itâ€™s definition we obtain that <math display="inline">y</math> does not occur in <math display="inline">t</math> and <math display="inline">t</math> is substitutable for <math display="inline">x</math> in <math display="inline">\psi</math>. Then the following are equivalent : <math display="block">\begin{align}
+            &\mathfrak{A} \models \phi _{t}^{x}\left[ s \right]\\
+            &\mathfrak{A} \models \left( \forall y \right)\left( \psi _{t}^{x} \right) \left[ s \right]\\
+            &\mathfrak{A} \models \left( \psi_{t}^{x} \right)\left[ s \left[ y \mid a \right] \right] \text{ for every } a \in A
+          \end{align}</math>
+** But in addition we know that <math display="block">\begin{align}
+              &\mathfrak{A} \models \phi \left[ s' \right]\\
+              &\mathfrak{A} \models \left( \forall y  \right)\left( \psi \right) \left[ s' \right]\\
+              &\mathfrak{A} \models \psi \left[ s' \left[ y \mid a \right] \right]\text{ for every } a \in A
+            \end{align}</math> 
+** Since <math display="inline">x</math> is not <math display="inline">y</math>, then the following functions are well defined, so that for any <math display="inline">a \in A, s' \left[ y \mid a \right]= s \left[ y \mid a \right]\left[ x \mid \bar{s}\left( t \right) \right]</math>, and due to the inductive hypothesis since <math display="inline">t</math> is substitutable for <math display="inline">x</math> in <math display="inline">\psi</math>, one obtains <math display="block">\mathfrak{A} \models \left( \psi_{t}^{x} \right) \left[ s \left[ y \mid a \right] \right] \Leftrightarrow \mathfrak{A} \models \psi \left[ s' \left[ y \mid a \right] \right]</math>
+** Therefore everything we have listed is equivalent and so we obtain <math display="inline">\mathfrak{A} \models \phi_{t}^{x}\left[ s \right]</math> if and only if <math display="inline">\mathfrak{A} \models \phi \left[ s' \right]</math> as required.
+[[Category:Lemma]]
+[[Category:Deduction]]

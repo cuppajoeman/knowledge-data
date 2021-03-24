@@ -1,0 +1,6 @@
+A closed path
+
+== Knowledge Used ==
+
+* [[Closed Walk/Trail/Path]]
+{{Knowledge Metadata|Graph Theory|Definition}}

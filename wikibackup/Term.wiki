@@ -1,0 +1,7 @@
+If <math>\mathfrak{L}</math> is a [[First Order Language|language]], a term of <math>\mathfrak{L}</math> is a nonempty finite string <math>t</math> of symbols from <math>\mathfrak{L}</math> such that either:
+
+# <math>t</math> is a variable, or
+# <math>t</math> is a constant symbol, or
+# <math>t :\equiv ft_1t_2, \ldots, t_n</math> where <math>f</math> is an <math>n</math>-ary function symbol of <math>\mathfrak{L}</math> and each of the <math>t_i</math> is a term of <math>\mathfrak{L}</math>
+[[Category:Definition]]
+[[Category:Language]]

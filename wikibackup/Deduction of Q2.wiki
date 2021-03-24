@@ -1,0 +1,14 @@
+Write a deduction of the second quantifier axiom without using it as an axiom.
+
+== Construction ==
+<math display="block">\mathcal{D} = \left( \left( ( \forall x ) ( \neg \phi )  \right) \to  \neg \phi  _{t} ^{x}, \phi  _{t}^{x} \to  \neg  \left( \left( \forall x \right) \left( \neg  \alpha  \right)  \right)  \right) </math>
+
+== Justification ==
+* The first thing to notice is that we require the last line of the deduction to be <math display="inline">\phi _{t}^{x} \to \left( \exists x \phi \right)</math>, and that <math display="inline">t</math> is substitutable for <math display="inline">x \in \phi</math> (Do we need to show that?)
+** Suppose <math display="inline">\neg \phi</math> is a formula and that <math display="inline">t</math> is substitutable for <math display="inline">x</math> in <math display="inline">\neg \phi</math> So by then <math display="inline">\left( ( \forall x ) ( \neg \phi )  \right) \to  \neg \phi  _{t} ^{x}</math> falls into the category of Q1
+** Applying the algorithm to convert this into a propositional formula yields <math display="inline">P \to Q</math> which we know is equivalent to <math display="inline">\neg  Q \to  \neg  P</math> (and so therefore must be a [[Propositional Consequence|propositional consequence]]), so then we have that <math display="inline">\phi  _{t}^{x} \to  \neg  \left( \left( \forall x \right) \left( \neg  \alpha  \right)  \right)</math> as a [[Propositional Consequence for FOL|propositional consequence for FOL]]
+** Recall our [[Logical Abbreviations|abbreviations]], and so we have <math display="inline">\phi  _{t}^{x} \to  \left( \exists x \phi  \right) </math>
+
+*Note that if <math display="inline">t</math> is substitutable for <math display="inline">x</math> in <math display="inline">\neg \phi</math> then it is also substitutable for <math display="inline">x</math> in <math display="inline">\phi</math>
+[[Category:Question]]
+[[Category:Deduction]]

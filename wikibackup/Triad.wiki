@@ -1,0 +1,16 @@
+== Definition ==
+A [[chord]] made up of three notes such that the [[interval]] between two of them are thirds
+
+== Types & Construction ==
+
+* Let <math>X \in \mathbb{W}</math>, the triads are the following sets
+** Major Triad (X/XΔ)<math display="block">X^\Delta = C\left(X,\{ 0, 4, 7 \right\})</math>
+*** P1 M3 P5
+** Minor Triad (Xm/Xmin)<math display="block">X \text{min} = C(X,\left\{ 0, 3, 7 \right\})</math>
+*** P1 m3 P5
+** Augmented Triad (X+/Xaug)<math display="block">X{+} = C(X, \left\{ 0, 4, 8 \right\} )</math>
+*** P1 M3 A5
+** Diminished Triad (X<sup>o</sup>/Xdim)<math display="block">X^\circ = C(X, \left\{ 0, 3, 6 \right\})</math>
+*** P1 m3 D5
+
+{{Knowledge Metadata|Chords|Definition}}

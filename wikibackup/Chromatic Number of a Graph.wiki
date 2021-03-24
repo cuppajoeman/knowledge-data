@@ -1,0 +1,5 @@
+The least <math display="inline">t \in \mathbb{N}</math> for which <math display="inline">G</math> has a proper coloring using a set <math display="inline">C</math> of <math display="inline">t</math> colors is called the chromatic number of <math display="inline">G</math> and is denoted <math display="inline">\chi\left(G\right)</math>
+
+
+Parent: {{link|target=Graph Theory}}
+[[isA::Definition]]

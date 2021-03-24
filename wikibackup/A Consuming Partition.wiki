@@ -1,0 +1,19 @@
+
+== Left Hand Side ==
+<math display="inline">\binom{n}{k}</math> counts the number of <math display="inline">k</math> element subsets of the set <math display="inline">\left[ n \right]</math>, Let <math display="inline">X \subseteq \left[ n \right]</math> such that <math display="inline">\left| X \right|=m</math>, then <math display="inline">\binom{n-m}{k}</math> counts the number of <math display="inline">k</math> element subsets of <math display="inline">\left[ n \right]</math> that are not equal to <math display="inline">X</math>. Therefore the left hand side counts the <math display="inline">k</math> element subsets of <math display="inline">\left[ n \right]</math> that are not equal to <math display="inline">X</math>.
+
+== Right Hand Side ==
+The right hand side describes a partition of the <math display="inline">k</math> element subsets of <math display="inline">\left[ n \right]</math> that are not equal to <math display="inline">X</math>.
+
+Consider any <math display="inline">k</math> element subset <math display="inline">K</math> of <math display="inline">\left[ n \right]</math> that is not equal to <math display="inline">X</math>, then <math display="inline">\left( \left[ n \right] \setminus X \right) \cap K \neq \emptyset</math>, we will partition based on the elements of <math display="inline">\left[ n \right] \setminus X</math> which are a part of <math display="inline">K</math>
+
+* Let our pool of elements to use in our <math display="inline">k</math> element subsets be <math display="inline">P</math> which is set to <math display="inline">\left[ n \right] \setminus X</math>
+** Let <math display="inline">a_{1} \in P</math>
+*** There are <math display="inline">\binom{n-1}{k-1}</math> other ways to choose the rest of the elements from <math display="inline">P</math>, update <math display="inline">P \to P \setminus \left\{ a_{1} \right\}</math>
+** Now let <math display="inline">a_{2} \in P</math>
+*** There are <math display="inline">\binom{n-2}{k-1}</math> other ways to choose the rest of the elements from <math display="inline">P</math>, update <math display="inline">P \to P \setminus \left\{ a_{2} \right\}</math>
+** Now let <math display="inline">a_{3} \in P</math>, update <math display="inline">P</math> and there are <math display="inline">\binom{n-3}{k-1}</math> other ways to choose the rest of the elements
+** Continue for <math>m</math> iterations as then <math>P = \emptyset</math>
+* We can see that this is a partition, as if we take a sample from two different combinations partitioned as above, one will have the element <math display="inline">a_{i}</math> and the other will not have <math display="inline">a_{i}</math> and so the two combinations would be different. The above pattern yields the summation <math display="block">\sum_{i=1}^{m} \binom{n-i}{k-1}</math> Which is exactly the right hand side
+[[Category:Question]]
+[[Category:Combinatorics]]

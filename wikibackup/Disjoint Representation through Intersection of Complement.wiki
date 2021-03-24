@@ -1,0 +1,15 @@
+Let <math display="inline">X, Y\subseteq U</math> for some set <math display="inline">U</math> then without any assumption on <math display="inline">X</math> or <math display="inline">Y</math> we can rewrite <math display="inline">X</math> as the following disjoint union <math display="block">X = \left(  Y \cap X \right) \cup \left( \overline{Y} \cap X \right)</math>
+
+== Proof ==
+*<math display="inline">\subseteq</math>
+** Let <math display="inline">a \in X</math> then additionally either <math>a \in Y</math>or <math>a \not\in Y</math> 
+*** If <math>a \in Y</math>, <math display="inline">a \in \left( Y \cap X \right)</math>, so everything is well.
+*** If <math>a \not\in Y</math>, <math display="inline">a \in \left( \overline{Y} \cap X \right)</math>
+*<math display="inline">\supseteq</math>
+** Let <math display="inline">b \in \left( Y \cap X \right) \cup \left( \overline{Y} \cap X \right)</math> we will need to show that <math display="inline">b \in X</math>
+*** If <math display="inline">b \in \left( Y \cap X \right)</math> then <math display="inline">b \in X</math> as needed
+*** If <math display="inline">b \in \left( \overline{Y} \cap X \right)</math> then <math display="inline">b \in X</math> so it holds in either case
+* Disjoint:
+** Let <math display="inline">c \in \left( Y \cap X \right) \cap \left( \overline{Y} \cap X \right)</math> then <math display="inline">c \in Y</math> and also <math display="inline">c \in \overline{Y}</math> a contradiction so there is no element in common, thus they are disjoint.
+
+{{Knowledge Metadata|Set Theory|Proposition}}

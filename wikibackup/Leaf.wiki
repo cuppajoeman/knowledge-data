@@ -1,0 +1,7 @@
+Give a tree, the leaves are the vertices whose degrees are equal to one.
+
+== Knowledge Used ==
+
+* [[Tree]]
+* [[Degree of a Vertex]]
+{{Knowledge Metadata|Graph Theory|Definition}}

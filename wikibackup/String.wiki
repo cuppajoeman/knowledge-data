@@ -1,0 +1,11 @@
+A string is a tuple <math>\left( x_{1}, x_{2},  \dots ,x_{n - 1},x_{n} \right)</math> written as <math display="block">x_1x_2\ldots x_{n-1}x_{n}</math>Remark: This simple change allows the notation to become less unwieldy and more of a connection to what we write on paper. 
+
+== Notation ==
+
+* For the empty tuple <math>\left(  \right)</math> , we will write <math>\epsilon</math>
+* We denote the size of a string <math>s</math> as <math>\left| s\right|</math>
+
+== Knowledge Used ==
+* [[N-Tuple]]
+
+{{Knowledge Metadata|Computer Science|Definition}}

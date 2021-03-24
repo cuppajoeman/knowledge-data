@@ -1,0 +1,11 @@
+Describe a Turing Machine on the alphabet <math display="inline">\left\{ a, b, c \right\}</math> for the language <math display="block">\mathcal{L}=\left\{ a^{n}b^{n}c^{n}: n \in \mathbb{N} \right\}</math>
+
+== Intuition ==
+In order to solve this problem, we remember what a Turing Machines allows us to do, we can write and read to this string. Since we don't have such a thing as a variable here, we will have to improvise, the main intuition will be that we will need to repeatedly match triples of <math display="inline">\left( a, b, c \right)</math> in the string, and replace each of them with distinct characters. For example, if we have the string, we could replace like so: <math display="block">aaaabbbcccc \to xaaaybbzccc \to xxaayybzzcc  \to xxxayyyzzzc</math>, stopping now since all of the <math display="inline">b</math>'s have been completely filled, but there still exists other original letters remaining, so we know this string is invalid.
+
+== Turing Machine ==
+We now convert this idea into a Turing Machine.
+
+Fix <math display="inline">\Sigma = \left\{ a, b, c \right\}</math> and <math display="inline">\Gamma = \left\{  a, b, c, x, y , z, \sqcup \right\}</math>
+
+{{Knowledge Metadata|Computability|Example}}

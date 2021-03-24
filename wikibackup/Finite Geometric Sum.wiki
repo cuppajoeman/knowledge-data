@@ -1,0 +1,12 @@
+Finite Geometric sum, for any <math display="inline">x \ge 0</math>:<math display="block">\sum_{i=0}^{k} x^{i}=\frac{x^{k + 1} - 1}{x - 1}</math>
+
+== Proof ==
+
+* Let <math>S = \sum_{i=0}^k x^i</math>, then we have <math>xS - S =  \sum_{i=0}^k x^{i+1} - \sum_{i=0}^k x^i = x^{k+1} - x^0 = x^{k+1} - 1</math>, therefore <math>S = \frac{x^{k+1} - 1}{x-1}
+</math>
+
+== Knowledge Used ==
+
+* [[Sigma Notation]]
+
+{{Knowledge Metadata|Algebra|Theorem}}

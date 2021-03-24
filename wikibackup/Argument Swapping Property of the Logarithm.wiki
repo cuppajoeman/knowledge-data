@@ -1,0 +1,7 @@
+For <math display="inline">a, b, c \in \mathbb{R}^{>0}</math>, then we have <math display="block">a^{\log_{b}(c)}=c^{\log_{b}(a)}</math>
+
+Proof Letâ€™s find an <math display="inline">x \in \mathbb{R}^{> 0}</math> that solves the following <math display="block">\log_{x}(a^{\log_{b}(c)})=\log_{x}(c^{\log_{b}(a)}) \Leftrightarrow \log_{b}(c)  \cdot \log_{x}(a) = \log_{b}(a)  \cdot \log_{x}(c)</math>
+
+The bi-implication comes from the [[Power Property of the Logarithm]], and by taking <math display="inline">x = b</math> we get that the left hand side is equal to the right hand side, as required.
+
+{{Knowledge Metadata|Logarithms|Proposition}}

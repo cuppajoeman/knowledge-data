@@ -1,0 +1,17 @@
+A pair <math display="inline">\left( S, P \right)</math> where <math display="inline">S</math>; a finite set and <math display="inline">P: \mathbb{P}(S) \to [0,1]</math> such that the following properties are upheld:
+#<math display="inline">P\left(\emptyset \right) = 0</math> 
+# <math display="inline">P\left(S\right) = 1</math> 
+# If <math display="inline">A</math> and <math display="inline">B</math> are [[Disjoint Sets]] subsets of <math display="inline">S</math>, supposing <math display="inline">A \cap B = \emptyset</math>, then one has <math display="inline">P\left(A \cup B\right) = P\left(A\right)  + P\left(B\right)</math>
+----Remark:
+
+* <math display="inline">P</math> may be extended to be a function of <math display="inline">S \mapsto \left[ 0,1 \right]</math> by setting <math display="inline">P\left(x\right) = P\left(\left\{ x \right\} \right)</math> for any element <math display="inline">x \in  S</math>
+** It follows that, if you know <math display="inline">P\left(x\right)</math> for each <math display="inline">x \in S</math> then we will have <math display="inline">P\left(E\right)</math> for any event <math>E</math> 
+** This comes from the second property as one has <math display="inline">P\left(E\right) = \sum_{x \in E}P\left(x\right)</math>
+----Naming conventions: 
+
+* <math display="inline">P</math> is called a probability measure
+* The subsets of <math display="inline">S</math> are known as events
+* For <math display="inline">E \subseteq S</math>, then <math display="inline">P\left(E\right)</math> is to be known as the probability of the event <math display="inline">E</math>. 
+* The elements of <math display="inline">S</math> shall be known as outcomes, The quantity <math display="inline">P\left(x\right)</math> is named the probability of <math display="inline">x</math>.
+[[Category:Definition]]
+[[Category:Probability]]

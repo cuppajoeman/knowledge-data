@@ -1,0 +1,12 @@
+Suppose that <math display="inline">F_{1} ,  F_{2} ,  \dotsc  ,  F_{n - 1} ,  F_{n}</math> are disjoint events in a sample space <math display="inline">S</math> where <math display="inline">\bigcup_{i=1}^{n} F_{i} = S</math>, then for any event <math display="inline">E \subseteq S</math> by <math display="inline">\alpha</math> and <math>\beta</math> we see that
+
+<math display="block">\begin{aligned}
+  P\left(F_{j} \mid E\right) &= \frac{P\left(E \cap F_{j}\right)}{P\left(E\right)}\\
+                             &= \frac{P\left(E \mid F_{j}\right)  \cdot P\left(F_{j}\right)}{\sum_{i=1}^{n} P\left(E \mid F_{i}\right)  \cdot  P\left(F_{i}\right)}\end{aligned}</math>
+
+==Knowledge Used==
+
+*<math>\alpha</math>: {{link|target=Probability of an Event as Conditional Sum}}
+*<math>\beta</math>: {{link|target=Conditional Probability}}
+*
+{{Knowledge Metadata|Probability|Theorem}}

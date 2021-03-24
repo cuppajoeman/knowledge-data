@@ -1,0 +1,3 @@
+A binary operation on a set <math>S</math>, is a function <math>\star  : S \times S \to S </math>  written using infix notation, like so <math>a \star b</math>
+[[Category:Definition]]
+[[Category:Set Theory]]

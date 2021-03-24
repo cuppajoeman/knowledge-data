@@ -1,0 +1,4 @@
+For any two complex numbers <math>\left( a + bi \right), \left( c + di \right) </math>  
+
+<math display="block">\left( a + bi \right) \stackrel{\mathbb{C} }{\cdot } \left( c + di \right) = \left( ac  \stackrel{\mathbb{R} }{-} bd \right)  + \left( ad \stackrel{\mathbb{R} }{+} bc \right)i </math>
+{{Knowledge Metadata|Complex Numbers|Definition}}

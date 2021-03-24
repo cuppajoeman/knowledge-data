@@ -1,0 +1,8 @@
+A tree is a connected acyclic graph
+
+== Knowledge Used ==
+
+* [[Graph]]
+* [[Connected Graph]]
+* [[Acyclic Graph]]
+{{Knowledge Metadata|Graph Theory|Definition}}

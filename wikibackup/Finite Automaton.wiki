@@ -1,0 +1,50 @@
+
+[[File:Finite automaton.svg|thumb|478x478px]]
+
+A finite automaton is a 5-tuple <math display="inline">\left( Q, \Sigma, \delta, q_{0}, F \right)</math> where
+
+# <math display="inline">Q</math> is a finite set called the states
+# <math display="inline">\Sigma</math> is a finite set called the alphabet
+# <math display="inline">\delta : Q \times \Sigma \to Q</math> is the transition function
+# <math display="inline">q_{0} \in Q</math> is the start state
+# <math display="inline">F \subseteq Q</math> is the set of accept states
+We will sometimes refer to a finite automaton as a machine <math>\mathcal{M}</math>
+
+----
+
+Metadata:
+Code used to generate svg:
+
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows}
+
+\tikzset{
+  ->, % makes the edges directed
+  >=stealth, % makes the arrow heads bold
+  node distance=3cm, % specifies the minimum distance between two nodes. Change if necessary.
+  every state/.style={thick, fill=gray!10}, % sets the properties for each ’state’ node
+  initial text=$ $, % sets the text that appears on the start arrow
+}
+
+
+\begin{document}
+
+\begin{tikzpicture}
+  \node[state, initial] (q1) {$q_1$};
+  \node[state, accepting, right of=q1] (q2) {$q_2$};
+  \node[state, right of=q2] (q3) {$q_3$};
+  \draw (q1) edge[loop above] node{0} (q1)
+  (q1) edge[above] node{1} (q2)
+  (q2) edge[loop above] node{1} (q2)
+  (q2) edge[bend left, above] node{0} (q3)
+  (q3) edge[bend left, below] node{0, 1} (q2);
+\end{tikzpicture}
+
+\end{document}
+
+
+
+
+Parent: {{link|target=Automata and Languages}}
+[[isA::Definition]]

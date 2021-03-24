@@ -1,0 +1,3 @@
+A [[predicate]] who's [[domain]] is the set of [[Propositional Variable|propositional variables]]
+[[Category:Definition]]
+[[Category:Propositional Logic]]

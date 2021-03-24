@@ -1,0 +1,16 @@
+Suppose that <math display="inline">E</math> is independent of <math display="inline">F</math> and <math display="inline">G</math>, then it's not true that <math display="inline">E</math> is independent of <math display="inline">F \cap G</math>.
+
+== Proof ==
+
+* Consider two fair dice thrown. 
+** Suppose that <math display="inline">E</math> is the event that the sum of the dice equals <math display="inline">7</math> and <math display="inline">F</math> that the first die equals a <math display="inline">4</math>. 
+** <math display="inline">E</math> is independent of <math display="inline">F</math>, intuitively this is because given a <math display="inline">4</math> is rolled there is still a <math display="inline">\frac{1}{6}</math> chance that the second die is a <math display="inline">3</math>
+*** That's the same probability of the sum of the dice being <math display="inline">7</math> as <math display="inline">E \stackrel{\beta}{=} \left\{ \left( i, 6  + 1 - i \right): i \in \left[ 6 \right] \right\}</math>, so by <math display="inline">\alpha</math> <math display="inline">P\left(E\right) = \frac{1}{6}</math>
+** If we add a third event <math display="inline">G</math> which is the event that the second die equals <math display="inline">3</math> then because of the 6 possibilities for the first dice, we see that <math display="inline">E</math> is also independent of <math display="inline">G</math>.
+** But <math display="inline">E</math> is not independent of <math display="inline">F \cap G</math>, this is because <math display="inline">E = F \cap G</math> so then <math display="inline">P\left(E \mid \left( F \cap G \right)\right) = 1</math>, but <math display="inline">P\left(E\right) =\frac{1}{6}</math>
+
+== Knowledge Used ==
+
+* <math>\alpha</math>: [[Equally Likely Probability]]
+* <math>\beta</math>: [[Set of 1 to n]]
+{{Knowledge Metadata|Probability|Counter-Example}}

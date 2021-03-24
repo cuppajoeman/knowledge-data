@@ -1,0 +1,7 @@
+Given a predicate <math>P</math>, and a set <math>S</math> the set of all elements in <math>S</math> that such that <math>P</math> holds,  on it is written as: <math display="block">\{ x \in S: P(x) = \mathtt{T} \}</math>
+
+== Knowledge Used ==
+
+* [[Predicate]]
+* [[Set]]
+{{Knowledge Metadata|Set Theory|Notation}}

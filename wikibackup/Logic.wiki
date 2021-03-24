@@ -1,0 +1,6 @@
+Parent: {{Link|target=Mathematics}}
+
+{{#ask:
+ [[Category:Logic]]
+ |format=ul
+}}

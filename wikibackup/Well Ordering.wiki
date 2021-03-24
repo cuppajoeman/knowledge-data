@@ -1,0 +1,17 @@
+* Let <math display="inline">W</math> be a set with a reflexive linear ordering <math display="inline">\le</math>, then <math display="inline">W</math> is said to be well-ordered by <math display="inline">\le</math> if and only if for every non-empty subset <math display="inline">A</math> of <math display="inline">W</math> there is a smallest <math display="inline">x \in A</math> such that for all <math display="inline">y \in A, x \le y</math>. 
+
+== Remarks ==
+* The corresponding strict linear ordering <math display="inline"><</math> will also be called a well-ordering
+* Note that for any finite <math display="inline">X</math>, then any linear ordering of it is a well-ordering
+* We know that <math>W</math> must have a minimum element as it is a non-empty subset of itself
+
+== Examples ==
+
+* <math display="inline">\left[ 0,1 \right]</math> is not well-ordered as <math display="inline">\left\{ x: 0 < x \le 1 \right\}</math> has no smallest element
+* <math>( \mathbb{N}, \le )</math> is well-ordered
+* <math>\mathbb{Z}</math> is not well ordered
+
+== Knowledge Used ==
+
+* [[Linear Ordering]]
+{{Knowledge Metadata|Relations|Definition}}

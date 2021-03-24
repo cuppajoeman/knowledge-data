@@ -1,0 +1,23 @@
+<math display="inline">\Sigma \vdash \theta</math> if and only if <math display="inline">\Sigma \vdash \forall x \theta</math> 
+
+== Proof ==
+* <math>\left( \Rightarrow \right)</math>Suppose that <math display="inline">\Sigma \vdash \theta</math>, so we have a deduction <math display="inline">\mathcal{D}</math> of <math display="inline">\theta</math>, thus we have the following deduction from <math display="inline">\Sigma</math> of <math display="inline">\forall x \theta</math> <math display="block">\begin{aligned}
+      & \mathcal{D}\\
+      & \left[ \left( \forall y \left( y = y \right) \right) \right]\lor \neg \left( \forall y \left( y = y \right) \right) \to \theta \quad \text{ PC }\\
+      & \left[ \left( \forall y \left( y = y \right) \right) \right]\lor \neg \left( \forall y \left( y = y \right) \right) \to \left( \forall x \theta \right)\quad \text{ QR }\\
+      & \forall x \theta \quad \text{ PC }
+    \end{aligned}</math>
+** The first usage of propositional consequence follows from the fact that <math display="inline">T \to \theta</math> is equivalent to <math display="inline">\theta</math>, as the antecedent is of the form <math display="inline">\left[ A \land \neg A \right]</math>.
+** The usage of QR is justified by the fact that <math display="inline">x</math> is not free in <math display="inline">\left[ \left( \forall y \left(  y = y  \right) \right) \lor \neg \left( \forall y \left( y = y \right) \right) \right]</math>, namely because it fails the 4th clause of the definition of free by failing the 1'st clause (because <math display="inline">x</math> doesn't even appear in the formula)
+** The last usage of propositional consequence follows by the same reasoning that the antecedent is a tautology, so only the truth of the consequent matters.
+----
+*<math display="inline">\left( \Leftarrow \right)</math> So, we assume that <math display="inline">\Sigma \vdash \forall x \theta</math> and let <math display="inline">\mathcal{D}</math> be its deduction. And now we'd like a deduction of <math display="inline">\theta</math> from <math display="inline">\Sigma</math>, and recall that <math display="inline">\theta_{x}^{x}</math> is <math display="inline">\theta</math> (TODO prove that) <math display="block">\begin{aligned}
+      & \mathcal{D}\\
+      & \forall x \theta \to \theta_{x}^{x} \quad \text{ Q1 }\\
+      & \theta_{x}^{x} \quad \text{ PC } 
+    \end{aligned}</math>
+**Note that Q1 is justified since <math display="inline">x</math> is substitutable for <math display="inline">x</math> in <math display="inline">\theta</math> [Proof]
+**PC is justified as the last line of <math>\mathcal{D}</math> is <math>\forall x \theta</math>
+----Hence <math display="inline">\Sigma \vdash \theta</math> if and only if <math display="inline">\Sigma \vdash \forall x \theta</math>.
+[[Category:Lemma]]
+[[Category:Deduction]]

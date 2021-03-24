@@ -1,0 +1,10 @@
+Written as $\emptyset $, it is the set with no elements, so 
+
+\[
+	\emptyset \stackrel{\text{def}}{=} \{\} 
+\]
+
+== Knowledge Used ==
+* [[Set]]
+
+{{Knowledge Metadata|Set Theory|Definition}}

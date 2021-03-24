@@ -1,0 +1,7 @@
+For a given mathematical object <math>\mathfrak{J} </math>, if we want to define it as <math>\mathfrak{X}</math> we will use the following notation <math display="block">\mathfrak{X} \stackrel{\mathtt{D}}{=} \mathfrak{J}</math>In this case <math>\mathfrak{X}</math> is known as notation for <math>\mathfrak{J} </math>
+
+== Examples ==
+
+* <math>F_n^x \stackrel{\mathtt{D}}{=} \frac{n!}{\max \left( 1,x \right)}</math>
+
+{{Knowledge Metadata|Mathematics|Notation}}

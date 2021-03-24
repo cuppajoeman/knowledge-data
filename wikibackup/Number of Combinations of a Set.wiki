@@ -1,0 +1,13 @@
+Let <math display="inline">X</math> be a set where <math display="inline">\left| X \right|=n \in \mathbb{N}</math>, we say a k-combination is any subset of <math display="inline">X</math> who's cardinality is <math display="inline">k</math>, the number of <math display="inline">k</math>-combinations is equal to <math display="block">{{}^{n}\!C_{k}} \stackrel{\mathtt{N}}{=} \binom{n}{k} \stackrel{\mathtt{D}}{=}\frac{n \left( n-1 \right) \dotsb \left( n -k  + 1 \right)}{k \left( k-1 \right)\dotsb 1} = \frac{n!}{(n-k)!\cdot k!} </math>
+
+== Proof ==
+
+== Knowledge Used ==
+
+* [[Notation Equals]]
+* [[Definition Equals]]
+* [[Factorial]]
+* [[Set]]
+* [[Cardinality (Finite Set)]]
+{{Knowledge Metadata|Combinatorics|Theorem}}
+[[isA::PIP]]

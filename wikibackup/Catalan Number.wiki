@@ -1,0 +1,4 @@
+The <math>n</math>-th Catalan Number is given by:
+<math display="block">C_{n}=\frac{1}{n+1}\binom{2n}{n}</math>
+
+{{Knowledge Metadata|Combinatorics|Definition}}

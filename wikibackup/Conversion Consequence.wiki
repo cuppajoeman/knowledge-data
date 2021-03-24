@@ -1,0 +1,14 @@
+For each of the following, decide if <math display="inline">\phi</math> is a propositional consequence of <math display="inline">\Gamma</math> and justify your assertion. 
+
+# <math display="inline">\Gamma</math> is <math display="inline">\{(\forall x P(x)) \rightarrow Q(y),(\forall x P(x)) \vee(\forall x R(x)), \exists x \neg R(x)\} ; \phi</math> is <math display="inline">Q(y)</math>
+# <math display="inline">\Gamma</math> is <math display="inline">\{x=y \wedge Q(y), Q(y) \vee x+y<z\} ; \phi</math> is <math display="inline">x+y<z</math>. 
+# <math display="inline">\Gamma</math> is <math display="inline">\{P(x, y, x), x<y \vee M(w, p),(\neg P(x, y, x)) \wedge(\neg x<y)\} ; \phi</math> is <math display="inline">\neg M(w, p)</math>
+
+== Solution ==
+# After applying the conversion algorithm we obtain <math display="inline">\left\{ A \to  B, A \lor C, D \right\}</math>,
+#* One may wonder why not <math display="inline">\neg C</math> instead of <math display="inline">D</math>, well, if you expand the abbreviation we obtain <math display="inline">\left( \neg \left( \forall x \right) \left( \neg  \neg R\left(x\right)  \right)  \right)</math> which is not the same set of characters as <math display="inline"> \neg  \left( \forall x \right) \left( R\left(x\right)  \right)</math>
+#* Because of this, it is not a propositional consequence
+# The conversion yields <math display="inline">\left\{ A \land B, B \lor C \right\}</math> and <math display="inline">\phi_{P}</math> is <math display="inline">C</math>, note the truth assignment function such that <math display="inline">\bar{v} \left(A\right) = \bar{v} \left(B\right) = T</math> but <math display="inline">\bar{v} \left(C\right) = F</math> keeps every propositional formula in the set true, but <math display="inline">\bar{v} \left(\phi  _{P} \right)= F</math>, and so it cannot be a propositional consequence.
+# After we convert, we obtain <math display="inline">\left\{ A, B \lor C, \left( \neg  A \right) \land \left( \neg  B \right)  \right\}</math> then <math display="inline">\phi  _{P}</math> becomes <math display="inline">\neg C</math>, but note, to make every propositional formula in the set true, that would require <math display="inline">\bar{v} \left(A\right) = T</math> and <math display="inline">\bar{v} \left( \neg  A \right) = T</math> which is impossible, so no truth assignment function will ever satisfy all of them, therefore, vacuously; for all truth assignment functions satifying all elements of the set, they also satsify <math display="inline">\bar{v} \left(\phi  _{P} \right)</math> and so <math display="inline">\phi</math> is a propositional consequence.
+[[Category:Deduction]]
+[[Category:Question]]

@@ -1,0 +1,9 @@
+For every musical note, we use the following mapping to refer to each letter:<math display="block">\begin{array}{ccccccccccccc}
+    C& \cdot& D& \cdot& E& F& \cdot& G& \cdot& A& \cdot& B & C \\
+    \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow \\
+    0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 0\\
+\end{array} 
+</math>This is still not enough, if you are told to play an <math>F\sharp</math>, then we still don't know what octave it is, therefore, if it is not obvious from context, we will follow in the footsteps of https://en.wikipedia.org/wiki/Scientific_pitch_notation that is to say <math>A4 \stackrel{\mathtt{D}}{ = }  440\text{Hz}</math>, when the octave band is present, then we will write the octave band above the number like so:<math display="block">\stackrel{4}{9}</math>Finally we define some notation to refer to this mapping, <math>N^{\#}</math>so we have <math display="block">N^{\#}(B0) = \stackrel{0}{11}</math>And if the octave band is inferred by context, we can simply write:<math display="block">N^{\#}(E) = 4</math>
+This is actually quite a big step, as we can now perform arithmetical operations on notes directly.
+
+{{Knowledge Metadata|Music Theory|Notation}}

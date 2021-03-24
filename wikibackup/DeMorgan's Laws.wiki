@@ -1,0 +1,20 @@
+Let <math>U</math> be a set, then for any <math display="inline">X_{1} , X_{2} , \dotsc  , X_{n - 1} , X_{n} \subseteq U</math> we have<math display="block">\overline{ \bigcup_{i=1}^{n} X_{i} } = \bigcap_{i=1}^{n} \overline{X_{i}} \qquad \text{and} \qquad \overline{ \bigcap_{i=1}^{n} X_{i} } = \bigcup_{i=1}^{n} \overline{X_{i}}</math>
+
+== Proof ==
+
+* We'll start with the first.
+** <math display="inline">\subseteq</math>
+***Let <math display="inline">x \in \overline{ \bigcup_{i=1}^{n} X_{i}}</math> then <math display="inline">x \not\in \bigcup_{i=1}^{n} X_{i}</math> thus <math display="inline">\forall i \in \left[ n \right], x \not\in X_{i}</math> so <math display="inline">x \in \overline{X_{i}}</math> for each <math display="inline">i</math> in other words <math display="inline">x \in \bigcap_{i=1}^{n} \overline{X_{i}}</math>
+**<math display="inline">\supseteq</math>
+***Let <math display="inline">x \in \bigcap_{i=1}^{n} \overline{X_{i}}</math> now our goal is to show that <math display="inline">x \in \overline{ \bigcup_{i=1}^{n} X_{i}}</math>.
+**We know that <math display="inline">\forall i \in \left[ n \right], x \in \overline{X_{i}}</math> in other words <math display="inline">x \not\in X_{i}</math> for each <math display="inline">i</math>, therefore <math display="inline">x \not\in \bigcap_{i=1}^{n} X_{i}</math> which means <math display="inline">x \in \overline{ \bigcup_{i=1}^{n} X_{i}}</math>
+
+* To go about the second, we use the first law. 
+** Since the first part was proven for arbitrary <math display="inline">X_{i}</math> we now apply it to the sets <math display="inline">\overline{X}_{1} , \overline{X}_{2} , \dotsc  , \overline{X}_{n - 1} , \overline{X}_{n} \subseteq U</math>, then it says<math display="block">\overline{ \bigcup_{i=1}^{n} \overline{X_{i}}} = \bigcap_{i=1}^{n} \overline{\overline{X_{i}}}</math>
+** But by <math display="inline">\alpha</math> <math display="inline">\overline{\overline{X_{i}}} = X_{i}</math>, then taking the complement of both sides and using this fact again, one obtains
+<math display="block">\bigcup_{i=1}^{n} \overline{X_{i}} = \overline{ \bigcap_{i=1}^{n} X_{i}}</math>as required.
+
+== Knowledge Used ==
+
+* <math>\alpha</math>: [[Complement Cancels]]
+{{Knowledge Metadata|Set Theory|Theorem}}

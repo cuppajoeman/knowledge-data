@@ -1,0 +1,6 @@
+<math display="block">\sum_{i=0}^{n} \binom{n}{i}= 2^{n}</math>
+
+== Proof idea ==
+They both count the number of strings of the set <math display="inline">\left\{ 0, 1 \right\}^{n}</math> right hand side: trivial left hand side: partition based on number of zero's in the string.
+
+You can also prove it from the binomial theorem subbing in x = y = 1

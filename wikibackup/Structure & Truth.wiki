@@ -1,0 +1,17 @@
+== Definitions ==
+
+# [[Structure & Truth/L-Structure|L-Structure]]
+# [[Structure & Truth/Variable Assignment Function|Variable Assignment Function]]
+# [[Modified Assignment Function]]
+# [[Structure & Truth/Term Assignment Function|Term Assignment Function]]
+# [[Structure & Truth/Satisfaction|Satisfaction]]
+#* [[Structure & Truth/Satisfaction for Sets|Satisfaction for Sets]]
+# [[Structure & Truth/Structure is a model of a formula|Structure is a model of a formula]]
+# [[Structure & Truth/Logical Implication|Logical Implication]]
+# [[Structure & Truth/Validity]]
+
+== Lemmas ==
+
+# [[Structure & Truth/Variable and Term Assignment equality|Variable and Term Assignment equality]]
+[[Category:Section]]
+[[Category:First Order Logic]]

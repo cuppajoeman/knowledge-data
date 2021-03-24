@@ -1,0 +1,8 @@
+Let <math>G = (V,E)</math>be an undirected graph, the degree of a vertex <math>x \in V</math> is the number of incident vertices to it, in other words, it's the number of edges that use this node, formally:<math display="block">\operatorname{deg}\left( x \right) \stackrel{\text{def}}{=} \left| \left\{ v \in V: x \mathrel{\bullet  \! {-} \! \bullet} v \in E \right\} \right|</math>For a directed graph we will define an indegree and outdegree as follows <math display="block">\operatorname{out-deg}\left( x \right) \stackrel{\text{def}}{=} \left| \left\{ v \in V: x \mathrel{\bullet  \!\!\! \rightarrow} v\in E \right\} \right|
+\qquad \text{ and } \qquad \operatorname{in-deg}\left( x \right) \stackrel{\text{def}}{=} \left| \left\{ v \in V: x \mathrel{\leftarrow \!\!\! \bullet} v\in E \right\} \right|</math> 
+
+== Knowledge Used ==
+
+* [[Graph]]
+* [[Directed Graph]]
+{{Knowledge Metadata|Graph Theory|Definition}}

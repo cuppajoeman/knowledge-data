@@ -1,0 +1,3 @@
+* When a salmon is born upstream a river, it travels one month to the ocean. It then takes another month to return upstream and give birth to a new salmon. One month later, it gives birth to another salmon and dies.
+* Hence, if we start with three salmons that are born upstream and let <math>a_{n}</math> be the number of salmons in the <math>n</math> th
+month, we have <math>a_{1}=3, a_{2}=3, a_{3}=3+3=6,</math> and <math>a_{4}=6+3-3=6 .</math> Find a recurrence relation for <math>a_{n}</math> and use it to find the generating function of <math>\left(a_{n}\right)_{n=0}^{\infty},</math> where <math>a_{0}=3</math>

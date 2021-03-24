@@ -1,0 +1,13 @@
+Is one such that the first vertex is equal to the last vertex, otherwise it is open. 
+
+== Example ==
+
+* A closed path necessarily uses the same vertex twice (start & end point), but we still call it a path
+
+== Knowledge Used ==
+
+* [[Walk]]
+* [[Trail]]
+* [[Path]]
+
+{{Knowledge Metadata|Graph Theory|Definition}}

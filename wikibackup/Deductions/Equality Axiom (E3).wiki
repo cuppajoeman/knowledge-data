@@ -1,0 +1,1 @@
+From the same assumptions as E2, we form the final equality axiom:<math display="block">\left[ \left( x_1 = y_1 \right)\land \left( x_2=y_2 \right)\land \dotsb \land \left( x_{n}=y_{n} \right) \right] \to \left( R\left(x_{1}, x_{2},  \dots ,x_{n - 1},x_{n}\right) \to R\left(y_{1}, y_{2},  \dots ,y_{n - 1},y_{n}\right) \right)</math>

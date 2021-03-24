@@ -1,0 +1,3 @@
+Given <math display="inline">b \in \mathbb{R}^{>0}\setminus \left\{ 1 \right\}</math> we define the following: <math display="block">b^{y}= x \Leftrightarrow \log_{b}(x) \stackrel{\text{def}}{=} y</math>
+
+{{Knowledge Metadata|Logarithms|Definition}}

@@ -1,0 +1,17 @@
+
+
+An algorithm is similar to a process, routine, technique, method and so on, though it has some defining features
+
+# Finite: The algorithm must terminate after a finite number of steps
+#* And for practical application it should require a very finite number, one that is reasonable. One that does not take a humans lifetime or more to complete 
+# Definite: Each step of the algorithm is precisely defined
+# Input: Quantities that are given to it before the algorithm begins, or dynamically as it is running
+# Output: Quantities that have a specified relation to the inputs
+# Effective: It's operations must be sufficiently basic so that they can in principle be done exactly and in a finite length of time by someone using pen and paper
+#* An example of a non effective step: 
+#** If 4 is the largest integer <math>n</math> for which there is a solution to the equation <math>w^n + x^n + y^n = z^n</math> for positive integers <math>w, x, y, z</math>, then go to step N
+#** Note: It would become effective if someone had constructed an algorithm to verify the above statement.
+
+Parent: {{link|target=Algorithms}}
+
+[[IsA::Definition]]

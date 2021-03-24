@@ -1,0 +1,16 @@
+Let <math display="inline">X_{1} , X_{2} , \dotsc  , X_{n - 1} , X_{n} \subseteq U</math> be a partition of <math display="inline">U</math> then for any <math display="inline">A \subseteq U</math>, we have <math display="block">A = \bigcup_{i=1}^{n} X_{i} \cap A</math>
+
+Where each of the <math display="inline">X_{j} \cap A</math> are mutually exclusive
+
+== Proof ==
+*<math display="inline">\subseteq</math>
+** Let <math display="inline">x \in A</math>, since <math display="inline">A \subseteq U</math>, then <math display="inline">x \in U</math> and because the <math display="inline">X_{i}</math>â€™s form a partition there exists some <math display="inline">X_{l}</math> such that <math display="inline">x \in X_{l}</math>, therefore <math display="inline">x \in A \cap X_{l} \Rightarrow x \in \bigcup_{i=1}^{n} X_{i} \cap A</math>
+*<math display="inline">\supseteq</math>
+** Let <math display="inline">x \in \bigcup_{i=1}^{n} X_{i} \cap A</math> therefore for at least one <math display="inline">k</math> we have <math display="inline">x \in X_{k} \cap A</math> therefore <math display="inline">x \in A</math> as needed.
+* Disjoint
+** Suppose for <math display="inline">i \neq j</math> we have <math display="inline">a \in \left( X_{i} \cap A\right) \cap \left( X_{j} \cap A \right)</math> therefore we have an element <math display="inline">a \in X_{i} \cap X_{j}</math> which is a contradiction since the <math display="inline">X_{i}</math>'s form a partition.
+
+== Knowledge Used ==
+* {{link|target=Partition}}
+
+{{Knowledge Metadata|Set Theory|Proposition}}

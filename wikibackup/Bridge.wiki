@@ -1,0 +1,7 @@
+An edge whose removal disconnects the graph.
+
+-----
+Parent: {{link|target=Social Networks}}
+
+Parent: {{link|target=Graph Theory}}
+[[IsA::Definition]]

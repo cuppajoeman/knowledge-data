@@ -1,0 +1,9 @@
+==Definitions==
+Many of the definitions build upon each other, if you would like to learn them sequentially, then follow this sequence
+[[Category:First Order Logic]]
+{{#ask:
+ [[Category:Definition]]
+ [[Category:Language]]
+ |format=ol
+}}
+[[Category:Section]]

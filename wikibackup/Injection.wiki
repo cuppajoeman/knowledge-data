@@ -1,0 +1,7 @@
+An injection is a function <math>f : X \to Y </math> such that 
+<math display="block">\forall x, y \in X, f\left(x\right)=f\left(y\right)\implies x=y</math>
+
+== Knowledge Used ==
+
+* [[Function]]
+{{Knowledge Metadata|Functions|Definition}}

@@ -1,0 +1,15 @@
+A [[chord]] consisting of a [[triad]] and a note that forms an [[interval]] of a seventh above the chords root
+
+== Types & Construction ==
+Turn this into a table
+
+* Major Seventh <math display="block">X^{\Delta 7} = X^\Delta \cup C(X,\left\{11 \right\}) =C( X,\left\{ 0, 4, 7, 11 \right\})</math>
+
+* Minor Seventh<math display="block">X\text{min}^{ 7} = X\text{min} \cup C(X,\left\{10 \right\}) =C(X,\left\{ 0, 3, 7, 10 \right\} )</math>
+* Dominant Seventh <math display="block">X^{7} = X^{\Delta} \cup C(X,\left\{ 10 \right\}) =C(X, \left\{ 0, 4, 7, 10 \right\} )</math>
+* Diminished Seventh<math display="block">X^{\circ 7} = X^{\circ} \cup C(X,\left\{9 \right\}) =C(X,\left\{ 0, 3, 6, 9 \right\})</math>
+* Half-Diminished Seventh<math display="block">X^{\emptyset} = X^{\circ} \cup C(X,\left\{ 10 \right\}) = C(X, \left\{ 0, 3, 6,10  \right\} )</math>
+* Minor Major Seventh<math display="block">X{-}^{\Delta7} = X\text{min} \cup C(X,\left\{ 11 \right\}) =C(X,\left\{ 0, 3, 7,11  \right\} )</math>
+* Augmented major Seventh<math display="block">X{+}^{\Delta7} = X{+} \cup C(X,\left\{ 10 \right\})) =C(X,\left\{ 0, 4,8 ,10  \right\} )</math>
+
+{{Knowledge Metadata|Chords|Definition}}

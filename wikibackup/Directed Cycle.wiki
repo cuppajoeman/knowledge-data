@@ -1,0 +1,3 @@
+Let <math display="inline">G = \left( V,E \right)</math> , a directed path in a in <math display="inline">G</math> is a sequence <math display="inline">\left( u_{1}, u_{2},  \dots ,u_{t - 1},u_{t} \right)</math> is called a directed cycle when <math display="inline">u_{t} \mathrel{\bullet  \!\!\! \rightarrow} u_{0} \in E</math>
+[[Category:Graph Theory]]
+[[Category:Definition]]

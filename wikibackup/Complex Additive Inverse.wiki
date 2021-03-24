@@ -1,0 +1,2 @@
+Let <math>\alpha \in \mathbb{C} </math>, and <math> - \alpha </math>  denote the additive inverse of <math>\alpha </math>. Thus <math> - \alpha </math>  is the unique complex number such that <math display="block">\alpha  + \left(  - \alpha  \right) = 0</math>
+{{Knowledge Metadata|Complex Numbers|Definition}}

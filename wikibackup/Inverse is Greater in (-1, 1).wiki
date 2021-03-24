@@ -1,0 +1,14 @@
+For all <math>x \in (-1, 1)  \setminus \{ 0 \}</math>, then <math display="block">\left| \frac{1}{x} \right| > \left | x \right| \qquad  </math> 
+
+==Proof==
+
+*Let <math>x \in (-1, 1)  \setminus \{ 0 \}</math>,
+**If <math>x > 0</math>, then one must show <math>\frac{1}{x} > x</math>
+***This holds because <math>x < 1 \Leftrightarrow 1 < \frac{1}{x}</math> where division is justified as <math>x \neq 0</math>
+**Similarly if <math>x < 0</math>, then by <math>\alpha</math> we have <math>\left| x \right| = -x </math> therefore we need to show that <math>\frac{1}{-x} > -x</math>, 
+***Let <math>k \stackrel{\texttt{D}}{=} -x \in (0, 1)</math> and then we must show <math>\frac 1k > k</math>, but that's just the last case, so we are done.
+
+== Knowledge Used ==
+
+* <math>\alpha</math>: {{link|target=Absolute Value}}
+{{Knowledge Metadata|Analysis|Proposition}}

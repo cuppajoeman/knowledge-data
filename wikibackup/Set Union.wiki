@@ -1,0 +1,1 @@
+The union of two sets <math>A</math> and <math>B</math> is the set of elements which are in <math>A</math>, in <math>B</math>, or in both <math>A</math> and <math>B</math>. Symbolically:<math display="block">A \cup B =\left\{ x: x \in A \text{ or } x \in B \right\}</math>

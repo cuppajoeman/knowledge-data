@@ -1,0 +1,39 @@
+Given two sets $A$, $B$ the Cartesian product of $A$ and $B$ written as $A\times B$ is the set
+\[
+	\left\{ \left( a, b \right): a \in A, b \in B \right\}
+\]
+----Note: 
+\[
+	\left( A \times B \right) \times C \cap A \times \left( B \times C \right) = \emptyset
+\] (create a question for when this is not the case) as an element from the left hand side would have the form $\left( \left( \cdot, \cdot \right), \cdot \right)$ and  the one on the right $\left( \cdot, \left( \cdot, \cdot \right) \right)$ but they are functionally the same if you were to remove all inner tuples.
+
+== Notation ==
+Additionally, for a given set $X$ we may write $X^{n}$ to represent the set $\left\{ \left( x_1, x_2, \ldots, x_{n-1}, x_{n} \right): \forall i \in \left[ n \right], x_{i} \in X \right\}$, the notation is suggestive of 
+\[
+	\underbrace{X \times X \times \ldots \times X}_{n\text{ times }}
+\] even though elements from this set would have many nested inner tuples, which do not need to be considered.
+
+== Definitions Used ==
+{| class="wikitable"
+|+
+!Notation
+!Definition
+|-
+|$\emptyset$
+|[[Empty Set]]
+|-
+|$\{ \_, ..., \_ \}$
+|[http://keepaskingwhy.com/mediawiki/index.php/Set Set]
+|-
+|$\cap$
+|[[Set Intersection]]
+|-
+|$\in$
+|[http://keepaskingwhy.com/mediawiki/index.php/Set_Membership Set Membership]
+|-
+|TODO
+|Set Builder Notation
+|-
+|$[n]$
+|[[Set of 1 to n]]
+|}

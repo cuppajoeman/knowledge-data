@@ -1,0 +1,23 @@
+From our current definition of [[language]], we must only use "logical and" and negation, we will construct some abbreviations so that we will have access to the other logical operators:
+* <math display="inline">(\alpha \wedge \beta)</math> instead of <math display="inline">(\neg((\neg \alpha) \vee(\neg \beta)))</math>
+* <math>(\alpha \rightarrow \beta)</math> instead of <math display="inline">((\neg \alpha) \vee \beta),</math>
+* <math display="inline">(\alpha \leftrightarrow \beta)</math> instead of <math display="inline">((\alpha \rightarrow \beta) \wedge(\beta \rightarrow \alpha))</math>
+* <math display="inline">(\exists x)(\alpha)</math> instead of <math display="inline">(\neg(\forall x)(\neg \alpha)) .</math>
+Show these abbreviations have their expected function, so if you want to show "logical and", show that <math display="inline">\mathfrak{A} \models(\alpha \wedge \beta)[s] \text { if and only if both } \mathfrak{A} \models \alpha[s] \text { and } \mathfrak{A} \models \beta[s]</math> (by expanding the abbreviation)
+
+== Proofs ==
+
+==== And ====
+* We show <math display="inline">\mathfrak{A} \models(\alpha \wedge \beta)[s] \text { if and only if both } \mathfrak{A} \models \alpha[s] \text { and } \mathfrak{A} \models \beta[s]</math>
+==== Implies ====
+==== If and only if ====
+==== Exists ====
+* We show  that <math display="inline">\mathfrak{A}\models\left( \exists x  \right)\left( \alpha \right)\left[ s \right]</math> if and only if there exists <math display="inline">a \in A</math> such that <math display="inline">\mathfrak{A}\models \alpha\left[ s\left[ x\mid a \right] \right]</math>
+** By subbing in the abbreviation, we have <math display="inline">\mathfrak{A} \models \left( \neg \left( \forall x \right)\left( \neg \alpha \right) \right)</math> 
+*** Equivalently <math display="inline">\mathfrak{A} \not\models \left( \neg \left( \forall x \right)\left( \neg \alpha \right) \right)</math>, so it is not true that for each element <math display="inline">a</math> of <math display="inline">A</math> that <math display="inline">\mathfrak{A}\models \neg \alpha\left[ s\left[ x\mid a \right] \right]</math>
+*** That means there is an element of <math display="inline">a \in A</math> such that <math display="inline">\mathfrak{A}\not\models \neg \alpha\left[ s\left[ x\mid a \right] \right]</math>
+*** So, we know that <math display="inline">\left( \neg \alpha \right)</math> and <math display="inline">s\left[ x\mid a \right]</math> do not satisfy clause 3 of the definition of [[Structure & Truth/Satisfaction|satisfaction]]
+**** If that’s the case then the negation of the content of that clause says <math display="inline">\mathfrak{A}</math> satisfies <math display="inline">\alpha\left[ s\left[ x \mid a \right] \right]</math>,
+**** So we have an <math>a \in A</math> wherein, <math display="inline">\mathfrak{A}\models \alpha\left[ s\left[ x \mid a \right] \right]</math> as required.
+[[Category:Structure & Truth]]
+[[Category:Abbreviation]]

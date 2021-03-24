@@ -1,0 +1,11 @@
+A partition of a [[set]] <math>X</math> is a set <math>P</math> of non-empty [[Subset|subsets]] of <math>X</math> such that every element <math>x \in X</math> is in exactly one of these subsets.
+
+In other words, <math>P</math> satisfies the following properties
+* <math>\emptyset \not\in P</math> 
+* <math>\bigcup_{A \in P}A =X</math> 
+* <math>\forall A,B \in P, A \neq B \implies A \cap B = \emptyset</math>
+
+== Knowledge Used ==
+* {{link|target=Set}}
+
+{{Knowledge Metadata|Set Theory|Definition}}

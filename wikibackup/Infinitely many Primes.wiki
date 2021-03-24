@@ -1,0 +1,10 @@
+* For the sake of contradiction assume that there are finitely many primes <math display="inline">p_{1}, p_{2},  \dots ,p_{k - 1},p_{k}</math>, then consider the following product:<math display="block">\mathcal{P}=\prod_{i = 1}^{k}p_{i} + 1</math>
+
+* We know that <math display="inline">\forall i \in \left[ k \right],\mathcal{P} \equiv 1 \;(\bmod\; p_{i})</math> or rather <math display="inline">\mathcal{P} ~\%~ p_{i} = 1</math> therefore by <math>\alpha</math> we get: <math display="inline">p_{i} \nmid \mathcal{P}</math>, but by <math>\beta</math> we obtain a contradiction, so there are infinitely many primes.
+
+== Knowledge Used ==
+
+* [[Modulus Operator]]
+* <math>\alpha</math>: [[Modulus Operator and Division Equivalence]]
+* <math>\beta</math>: [[Every Natural Number has a Prime Divisor]]
+{{Knowledge Metadata|Number Theory|Theorem}}

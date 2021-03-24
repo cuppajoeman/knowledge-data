@@ -1,0 +1,28 @@
+Let <math display="inline">\vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k} \in X</math> for a non-zero vector space <math display="inline">X</math>.
+
+Suppose <math display="inline">\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k} \right\}</math> is linearly dependent and spans <math display="inline">X</math> . If <math display="inline">c_{1} \vec{x}_{1}  +  c_{2} \vec{x}_{2}  +  \dotsb  +  c_{k - 1} \vec{x}_{k - 1}  +  c_{k} \vec{x}_{k} = \vec{0}</math> is a non-trivial linear combination and for any <math display="inline">j \in \left[ k \right]</math> such that <math display="inline">c_{j} \neq 0</math>, then <math display="block">\operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc, \widehat{ \vec{x}_{j}}, \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\} = X</math>
+
+== Proof ==
+
+* If <math display="inline">k = 1</math> then <math display="inline">\left\{ \vec{x}_{1} \right\}</math> is linear dependent which implies that <math display="inline">\vec{x}_{1} = \vec{0}</math>, but then <math display="inline">\operatorname{span}\left\{ \vec{x}_{1}\right\} = \vec{0} = X</math> which is a contradiction since <math display="inline">X</math> is a non-zero vector space, thus <math display="inline">k \ge 2</math> 
+* From the fact that <math display="inline">c_{1} \vec{x}_{1}  +  c_{2} \vec{x}_{2}  +  \dotsb  +  c_{k - 1} \vec{x}_{k - 1}  +  c_{k} \vec{x}_{k} = \vec{0}</math> with some <math display="inline">c_{j} \neq 0</math>, we can isolate for <math display="inline">x_{j}</math>:
+<math display="block">\begin{aligned}
+  \vec{x}_{j} &= -\frac{c_{1}}{c_j} \vec{x}_{1}  -  \frac{c_{2}}{c_j} \vec{x}_{2}  -  \dotsb  -  \frac{c_{j  - 1}}{c_{j}} \vec{x}_{j-1}  -  \frac{c_{j + 1}}{c_{j}} \vec{x}_{j + 1}  -  \ldots  -  \frac{c_{k-1}}{c_j} \vec{x}_{k - 1}  -  \frac{c_{k}}{c_j}\vec{x}_{k}\\
+          & \in \operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc, \widehat{ \vec{x}_{j}}, \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\}\end{aligned}</math>
+
+* We claim that this yields <math display="inline">\operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\} = \operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc, \widehat{ \vec{x}_{j}}, \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\}</math>, to show <math>\subseteq</math> let <math display="inline">\vec{l} \in \operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\}</math> so then:
+<math display="block">\vec{l} = \alpha_{1} \vec{x}_{1}  +  \alpha_{2} \vec{x}_{2}  +  \dotsc  + \alpha_j \vec{x}_j + \dotsc  +  \alpha_{k - 1} \vec{x}_{k - 1}  +  \alpha_{k} \vec{x}_{k}</math>
+
+* Now we use our fact that <math display="inline">x_{j} \in \operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc , \widehat{ \vec{x}_{j}} , \dotsc , \vec{x}_{k - 1} , \vec{x}_{k}\right\}</math> to get
+<math display="block">\begin{aligned}
+  \vec{l} &= \alpha_{1} \vec{x}_{1}  +  \alpha_{2} \vec{x}_{2}  +  \dotsb  +  \alpha_{j} \left( \beta_{1} \vec{x}_{1}  +  \beta_{2} \vec{x}_{2}  +  \dotsb  +  \beta_{j  - 1} \vec{x}_{j-1}  +  \beta_{j + 1} \vec{x}_{j + 1}  +  \ldots  +  \beta_{k - 1} \vec{x}_{k - 1}  +  \beta_{k} \vec{x}_{k} \right)  +  \dotsb  +  \alpha_{k - 1} \vec{x}_{k - 1}  +  \alpha_{k} \vec{x}_{k}\\
+          &= \left( \alpha_{1}  +  \alpha_{j} \cdot \beta_{1}  \right) \vec{x}_{1}  +  \left( \alpha_{2}  +  \alpha_{j} \cdot \beta_{2} \right) \vec{x}_{2}  +  \dotsb  +  \left(\alpha_{j-1}  +  \alpha_{j} \cdot \beta_{j-1}  \right) \vec{x}_{j-1}  +  \left(\alpha_{j+1}  +  \alpha_{j} \cdot \beta_{j+1}  \right) \vec{x}_{j + 1}  +  \dotsb   +  \left( \alpha_{k  -  1}  +  \alpha_{j} \cdot \beta_{k  - 1}  \right) \vec{x}_{k - 1}  +  \left(  \alpha_{k}  +  \alpha_{j} \cdot \beta_{k} \right) \vec{x}_{k}\end{aligned}</math>
+
+Thus <math display="inline">\vec{l} \in \operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsb , \widehat{ \vec{x}_{j}} , \dotsb , \vec{x}_{k - 1} , \vec{x}_{k}\right\}</math> so <math display="inline">\operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\} \subseteq \operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc, \widehat{ \vec{x}_{j}}, \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\}</math>, for <math display="inline">\supseteq</math> we can see this holds by simply putting a zero coefficient on <math display="inline">\vec{x}_{j}</math>. Thus <math display="block">X = \operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\} = \operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc , \widehat{ \vec{x}_{j}} , \dotsc , \vec{x}_{k - 1} , \vec{x}_{k}\right\}</math>
+
+as required.
+
+== Knowledge Used ==
+
+* [[The Span of a Set of Vectors]]
+{{Knowledge Metadata|Linear Algebra|Theorem}}

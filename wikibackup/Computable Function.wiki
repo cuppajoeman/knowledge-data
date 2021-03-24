@@ -1,0 +1,3 @@
+A function <math display="inline">f : A \to B</math> is computable if there is a Turing Machine <math display="inline">M</math> such that for all <math display="inline">w \in A</math>, the machine halts with only <math display="inline">f\left(w\right) \in B</math> on the tape and the head pointing to the beginning of the output.
+
+{{Knowledge Metadata|Computability|Definition}}

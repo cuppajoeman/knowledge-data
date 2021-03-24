@@ -1,0 +1,11 @@
+Given a set <math display="inline">U</math> and <math display="inline">X \subseteq U</math>, the complement of <math display="inline">X</math> is:
+
+<math display="block">\overline{X} \stackrel{\text{def}}{=} \left\{ x \in U: x \not\in X \right\}</math>
+
+== Remark ==
+* <math display="inline">\overline{X}</math> and <math display="inline">X</math> are disjoint, to see why, suppose we have <math display="inline">x \in \overline{X} \cap X</math> then <math display="inline">x \in X</math> and <math display="inline">x \not\in X</math> that's clearly a contradiction so there are no elements both in <math display="inline">X</math> and <math display="inline">\overline{X}</math> thus <math display="inline">X \cap \overline{X} = \varnothing</math>
+
+
+
+Parent: {{link|target=Set Theory}}
+[[isA::Definition]]

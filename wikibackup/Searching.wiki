@@ -1,0 +1,4 @@
+{{WhatLinksHere}}
+
+Parent: {{link|target=Artificial Intelligence}}
+[[isA::Structure]]

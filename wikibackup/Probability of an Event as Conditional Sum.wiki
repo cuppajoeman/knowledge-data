@@ -1,0 +1,17 @@
+Suppose that <math display="inline">F_{1} ,  F_{2} ,  \dotsc  ,  F_{n - 1} ,  F_{n}</math> are disjoint events in a sample space <math display="inline">S</math> where <math display="inline">\bigcup_{i=1}^{n} F_{i} = S</math>, then for any event <math display="inline">E \subseteq S</math> <math display="block">P\left(E\right) = \sum_{i=1}^{n} P\left(E \mid F_{i}\right)  \cdot  P\left(F_{i}\right)</math>
+
+In other words, given a set of events of which one and only one must occur, then <math display="inline">P\left(E\right)</math> may be computed by conditioning on which one of the <math display="inline">F_{i}</math> occurs. In other words <math display="inline">P\left(E\right)</math> is equal to the weighted average of <math display="inline">P\left(E \mid F_{i}\right)</math> with the weight being the probability of the event on which it is conditioned.
+
+== Proof ==
+
+Suppose that <math display="inline">F_{1} ,  F_{2} ,  \dotsc  ,  F_{n - 1} ,  F_{n}</math> are disjoint with <math display="inline">\bigcup_{i=1}^{n} F_{i} = S</math>, then for any <math display="inline">E \subseteq S</math> by <math display="inline">\alpha</math> we know that <math display="block">E = \bigcup_{i=1}^{n} E \cap F_{i}</math> is a disjoint union, therefore from axiom <math display="inline">3</math> of <math display="inline">\beta</math> and <math display="inline">\gamma</math>: <math display="block">\begin{aligned}
+  P\left(E\right) &= \sum_{i=1}^{n} P\left(E \cap F_{i}\right)\\
+                  &= \sum_{i=1}^{n} P\left(E \mid F_{i}\right)  \cdot  P\left(F_{i}\right)\end{aligned}</math>
+
+== Knowledge Used ==
+* <math>\alpha</math>: {{link|target=Disjoint Representation through Intersection}}
+*<math>\beta</math>: {{link|target=Probability of an Event}}
+*<math>\gamma</math>: {{link|target=Conditional Probability}}
+
+
+{{Knowledge Metadata|Probability|Proposition}}

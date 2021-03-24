@@ -1,0 +1,10 @@
+* Commutativity: <math display="block">\alpha+\beta=\beta+\alpha \text{ and } \alpha \beta=\beta \alpha</math>for all <math>\alpha, \beta \in \mathbb{C}</math>
+* Associativity: <math display="block">(\alpha+\beta)+\lambda=\alpha+(\beta+\lambda) \text{ and } (\alpha \beta) \lambda=\alpha(\beta \lambda)</math>for all <math>\alpha, \beta, \lambda \in \mathbb{C} ;</math>
+* Identities: <math display="block">\lambda+0=\lambda \text{ and } \lambda 1=\lambda</math> and <math>\lambda 1=\lambda</math> for all <math>\lambda \in \mathbb{C}</math>
+* Additive inverse: for every <math>\alpha \in \mathbb{C},</math> there exists a unique <math>\beta \in \mathbb{C}</math> such that <math display="block">\alpha+\beta=0</math>
+* Multiplicative: inverse for every <math>\alpha \in \mathbb{C}</math> with <math>\alpha \neq 0,</math> there exists a unique <math>\beta \in \mathbb{C}</math> such that <math display="block">\alpha \beta=1</math>
+* Distributive property:<math display="block">\lambda(\alpha+\beta)=\lambda \alpha+\lambda \beta \text { for all } \lambda, \alpha, \beta \in \mathbb{C}</math>
+
+==Proofs==
+[[Category:Property]]
+[[Category:Proof Required]]

@@ -1,0 +1,6 @@
+Given a binary operation <math>\star</math> instead of using the usual <math>\star( a, b)</math> to denote evaluation, we simply write <math display="block">a \star b</math>
+
+== Knowledge Used ==
+* [[Binary Operation]]
+
+{{Knowledge Metadata|Functions|Notation}}

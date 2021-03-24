@@ -1,0 +1,16 @@
+Every Boolean operation can be expressed in terms of the AND and NOT operations.
+==Proof==
+
+* <math>P \lor Q </math> is equivalent to <math>\neg (\neg P \land \neg Q)</math>
+* <math>P \rightarrow Q</math> is equivalent to <math>\neg P \lor Q</math>
+* <math>P \leftrightarrow Q</math> is equivalent to <math>(P \rightarrow Q) \land (Q \rightarrow P)</math>
+* <math>P \oplus Q</math> is equivalent to <math>\neg (P \leftrightarrow Q)</math>
+
+== Knowledge Used ==
+
+* [[Boolean Negation]]
+* [[Boolean Conjunction]]
+* [[Boolean Disjunction]]
+* [[Exclusive Or]]
+* [[Implication]]
+{{Knowledge Metadata|Boolean Logic|Definition}}

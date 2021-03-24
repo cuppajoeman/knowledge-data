@@ -1,0 +1,11 @@
+Let <math display="inline">M = \left( Q, \Sigma, \delta, q_{0}, F \right)</math> be a finite automaton and let <math display="inline">w = w_{1} w_{2}  \dotsb w_{n - 1}w_{n}</math> be a string over <math display="inline">\Sigma</math>. We say that <math display="inline">M</math> accepts <math display="inline">w</math> if a sequence of states <math display="inline">r_{1}, r_{2},  \dots ,r_{n - 1},r_{n}</math> in <math display="inline">Q</math> exists with the following conditions
+
+* The machine starts in the start state <math display="block">r_{0}= q_{0}</math>
+* The machine goes from state to state according to the transition function <math display="block">\delta\left(r_{i}, w_{i + 1}\right)= r_{i + 1} \text{ for } i \in \left\{0, \ldots, n-1  \right\}</math>
+* The input ends up in an accept state <math display="block">r_{n} \in F</math>
+
+== Knowledge Used ==
+
+* [[Finite Automaton]]
+* [[String over an Alphabet]]
+{{Knowledge Metadata|Computability|Definition}}

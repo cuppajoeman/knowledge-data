@@ -1,0 +1,9 @@
+Given any two notes <math>x,y \in \mathbb{G}, I(x,y)</math> will denote the number of semitones <math>y</math> is above <math>x</math>
+
+* To compute the interval between two notes we do as follows: 
+** Given any frequency <math display="inline">440\text{Hz}  \cdot  2^{ \frac{m}{12} } \in \mathbb{W}</math>, we can extract how many semitones it is above or below <math display="inline">440\text{Hz}</math> via the following function which undoes the algebra <math display="block">S\left(x\right)=\log_{2}\left( \frac{x  \cdot 2^{12}}{440\text{Hz}} \right)</math>
+
+*Notice that <math display="inline">S(440\text{Hz}  \cdot  2^{ \frac{m}{12} }) = m</math> as required
+*Therefore:<math display="block">I\left(x,y\right)\stackrel{\mathtt{D}}{ = } S\left(x\right) - S\left(y\right) </math>
+
+{{Knowledge Metadata|Music Theory|Definition}}

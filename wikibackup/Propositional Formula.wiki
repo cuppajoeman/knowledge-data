@@ -1,0 +1,3 @@
+The collection of all <math>\phi</math> such that either <math>\phi</math> is a [[Propositional Variable|propositional variable]], or <math>\phi</math> is <math>\left( \neg \alpha \right)</math>, or <math>\phi</math> is <math>\left( \alpha \lor \beta \right)</math> , with <math>\alpha</math> and <math>\beta</math> being formulas of propositional logic.
+[[Category:Propositional Logic]]
+[[Category:Definition]]

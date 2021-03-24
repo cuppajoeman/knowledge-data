@@ -1,0 +1,5 @@
+The order of an element <math display="inline">g</math> of a group <math display="inline">G</math> denoted by <math display="inline">o\left(g\right)</math> is the least positive integer <math display="inline">n</math> such that <math display="inline">g^{n}=e</math> or <math display="inline">\infty</math> if no such exponente exists, symbolically <math display="block">o\left(g\right)=\min\left(\left\{ n \ge 1: g^{n}=e \right\}\right)</math>
+
+Note that the identity element is the only element of order 1, so we have <math display="block">o\left(g\right)=1 \Leftrightarrow g = e</math>
+
+{{Knowledge Metadata|Group Theory|Definition}}

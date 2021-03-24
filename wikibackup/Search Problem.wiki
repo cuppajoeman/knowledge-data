@@ -1,0 +1,72 @@
+A search problem consists of the following components:
+
+# A state space over which to search. The state space necessarily involves abstracting the real problem
+# An initial state best represents your current state
+# A desired (goal) condition we want to achieve
+# Actions (successor functions) that allow you to move from one state to another. The actions are abstractions of actions you would actually perform
+
+Optionally, we could have
+
+# Costs, which represent the cost of moving from state to state (taking an action , advancing to a successor state)
+# Heuristics, to help guide the search process (domain specific information)
+#* Explore states that are closer to a goal then others first via the heuristic
+A solution to a search problem is a sequence of actions or moves which transforms your current state to the goal/desired state.
+
+
+A usual graphical representation of a search problem is a graph
+
+
+
+Remark: Sometimes there are actions that don't do anything like doing the inverse operation after the same operation, leaves you at the same spot
+
+
+Travel: Travel from city A to city B, given a map of cities and the distance between some of them (A weighted graph)
+
+* State Space: 
+** The list of cities on a map
+*** Implementation:
+**** We can use an adjacency matrix (todo add definition)
+***** The x and y axis both represent cities and the element a_i,j represents the distance between city i and city j and 0 elsewise.
+* Actions
+** Move from one city to another
+* Initial State: city A
+* Desired Condition: city B
+* Solution: A sequence of cities that lead from city A to city B
+
+
+Water Jugs: Two jugs one with <math>m \in \mathbb{N}</math> gallon capacity and <math>n \in \mathbb{N}</math> gallon capacity, each can either be filled up completely or emptied or we can pour one into another (until it is full)
+
+* State Space: 
+** Tuples of integers (over doing it, only the numbers that you can actually get to)
+* Actions
+** Empty one jug or another
+** Fill one jug or the other
+** Pour one jug into the other until consumer full or producer empty
+* Desired Condition
+** Both jugs are full, or just a specific end position <math>(j_m,k_n)</math>
+* Solution:
+** Sequence of actions that lead to end position
+
+
+15 Puzzle:
+
+* State Space: 
+** A matrix  <math>P \in M_{4\times4}(\mathbb{N})</math> with an empty spot <math>\epsilon</math>
+* Actions:
+** Swap <math>\epsilon</math> with any other number which is adjacent vertically or horizontally, that is if <math>\epsilon</math> is at position <math>P_{i,j}</math>, then the positions that can be swapped are <math>P_{i \pm 1,j \pm 1}</math> so long as those indices are contained within the board
+* Initial State:
+** A scrambled board
+* Goal State:
+** A board in order left to right, vertical to horizontal with <math>\epsilon</math> at the bottom right of matrix <math>P</math>
+Remarks: Solution should not be recursive? Because then you could go down huge rabbit holes, but there is no solution down there, could we have guessed this with heuristics? Is there a solution in everybranch of the search space tree?
+
+
+Search Tree:
+
+* Branching factor for a node in the tree denoted by <math>b</math>, the number of children it has is the branching factor. If every node has the same number of children, then we can say that the search tree has that branching factor, otherwise we might need to take an average
+* Depth: Depth of the tree, denoted by <math>d</math>, where the solution is found, does this vary? Represents the number of times the successor function has been applied to arrive at the desired state
+
+
+
+Parent: {{link|target=Searching}}
+[[isA::Definition]]

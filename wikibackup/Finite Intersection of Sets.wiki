@@ -1,0 +1,3 @@
+<math display="block">\bigcap_{1 \le i \le n}A_{i} \stackrel{\text{def}}{=} \bigcap_{i=1}^{n}A_{i} \stackrel{\text{def}}{=} \left\{ x: x \in A_{i} \text{ for all  } i \in \left[ n \right] \right\}</math>
+
+{{Knowledge Metadata|Set Theory|Definition}}

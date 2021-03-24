@@ -1,0 +1,21 @@
+Suppose that <math display="inline">\left( \Gamma, \theta \right)</math> is a rule of inference. Then <math display="block">\Gamma \models \theta</math>
+
+== Proof ==
+
+* Supposing that <math display="inline">\left( \Gamma, \theta \right) </math> is a [[Rule of Inference (Propositional Consequence)|rule of type PC]]. Then by the fact that [[Propositional Consequence Equivalence|a propositional consequence is equivalent to a tautology]]: <math display="block">\left[ \gamma_{1P} \land  \gamma_{2P} \land  \ldots \land \gamma _{\left( n-1 \right)P} \land  \gamma_{nP} \right] \to \theta_P</math>is a tautology, where we set <math display="inline">\Gamma_P=\left\{ \gamma_{1P} ,  \gamma_{2P}, \ldots , \gamma _{\left( n-1 \right)P} ,  \gamma_{nP} \right\}</math> (the set of propositional formulas corresponding to <math display="inline">\Gamma</math>) and <math display="inline">\theta_P</math> the propositional formula corresponding to <math display="inline">\theta</math>.
+* Since the propositional version of the rule is a tautology, we know that:<math display="block">\left[ \gamma_1\land \gamma_2\land  \ldots\land \gamma_{n-1}\land \gamma_{n} \right] \to \theta</math>[[Tautology to Validity|is valid]], therefore for any <math display="inline">\mathcal{L}-\text{structure}</math> <math display="inline">\mathfrak{A}</math>, and assignment function <math display="inline">s</math>. We have <math display="inline">\mathfrak{A} \models \left(\left[ \gamma_1\land \gamma_2\land  \ldots\land \gamma_{n-1}\land \gamma_{n} \right] \to \theta\right)\left[ s \right]</math>
+** By definition that says, whenever <math display="inline">\mathfrak{A} \models \left[ \gamma_1\land \gamma_2\land  \ldots\land \gamma_{n-1}\land \gamma_{n} \right]\left[ s \right]</math>, then we have <math display="inline">\mathfrak{A} \models \theta\left[ s \right]</math> and so <math display="inline">\Gamma \models \theta</math> as required.
+----
+
+* Let's suppose that the rule of inference is a quantifier rule. So we will suppose that <math display="inline">x</math> is not free in <math display="inline">\psi</math>. Then we must show that <math display="inline">\left( \psi \to \phi \right
+) \models \left[ \psi \to \left( \forall x \phi \right)\right]</math> (TODO do the other one) 
+** Let <math display="inline">
+\mathfrak{A}</math> be a structure, and we_ll assume that for any assignment function <math display="inline">s</math>, we have <math display="inline">\mathfrak{A} \models \left( \psi \to \phi \right)\left[ s \right]</math>, we must show that <math display="block">\mathfrak{A} \models \left(\psi \to \forall x \phi  \right)</math>
+** So let <math display="inline">t : Vars \to A</math> be an assignment function and we'll  assume that <math display="inline">\mathfrak{A} \models \psi \left[ t \right]</math>, and then we will show that for any <math display="inline">a \in A</math>, <math display="block">\mathfrak{A}\models  \phi  \left[
+ t \left[ x \mid a \right] \right]</math>
+** Notice from our initial assumption, we have <math display="inline">\mathfrak{A}\models \left( \psi \to \phi  \right)\left[ t \left[ x \mid a \right] \right]</math> 
+*** Now see that <math display="inline">t</math> and <math display="inline">t\left[ x \mid a \right]</math> only differ on the variable <math display="inline">x</math> which is not free, therefore we can see that <math display="inline">t\left(v\right)=t\left[ x\mid a \right]\left(v\right)</math> for any free variable <math displa="" y="inline">v</math>, [[Assignment Function Equivalence for Free Variables|thus we know]] that <math display="inline">\mathfrak{A}\models \psi \left[ t \left[ x \mid a \right] \right] \Leftrightarrow \mathfrak{A} \models \psi \left[ t \right]</math>
+*** We can conclude by our initial assumption and <math display="inline">\mathfrak{A}\models \left( \psi \to \phi  \right)\left[ t \left[ x \mid a \right] \right]</math>, that <math display="inline">\mathfrak{A} \models \phi \left[ t \left[ x \mid a \right] \right]</math> as required.
+
+
+{{Knowledge Metadata|Deductions|Theorem}}

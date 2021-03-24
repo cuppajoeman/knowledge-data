@@ -1,0 +1,6 @@
+For any linearly ordered set <math display="inline">\left( X, \le \right)</math> an initial segment is a subset <math display="inline">Y \subseteq X</math> such that whenever <math display="inline">x < y</math> with <math display="inline">y \in Y</math> then <math display="inline">x \in Y</math>.
+
+== Examples ==
+* For <math display="inline">\left( \mathbb{R},\le  \right)</math>, and <math display="inline">Y</math> an initial segment, then <math display="inline">Y = \left\{ x \in \mathbb{R}: x < y \right\}</math> or <math display="inline">Y = \left\{ x \in \mathbb{R}: x \le y \right\}</math>
+
+{{Knowledge Metadata|Relations|Definition}}

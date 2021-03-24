@@ -1,0 +1,3 @@
+The product of any <math display="inline">\lambda \in \mathbb{F}</math> and a vector <math display="inline">\vec{x} \in \mathbb{F}^{n}</math> is given by multiplying each coordinate of <math display="inline">\vec{x}</math> by <math display="inline">\lambda</math>, that is :<math display="block">\lambda \vec{x}= \lambda \left( x_{1}, x_{2},  \dots ,x_{n - 1},x_{n} \right) \stackrel{\text{def }}{=} \left( \lambda x_{1}, \lambda x_{2},  \dots ,\lambda x_{n - 1},\lambda x_{n} \right)</math> 
+[[Category:Vector Spaces]]
+[[Category:Definition]]

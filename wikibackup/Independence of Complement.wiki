@@ -1,0 +1,25 @@
+Suppose that <math display="inline">E</math> and <math display="inline">F</math> are independent, then so are <math display="inline">E</math> and <math display="inline">F ^{c}</math>.
+
+== Proof ==
+
+* Since <math display="inline">E</math> and <math display="inline">F</math> are independent, <math display="inline">P\left(E \cap F\right) = P\left(E\right)  P\left(F\right)</math>
+
+* We must show that the following holds 
+<math display="block">P\left(E \mid \overline{F}\right) = P\left(E\right)</math>
+
+* Recall that by <math display="inline">\alpha</math> we know <math display="inline">E =( F \cap E) \cup (\overline{F} \cap E)</math> is a disjoint union so by axiom 3 of the <math display="inline">\beta</math> we know that 
+<math display="block">\gamma: \quad P\left(E\right) = P\left(F \cap E\right)  +  P\left(\overline{F} \cap E\right) \Leftrightarrow P\left(\overline{F} \cap E\right) = P\left(E\right)  -  P\left(F \cap E\right)</math>
+
+* Next we use the definition conditional probability: 
+<math display="block">\begin{aligned}
+  P\left(E \mid \overline{F}\right) &= \frac{P\left(E \cap \overline{F}\right)}{P\left(\overline{F}\right)}\\
+                                    &\stackrel{\gamma, \delta}{=} \frac{P\left(E\right)  -  P\left(E \cap F\right)}{1  -  P\left(F\right)}\\
+                                    &= \frac{P\left(E\right)  -  P\left(E\right)P\left(F\right)}{1  -  P\left(F\right)}\\
+                                    &= P\left(E\right)\end{aligned}</math>
+
+== Knowledge Used ==
+
+* <math>\alpha</math>: [[Disjoint Representation through Intersection of Complement]]
+* <math>\beta</math>: [[Probability of an Event]]
+* <math>\delta</math>: [[Event Complement Probability]]
+{{Knowledge Metadata|Probability|Proposition}}

@@ -1,0 +1,3 @@
+Given <math display="inline">X \subseteq \mathbb{R}</math>, then we say <math display="inline">y</math> is the supremum or least upper bound of <math display="inline">y</math> if and only if <math display="inline">y</math> is an upper bound and <math display="inline">y \le z</math> for every other upper bound <math display="inline">z</math> of <math display="inline">X</math>, and we write <math>y = \operatorname{sup}(X)</math>
+
+{{Knowledge Metadata|Real Numbers|Definition}}

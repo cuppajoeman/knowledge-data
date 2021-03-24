@@ -1,0 +1,10 @@
+If <math>Y_1</math>and <math>Y_2</math>are jointly continuous random variables with a  joint density function given by <math>f(y_1, y_2)</math>, then 
+
+# <math>f(y_1, y_2) \ge 0</math> for all <math>y_1, y_2</math>
+# <math>\int_{-\infty}^\infty\int_{-\infty}^\infty f(y_1, y_2) dy_1 dy_2 = 1</math>
+
+== Knowledge Used ==
+
+* [[Continues Random Variables]]
+ 
+{{Knowledge Metadata|Multivariate Probability Distributions|Definition}}

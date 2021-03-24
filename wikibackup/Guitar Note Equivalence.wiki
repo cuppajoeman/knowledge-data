@@ -1,0 +1,18 @@
+[[File:Equivalent notes.svg|thumb]]
+Fix a note <math>n \in \mathbb{G}</math>, we are interested in the positions of the equivalent notes, on the fretboard of a guitar, namely:<math display="block">\mathbb{F}(\mathbb{E}_n) </math>
+== Construction ==
+* We will partition <math>X</math> based on what <math>s</math> evaluates to
+* Without loss of generality we will assume that <math>s(n) = 6</math>
+* The following sets have been deduced by properites of the fret board (namely the ones for moving horizontally)
+**<math>\{(6, f(x)) : x \in \mathbb{E} \} = \left\{ \left( 6, \left( f\left(n\right)  + 12k \right)  ~\%~ \| f \|   \right) \right\}</math>
+**<math>\{(5, f(x)) : x \in \mathbb{E} \} = \left\{ \left( 5, \left( f\left(n\right)  + -5 + 12k \right)  ~\%~ \| f \|   \right) \right\}</math>
+**<math>\{(4, f(x)) : x \in \mathbb{E} \} = \left\{ \left( 4, \left( f\left(n\right)  + 2+ 12k \right)  ~\%~ \| f \|   \right) \right\}</math>
+**<math>\{(3, f(x)) : x \in \mathbb{E} \} = \left\{ \left( 3, \left( f\left(n\right)  -3 + 12k \right)  ~\%~ \| f \|   \right) \right\}</math>
+**<math>\{(2, f(x)) : x \in \mathbb{E} \} = \left\{ \left( 2, \left( f\left(n\right)  +5 + 12k \right)  ~\%~ \| f \|   \right) \right\}</math>
+**<math>\{(1, f(x)) : x \in \mathbb{E} \} = \left\{ \left( 1, \left( f\left(n\right)  + 12k \right)  ~\%~ \| f \|   \right) \right\}</math>
+* This yields the image on the right
+
+== Knowledge Used ==
+
+* [[Pitch Equivalence]]
+{{Knowledge Metadata|Guitar|Definition}}

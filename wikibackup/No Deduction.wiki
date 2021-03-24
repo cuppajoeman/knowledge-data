@@ -1,0 +1,19 @@
+Consider the following axiom system 
+
+* Nonlogical axioms:<math display="block">\begin{aligned}
+\Sigma=\{\forall  x & P(x, x) \\
+& P(u, v) \\
+& P(u, v) \rightarrow P(v, u) \\
+&P(v, u) \rightarrow P(u, u)\}
+\end{aligned}</math> 
+* No logical axioms 
+* Rules of inference:<math display="block">\{(\{\alpha, \alpha \rightarrow \beta\}, \beta) \mid \alpha \text { and } \beta \text { are formulas of } \mathcal{L}\}
+</math> 
+
+Prove that there is no deduction from <math>\Sigma</math> of the formula <math>P(v, v) .</math>
+
+== Solution ==
+
+* Assume there is a deduction of <math>P(v,v)</math> if that's the case then the last line must have been a rule of inference, because it doesn't appear in the nonlogical axioms, so this rule of inference must be of the form <math>\left( \left\{ \alpha, \alpha \to P\left(v,v\right) \right\} \right)</math>,  but there is no non-logical axiom of that form, thus we cannot deduce <math>P\left(v,v\right)</math>.
+[[Category:Deduction]]
+[[Category:Question]]

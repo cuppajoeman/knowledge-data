@@ -1,0 +1,15 @@
+
+
+Let <math display="inline">z = a  +  bi \in \mathbb{C} \setminus \{0\}</math>, then <math display="block">z^{-1} = \frac{a  -  bi}{a^{2} +  b^{2}} = \frac{\overline{z}}{\left| z \right|^{2}}</math>
+
+== Proof ==
+
+<math display="inline">z^{-1}</math> is the element <math display="inline">x  +  yi \in \mathbb{Z}</math> which satisfies <math display="inline">z \left( x  +  yi \right)= 1 = 1  +  0i</math>, <math display="block">\left( a  +  bi \right)\left( x  +  yi \right) = ax   -  by  +  i \left( ay  +  bx \right)</math>
+
+We require that <math display="inline">ax  -  by = 1</math> and <math display="inline">ay  +  bx = 0</math>, naively we can take <math display="inline">y =  - b</math> and <math display="inline">x = a</math> to solve the second equation, but then the first equation would tell us that <math display="inline">a^{2}  +  b^{2}=1</math> which is only true when <math display="inline">z</math> lies on the unit circle, otherwise we will need to take <math display="inline">y = \frac{-b}{\left( a^{2} + b^{2} \right)}</math> and <math display="inline">x = \frac{a}{\left( a^{2} + b^{2} \right)}</math>, subbing this into our first equation gives <math display="inline">\frac{a^{2} + b^{2}}{a^{2} + b^{2}}=1</math> which is certainly true.
+
+Therefore we can see that <math display="block">z^{-1} = \frac{a  -  bi}{a^{2} + b^{2}}</math>
+
+Also note when we have the main equality we get the following nice equation <math display="block">z^{-1} =  \frac{\overline{z}}{\left| z \right|^{2}} \Leftrightarrow \left| z \right|^{2} = \overline{z} \cdot  z \Leftrightarrow \left| \overline{z} \right| \cdot \left| z \right| \stackrel{\text{pretty}}{=} \overline{z} \cdot z</math>
+
+{{Knowledge Metadata|Complex Numbers|Definition}}

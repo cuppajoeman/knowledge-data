@@ -1,0 +1,8 @@
+For <math>x \in \mathbb{F}^{n},</math> the additive inverse of <math>x,</math> denoted <math>-x,</math> is the vector <math>-x \in \mathbb{F}^{n}</math> such that
+<math>
+x+(-x)=0
+</math>
+
+In other words, if <math>x=\left(x_{1}, \ldots, x_{n}\right),</math> then <math>-x=\left(-x_{1}, \ldots,-x_{n}\right)</math>
+
+{{Knowledge Metadata|Vector Spaces|Definition}}

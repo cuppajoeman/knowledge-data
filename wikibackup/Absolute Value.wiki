@@ -1,0 +1,4 @@
+For any <math>x \in \mathbb{R}</math>, <math display="block">| x | \stackrel{\texttt{D}}{=} \begin{cases} x &, \text{ If } x \ge 0\\ -x &, \text{ If } x < 0 \end{cases}</math>We also obtain an algebraic definition:<math display="block">|x| \stackrel{\mathtt{D}}{=} \sqrt{x^2}</math>Proof to show that it's equivalent
+
+{{Knowledge Metadata|Well Known Functions|Definition}}
+[[isA::PIP]]

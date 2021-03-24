@@ -1,0 +1,9 @@
+If no member is a proper prefix of another member
+
+Remark: This allows us to concatenate strings and still be able to figure out what strings it was constructed from
+
+== Knowledge Used ==
+
+* [[Language]]
+* [[String Prefix]]
+{{Knowledge Metadata|Computability|Definition}}

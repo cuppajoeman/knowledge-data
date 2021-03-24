@@ -1,0 +1,14 @@
+== Positive Sum ==
+There are <math display="inline">\binom{n - 1}{r - 1}</math> tuples <math display="inline">\left( x_{1} , x_{2} , \dotsc  , x_{r - 1} , x_{r} \right)</math> satisfying <math display="inline">x_{1}  +  x_{2}  +  \dotsb   +  x_{r - 1}  +  x_{r} = n</math>, where <math display="inline">\forall i \in \left[ r \right], x_{i} > 0</math>.
+
+== Proof ==
+
+* Lay <math display="inline">n</math> ones in a row 
+<math display="block">111 \dotsb 111</math>
+
+Now we can simply place <math display="inline">r-1</math> <math display="inline">+</math>'s in-between the <math display="inline">n -1</math> gaps created by the <math display="inline">n</math> <math display="inline">1</math>'s, for example of <math display="inline">n = 8</math> and <math display="inline">r = 3</math> then we could have <math display="inline">1111 + 1 + 111 = 4 + 1 + 3 = 8</math>. Therefore the number of ways to place the <math display="inline">+</math>'s in between the ones is exactly <math display="block">\binom{n - 1}{r-1}</math>
+
+== Non-Negative Sum ==
+
+* We want to know how many tuples satisfy <math display="inline">x_{1}  +  x_{2}  +  \dotsb   +  x_{r - 1}  +  x_{r} = n</math> where <math display="inline">\forall i \in \left[ r \right], x_{i} \ge 0</math>, so we set <math>y_i = x_i + 1 </math> for each <math>i \in [ r ]</math>, the previous equation becomes: <math display="block">y_{1}  +  y_{2}  +  \dotsb   +  y_{r - 1}  +  y_{r} = n + r</math>Where each of the <math>y_i</math>'s are positive, thus we can apply our previous theorem to get <math display="block">\binom{n + r - 1}{r-1}</math>possible tuples
+{{Knowledge Metadata|Combinatorics|Proposition}}

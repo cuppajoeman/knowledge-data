@@ -1,0 +1,9 @@
+We know that in general we can't say that <math display="inline">P\left(E \mid F\right) = P\left(E\right)</math> because given that the event <math display="inline">F</math> has occurred generally changes the chances of <math display="inline">E</math> occurring, in the special case where it does not, we say that the two events <math display="inline">E</math> and <math display="inline">F</math> are independent, notice if the previous equality holds, then the following must also hold: 
+
+<math display="block"> P(E) = P\left(E \mid F\right)   \stackrel{\beta}{=} \frac{P\left(E \cap F\right)}{P\left(F\right)} \Leftrightarrow P\left(E \cap F \right) = P\left(E\right)  P\left(F\right) </math>Also notice that <math display="inline">E,F</math> could be swapped in the above final equality so that if <math display="inline">E</math> is independent of <math display="inline">F</math>, then <math display="inline">F</math> is independent of <math display="inline">E</math>, that is, it's reflexive 
+== Knowledge Used ==
+
+* [[Probability of an Event]]
+* <math>\beta</math>: [[Conditional Probability]]
+* [[Reflexive Relation]]
+{{Knowledge Metadata|Probability|Definition}}

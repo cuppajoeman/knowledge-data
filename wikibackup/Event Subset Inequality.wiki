@@ -1,0 +1,13 @@
+Given a sample space <math display="inline">S</math> and events <math display="inline">E, F \subseteq S</math> if <math display="inline">E \subseteq F</math> then <math display="block">P\left(E\right) \le P\left(F\right)</math>
+
+== Proof ==
+
+Since <math display="inline">E \subseteq F</math> then we can write <math display="block">F = \left( \overline{E} \cap F \right) \cup E</math>
+
+by <math display="inline">\alpha</math>, then by the third axiom of <math display="inline">\beta</math> we get <math display="block">P\left(F\right) = P\left(E\right)  +  P\left(\overline{E} \cap F\right)</math> this proves the result since <math display="inline">P\left(\overline{E} \cap F\right) \ge 0</math> by axiom one of <math display="inline">\beta</math>, therefore <math display="block">P\left(E\right) \le P\left(E\right)  +  P\left(\overline{E } \cap F\right) = P\left(F\right)</math>
+
+== Knowledge Used ==
+
+* <math>\alpha</math>: [[Disjoint Subset Representation]]
+* <math>\beta</math>: [[Probability of an Event]]
+{{Knowledge Metadata|Probability|Proposition}}

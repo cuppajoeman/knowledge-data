@@ -1,0 +1,12 @@
+Let <math display="inline">X</math> be any set well-ordered by a relation <math display="inline"><</math>. Let <math display="inline">Y</math> be any inductive subset of <math display="inline">X</math>. Then <math display="inline">Y = X</math>
+
+== Proof ==
+
+* If <math display="inline">X \setminus Y = \varnothing</math>, then we get that <math display="inline">X = Y</math> by 1. 
+* Otherwise, assume this is not the case, and we know that <math display="inline">X \setminus Y \subseteq X</math>, thus since <math display="inline">X</math> is well-ordered, we obtain a minimum element of <math display="inline">X \setminus Y</math>, call it it <math display="inline">m</math>
+** Thus for all <math display="inline">x \le m</math> we know that <math display="inline">x \not\in X \setminus Y</math>, that is <math display="inline">x \in Y</math>, but since <math display="inline">Y</math> is inductive this implies that <math display="inline">m \in Y</math>; a contradiction since <math display="inline">m \in X \setminus Y</math>
+
+== Knowledge Used ==
+
+# [[Set Difference with Subset Yields Equality]]
+{{Knowledge Metadata|Relations|Principle}}

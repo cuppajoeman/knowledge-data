@@ -1,0 +1,9 @@
+Suppose that two experiments are to be performed, if experiment 1 may result in <math>a</math> different ways and if for each outcome of experiment 1then experiment 2 may result in <math>b</math> different outcomes, then together there are <math>a \cdot b</math> different possible outcomes of the two experiments 
+
+== Proof ==
+<math display="block">\begin{array}{ccc}
+   (1,1) & \cdots & (a,1) \\
+   \vdots & \ddots & \vdots \\
+   (1, b) & \cdots & (a, b)
+\end{array}</math>Where <math>(i, j)</math> is the outcome where experiment 1 results in it's <math>i</math>-th outcome and experiment 2 results in it's <math>j</math>-th possible outcome, each row has <math>a</math> elements and there are <math>b</math> rows thus there are <math>a \cdot b</math> different possible outcomes of the two experiments.
+{{Knowledge Metadata|Probability|Principle}}

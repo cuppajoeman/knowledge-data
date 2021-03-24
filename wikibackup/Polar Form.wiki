@@ -1,0 +1,6 @@
+Given <math display="inline">z \in \mathbb{C}</math> [add in geometric image], we know that <math display="inline">z = \mathfrak{R}z  + i  \cdot  \mathfrak{I}z</math>.
+
+* Let <math display="inline">\phi = \operatorname{arg}(z)</math> , then we have <math display="inline">\cos  \left( \phi \right) = \frac{\mathfrak{R}z}{\left| z \right|}</math> and <math display="inline">\sin  \left( \phi  \right)= \frac{\mathfrak{I}z}{\left| z \right|}</math>, rearranging both equations and subbing into our original equation for <math display="inline">z</math> we get <math display="block">z = \left| z \right|\left( \cos  \left( \phi  \right) +  i \sin   \left( \phi \right) \right) =\left| z \right| e^{i\phi}</math>
+* Whenever we write <math display="inline">z</math> as <math display="inline">\left| z \right|e^{i \phi}</math> we will say it is written in polar form
+
+{{Knowledge Metadata|Complex Numbers|Definition}}

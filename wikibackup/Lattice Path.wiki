@@ -1,0 +1,7 @@
+A in the plane written as a sequence of ordered pairs of integers:<math display="block">
+\left(m_{1}, n_{1}\right),\left(m_{2}, n_{2}\right),\left(m_{3}, n_{3}\right), \ldots,\left(m_{t}, n_{t}\right)
+</math>so that for all <math>i=1,2, \ldots, t-1,</math> either:
+#<math>m_{i+1}=m_{i}+1</math> and <math>n_{i+1}=n_{i}</math>, or
+#<math>m_{i+1}=m_{i}</math> and <math>n_{i+1}=n_{i}+1</math>
+
+{{Knowledge Metadata|Lattice Paths|Definition}}

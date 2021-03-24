@@ -1,0 +1,8 @@
+<math display="block">\hat{\mathbb{C}} \stackrel{\text{def}}{=} \mathbb{C} \cup \{ \infty \} </math>And additionally, for any <math>z \in \mathbb{C}</math>, we define:
+
+* <math>z + \infty = \infty</math>
+* <math>z \times \infty = \infty</math>
+* <math>\frac{z}{0} = \infty</math>
+* <math>\frac{z}{\infty} = 0</math>
+
+{{Knowledge Metadata|Complex Analysis|Definition}}

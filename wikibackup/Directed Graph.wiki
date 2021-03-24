@@ -1,0 +1,5 @@
+A directed graph is a pair <math display="inline">\left( V, E \right)</math> where <math display="inline">V</math> is a vertex set and <math display="inline">E \subseteq \left( V \times V \right) \setminus \Delta V</math>, where for <math display="inline">\left( x,y \right) \in E</math> we say that tuple is a directed edge from <math display="inline">x</math> to <math display="inline">y</math> and we will write <math display="inline">x \mathrel{\bullet  \!\!\! \rightarrow}y </math> or <math display="inline">y \mathrel{\leftarrow  \!\!\! \bullet}x</math> to represent this edge.
+
+Also note the difference between these edges and a normal graph edge, in this case <math display="inline">\left( x,y \right) \neq \left( y,x \right)</math> but in a regular graph, there is no distinction.
+
+{{Knowledge Metadata|Graph Theory|Definition}}

@@ -1,0 +1,7 @@
+A language is a set of strings
+
+== Knowledge Used ==
+
+* [[String]]
+
+{{Knowledge Metadata|Computability|Definition}}

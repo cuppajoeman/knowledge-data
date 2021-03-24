@@ -1,0 +1,7 @@
+Suppose that <math>\Sigma</math> is a collection of <math>\mathcal{L}\text{-formulas}</math> and <math>D </math> is a finite sequence <math>\left( \phi_{1},  \phi_{2},  \dotsc  \phi_{n - 1},  \phi_{n}\right)</math> of <math>\mathcal{L}\text{-formulas}</math>. We will say that <math>D</math> is deduction from <math>\Sigma</math> if for each <math>i, 1 \le i \le n</math>, either
+#<math>\phi _{i} \in \Lambda</math> ( <math>\phi _{i}</math> is a logical axiom), or
+#<math>\phi _{i} \in \Sigma</math> ( <math>\phi _{i}</math> is a nonlogical axiom), or
+#There is a rule of inference <math>\left( \Gamma, \phi _{i} \right)</math> such that <math>\Gamma \subseteq \left\{ \phi _{1},  \phi _{2} , \dots  ,\phi _{i - 1} \right\}</math>
+If there is a deduction from <math>\Sigma</math>, the such that the last element in the tuple is <math>\phi</math> then we will call this a deduction from <math>\Sigma</math> of <math>\phi</math> and write <math>\Sigma \vdash \phi</math>
+
+{{Knowledge Metadata|Deductions|Definition}}

@@ -1,0 +1,16 @@
+Given an <math>\mathcal{L}\text{-formula}</math> <math>\beta</math> of first-order logic, we define the following procedure that will convert <math>\beta</math> to a formula <math>B</math> of propositional logic corresponding to <math>\beta</math>.
+# Find all sub-formulas of <math>\beta</math>  of the form <math>\forall x \alpha</math> that are not in the [[scope]] of another quantifier. Replace them with propositional variables in a systematic fashion. This means that if <math>\forall y Q\left(y,c\right)</math> appears twice in <math>\beta</math>, it is replaced by the same letter both times, and distinct sub-formulas are replaced with distinct letters.
+# Find all atomic formulas that remain, and replace them systematically with new propositional variables.
+# At this point <math>\beta</math> will have been replaced with a propositional formula <math>B</math>.
+
+== Example ==
+For example, supposing we have the <math>\mathcal{L}\text{-formula}</math>
+<math display="block">  \left( \forall x P\left(x\right)\land Q\left(c,z\right) \right) \to \left( Q\left(c,z\right)\lor \forall x P\left(x\right) \right)</math>
+
+By applying the first step we arrive at 
+<math display="block">  \left( B \land Q\left(c,z\right) \right) \to \left( Q\left(c,z\right) \lor B \right)</math>
+
+We then apply step 2 which then arrive at
+<math display="block">  \left( B \land A \right) \to \left( A \lor \right)</math>
+[[Category:Algorithm]]
+[[Category:Deduction]]

@@ -1,0 +1,11 @@
+Given <math>a, b \in \mathbb{R}
+</math> with <math>a < b</math>, then the distance between the two numbers on the number line is defined to be the distance of the highlighted region
+[[File:Distance.svg|center|637x637px]]Algebraically this distance is given by <math>b-a</math>
+
+== Knowledge Used ==
+
+* {{link|target=Number Line}}
+* {{link|target=Real Numbers}}
+
+{{Knowledge Metadata|Analysis|Definition}}
+[[isA::KIP]]

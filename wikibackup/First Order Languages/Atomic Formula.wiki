@@ -1,0 +1,2 @@
+The atomic formulas of a [[Language/First Order Language|language]] <math>\mathcal{L}</math> are ones that satisfy clause 1 & 2 from the definition of an  [[Language/Formula|<math>\mathcal{L}</math> formula]], namely the elements which cannot be broken down further
+[[Category:Definition]]

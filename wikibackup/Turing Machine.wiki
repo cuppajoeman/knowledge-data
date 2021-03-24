@@ -1,0 +1,23 @@
+A Turing machine is a 7-tuple, <math>(Q, \Sigma, \Gamma, \delta, q_0, q_{accept}, q_{reject})</math>, where <math>Q, \Sigma, \Gamma</math> are all finite sets and
+
+* <math>Q</math> is the set of states
+* <math>\Sigma</math> is the input alphabet not containing the blank symbol <math>\sqcup</math>
+* <math>\Gamma</math> is the tape alphabet, where <math>\sqcup \in \Gamma</math> and <math>\Sigma \subseteq \Gamma</math>,
+* <math>\delta: Q \times \Gamma \to Q \times \Gamma \times \{L,R\}</math> is the transition function
+* <math>q_0 \in Q</math> is the start state
+* <math>q_{accept} \in Q</math> is the accept state, and
+* <math>q_{reject} \in Q</math> is the reject state, where <math>q_{reject} \neq q_{accept}</math>
+[[File:TM config 2.svg|thumb|Physical Interpretation]]
+
+==== Physical Interpretation: ====
+
+* A TM has an infinite tape, which can be singly or doubly sided, for lack of better words
+* TM's head can move left or right. This means a symbol on the tape of the TM can be read more than once.
+
+==== Differences to FSA (NFA/DFA): ====
+
+* A TM can read as well as ''write'' symbols, whereas a FSA can only read.
+* Whereas strings being read by a FSA can only be read exactly once as it goes from left to right, a Turing Machine can read a symbol more than once
+
+----Parent: {{link|target=Computability}}
+[[isA::Definition]]

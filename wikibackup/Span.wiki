@@ -1,0 +1,6 @@
+The span of an edge (A,B) is the graph distance between the nodes A and B if the edge (A,B) is removed from the graph.
+----
+Parent: {{link|target=Social Networks}}
+Parent: {{link|target=Graph Theory}}
+
+[[IsA::Definition]]

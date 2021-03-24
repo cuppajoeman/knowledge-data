@@ -1,0 +1,12 @@
+* A [[relation]] from a set of inputs to a set of possible outputs where each input is related to exactly one output. In other words a function $f$ is a set of ordered pairs $(x,y)$ such that for any $x,y,z$ if we have $(x,y) \in f$ and $(x,z) \in f$, then we must have $y = z$.
+
+== Examples ==
+* $\{ (2, 4), (-2, 4) \}$ is a function
+* $\{ (4, 2), (4, -2) \}$ is not a function
+
+== Knowledge Used ==
+
+* [[Relation]]
+
+Parent: {{link|target=Functions}}
+[[isA::Definition]]

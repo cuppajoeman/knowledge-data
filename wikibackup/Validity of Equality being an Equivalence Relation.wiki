@@ -1,0 +1,19 @@
+* <math display="inline">\vdash x = x</math>
+* <math display="inline">\vdash x = y \to y = x</math>
+* <math display="inline">\vdash \left( x = y \land y = z \right) \to x = z</math>
+
+== Proof ==
+
+* We know <math display="inline">x = x \in \Lambda</math> as it is an axiom of type E1, so the deduction <math display="inline">\left( x = x \right)</math> works.
+----
+* For the second, we use E3, where <math display="inline">R</math> is equality, obtaining <math display="block">\left[ x = y \land x = x \right] \to \left[ x = x \to y = x \right]</math>
+** From E1 we know <math display="inline">x = x</math>. Finally if we convert the the previous into propositional formulas, we will get <math display="inline">\left[ A \land B \right] \to \left[ A \to B \right]</math> and <math display="inline">B</math>. 
+*** Since we are assuming <math display="inline">B</math> then <math display="inline">A \land B</math> is true whenever <math display="inline">A</math> is true, the consequent of the original formula; namely <math display="inline">A \to B</math> or equivalently <math display="inline">\neg A \lor B</math> becomes <math display="inline">B</math>
+**** So <math display="inline">A \to B</math> is a propositional consequence. Thus in terms of first order logic <math display="inline">x = y \to y = x</math> is a first order propositional consequence, which is exactly what we wanted to show.
+----
+* For the final one, from E3 we have <math display="block">\left[ x = x \land y = z \right] \to \left[ x = y \to x = z \right]</math>
+** E1 gives us <math display="inline">x =x</math> now we'll use the algorithm as above to obtain <math display="inline">\left[ A \land B  \right]\to \left[ C \to D  \right]</math> and <math display="inline">A</math>
+*** Which simplifies down to <math display="inline">B \to \left[ C \to D \right]</math>, which is equivalent to <math display="inline">\left[ B \land C  \right]\to D</math>, 
+**** So by our rule of equivalence for propositional consequence we obtain <math display="inline">\left[ x = y \land y = z \right] \to x = z</math> as needed.
+[[Category:Theorem]]
+[[Category:Deduction]]

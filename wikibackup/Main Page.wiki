@@ -1,0 +1,64 @@
+== General ==
+
+* [https://discord.gg/7bNFe5xNzS Communication]
+* [http://diagrams.bitplan.com/render/png/0x4f1fe742 Structure of the wiki]
+
+== Purpose ==
+
+* To emphasize "why" rather than "what", the goal is to to be able to learn from these pages
+* To obtain information easily and through a hierarchical manner
+* To have short and concise pages, that are linked between each other
+* To store interesting problems, and their solutions for practice
+
+== Editing ==
+
+* [[mediawikiwiki:Cheatsheet|Learn the syntax]]
+*[[wikipedia:Help:Displaying_a_formula|Learn the extent of the <nowiki><math> tags</nowiki>]]
+
+== Topics ==
+
+=== [[Mathematics]] ===
+
+=== [[Computer Science]] ===
+=== [[Statistics]] ===
+
+
+=== [[Physics]] ===
+
+=== [[Music]] ===
+
+== Recommendations ==
+
+=== Tools ===
+*[https://mathpix.com/ Convert Images to LaTeX]
+* Convert LaTeX into mediwiki syntax:
+**<code>pandoc -t mediawiki scratch.tex | xclip -sel clip</code> then paste into the source editor
+** For the savvy, make a binding in your editor of choice
+*** vim: <code>map <leader>ltm :%w !pandoc -t mediawiki \| xclip -sel clip<CR></code>
+=== Aesthetics ===
+
+* Formatting
+** If you'd rather view math as mathml, then it is recommended to use Firefox with the [https://addons.mozilla.org/en-US/firefox/addon/native-mathml/ mathml extension] (as chrome based browser do not support it)
+
+* Dark Theme
+** If you are in a browser which supports chrome extensions, then I would recommend installing [https://darkreader.org/help/en/ dark reader]
+*** Without styling math images will show up as dark on dark, and will not be inverted, though this happens on wikipedia
+*** Go to the dev tools, which will open up a huge CSS file, we will steal the styling from wikipedia. 
+**** Find wikipedia's styling, copy in a new entry and change the website name to keepaskingwhy.com
+== Future ==
+
+* Ordering content by their knowledge dependencies
+
+== Things to Work on ==
+=== Knowledge in Progress ===
+{{#ask:
+ [[isA::KIP]]
+ |format=ul
+}}
+
+
+=== Proofs in Progress ===
+{{#ask:
+ [[isA::PIP]]
+ |format=ul
+}}

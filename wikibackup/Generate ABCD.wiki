@@ -1,0 +1,11 @@
+We will use exponential generating functions then find the coefficient <math display="inline">x^{n}</math>
+
+* Even number of <math display="inline">B</math>'s <math display="block">\sum_{n=0}^{\infty} \frac{x^{2n}}{2n!} = \frac{e^{x}  -  e^{-x}}{2}</math>
+* Odd number of <math display="inline">A</math>'s <math display="block">e^{x}  -  \left( \frac{e^{x}  -  e^{-x}}{2}  \right) = \frac{e^{ - x} -  e^{x}}{2}</math>
+* At least one <math display="inline">C</math> <math display="block">e^{x}  - 1</math>
+* No restriction on <math display="inline">D</math> <math display="block">e^{x}</math>
+* We are now about to take the product of all of these terms, but to simply things let's do some preliminary multiplications: <math display="block">\left(  e^{x} -  e^{-x}\right) \left( e^{-x}  -  e^{x} \right) = e^{0}  -  \left( e^{-2x} + e^{2x} \right)  +  e^{0} = 2  - \left( e^{-2x}  +  e^{2x} \right)</math> and <math display="block">\left( 2  - \left( e^{2x}  +  e^{-2x} \right) \right) \left( e^{2x}  -  e^{x} \right) = 2 e^{2x}  -  2e^{x}  +  \left( e^{-2x} +  e^{2x} \right)\left( e^{2x} -  e^{x} \right)=2 e^{2x}  -  2e^{x}  + e^{0} - \left( e^{4x} + e^{-x} \right)  +  e^{3x}</math>
+
+So then the full product is given by <math display="block">\left( \frac{e^{x}  - e^{ - x}}{2} \right) \left( \frac{e^{ - x}  -  e^{x}}{2} \right)\left( e^{x} - 1 \right)\left( e^{x} \right) = \frac{1}{4} \left[ \left( e^{x} -  e^{-x} \right)\left( e^{ - x} -  e^{x} \right) \right] \left( e^{2x}  - e^{x} \right)</math> Now using our preliminary calculations the above simplifies to <math display="block">\frac{1}{4}\left[ 2  -  \left( e^{-2x} +  e^{2x} \right) \right] \left( e^{2x} -  e^{x} \right)= \frac{1}{4} \left( 2 e^{2x}  -  2e^{x}  + e^{0} - \left( e^{4x} + e^{-x} \right)  +  e^{3x}  \right)</math>
+
+So then if you were to re-write all of these variants of <math display="inline">e^{\alpha x}</math> as infinite sums and match their terms, then the coefficient on <math display="inline">x^{n}</math> would be <math display="block">\frac{1}{4}\left( 2  \cdot  2^n  -  2  -  4^{n}  -  \left( -1 \right)^{n}  +  3^n \right)</math> Which would be the number of strings satisfying our constraint

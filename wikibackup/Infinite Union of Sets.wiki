@@ -1,0 +1,6 @@
+<math display="block">\bigcup_{n}A_{n} \stackrel{\mathtt{N}}{=} \bigcup_{n=1}^{\infty} A_n \stackrel{\mathtt{D}}{=} \left\{ x: x \in A_{n} \text{ for some  } n \in \left[ n \right] \right\}</math>
+
+== Knowledge Used ==
+
+* [[Set of 1 to n]]
+{{Knowledge Metadata|Set Theory|Definition}}

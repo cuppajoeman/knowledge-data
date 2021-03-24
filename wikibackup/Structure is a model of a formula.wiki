@@ -1,0 +1,8 @@
+If <math>\phi</math> is a [[Language/Formula|formula]] in the [[Language/First Order Language|language]] <math>\mathcal{L}</math> and <math>\mathfrak{A}</math> is an <math>\mathcal{L}\text{-structure}</math> 
+
+* We say that <math>\mathfrak{A}</math> is a model of <math>\phi</math>, and write <math>\mathfrak{A} \models \phi</math>, if and only if <math>\mathfrak{A}\models \phi \left[ s \right]</math> for every assignment function <math>s</math>. 
+* If <math>\Phi</math> is a set of <math>\mathcal{L}\text{-formulas}</math> , we say that <math>\mathfrak{A}</math> models <math>\Phi</math> and write <math>\mathfrak{A} \models \Phi</math>, if and only if <math>\mathfrak{A} \models \phi</math> for each <math>\phi  \in \Phi</math>
+
+* In addition if we have a sentence <math>\sigma</math> and that <math>\mathfrak{A}\models \sigma\left[ s \right]</math> for any assignment function <math>s</math>, then we sill say that the sentence <math>\sigma</math> is true in <math>\mathfrak{A}</math>.
+[[Category:Definition]]
+[[Category:Structure & Truth]]

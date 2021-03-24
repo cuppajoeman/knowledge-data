@@ -1,0 +1,17 @@
+Let <math display="inline">p\left(n\right) = \sum_{i=0}^{l} a_{i}n^{i}, a_{l}\neq0</math> where <math display="inline">p :\mathbb{N} \to \mathbb{R}^{>0}</math>, remember these functions represent the runtime of a function, therefore we require them to not output negative numbers. We show that <math display="block">p \in \mathcal{O}\left(n^{l}\right)</math>
+
+== Intuition ==
+
+Take a small example, we will show that <math display="inline">n^{2} + n \in \mathcal{O}\left(n^{2}\right)</math>, at the end of the day we need to choose a <math display="inline">c</math> such that <math display="block">n^{2} + n \le c  \cdot n^{2}</math>We note that when <math display="inline">n \ge 1</math> then <math display="inline">n^{2} + n \le n^{2}  + n^{2} =2n^{2}</math>, so a choice of <math display="inline">c =2</math> would solve the question. 
+
+On a more complex example, if we wanted to show that <math display="inline">8n^{3} + n^{2}  + 29n  +  222 \in \mathcal{O}\left(n^{3}\right)</math>, again <math display="inline">8n^{3} + n^{2}  + 29n  +  222 \le 8n^{3} + n^{3}  + 29n^{3}  +  222n^{3} = \left( 8  +  1  +  29  +  222 \right)n^{3}</math> and so we can take our <math display="inline">c</math> to be the sum of all the coefficients.
+
+
+Though we can't stop there, what if some of the coefficients are negative? Say we wanted <math display="inline">10n^{2} - 10n  + 3 \in \mathcal{O}\left(n^{2}\right)</math>, if that's the case then our argument would not work, because <math display="inline">10n^{2} - 10n  + 3 \not \le 10 n^{2} -  10n^{2} + 3n^{2} = 3n^{2}</math> (It doesn't hold for <math display="inline">n \ge 1</math>). Therefore we consider something new, what if there was a way to convert all of our coefficients to be positive? Well if there was, then we could re-use the above argument, so we see:<math display="block">10n^{2}  - 10n  + 3 \le \left| 10n^{2}  - 10n  + 3 \right| = \left| 10 \right| n^{2}  +  \left| -10 \right| n  +  \left| 3 \right| \le 10 n^{2} +  10 n^{2} + 3n^{2}= \left( 10  +  10  + 3 \right)n^{2}</math> 
+
+Thus we continue with the proof 
+
+== Proof ==
+Take <math display="inline">c = \sum_{i=0}^{l} \left| b_{i} \right|</math> and <math display="inline">\overline{n}=1</math>, then we have and assume <math display="inline">\overline{n} \le n</math> (<math display="inline">n \ge 1</math>, Call this fact <math display="inline">\alpha</math>) <math display="block">p\left(n\right) = \sum_{i=0}^{l} a_{i}n^{i} \le \sum_{i=0}^{l} \left| a_{i} \right|n^{i} \stackrel{\alpha}{\le} \sum_{i=0}^{l} x^{n} = \left( \sum_{i=0}^{l} \left| a_{i} \right| \right)x^{n} = c  \cdot x^{n}</math>
+
+{{Knowledge Metadata|Time Complexity|Theorem}}

@@ -1,0 +1,8 @@
+== Proof ==
+
+* Assume for the sake of contradiction that <math display="inline">\sqrt{2} \in \mathbb{Q}</math>, so <math display="inline">\exists p,q \in \mathbb{Z}</math> with <math display="inline">q \neq 0</math> and <math display="inline">\gcd(p,q)=1</math> such that <math display="inline">\sqrt{2}=\frac{p}{q}</math> 
+* That is equivalent to <math display="inline">q^{2}2 =p^{2}</math> which means that <math display="inline">p^{2}</math> is divisible by <math display="inline">2</math> and thus even, this also implies that <math display="inline">p</math> must have been even as, if it was not, then it would be odd, and we know that an odd number squared is odd.
+
+* Since <math display="inline">p</math> is even, then <math display="inline">\exists k \in \mathbb{Z} \text{ such that  }  p = 2k</math>, in other words <math display="inline">q^{2}2 = p^{2} \Leftrightarrow q^{2}2 = 4k^{2} \Leftrightarrow q^{2}=2k^{2}</math>, so then <math display="inline">q</math> is also even, so <math display="inline">\gcd(p,q) \ge 2 \neq 1</math> which is a contradiction
+
+{{Knowledge Metadata|Number Theory|Theorem}}

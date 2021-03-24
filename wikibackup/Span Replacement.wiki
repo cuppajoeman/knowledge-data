@@ -1,0 +1,22 @@
+
+Let <math display="inline">X</math> be a non-zero vector space and suppose <math display="inline">\operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\} = X</math>. And let <math display="inline">\vec{z} \in X, \vec{z} \neq \vec{0}</math> and suppose there exists <math display="inline">c_{1} ,  c_{2} ,  \dotsc  ,  c_{k - 1} ,  c_{k} \in \mathbb{R}</math> such that <math display="block">\vec{z} = c_{1} \vec{x}_{1}  +  c_{2} \vec{x}_{2}  +  \dotsb  +  c_{k - 1} \vec{x}_{k - 1}  +  c_{k} \vec{x}_{k}</math>
+
+Noting that not all of <math display="inline">c_{1} , c_{2} , \dotsc  , c_{k - 1} , c_{k}</math> are zero, or else <math display="inline">\vec{z} = \vec{0}</math> which is a contradiction, so then for the <math display="inline">c_{j} \neq 0</math> we have: <math display="block">\operatorname{span}\left\{ \vec{x}_{1} ,  \vec{x}_{2} ,  \dotsc, \widehat{ \vec{x}_{j}}, \dotsc  ,  \vec{x}_{k - 1} ,  \vec{x}_{k}, \vec{z}\right\} = X</math>
+
+==Proof==
+
+* We would like to use <math>\alpha</math> to conclude, thus we verify the hypothesis:
+** We see that <math display="inline">\operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}, \vec{z}\right\} = X</math> as <math>\subseteq</math> is trivial and <math display="inline">\supseteq</math> follows by the fact that <math display="inline">\operatorname{span}\left\{ \vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{k - 1} , \vec{x}_{k}\right\} \supseteq X</math> and then by setting the coefficient on <math display="inline">\vec{z}</math> to be zero.
+** In addition the set is linear dependent because we can take the non-trivial linear combination of<math display="block">\left(  - c_{1} \right) \vec{x}_{1}  +  \left(  - c_{2} \right) \vec{x}_{2}  +  \dotsb   +  \left(  - c_{k-1} \right) \vec{x}_{k - 1}  +  \left(  - c_{k} \right) \vec{x}_{k}  +  \vec{z} = \vec{0}</math>
+* Therefore by <math display="inline">\alpha</math>
+<math display="block">\operatorname{span}\left\{ \vec{x}_{1} ,  \vec{x}_{2} ,  \dotsc, \widehat{ \vec{x}_{j}}, \dotsc  ,  \vec{x}_{k - 1} ,  \vec{x}_{k}, \vec{z}\right\} = X</math>
+
+==Knowledge Used==
+
+*[[Vector Space]]
+*[[The Span of a Set of Vectors]]
+*[[Linear Dependence]]
+*[[Proof by Contradiction]]
+*[[Set Equality]]
+*<math>\alpha</math>: [[Reduction of Dependence]]
+{{Knowledge Metadata|Linear Algebra|Lemma}}

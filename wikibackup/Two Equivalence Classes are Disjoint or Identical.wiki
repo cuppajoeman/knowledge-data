@@ -1,0 +1,11 @@
+== Proof ==
+
+* Let <math display="inline">E \subseteq X \times X</math> be an equivalence relation and set <math display="inline">W = \left\{ x \in X: x E w  \right\}</math> and <math display="inline">Z = \left\{ x \in X: x E z  \right\}</math>, where <math>w,z \in X</math>.
+
+* Suppose that <math display="inline">W \cap Z \neq \varnothing</math> so we have <math display="inline">a \in W \cap Z</math>, so then <math display="inline">a E w</math> and <math display="inline">a E z</math>. 
+** Since <math display="inline">E</math> is an equivalence relation then also <math display="inline">w E a</math> by reflexivity so then <math display="inline">w E z</math> by transitivity and <math display="inline">z E w</math> by reflexivity
+** This implies that for any <math display="inline">c \in W</math>, <math display="inline">c E w</math> and <math display="inline">w E z</math> so <math display="inline">c E z</math> thus <math display="inline">c \in Z</math>, so <math display="inline">W \subseteq Z</math> the same logic shows that <math display="inline">Z \subseteq W</math> and we get <math display="inline">Z = W</math> .
+
+* Otherwise <math display="inline">W \cap Z = \varnothing</math>, so we can conclude that the intersection of two equivalence classes is either identical or disjoint.
+
+{{Knowledge Metadata|Relations|Theorem}}

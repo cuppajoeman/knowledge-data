@@ -1,0 +1,3 @@
+Any computation carried out by mechanical means can be performed by a Turing Machine
+
+{{Knowledge Metadata|Computability|Theorem}}

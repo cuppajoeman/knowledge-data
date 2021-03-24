@@ -1,0 +1,6 @@
+A relation <math display="inline">E \subseteq X \times X</math> is called anitsymmetric if and only if <math display="block">\left( x E y \land y E x \right) \Rightarrow x = y</math> for all <math display="inline">x,y \in X</math>
+
+== Examples ==
+
+* <math>x E y \Leftrightarrow x \le y</math> is antisymmetric
+{{Knowledge Metadata|Relations|Definition}}

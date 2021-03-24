@@ -1,0 +1,12 @@
+The multiplication rule
+
+Define <math display="inline">P_{1} = P\left(E_{1}\right) </math> and for <math display="inline">i \ge 2, P_i = P\left(E_{i} \mid \bigcap_{j=1}^{i-1} E_{j}\right)</math>, then:<math display="block">P\left( \bigcap_{i=1}^{n} E_{i}\right) = \prod_{i = 1}^{n} P_{i} = P\left(E_1 \right) \cdot P\left(E_2 \mid E_1 \right) \cdot P \left( E_3 \mid E_1 \cap E_2 \right) \dotsb P\left(E_n \mid \bigcap_{i=1}^{n-1} E_i \right)</math>
+
+== Proof ==
+*For each <math display="inline">P_{i}</math> we can apply the definition of conditional probability to get <math display="block">P_{i} = \frac{P\left( \bigcap_{k=1}^{i} E_{k}\right)}{P\left( \bigcap_{l=1}^{i-1} E_{l}\right)} \qquad \text{ and } \qquad P_{i + 1} = \frac{P\left( \bigcap_{k=1}^{i+1} E_{k}\right)}{P\left( \bigcap_{l=1}^{i} E_{l}\right)}</math>
+*In other words the denominator of the next element of the product is the same as the numerator of the previous, by this, we can see that every numerator is cancelled by the next denominator, this hold for each element except for the last and so it simplifies to <math display="block">\prod_{i = 1}^{n} P_{i} = \cancel{P\left(E_{1}\right)}  \cdot \frac{\cancel{P\left(E_{1} \cap E_{2}\right)}}{\cancel{P\left(E_{1}\right)}}    \dotsb \frac{P\left( \bigcap_{i=1}^{n} E_{i}\right)}{\cancel{P\left( \bigcup_{i=1}^{n-1} E_{i}\right)}} = P\left( E_1 \cap E_2 \cap \dotsb \cap E_n \right)</math>
+
+== Knowledge Used ==
+
+* [[Conditional Probability]]
+{{Knowledge Metadata|Probability|Proposition}}

@@ -1,0 +1,8 @@
+The set <math>\mathbb{N}</math> of natural numbers is well-ordered
+
+== Knowledge Used ==
+
+* [[Well Ordering]]
+
+
+{{Knowledge Metadata|Relations|Principle}}

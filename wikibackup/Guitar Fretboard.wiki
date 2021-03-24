@@ -1,0 +1,30 @@
+A guitar Fretboard is on the front of the neck of a guitar, it is a rectangular piece of wood with small metal bars that allow a player to push on a string in a specific location, the strings are plucked and the finger holds the string tightly against the metal beam, this gives the string a different length and thus when plucked it creates a different pitch than if the finger was not placed there.
+
+In the most general sense, this is how all pitches are initially created on the guitar.
+
+==Fundamental Properties==
+
+*The fretboard is constructed in such a fashion such that if you place your finger on a fret anywhere on the guitar and pluck the string, the note created by moving your finger towards yourself by one fret and plucking the string is higher than the previous by one semitone. Equivalently moving away reduces the pitch by one semitone
+*If you play each string consecutively you will notice that they do not sound all the same, this is because the guitar already has a specific tuning
+**The default tuning is given by tuning the thickest string to 4, and then tuning the next string a certain number of semitones higher than the previous. The default pattern that it follows is 5, 5, 5, 4, 5.
+*The guitar can play as many notes simultaneously as there are strings (so 6). This is fundamental because it allows us to play chords, this is not possible on wind instruments for example.
+*The same note can be played in many different ways see [[Guitar Note Equivalence]]
+==Language Gotcha's==
+* Any movement described as "up" is referring to an increase in the frequency of a pitch, going "down" is a decrease in the frequency of pitch, this is counter intuitive if you are thinking of the movement of your hand across the fretboard.
+
+== Mathematical Model of the Fretboard ==
+
+* The guitar fretboard will can be considered as the following cartesian product <math display="block">\mathbb{F} \stackrel{\mathtt{D}}{ = } \{ 0, 1, 2, 3, 5 \} \times \{ 0, \ldots  ||f ||\} \subseteq \mathbb{N}^2</math>which gives a vertical representation of the fretboard, the order may be changed to give a horizontal representation
+* The string pitches will be indexed similarly, so that <math display="block">\mathcal{S}_0, \mathcal{S}_1, \mathcal{S}_2, \mathcal{S}_3, \mathcal{S}_4, \mathcal{S}_5</math>refer to the pitch created by each of the strings when they are "open" (no finger pressed on any fret) where index 0 refers to the string with the lowest pitch and index 5 refers to the string with the highest pitch
+* The number of frets on the guitar will be written as <math>\| f \|</math>
+*The set of notes that can be played on the guitar fretboard will be written as <math>\mathbb{G} \subseteq \mathbb{W}</math>
+
+== Knowledge Used ==
+
+* [[Chord]]
+* [[Modular Arithmetic]]
+* [[Guitar Note Equivalence]]
+* [[Cartesian Product]]
+* [[Definition Equals]]
+
+{{Knowledge Metadata|Guitar|Definition}}

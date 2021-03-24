@@ -1,0 +1,9 @@
+For a given mathematical object <math>\mathfrak{J} </math>, if we want to define it as <math>\mathfrak{X}</math> and <math>\mathfrak{M}</math> we will use the following notation<math display="block">\mathfrak{X}\stackrel{\mathtt{N}}{=} \mathfrak{M} \stackrel{\mathtt{D}}{=} \mathfrak{J}</math>In this we are implying that <math>\mathfrak{X}</math> and <math>\mathfrak{M}</math> are both equivalent notation and that they are defined by be <math>\mathfrak{J} </math>
+==Examples==
+*<math>x^\star n \stackrel{\mathtt{N}}{=} F_n^x \stackrel{\mathtt{D}}{=} \frac{n!}{\max \left( 1,x \right)}</math>
+
+== Knowledge Used ==
+
+* [[Definition Equals]]
+
+{{Knowledge Metadata|Mathematics|Notation}}

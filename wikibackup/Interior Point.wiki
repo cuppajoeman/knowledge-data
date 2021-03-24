@@ -1,0 +1,3 @@
+Let <math display="inline">X</math> be some topological space, and <math>S \subseteq X</math>, then we say that <math display="inline">a \in S</math> is an interior point of <math display="inline">S</math> when there exists an open set <math>U</math> with <math>a \in U \subseteq S</math>
+
+{{Knowledge Metadata|Topology|Definition}}

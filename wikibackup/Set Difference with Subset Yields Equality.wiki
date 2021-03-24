@@ -1,0 +1,9 @@
+Let <math display="inline">X</math> be a set and suppose <math display="inline">Y \subseteq X</math> if <math display="inline">X \setminus Y = \varnothing</math> then <math display="inline">Y = X</math>
+
+== Proof ==
+
+* By assumption we have <math display="inline">Y \subseteq X</math>, then all that remains is to show that <math display="inline">X \subseteq Y</math>
+* Let <math display="inline">x  \in X</math> and we must show that <math display="inline">x \in Y</math>
+** If <math display="inline">x \not\in Y</math> then <math display="inline">x \in X \setminus Y</math> so <math display="inline">X \setminus Y \neq \varnothing</math> which is a contradiction so <math display="inline">x \in Y</math>, as required.
+
+{{Knowledge Metadata|Sets|Proposition}}

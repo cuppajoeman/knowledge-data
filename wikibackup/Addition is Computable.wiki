@@ -1,0 +1,7 @@
+Show that the function <math display="inline">f\left(x,y\right)=x + y</math> is computable
+
+== Proof ==
+
+* We choose our input to be in the form of unary, in this way we would represent <math display="inline">2  + 3</math> as <math display="inline">11\$111</math>, the solution as we know is <math display="inline">5</math>, and so in order to do this our Turing Machine simply has to replace the dollar sign with a <math display="inline">1</math> and then remove the last one from the string, to satisfy the definition of computable, we move the head back to the start position when we are done.
+
+{{Knowledge Metadata|Computability|Proposition}}

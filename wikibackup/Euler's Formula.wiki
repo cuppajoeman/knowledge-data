@@ -1,0 +1,12 @@
+
+<math display="block">e^{i\phi} = \cos  \left( \phi  \right)  +  i \sin  \left( \phi  \right)</math>
+
+== Proof ==
+
+Using the Taylor series for the exponential, cos and sin. Additionally we note that <math display="inline">i^{1}=i, i^{2}=-1, i^{3}=-i, i^{4}=1, i^{5}=i, i^{6}=-1, \ldots</math> <math display="block">\begin{aligned}
+  e^{i\phi } &= 1  +  i \phi  +  \frac{\left( i \phi  \right)^{2}}{2!}  +  \frac{\left( i \phi  \right)^{3}}{3!}  +  \frac{\left( i \phi  \right)^{4}}{4!} + \frac{\left( i \phi  \right)^{5}}{5!} + \ldots \\
+             &= 1  +  i \phi   -  \frac{\phi^{2}}{2!} - \frac{\phi^{3}}{3!}  +  \frac{\phi^{4}}{4!}+  \frac{\phi^{5}}{5!}  +  \ldots \\
+             &= \left( 1  -  \frac{\phi^{2}}{2!} +  \frac{\phi^{4}}{4!} -  \ldots \right)  +  i \left( \phi  -  \frac{\phi^{3}}{3!}  +  \frac{\phi^{5}}{5!} - \ldots \right)\\
+             &= \cos  \left( \phi \right)  +  i \sin  \left( \phi \right)\end{aligned}</math>
+
+{{Knowledge Metadata|Complex Numbers|Theorem}}

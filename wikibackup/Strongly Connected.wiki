@@ -1,0 +1,8 @@
+When for any two vertices in a directed graph there exists a directed path that connects them
+
+== Knowledge Used ==
+
+* [[Directed Graph]]
+* [[Directed Path]]
+
+{{Knowledge Metadata|Graph Theory|Definition}}

@@ -1,0 +1,7 @@
+Suppose that <math>\Gamma_{P}</math> is a set of [[Propositional Formula|propositional formulas]] and <math>\phi _{P}</math> is a propositional formula. 
+
+We will say that <math>\phi _{P}</math> is a propositional consequence of <math>\Gamma_{P}</math> if every [[Propositional Formula Assignment Function|truth assignment]] that makes each propositional formula in <math>\Gamma_{P}</math> true also makes <math>\phi _{P}</math> true. 
+
+Notice that <math>\phi _{P}</math> is a [[tautology]] if and only if <math>\phi _{P}</math> is a propositional consequence of <math>\emptyset</math>, this is because any truth assignment makes every formula in <math>\emptyset</math> true (vacuously).
+[[Category:Propositional Logic]]
+[[Category:Definition]]

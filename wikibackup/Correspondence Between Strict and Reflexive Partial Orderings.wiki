@@ -1,0 +1,2 @@
+Let <math display="inline">E \subseteq X \times X</math> be a strict partial ordering and <math display="inline">F \subseteq X \times X</math> be a reflexive partial ordering. Then<math display="block">F = E \cup {\nearrow} X \qquad \text{ and } E = F \setminus {\nearrow} X</math>
+{{Knowledge Metadata|Relations|Proposition}}

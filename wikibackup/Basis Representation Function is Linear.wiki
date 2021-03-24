@@ -1,0 +1,15 @@
+= Proof =
+Let <math display="inline">\mathcal{B} = \left( b_{1}, b_{2},  \dots ,b_{n - 1},b_{n} \right)</math> be a basis for a finite dimensional vector space <math display="inline">V</math>. Then for <math display="inline">\vec{x}, \vec{y} \in V</math>, <math display="inline">\exists ! c_{1}, c_{2},  \dots ,c_{n - 1},c_{n}, d_{1}, d_{2},  \dots ,d_{n - 1},d_{n} \in \mathbb{R}</math> such that <math display="block">\vec{x}= \sum_{i=1}^{n} c_{i}b_{i} \qquad \text{and} \qquad  \vec{y}= \sum_{i=1}^{n} d_{i}b_{i}</math>
+
+Then we want to show that for any <math display="inline">\alpha \in \mathbb{R}</math> <math display="block">\left[ \alpha \vec{x}  +  y \right]_{\mathcal{B}} = \alpha \left[ \vec{x} \right]_{\mathcal{B}}  +  \left[ \vec{y} \right]_{\mathcal{B}}</math>
+
+We see that <math display="block">\alpha \vec{x} +  \vec{y} = \sum_{i=1}^{n} \left( \alpha c_{i} +  d_{i} \right)b_{i}</math>
+
+Therefore <math display="block">\begin{aligned}
+  \left[ \alpha \vec{x}  +  \vec{y} \right]_{\mathcal{B}} &= \begin{bmatrix} \left( \alpha c_{1} +  d_{1} \right) \\ \left( \alpha c_{2} +  d_{2} \right) \\ \vdots \\ \left( \alpha c_{n} +  d_{n} \right) \end{bmatrix}\\
+  &= \alpha\begin{bmatrix} c_1 \\ c_2 \\ \vdots \\ c_n \end{bmatrix}  +  \begin{bmatrix} d_1 \\ d_2 \\ \vdots \\ d_n \end{bmatrix} \\
+  &= \alpha \left[ \vec{x} \right]_{\mathcal{B}}  +  \left[ \vec{y} \right]_{\mathcal{B}}\end{aligned}</math>
+
+As required.
+
+{{Knowledge Metadata|Linear Algebra|Theorem}}

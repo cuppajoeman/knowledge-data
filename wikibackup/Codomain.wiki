@@ -1,0 +1,1 @@
+The set into which all of the outputs of a given [[Function|function]] are constrained to fall

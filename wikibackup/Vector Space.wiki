@@ -1,0 +1,19 @@
+A vector space over a field <math>\mathbb{F}  </math>  is a set <math>V</math>, with two operations: (where <math>\vec{v}, \vec{u}, \vec{w} \in V</math>)
+
+* A binary operation named vector addition: <math>v + w</math> 
+* Scalar multiplication: <math>x \mapsto \alpha x</math>, which is an operation from <math>F\times V</math> to <math>V</math>
+
+That satisfy the following axioms:
+
+# Associativity of addition: <math>\vec{u}  + \left( \vec{v}  + \vec{w}  \right) = \left( \vec{u}  + \vec{v}  \right)  + \vec{w} </math> 
+# Commutativity of addition: <math>\vec{u}  + \vec{v} = \vec{v}  + \vec{u} </math> 
+# Identity element of addition: there exists an element <math>\vec{0} \in  V</math>, called the [[Zero n-Tuple|zero vector]], such that <math>\vec{v}  + \vec{0} = \vec{v}</math>   for all <math>\vec{v}  \in  V</math>
+# Inverse elements of addition: For every <math>\vec{v} \in  V</math>  there exists an element <math> - \vec{v}  \in  V </math>, called the additive inverse of <math>\vec{v} </math>  such that <math>\vec{v}  + \left(  - \vec{v}  \right) = \vec{0} </math>
+# Compatibility of scalar multiplication with field multiplication <math>\alpha \left( \beta \vec{v}  \right) = \left( \alpha \beta  \right) \vec{v} </math> 
+# Identity element of scalar multiplication: <math>1\vec{v} = \vec{v} </math>  where 1 is the multiplicative identity in <math>\mathbb{F} </math>  
+# Distributivity of scalar multiplication with respect to vector addition: <math>\alpha \left( \vec{u}  + \vec{v}  \right) = \alpha \vec{u}  + \alpha \vec{v} </math> 
+# Distributivity of scalar multiplication with respect to field addition <math>\left( \alpha  + \beta  \right) \vec{v} = \alpha \vec{v}  + \beta \vec{v}  </math>
+
+[[Category:Definition]]
+[[Category:Linear Algebra]]
+[[Category:Vector Spaces]]

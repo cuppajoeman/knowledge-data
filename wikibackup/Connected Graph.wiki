@@ -1,0 +1,7 @@
+A graph is connected if every two nodes have a path between them
+
+== Knowledge Used ==
+
+* [[Graph]]
+* [[Path]]
+{{Knowledge Metadata|Graph Theory|Definition}}

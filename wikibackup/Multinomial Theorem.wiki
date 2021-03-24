@@ -1,0 +1,10 @@
+Let <math display="inline">x_{1}, x_{2},  \dots ,x_{m - 1},x_{m} \in \mathbb{R}\setminus \left\{ 0 \right\}</math> such that <math display="inline">\sum_{i=0}^{m} x_{i}\neq 0</math>, then <math display="block">\left( x_{1}+ x_{2}+  \dots +x_{m - 1}+x_{m} \right)^{n}= \sum_{k_{1}+ k_{2}+  \dots +k_{m - 1}+k_{m}=n} \binom{n}{k_{1}, k_{2},  \dots ,k_{m - 1},k_{m}} \prod_{t =1}^{m}x_{t}^{k_{t}}</math> with <math display="inline">\binom{n}{k_{1}, k_{2},  \dots ,k_{m - 1},k_{m}} =\frac{n!}{k_{1}!k_{2}!\dotsb k_{m}!}</math> 
+
+==Proof==
+TODO
+
+==Knowledge Used==
+
+* [[Multinomial Coefficient]]
+
+{{Knowledge Metadata|Combinatorics|Theorem}}

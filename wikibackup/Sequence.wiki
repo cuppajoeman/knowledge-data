@@ -1,0 +1,3 @@
+A sequence is a function whose domain is either <math display="inline">\mathbb{N}</math> or the set <math display="inline">\left[ n \right]</math>. When we have a sequence <math display="inline">f</math> where <math display="inline">f\left(j\right)=x_{j}</math> for all <math display="inline">j \in \left[ n \right]</math> we write <math display="inline">\left\{ x_{n} \right\}_{n = 1}^{\infty}</math>.
+
+{{Knowledge Metadata|Set Theory|Definition}}

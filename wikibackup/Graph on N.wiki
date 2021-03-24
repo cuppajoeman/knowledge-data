@@ -1,0 +1,26 @@
+== Question ==
+
+* Consider the graph <math>\mathbf{G}=(V, E)</math> with vertices <math>V=\mathbb{N}</math> and edges <math>E=\{\{i, i+1\}: i \in \mathbb{N}\}</math>. 
+** For all <math>n \in \mathbb{N}</math> let <math>a_{n}</math> be the number of [[Graph Theory/Walk|walks]] in <math>\mathbf{G}</math> of the form <math>\left(x_{0}, x_{1}, x_{2}, \ldots, x_{n}\right)</math> starting at <math>x_{0}=1</math> and ending at <math>x_{n}=1</math>
+** Also, define <math>a_{0}=0 .</math> Find the generating function for the sequence <math>\left(a_{n}\right)_{n=0}^{\infty} .</math> Do not leave your answer as an infinite sum.
+
+== Solution ==
+
+=== Catalan Connection ===
+
+* We place the graph onto an <math>x</math>-axis, so that we have a node on each of <math>1, 2, 3,\ldots </math> and an edge between them.
+** Given a such a walk, and two consecutive nodes in the walk, if we have that <math>x_{i + 1} = x_{i} + 1</math>, then we move to the right along the <math>x</math>-axis, and left for when we have <math>x_{i + 1}=x_{i} - 1</math>.
+** Under the given constraints we see that at any point along our path we must not have <math>x_{j}<1</math> as <math>x_{j \in \mathbb{N}}</math>, this means at any point we in the walk, we must never have more "left moves" than "right moves".
+** Finally, since we must end up back where we started the number of left moves must be equal to the number of right moves. So from this we can deduce that <math>n</math> must be even
+
+* Equivalently we can count the number of strings composed of <math>\frac{n}{2}</math> L's and <math>\frac{n}{2}</math> R's such that for any prefix the number of L's is always less than or equal to the number of R's. Which is the number of lattice paths from <math>\left( 0,0 \right)</math> to <math>\left( \frac{n}{2}, \frac{n}{2} \right)</math> that never go above the line <math>y=x</math>
+
+====== Thus we can say that the number of such walks is given by <math>C_{n}</math> ======
+
+* We also recall the recursive nature of the Catalan numbers, namely that:<math display="block">C_{n+1}=\sum_{k=0}^{n} C_{k}C_{n-k} \qquad C_{0}=1</math>so letting <math>f\left(x\right)=\sum_{n=0}^{\infty} C_{n}x^{n}</math> we observe that<math display="block">\begin{align}
+  f\left(x\right)^2 &= \sum_{n=0}^{\infty} \left( \sum_{k=0}^{n} C_{k}C_{n-k} \right)x^{n}\\
+                    &= \sum_{n=0}^{\infty} C_{n + 1}x^{n}
+\end{align}</math>therefore we have that <math>xf\left(x\right)^{2}=f\left(x\right) + 1 \Leftrightarrow xf\left(x\right)^2 - f\left(x\right) - 1 = 0</math>, thus by the quadratic equation we can see that <math>f\left(x\right)=\frac{1 \pm  \sqrt{1-4x}}{2x}</math>
+* If the positive square root is chosen then we will have the numerator going to 2 as <math>x \to 0</math>, we also know that the denominator will go to zero, (so the whole limit will tend to negative infinity from left and positive infinity from the right) so the limit does not exist, when it is actually <math>C_{0}=1</math>, thus choosing the negative square root and using L'Hopitals rule will yield the correct limit
+* So we have that<math display="block">\sum_{n=0}^{\infty} C_{n}x^{n} = \frac{1 - \sqrt{1-4x}}{2x}
+</math>

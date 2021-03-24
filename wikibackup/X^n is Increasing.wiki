@@ -1,0 +1,15 @@
+Suppose <math>f(x) = x^n</math> for some <math>n \in \mathbb{N}</math>, then <math>f^\prime(x) = n \cdot x^{n-1} </math>is strictly increasing on 
+
+*<math>\mathbb{R}</math> if <math>n</math> is odd
+*<math>[0, \infty) </math> if <math>n</math> is even
+
+==Proof==
+
+*If <math>n = 2k + 1</math> for some <math>k \in \mathbb{N}</math>, then <math>f^\prime(x) = n \cdot x ^{2k}</math> and we know that <math>x^2 \ge 0</math> therefore <math>x^{2k} = (x^2)^k \ge 0</math>, and <math>n \ge 0</math> so <math>f^\prime(x) > 0</math> for all <math>x \in \mathbb{R}^{\neq 0}</math>, and <math>f^\prime(0) = 0 </math>, thus it is strictly increasing
+*If <math>n</math> is even, then <math>n-1</math> is odd, so then <math>x^{n-1}</math> is negative when <math> x</math> is negative, but when <math>x \in \mathbb{R}^{> 0}</math>, then <math>f^\prime(x) > 0</math> and again <math>f'(0) = 0</math>, therefore it is strictly increasing
+
+== Knowledge Used ==
+
+* {{link|target=Strictly Increasing Function}}
+
+{{Knowledge Metadata|Analysis|Proposition}}

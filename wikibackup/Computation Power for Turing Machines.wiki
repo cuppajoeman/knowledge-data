@@ -1,0 +1,6 @@
+Two classes <math>\mathcal{C}_1</math>and <math>\mathcal{C}_2</math> of Turing Machines are said to have the same computation power if for each <math>M_1 \in \mathcal{C}_1</math>there is an equivalent <math>M_2 \in \mathcal{C}_2</math> and vise versa.
+
+== Knowledge Used ==
+
+* [[Turing Machine Equivalence]]<br />
+{{Knowledge Metadata|Turing Machines|Definition}}

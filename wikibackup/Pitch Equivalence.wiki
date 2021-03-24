@@ -1,0 +1,10 @@
+We define the set of all notes that differ by an octave:<math display="block">\mathbb{E}_n \stackrel{\mathtt{D}}{ = } \left\{ y \in \mathbb{G} :  I\left(n,y\right) ~\%~ 12 = 0  \right\}</math> 
+
+== Knowledge Used ==
+
+* [[Musical Interval Function]]
+* [[Modulus Operator]]
+* [[Set Builder Notation]]
+* [[Definition Equals]]
+
+{{Knowledge Metadata|Music Theory|Definition}}

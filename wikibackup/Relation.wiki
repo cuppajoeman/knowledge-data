@@ -1,0 +1,11 @@
+A relation between two sets $X$, $Y$ is a subset of $X \times Y$. Given $x \in X$ and $y \in Y$, then $x$ and $y$ are said to be related and we write $xRy$ if the ordered pair $(x,y)$ is in the relation.
+
+== Knowledge Used ==
+
+* [[Set]]
+* [[Subset]]
+* [[Cartesian Product]]
+* [[Set Membership]]
+
+Parent: {{link|target=Relations}}
+[[isA::Definition]]

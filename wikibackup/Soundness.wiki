@@ -1,0 +1,16 @@
+<math display="block">\text{If }\Sigma \vdash \phi \text{ then } \Sigma \models \phi</math> 
+
+== Proof ==
+* Let <math display="inline">\text{Thm}_{\Sigma} = \left\{ \phi \mid \Sigma \vdash \phi \right\}</math> and let <math display="inline">C=\left\{ \phi \mid \Sigma \vdash \phi  \right\}</math>. We will equivalently show that <math display="inline">\text{Thm}_\Sigma \subseteq C</math>.
+* We notice that the following are true. 
+**<math display="inline">\Sigma \subseteq C</math>, because if <math display="inline">\sigma \in \Sigma</math> then we have <math display="inline">\Sigma \models \sigma</math>. This is true by the definition of [[Logical Implication|logical implication]]
+** Since the [[The Logical Axioms are Valid|logical axioms are valid]], by definition they are true in any structure. Thus <math display="inline">\Sigma \models \lambda</math> for any logical axiom <math disp="" lay="inline">\lambda</math>, this is in the definition of logical implication, because we assume the antecedent and by our original observation we see that the consequent is automatically true (not having to use the hypothesis) so that if <math display="inline">\lambda \in \Lambda</math> then we have <math display="inline">\lambda \in C</math> as needed.
+** If <math display="inline">\left( \Gamma, \theta \right)</math> is a rule of inference and <math display="inline">\Gamma \subseteq C</math>, then <math display="inline">\theta \in C</math>. We commence by assuming that <math display="inline">\Gamma \subseteq C</math>. To prove <math display="inline">\theta \in C</math> one must show that <math di="" splay="inline">\Sigma \models \theta</math>. So fix a structure <math display="inline">\mathfrak{A}</math> wherein <math display="inline">\mathfrak{A}\models \Sigma</math>, we will prove <math display="inline">\mathfrak{A} \models \theta</math> . 
+*** By assumption, we have for any <math display="inline">\gamma \in \Gamma, \gamma \in C</math>, then by <math display="inline">C</math>'s definition we know that <math displa="" y="inline">\Sigma \models \gamma</math>. Since <math display="inline">\mathfrak{A} \models \Sigma</math> and that <math display="inline">\Sigma \models \gamma \Leftrightarrow 
+\left( \mathfrak{A}\models \Sigma \Rightarrow \mathfrak{A} \models \gamma \right)</math> we have <math display="inline">\mathfrak{A} \models \gamma</math>. 
+**** Since this holds for any <math display="inline">\gamma \in \Gamma</math> we know that <math display="inline">\mathfrak{A} \models \Gamma</math>
+**** [[Rules of Inference Preserve Truth|Recall]] that since <math display="inline">\left( \Gamma, \theta \right)</math> is a rule of inference, we obtain that <math display="inline">\Gamma \models \theta</math>
+**** Now we have <math display="inline">\mathfrak{A} \models \Gamma</math> and <math display="inline">\Gamma \models \theta \Leftrightarrow \left( \mathfrak{A} \models \Gamma \Rightarrow
+ \mathfrak{A} \models \theta \right)</math>, so one obtains <math display="inline">\mathfrak{A} \models \theta</math> as required.
+
+{{Knowledge Metadata|Deductions|Theorem}}

@@ -1,0 +1,56 @@
+[[File:Stereographic Projection.svg|thumb]]
+Is a model of the extended complex plane. It can be visualized as the complex numbers being mapped to the unit sphere using a stereographic projection. In this sense, as points in <math display="inline">\mathbb{C}</math> become arbitrarily far from the origin, they will map closer and closer to the north pole of the sphere, because of this we will map <math display="inline">\left( 0,0,1 \right) = \infty</math>
+
+== Knowledge Used ==
+
+* [[Extended Complex Plane]]
+* Stereographic Projection
+
+== TikZ Code ==
+\documentclass[border=5mm]{standalone}
+
+\usepackage{pgfplots} % loads tikz which loads pgf
+
+\begin{document}
+
+\begin{tikzpicture}
+
+  \coordinate (A) at (3,-0.25);
+
+  \coordinate (P) at (0,2);
+
+  \draw (0:2cm)   arc[radius=2cm,start angle=0,end angle=180]
+
+(210:2cm) arc[radius=2cm,start angle=210,end angle=330];
+
+\draw (180:2cm) arc[x radius=2cm, y radius=0.5cm, start angle=180,end angle=360];
+
+\draw [dashed] (210:2cm) 
+
+  arc[start angle=210,delta angle=-30,radius=2cm]
+
+arc[start angle=180,delta angle=-180,x radius=2cm,y radius=0.5cm]
+
+  arc[start angle=0,delta angle=-30,radius=2cm];
+
+  \draw [dashed] (80:2cm and 0.5cm) -- (260:2cm and 0.5cm);
+
+  \draw [dashed] (150:2cm) coordinate(ul) -- (30:2cm) coordinate(ur);
+
+  \draw (-4.5,-1) -- (3.5,-1) -- (4.5,1) node[anchor=south east] {\scriptsize$ z=0 $} -- (ur) (ul) -- (-3.5,1) -- (-4.5,-1);
+
+  \draw (A) -- (P) coordinate[pos=0.47](B);
+
+  \path (A) node[circle, fill, inner sep=1pt, label=below:{\scriptsize$ P(x,y,0) $}]{};
+
+  \path (B) node[circle, fill, inner sep=1pt, label=left:{\scriptsize$ (\xi,\eta,\zeta) $}]{};
+
+  \path (P) node[circle, fill, inner sep=1pt, label=above:{\scriptsize$ (0,0,1) $}]{};
+
+  \draw [dashed] (-2,0) -- (2,0);
+
+  \end{tikzpicture}
+
+  \end{document}
+
+{{Knowledge Metadata|Complex Analysis|Definition}}

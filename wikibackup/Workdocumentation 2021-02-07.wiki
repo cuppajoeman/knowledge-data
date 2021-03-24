@@ -1,0 +1,36 @@
+= Self describing SMW =
+* see e.g. https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach
+* http://www.cef-cfr.ca/uploads/Membres/PierreRacine-SMWCon2013-SMW_Metaproperties.pdf
+* https://www.openresearch.org/wiki/Development_guidelines
+
+Idea:
+- Metamodel with certain concepts see e.g. http://wiki.bitplan.com/index.php/MetaModel
+
+* https://www.openresearch.org/wiki/Template:EntityList
+* {{Link|target=Template:1toN}}
+* {{Link|target=Template:Nto1}}
+
+==Ordering==
+
+* Given a tree like this: 
+
+https://media.cheggcdn.com/study/637/637bf864-4ef9-4fec-bbb4-18c261cad136/computerscience-5-img-1.png
+
+We want to get the following list
+
+* 9
+* 4
+* 17
+* 3
+* 6
+* 22
+* 5
+* 7
+* 20
+
+The reason I want to have this ordering is because some definitions use other definitions, I want to list the definitions that don't depend on other ones (that are under the same page) before the ones that do. More concretely we don't want to list 20 first as it depends on already knowing 22, 17, and 9.
+
+The #ask query might not be so powerful for us here, and wf has suggested SPARQL
+*
+
+[[Category:Workdocumentation]]

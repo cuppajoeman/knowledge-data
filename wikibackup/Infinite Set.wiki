@@ -1,0 +1,4 @@
+An infinite set is a set which contains infinitely many elements, since we cannot list them all we use ellipses to show that the sequence continues forever, for example<math display="block">\mathbb{Z}  = \{ \ldots, -2, -1, 0, 1, 2, \ldots \}</math>
+
+Parent: {{link|target=Set Theory}}
+[[isA::Definition]]

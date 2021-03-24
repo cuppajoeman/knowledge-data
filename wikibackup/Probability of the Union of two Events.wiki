@@ -1,0 +1,19 @@
+Let <math display="inline">S</math> be a sample space <math display="inline">E, F \subseteq S</math> events then <math display="block">P\left(E \cup F\right) = P\left(E\right)  +  P\left(F\right)  -  P\left(E \cap F\right)</math>
+
+== Proof ==
+
+* From <math display="inline">\alpha</math> we get that <math display="inline">E \cup F = E \cup \left( \overline{E} \cap F \right)</math> so we have 
+<math display="block">P\left(E \cup F\right) = P\left(E \cup \left( \overline{E} \cap F \right)\right) = P\left(E\right)  +  P\left(\overline{E} \cap F\right)</math>
+
+* from <math display="inline">\beta</math> and axiom 3 of <math display="inline">\gamma</math> we see that 
+<math display="block">P\left(F\right) = P\left(E \cap F\right)  +  P\left(\overline{E} \cap F\right) \Leftrightarrow P\left(\overline{E} \cap F\right) = P\left(F\right)  -  P\left(E \cap F\right)</math>
+
+*  from this, we can continue our equation two lines back so by subbing into it we have 
+<math display="block">P\left(E \cup F\right) = P\left(E\right)  +  P\left(F\right)  -  P\left(E \cap F\right)</math>
+
+== Knowledge Metadata ==
+
+* <math>\alpha</math>: [[Union as Disjoint Sets]]
+* <math>\beta</math>: [[Disjoint Representation through Intersection]]
+* <math>\gamma</math>: [[Probability of an Event]]
+{{Knowledge Metadata|Probability|Proposition}}

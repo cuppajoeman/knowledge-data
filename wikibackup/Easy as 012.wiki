@@ -1,0 +1,25 @@
+For all <math>n \in \mathbb{N},</math> let <math>a_{n}</math> be the number of <math>\{0,1,2\}</math> -strings of length <math>n</math> where no two consecutive digits are nonzero. For example, if <math>n=8</math>, then 01000201 and 10201020 are valid, but 01002100 is not valid since 21 are two consecutive digits which are non-zero. Also, 10200110 is not valid because of <math>11 .</math>
+
+# Find a recurrence relation for <math>a_{n}</math>
+# Solve it using the method of advancement operators to find an explicit expression for <math>a_{n}</math>.
+
+== Solution ==
+
+* Let <math display="inline">\mathcal{S} _{n} = \left\{ x: x \in  \left\{ 0,1,2 \right\} ^{n} , lm \not \sqsubseteq x \text{ where } l,m \in \left\{ 1,2 \right\}    \right\}</math>, then <math display="inline">a_{n} = \left| \mathcal{S} _{n}  \right|</math>
+
+* Let <math display="inline">n \in \mathbb{N} ^{\ge 2}</math>, we will partition <math display="inline">\mathcal{S} _{n}</math> based on their last characters. 
+** Let <math display="inline">s \in  \mathcal{S} _{n}</math> 
+*** Supposing that <math display="inline">s _{n} = 0</math>, then it could have been constructed via an element of <math display="inline">\mathcal{S} _{n-1}</math> and then appending <math display="inline">0</math> to the end. 
+*** Else if <math display="inline">s _{n} \in  \left\{ 1,2 \right\}</math>, then we must have <math display="inline">s _{n-1} = 0</math>, the strings of length <math display="inline">n-1</math> that end in zero can be constructed by taking an <math display="inline">x \in  S_{n-2}</math> and then considering <math display="inline">x0</math>, 
+**** To consider our strings of length <math display="inline">n</math> we can either have <math display="inline">x01</math> or <math display="inline">x02</math>
+**** Because of the above observations, <math display="inline">\left| \mathcal{S} _{n}  \right| = \left| \mathcal{S} _{n-1}  \right|  + 2  \cdot \left| \mathcal{S} _{n-2}  \right|</math>, equivalently one has <math display="inline">a_{n} = a_{n-1}  + 2 \cdot a_{n-2}</math>.
+**** We also note that <math display="inline">\left| \mathcal{S} _{1}  \right| = 3, \left| S_{2}  \right| = 3^{2}  - 2^{2} = 5</math>
+
+----
+
+* In terms of advancement operators, we can reformulate the recurrence relation as <math display="inline">a_{n}  - a_{n-1} - 2a_{n-2}= 0</math> and then for <math display="inline">m \ge 0</math>, that is <math display="inline">a_{m + 2}  - a_{m + 1}  - 2  \cdot a_{m} = 0</math>, so then finally <math display="inline">\left( A^2  - A  - 2 \right) a_{m} = 0</math> so then we have <math display="inline">\left( A - 2 \right) \left( A + 1 \right) a_{m} = 0</math>, we see that <math display="inline">a_{m} = c_1 2^{m}  + c_2\left( -1 \right) ^{m}</math> satisfies for any <math>c_1, c_2 \in \mathbb{R}</math>
+
+* We want to determine what <math display="inline">c_1, c_2</math> are, that could be done via an augmented matrix, though it is quite simple so we just notice that:
+** <math display="inline">3 = a_{1} = c_1 \cdot 2  -  c_2</math> and <math display="inline">5 = a_2 = c_1 \cdot 4 + c2</math>, and subtracting twice first equation from the second yields <math display="inline">3c_2= -1 \Leftrightarrow  c_2= -\frac{1}{3}</math> and after substituting that back into the first equation, one gets that <math display="inline">2c_1  + \frac{1}{3} = 3 \Leftrightarrow c_1= \frac{4}{3}</math> and so <math display="inline">c_1= \frac{4}{3} , c_{2} = -\frac{1}{3}</math> work.
+
+* So our general solution for <math display="inline">a_{n}</math> is <math display="block">\frac{4}{3} 2^{n}  + -\frac{1}{3} \left( -1 \right) ^{n}</math>

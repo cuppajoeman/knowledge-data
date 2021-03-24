@@ -1,0 +1,11 @@
+Given a string <math>x = x_1x_2\ldots x_{n-1}x_{n}</math> for any <math>l,k \in \left[ n \right]</math>, we say that <math>x_{l}\ldots x_{k}</math> is a substring of <math>x</math>
+
+Given two strings <math>s_1</math> & <math>s_2</math> if <math>s_1</math> is a substring of <math>s_2</math> we write <math>s_1 \sqsubseteq s_2</math>
+
+Note: for any string <math>s</math>, <math>\epsilon \sqsubseteq s</math>
+
+== Knowledge Used ==
+* [[String]]
+* [[Set of 1 to n]]
+
+{{Knowledge Metadata|Computer Science|Definition}}

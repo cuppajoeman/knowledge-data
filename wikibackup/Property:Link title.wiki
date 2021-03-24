@@ -1,0 +1,2 @@
+This property is used by the template {{Link|target=Template:Link}}.
+It has the type [[Has type::text]]

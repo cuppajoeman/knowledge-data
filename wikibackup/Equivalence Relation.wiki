@@ -1,0 +1,15 @@
+A relation <math>R</math> which is reflexive, symmetric and transitive
+
+== Examples ==
+
+* <math>\equiv</math>, modular arithmetic
+
+== Knowledge Used ==
+
+# [[Reflexive Relation]]
+# [[Symmetric Relation]]
+# [[Transitive Relation]]
+
+Parent: {{link|target=Relations}} 
+
+[[isA::Definition]]

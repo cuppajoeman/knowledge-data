@@ -1,0 +1,5 @@
+We say that an edge (A, B) is a strong tie if A and B are friends.
+
+----
+Parent: {{link|target=Social Networks}}
+[[isA::Definition]]

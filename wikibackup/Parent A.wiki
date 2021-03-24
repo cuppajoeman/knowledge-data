@@ -1,0 +1,2 @@
+[[isA::Parent]]
+{{WhatLinksHere}}

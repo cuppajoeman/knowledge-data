@@ -1,0 +1,4 @@
+{{WhatLinksHere}}
+
+Parent: {{link|target=Computer Science}}
+[[isA::Structure]]

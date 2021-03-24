@@ -1,0 +1,9 @@
+Suppose that <math>\mathfrak{A}</math> is an [[Structure & Truth/L-Structure|<math>\mathfrak{L}</math>-structure]], <math>\phi</math> is an [[Language/Formula|<math>\mathfrak{L}</math>-formula]], and <math>s : Vars \to A</math> is an [[Structure & Truth/Variable Assignment Function|assignment function]]. We will say that <math>\mathfrak{A}</math> satisfies <math>\phi</math> with assignment <math>s</math>, and write <math>\mathfrak{A} \models \phi\left[s\right]</math>, in the following circumstances:
+
+# If <math>\phi :\equiv =t_1t_2</math> and <math>\bar{s}\left( t_1 \right)</math> is the same element of the universe <math>A</math>  as <math>\bar{s}\left( t_2 \right)</math>, or
+# If <math>\phi :\equiv Rt_1t_2\ldots t_n</math> and <math>\left( \bar{s}\left(t_1\right), \bar{s}\left(t_2\right), \ldots, \bar{s}\left(t_n\right) \right) \in R^{\mathfrak{A}}</math>, or
+# If <math>\phi :\equiv \left( \neg \alpha \right)</math> and <math>\mathfrak{A} \not\models \alpha\left[ s \right]</math>, where <math>\not\models</math> means "does not satisfy", or
+# If <math>\phi :\equiv \left( \alpha \lor \beta \right)</math> and <math>\mathfrak{A} \models \alpha\left[ s \right]</math>, or <math>\mathfrak{A} \models \beta\left[ s \right]</math> (or both), or
+# If <math>\phi :\equiv \left( \forall x \right)\left( \alpha \right)</math> and, for each element <math>a</math>  of <math>A</math>, <math>\mathfrak{A} \models \alpha\left[ s\left(x\mid a\right) \right]</math>
+[[Category:Definition]]
+[[Category:Structure & Truth]]

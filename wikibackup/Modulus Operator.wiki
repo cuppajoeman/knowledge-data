@@ -1,0 +1,9 @@
+Let <math display="inline">a \in \mathbb{Z}</math> and <math display="inline">n \in \mathbb{N}</math>, we define <math display="inline">x =a ~\%~ n</math> as the unique number <math display="inline">x \in \left\{ 0, \ldots, n-1 \right\}</math> such that <math display="inline">a  \equiv x \;(\bmod\; n)</math>
+
+TODO: proof that x must be unique
+
+== Knowledge Used ==
+
+* [[Congruence]]
+{{Knowledge Metadata|Modular Arithmetic|Definition}}
+[[isA::PIP]]

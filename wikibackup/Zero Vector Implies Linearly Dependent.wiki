@@ -1,0 +1,13 @@
+If a set of vectors contains <math display="inline">\vec{0}</math>, then it is linearly dependent
+
+== Proof ==
+
+Given <math display="inline">\left\{ \vec{v}_{1}, \vec{v}_{2},  \dots ,\vec{v}_{n - 1},\vec{v}_{n} \right\}</math> where for some <math display="inline">i \in \left[ n \right]</math> <math display="inline">\vec{v}_{i} = \vec{0}</math>, then for any <math display="inline">\gamma \in \mathbb{R}\setminus \left\{ 0 \right\}</math>:<math display="block">0\vec{v}_{1} + 0\vec{v}_{2} +  \dotsb  +0\vec{v}_{i - 1} + \gamma \vec{0} + 0 \vec{v}_{i + 1 }  +  \dotsb  +  0\vec{v}_{n} = \vec{0}</math>that is, a non-trivial linear combination that yields the zero vector, thus this set is linearly dependent 
+
+== Knowledge Used ==
+
+* [[Linear Dependence]]
+* [[Zero n-Tuple]]
+* [[Linear Combination]]
+* [[Set Difference]]
+{{Knowledge Metadata|Linear Algebra|Proposition}}

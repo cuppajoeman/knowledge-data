@@ -1,0 +1,13 @@
+# <math display="inline">\left( \forall x \right) \neg S x = 0</math>
+#<math display="inline">\left( \forall x \right)\left( \forall y \right) \left[ Sx = Sy \to x = y \right]</math>
+# <math display="inline">\left( \forall x \right) x  +  0 = x</math>
+# <math display="inline">\left( \forall x \right)\left( \forall y  \right)x  +  Sy = S\left( x  +  y \right)</math>
+# <math display="inline">\left( \forall x \right)x  \cdot 0 = 0</math>
+# <math display="inline">\left( \forall x \right)\left( \forall y \right)x  \cdot Sy =\left( x  \cdot  y \right)  + x</math>
+# <math display="inline">\left( \forall x \right)x E0 =S0</math>
+# <math display="inline">\left( \forall x  \right)\left(  \forall y  \right)x E\left( Sy \right)=\left( xEy \right) \cdot x</math>
+# <math display="inline">\left( \forall x \right) \neg x < 0</math>
+# <math display="inline">\left( \forall x \right)\left( \forall y \right)\left[ x < Sy \leftrightarrow \left( x < y \lor x = y \right)\right]</math>
+# <math display="inline">\left( \forall x \right)\left( \forall y \right)\left[ \left( x < y \right) \lor \left( x =y \right)\lor \left( y < x \right) \right]</math>
+[[Category:Axiom]]
+[[Category:Deduction]]

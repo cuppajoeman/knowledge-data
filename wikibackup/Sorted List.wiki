@@ -1,0 +1,2 @@
+We say that a list A = [a1 ... an] is sorted when a1 <= a2 ... <= an
+{{Knowledge Metadata|Sorting|Definition}}

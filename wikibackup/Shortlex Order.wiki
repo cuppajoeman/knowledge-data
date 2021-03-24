@@ -1,0 +1,12 @@
+Is a lexicographical ordering where additionally strings that are shorter precede longer strings.
+
+== Examples ==
+
+* The string order of all strings over the alphabet <math>\{ 0, 1 \}</math> is <math display="block">( \varepsilon, 0, 1, 00, 01, 10, 11, 000, \ldots)</math>
+
+== Knowledge Used ==
+
+* [[String over an Alphabet]]
+* [[Lexicographic Order]]
+
+{{Knowledge Metadata|Computability|Definition}}

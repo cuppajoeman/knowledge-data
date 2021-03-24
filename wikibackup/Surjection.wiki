@@ -1,0 +1,7 @@
+A surjection is a function <math>f : X \to Y </math> such that 
+<math display="block">\forall y \in Y, \exists x \in X, \text{ such that  } f\left(x\right)=y</math>
+
+== Knowledge Used ==
+
+* [[Function]]
+{{Knowledge Metadata|Functions|Definition}}

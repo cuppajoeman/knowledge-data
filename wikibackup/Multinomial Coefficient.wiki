@@ -1,0 +1,10 @@
+If <math display="inline">n_{1}  +  n_{2}  +  \ldots n_{r} = n</math> <math display="block">\binom{n}{n_{1}, n_{2},  \dots ,n_{r - 1},n_{r}} \stackrel{\text{def}}{=} \frac{n!}{n_{1}! n_{2}! \dotsb n_{r}}</math> and it represents the number of possible divisions of <math display="inline">n</math> distinct objects into <math display="inline">r</math> distinct groups of respective sizes <math display="inline">n_{1}, n_{2}, \ldots, n_{r}</math>
+
+== Proof ==
+
+* Suppose we have a set of <math display="inline">n</math> distinct items to be divided into <math display="inline">r</math> distinct groups or respective sizes <math display="inline">n_{1}, n_{2}, \ldots, n_{r}</math>, where <math display="inline">\sum_{i=1}^{r} n_{i} = n</math>. 
+* We would like to count how many different divisions are possible, we do so by noting that there are <math display="inline">\binom{n}{n_{1}}</math> possible choices for the first group; for each choice of the first group there are <math display="inline">\binom{n  -  n_{1}}{n_{2}}</math> possible choices for the second group, for the third group we will not be able to choose any of the previous elements so the number of choices we will have is simply <math display="inline">\binom{n  - \left( n_{1}  +  n_{2} \right)}{k}</math>.
+* In general, from the generalized counting principle, we can see that there are:<math display="block">\begin{aligned}
+  \binom{n}{n_{1}}\binom{n  -  n_{1}}{n_{2}} \binom{n  -  \left( n_{1}  +  n_{2} \right)}{n_{3}} \dotsb \binom{n  -  \left( n_{1}  +  \ldots  +  n_{r-1} \right)}{n_{r}} &= \frac{n!}{\left( n  -  n_{1} \right)! n_{1}!} \frac{\left( n  -  n_{1} \right)!}{\left( n  -  \left( n_{1}  +  n_{2} \right) \right)! n_{2}!} \dotsb \frac{\left( n  -  \left( n_{1}  +  n_{2}  +  \ldots n_{r-1} \right) \right)}{0! n_{r}!}\\
+                                                                                                                                                                         &= \frac{n!}{n_{1}! n_{2}! \dotsb n_{r}!}\end{aligned}</math>possible divisions of the <math>n</math> distinct objects.
+{{Knowledge Metadata|Combinatorics|Definition}}

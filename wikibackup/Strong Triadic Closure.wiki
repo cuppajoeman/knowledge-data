@@ -1,0 +1,5 @@
+Whenever (A, B) and (A, C) are strong ties, then there will be a tie between B and C. For a node involved in at least two strong ties, any local bridge it is part of must be a weak tie.
+----
+Parent: {{link|target=Social Networks}}
+
+[[IsA::Definition]]

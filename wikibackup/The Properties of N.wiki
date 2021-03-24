@@ -1,0 +1,27 @@
+For natural numbers <math display="inline">a, b</math>, we define <math display="inline">\bar{a}=\underbrace{SSS \ldots S 0}_{a S's}</math>
+
+# If <math display="inline">a = b</math> then <math display="inline">N \vdash \bar{a}=\bar{b}</math>
+# If <math display="inline">a \neq b</math> then <math display="inline">N \vdash \bar{a}\neq\bar{b}</math>
+# If <math display="inline">a < b</math> then <math display="inline">N \vdash \bar{a}<\bar{b}</math>
+# If <math display="inline">a \not < b</math> then <math display="inline">N \vdash \bar{a} \not< \bar{b}</math>
+# <math display="inline">N \vdash \bar{a}  +  \bar{b} =\bar{a  +  b}</math>
+#<math display="inline">N \vdash \bar{a}  \cdot  \bar{b} =\bar{a  \cdot  b}</math>
+# <math display="inline">N \vdash \bar{a}E\bar{b}=\bar{a^{b}}</math>
+
+== Proof ==
+# It shall be proven by induction on <math display="inline">a</math> and <math display="inline">b</math> as they are equal.
+#* Base Case <math display="inline">a = b = 0</math> Now we need a deduction of Note that <math display="inline">\bar{0}</math> is <math display="inline">0</math> and so we would like to find a deduction of <math display="inline">0 = 0</math>. <math display="inline">x = x \in \Lambda</math> so <math display="inline">N \vdash x = x</math>, but then by Z we know that <math display="inline">\left( \forall x \right)x = x</math>, then since <math display="inline">0</math> is substitutable for <math display="inline">x</math> in <math display="inline">x = x</math> we can use can write <math display="inline">\left( \forall x \right)x = x \to 0 = 0</math>, so then by propositional consequence we obtain <math display="inline">0 = 0</math>.
+#* Assuming that <math display="inline">a = b > 0</math> then <math display="inline">a  - 1 = b  - 1</math> so by the inductive hypothesis there is a deduction of <math display="inline">\underbrace{SS \ldots S0}_{a - 1 S's}= \underbrace{SS \ldots S 0}_{b-1 S's}</math>. 
+#** Then on the next lines we will append a deduction of  a modification of E2, we will be modifying this version of E2:<math display="block">
+  \left[ \left( x=y \right)\right] \to \left( S\left(x\right)=S\left(y\right) \right)
+</math>
+#** Firstly, we know that <math>N \vdash  \left[ \left( x=y \right)\right] \to \left( S\left(x\right)=S\left(y\right) \right) </math> as it is a logical axiom, then [[Equivalence of Removal of Universal Quantification|we may add any quantifier to the start of it]] to obtain <math>N \vdash  \left( \forall x \right)\left[ \left( x=y \right)\right] \to \left( S\left(x\right)=S\left(y\right) \right)</math>, but then note we may also add a quantifier on <math>y</math>, the reason why is that we could rewrite [[Equivalence of Removal of Universal Quantification|the proof]] with the roles of <math>x</math> and <math>y</math> swapped. So we get <math display="block">N \vdash  \left( \forall y \right) \left( \forall x \right)\left[ \left( x=y \right)\right] \to \left( S\left(x\right)=S\left(y\right) \right)</math>
+#*** We will now append the deduction above the above formula into our current deduction
+#** We will now use Q1 (substitution) twice, first on <math>y</math> by substituting it with <math display="inline">\underbrace{SS \ldots S}_{a - 1 S's}0</math> and then replacing <math>x</math> with <math display="inline">\underbrace{SS \ldots S}_{b-1 S's}0</math>, so the following lines of the deduction will be <math display="block">\left( \forall y \right) \left( \forall x \right)\left[ \left( x=y \right)\right] \to \left( S\left(x\right)=S\left(y\right) \right) \to \left[  \left( \forall x \right)\left[ \left( x=y \right)\right] \to \left( S\left(x\right)=S\left(y\right) \right) \right]_{\underbrace{SS \ldots S}_{b-1 S's}0}^y</math>
+#** 
+#** we also know that these are substitutable from the definition, going through the clauses in this order, 4, 4, 3, 2, 1 (using the definition of <math>A \to B</math> as <math>\neg A \lor B</math> ), after going through all of that, w
+#** 
+#** <math display="inline">\underbrace{SS \ldots S0}_{a - 1 S's}= \underbrace{SS \ldots S 0}_{b-1 S's} \to  S \underbrace{SS \ldots S0}_{a - 1 S's}= S \underbrace{SS \ldots S 0}_{b-1 S's}</math>, then by propositional consequence one obtains 
+
+<math display="block">\underbrace{SS \ldots S0}_{a S's}= \underbrace{SS \ldots S 0}_{b S's}</math>
+#

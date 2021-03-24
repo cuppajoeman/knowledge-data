@@ -1,0 +1,9 @@
+Given a vector space <math>V</math>a basis for <math>V</math>is a list of vectors in <math>V</math> that is linearly independent and spans <math>V</math>
+
+== Knowledge Used ==
+
+* [[Vector Space]]
+* [[List]]
+* [[Linear Independence]]
+
+{{Knowledge Metadata|Vector Spaces|Definition}}

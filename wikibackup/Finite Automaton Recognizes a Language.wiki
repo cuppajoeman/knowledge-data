@@ -1,0 +1,8 @@
+We say that a finite automaton <math display="inline">M</math> recognizes a language <math display="inline">A</math> if <math display="block">A = \left\{ w : M \text{ accepts } w \right\}</math>
+
+== Knowledge Used ==
+
+* [[Finite Automaton]]
+* [[Language]]
+
+{{Knowledge Metadata|Computability|Definition}}

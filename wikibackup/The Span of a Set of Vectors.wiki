@@ -1,0 +1,6 @@
+The span of a set of vectors <math display="inline">X = \left\{  \vec{x}_{1} , \vec{x}_{2} , \dotsc  , \vec{x}_{n - 1} , \vec{x}_{n} \right\}</math> is the set of all linear combinations of the vectors in <math display="inline">X</math>, symbolically <math display="block">\operatorname{span} X = \left\{\alpha_{1} \vec{x}_{1}  +  \alpha_{2} \vec{x}_{2}  +  \dotsb  +  \alpha_{n - 1} \vec{x}_{n - 1}  +  \alpha_{n} \vec{x}_{n}:, \text{ for some } \alpha_{1} , \alpha_{2} , \dotsc  , \alpha_{n - 1} , \alpha_{n} \in \mathbb{F}  \right\}</math>
+
+== Knowledge Used ==
+* {{Link|target=Linear Combination}}
+
+{{Knowledge Metadata|Linear Algebra|Definition}}

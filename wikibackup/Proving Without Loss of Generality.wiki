@@ -1,0 +1,7 @@
+When the words ''Without Loss of Generality'' are written in a proof, it means that in the proof a concrete decision is being made, but this decision could have been replaced by any other valid decision and then the following logic will still hold 
+
+== Knowledge Used ==
+
+* [[Proof]]
+
+{{Knowledge Metadata|Proof Techniques|Definition}}

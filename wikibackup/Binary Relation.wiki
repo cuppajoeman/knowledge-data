@@ -1,0 +1,6 @@
+Given a set <math>X</math> a binary relation <math>\star</math> on <math>X</math> a subset of <math>X \times X</math>. 
+
+Customarily when writing expressions involving binary relations we use infix notation (like the less than relation, or equals), so for <math>a, b \in X</math> if  <math>(a, b) \in X</math>, one would write <math display="block">a \star b</math>
+
+Parent: {{link|target=Set Theory}}
+[[isA::Definition]]

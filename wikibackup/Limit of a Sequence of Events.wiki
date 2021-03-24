@@ -1,0 +1,8 @@
+Suppose we have a sequence of events <math display="inline">\left\{  E_{n} \right\}_{n \ge 1}</math> with <math display="block">E_{1} \subseteq E_{2} \subseteq \dotsb  \subseteq E_{n - 1} \subseteq E_{n} \subseteq \dotsb</math> then the sequence of events is called increasing, then we define <math display="block">\lim_{n\to\infty} E_{n} \stackrel{\mathtt{D}}{=}  \bigcup_{i=1}^{\infty} E_{i}</math>
+
+Similarly for when <math display="block"> \dotsb \supseteq E_{n} \supseteq E_{n-1} \supseteq \dotsb  \supseteq E_{2} \supseteq E_{1} </math>then the sequence of events is called decreasing, then we define<math display="block">\lim_{n\to\infty} E_{n} \stackrel{\mathtt{D}}{=} \bigcap_{i=1}^{\infty} E_{i}</math>
+
+== Knowledge Used ==
+
+* [[Sequence]]
+{{Knowledge Metadata|Probability|Definition}}

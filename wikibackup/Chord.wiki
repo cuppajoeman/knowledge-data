@@ -1,0 +1,36 @@
+== Definition ==
+
+
+Let <math display="inline">S = \left\{ 1, \ldots, 12 \right\}</math> we define the following function <math display="inline">C : \mathbb{W} \times \mathbb{P}\left( S \right)  \to \mathbb{W}</math> for any root note <math display="inline">R \in \mathbb{W}</math> and set of intervals <math display="inline">X \subseteq \mathbb{P}\left(S\right)</math>, the set of chord tones is defined as:<math display="block">C\left(R, X\right) \stackrel{\mathtt{D}}{ = } \left\{ n: (n \in \mathbb{W}) \land (I\left(n, R\right) ~\%~ 12 \in X) \right\}</math>A chord is any subset of <math display="inline">C\left(R, X\right) </math> who's cardinality is at least 2.
+
+
+
+== Definitions Used ==
+{| class="wikitable"
+|+
+!Notation
+!Definition
+|-
+|<math>\mathbb{W}</math>
+|The set of notes in the western musical system
+|-
+|<math>\mathbb{P}</math>
+|[[Power Set]]
+|-
+|<math>\_ : \_ \to \_</math>
+|[[Function]]
+|-
+|<math>\{ \_, ..., \_ \}</math>
+|[[Set]]
+|-
+|<math>\in</math>
+|[[Set Membership]]
+|-
+|<math>I</math>
+|Interval Function
+|-
+|<math>\_( \  )</math>
+|Function Evaluation
+|}
+
+{{Knowledge Metadata|Chords|Definition}}

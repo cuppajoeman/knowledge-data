@@ -1,0 +1,13 @@
+A set of vectors <math>\{ v_1, v_2, \ldots , v_{n-1}, v_n \} </math> if the only choice of <math>a_1, a_2, \ldots, a_n \in \mathbb{F}</math>, that makes
+
+<math display="block">a_1 \vec{v}_1  + a_2 \vec{v}_2 + \dotsb + a_n \vec{v}_n = \vec{0}</math>
+
+hold, is <math>a_1 = a_2 = \dotsb = a_n = 0</math>
+
+''Remark:'' We define the empty set to be linearly independent
+
+== Knowledge Used ==
+
+* [[Field]]
+
+{{Knowledge Metadata|Linear (In/De)pendence|Definition}}

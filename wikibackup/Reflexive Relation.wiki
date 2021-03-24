@@ -1,0 +1,8 @@
+Given a relation <math>R \subseteq X \times X</math> we say it is reflexive when for every <math>\forall x \in X, xRx</math>
+
+=== Example: ===
+
+* <math>E = \{ (1,1) \}</math> is not reflexive on <math>X = \{ 1,2 \}</math>
+
+Parent: {{link|target=Relations}}
+[[isA::Definition]]

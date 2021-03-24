@@ -1,0 +1,6 @@
+* <math>P \land (Q \lor R )</math> is equivalent to <math>(P \land Q ) \lor (P \land R)</math>
+*<math>P \lor (Q \land R) </math> is equivalent to <math>(P \lor Q) \land (P \lor R)</math>
+==Proof==
+*We prove the first law, suppose <math>P = T</math>, then both sides simplify to the same expression, if <math>P = F</math>, then both sides evaluate to <math>F</math>
+*For the second, assume that <math>P = T</math>, both statements simplify to become <math>T</math>, if <math>P = F</math>, then both sides simplify to the conjunction of <math>Q</math> and <math>R</math>
+{{Knowledge Metadata|Boolean Logic|Proposition}}

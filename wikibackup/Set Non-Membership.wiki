@@ -1,0 +1,1 @@
+Given a set <math>X</math> if <math>x</math> is not one of the elements in <math>X</math>, then we may write:<math display="block">x \not\in X</math>

@@ -1,0 +1,7 @@
+Suppose that the variable <math display="inline">x</math> is not [[Free Variable|free]] in the formula <math display="inline">\psi</math>. then both of the following are rules of inference of type QR: <math display="block">\left( \left\{ \psi \to \phi  \right\}, \psi \to \left( \forall x \phi  \right) \right)</math> <math display="block">\left( \left\{ \phi \to \psi  \right\}, \left( \exists x\phi \right) \to \psi \right)</math>
+
+== Knowledge Used ==
+* [[Formula]]
+* [[Free Variable]]
+
+{{Knowledge Metadata|Deductions|Definition}}

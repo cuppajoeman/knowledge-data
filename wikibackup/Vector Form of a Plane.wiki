@@ -1,0 +1,4 @@
+Let <math display="inline">\mathcal{P}</math> be a plane, when we have two vectors <math display="inline">\vec{d}_{1}, \vec{d}_{2}</math> and <math display="inline">\vec{p}</math> and<math display="block">\vec{x} = t\vec{d}_{1}  +  s\vec{d}_{2}  +  p</math> 
+
+
+Then this is a representation of <math display="inline">P</math> in vector form. We note that by considering all the the linear combinations of <math display="inline">\vec{d}_{1} \text{ and } \vec{d}_{2}</math> this draws out the surface of our plane and thus these vectors are named the direction vectors, and <math display="inline">\vec{p}</math> shifts that surface away from the origin (when <math display="inline">\vec{p} \neq \vec{0}</math>). In that case:<math display="block">\mathcal{P} = \left\{ \vec{x}: \vec{x}= t \vec{d}_{1}  +  s \vec{d}_{2}  +  p \text{ for some  } t, s \in \mathbb{R} \right\}</math> {{Knowledge Metadata|Linear Algebra|Definition}}

@@ -1,0 +1,3 @@
+When we have <math display="inline">G = \left( V, E \right)</math> and <math display="inline">H = \left( W,F \right)</math> as graphs then <math display="inline">H</math> is a subgraph of <math display="inline">G</math> when <math display="inline">W \subseteq V</math> and <math display="inline">F \subseteq E</math>
+[[Category:Graph Theory]]
+[[Category:Definition]]

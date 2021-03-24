@@ -1,0 +1,2 @@
+Let <math display="inline">P</math> be a predicate, then the indicator function of <math display="inline">P, \forall x \in \operatorname{dom} \left( P \right) </math>:<math display="block">\mathcal{I}_{P} \left( x  \right) \stackrel{\text{def}}{=} \begin{cases} 1 & \text{ If } P\left(x\right) \text{ holds }\\ 0 & \text{ If } \neg P\left(x\right) \text{ holds } \end{cases}</math>
+{{Knowledge Metadata|Set Theory|Definition}}

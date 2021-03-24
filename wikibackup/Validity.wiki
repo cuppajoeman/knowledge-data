@@ -1,0 +1,5 @@
+An <math>\mathcal{L}\text{-formula}</math> <math>\phi</math> is said to be valid if <math>\emptyset \models \phi</math>, in other words, we would require this statement to hold for any <math>\mathfrak{A}</math> <math display="block">
+\text{ if } \mathfrak{A} \models \emptyset, \text{ then } \mathfrak{A}\models \phi 
+</math>Since <math>\mathfrak{A}\models \emptyset</math>, and that any statement of the form <math>\forall x \in \emptyset, P\left(x\right)</math> (vacuous truth) is always true,  we must have that <math>\phi</math> is true in any <math>\mathcal{L}\text{-structure}</math> with every assignment function <math>s</math>. In this case we will write <math>\models \phi</math>.
+[[Category:Structure & Truth]]
+[[Category:Definition]]

@@ -1,0 +1,9 @@
+Given a sample space <math>S</math> an event is any subset <math>E \subseteq S</math>, in other words it is a set consisting of possible outcomes for the experiment. If the outcome of an experiment is contained in <math>E</math>, then we say that the event <math>E</math> has occurred
+
+== Examples ==
+
+* Suppose we use the example about the lifetime of a human from the definition of sample space, if <math>E = \{ x \in \mathbb{R}: 0 \le x \le 80 \} \subseteq \mathbb{R}^{>0}</math>, then <math>E</math> is the event that the human does not live longer than <math>80</math> years
+
+== Knowledge Used ==
+
+* [[Sample Space]]

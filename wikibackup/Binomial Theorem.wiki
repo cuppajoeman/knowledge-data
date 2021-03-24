@@ -1,0 +1,12 @@
+Let <math display="inline">x, y \in \mathbb{R}</math> such that <math display="inline">x   +  y \neq 0</math>, then for any <math display="inline">n \in \mathbb{N}</math> <math display="block">\left( x + y \right)^{n} = \sum_{i=0}^{n} \binom{n}{i}x^{n-i}y^{i}</math>
+
+== Proof ==
+
+Consider the product <math display="block">\left( x_{1}  +  y_{1} \right) \left( x_{2}  +  y_{2} \right) \ldots \left( x_{n}  +  y_{n} \right)</math>
+
+The result is a sum of <math display="inline">2^{n}</math> terms wherein, each timer is the product of <math display="inline">n</math> factors. Each of these terms will contain as a factor either <math display="inline">x_{i}</math> or <math display="inline">y_{i}</math> for each <math display="inline">i \in \left[ n \right]</math> for example: <math display="block">\left( x_{1}  +  y_{1} \right)\left( x_{2} +  y_{2} \right) = x_{1}x_{2}  +  x_{1}y_{2}  +  x_{2}y_{1}  +  y_{1}y_{2}</math>
+
+For a given term, we will have <math display="inline">n</math> factors, if <math display="inline">k</math> of them are <math display="inline">x_{i}</math>'s then <math display="inline">n-k</math> of the rest are <math display="inline">y_{i}</math>'s. The number of different ways we can choose <math display="inline">k</math> <math display="inline">x_{i}</math>'s from the set <math display="inline">\left\{ x_{1}, x_{2}, \ldots, x_{n} \right\}</math> is simply <math display="inline">\binom{n}{k}</math> and so this corresponds precisely to the number of terms with <math display="inline">k</math> <math display="inline">x_{i}</math>'s. Thus by letting <math display="inline">x_{i} = x</math>, <math display="inline">y_{i} = y</math> for all <math display="inline">i \in \left\{ 1, \ldots, n \right\}</math> <math display="block">\left( x  +  y \right)^{n} = \sum_{k=0}^{n} \binom{n}{k} x^{k}y^{n-k
+}</math>
+
+{{Knowledge Metadata|Combinatorics|Theorem}}

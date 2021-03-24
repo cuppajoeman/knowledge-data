@@ -1,0 +1,1 @@
+Division on <math>\mathbb{C} </math>  is defined by <math display="block">\frac{\beta }{\alpha } = \beta \left( \frac{1}{\alpha }  \right) </math>

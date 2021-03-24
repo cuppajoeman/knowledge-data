@@ -1,0 +1,20 @@
+Given a chord <math>\mathcal{C}</math>, they are the physically playable subsets of <math display="block">\mathbb{F}(\mathcal{C})</math>
+
+== Methods of Computation ==
+=== Method that overlays many equivalence patterns together (requires remembering more) ===
+
+===== Example: =====
+Fix a note <math>X \in \mathbb{G}</math>, we are interested in the physically playable subsets of <math display="inline">\mathbb{F}\left(X\text{min}^{7}\right)</math>
+
+* First we unravel the definition of <math>X\text{min}^7</math>, so we are really looking at:<math display="block">\mathbb{F}\left( C\left(X, \left\{ 0, 3, 7, 10 \right\}\right) \right)</math>
+
+* We also note that for any <math display="inline">k \in \left\{ 0, \ldots, 12 \right\}</math> that <math display="inline">C\left(X, \left\{ k \right\}\right)= \mathbb{E}_{X + k}</math>
+* And we already have tools for figuring out where the [[Guitar Note Equivalence|equivalent notes are located on the fretboard]], therefore if we want to find out what <math display="inline">\mathbb{F}\left(C\left(X, \left\{ 0, 3, 7, 10 \right\}\right)\right)</math> is we take note that the following is true <math display="block">\mathbb{F}\left(C\left(X, \left\{ 0, 3, 7, 10 \right\}\right)\right)=\bigcup_{n \in \left\{ 0, 3, 7, 10 \right\}}\mathbb{F}\left(C\left(X, \left\{n  \right\}\right)\right) = \bigcup_{n \in \left\{ 0, 3, 7, 10 \right\}}\mathbb{F}\left(\mathbb{E}_{X+n}\right)</math>
+* Now our task is quite simple, we already know that given a note on the fretboard, we can easily find all notes that are equivalent to it, and so now after doing that for each of the notes <math>X, X+4, X+7, X+10</math> then we will have found out what <math display="inline">\mathbb{F}\left(X\text{min}^{7}\right)</math> is
+
+=== Method that allows minimal amount of things to remember ===
+
+===== Example: =====
+
+* Find the root of the chord, then using [[Fretboard Horizontal Movement]] you find the other intervals required that are nearby
+{{Knowledge Metadata|Guitar|Definition}}

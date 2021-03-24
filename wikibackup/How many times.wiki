@@ -1,0 +1,29 @@
+Let <math>f\left(x\right)=\left\lfloor \frac{x}{2} \right\rfloor</math> and for any <math>n \in \mathbb{N}^{\ge 1}</math> we define <math>M_{f}\left(n\right)</math> as the minimum number <math>k</math> such that <math>f^{k}\left(n\right)=0</math>. Prove that
+
+<math display="block">M_{f}\left(n\right)=\left\lfloor \log_{2}(n) \right\rfloor  + 1</math>
+
+== Proof ==
+
+=== Properties ===
+First we prove some properties about <math>M_{f}</math>, 
+
+# For <math>a, b \in \mathbb{N}</math> such that <math>a < b</math> we have <math>M_{f}\left(a\right)\le M_{f}\left(b\right)</math> . 
+# We can see that <math>f^{k}\left(2^{k}\right)=2^{k-k}=1</math> (as each time we apply the definition of <math>f</math> the argument is even) and so we have that <math>M_{f}\left(2^{k}\right)=k + 1</math> 
+# We will show that for <math>2^{x} - \alpha \in \mathbb{N}</math> where <math>x \in \mathbb{N},  \alpha \in \mathbb{N}^{\ge1}</math> that <math>M_{f}\left(2^{x} - \alpha\right)\le x</math> 
+#* One must only show that <math>M_{f}\left(2^{x}-1\right)\le x</math>, as this fact may be chained <math>\alpha</math> times, using (1) to conclude that <math>M_{f}\left(2^{x} - \alpha\right)\le x</math> holds as well
+#* In order to do so we claim that <math>f\left( 2^{m}-1 \right)=2^{m-1}-1</math> for all <math>m \in \mathbb{N}^{\ge 1}</math>, which is true by applying the definition: <math display="block">f\left(2^{m}-1\right)=\left\lfloor \frac{2^{m}-1}{2} \right\rfloor=\left\lfloor 2^{m-1} - \frac{1}{2} \right\rfloor= 2^{m-1} - 1</math> since <math>2^{m-1} \in \mathbb{N}</math> and using the definition of the floor function.
+#* We can now see that <math>f^{l}\left(2^{x}-1\right)=2^{x-l}-1</math>, so when <math>l=x</math> we obtain <math>f^{x}\left( 2^{x}-1 \right)=0</math> and so <math>M_{f}\left(2^{x}-1\right)\le x</math>, as required.
+=== Proof ===
+
+* Let <math>n \in \mathbb{N}^{\ge 1}</math>
+** If <math>n=2^{x}</math> for some <math>x \in \mathbb{N}</math> than we have <math>M_{f}\left(n\right)=x + 1 =\log_{2}(n) + 1 =\left\lfloor \log_{2}(n) \right\rfloor + 1</math>
+*** We can be sure this is a minimum because <math>f^{x}\left(2^{x}\right)=2^{x-x}=1 \neq 0</math>
+** If <math>n \neq 2^{x}</math> for any <math>x \in \mathbb{N}</math> than we can say the following <math>\exists m \in\mathbb{N}</math> such that: (add why)<math display="block">2^{m}< n < 2^{m + 1}</math>
+*** By (1) we have that <math>M_{f}\left(2^{m}\right)\le M_{f}\left(n\right)</math> then by (2), equivalently, we have:  <math>m + 1 \le M_f(n)</math>
+*** Since <math>n < 2^{m + 1}</math> then we can say that <math>\exists \alpha \in \mathbb{N}</math> such that <math>n = 2^{m + 1}  - \alpha</math> therefore by (3) we may conclude that <math>M_{f}\left(n\right) \le m+1</math>
+*** By these two facts we have that<math display="block"> m + 1 \le M_{f}\left(n\right) \le m + 1</math>thus  <math>M_{f}\left( n \right) =m + 1</math>.
+*** In order to conclude, we recall that <math>2^{m} < x < 2^{m + 1}</math> and by taking log (base 2) of both sides we have <math>m < \log_{2}(n)< m + 1</math> so we have that <math>\left\lfloor \log_{2}(n) \right\rfloor=m</math> so in our above equation, subbing this in yields
+
+<math display="block">M_{f}\left(n\right)=\left\lfloor \log_{2}(n) \right\rfloor + 1</math>
+
+{{Knowledge Metadata|Well Known Functions|Question}}

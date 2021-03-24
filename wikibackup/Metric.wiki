@@ -1,0 +1,5 @@
+A metric on a set <math display="inline">X</math> is a function <math display="inline">d : X \times X \to \left[ 0, \infty \right)</math> satifying for any <math display="inline">x, y, z \in X</math> the following
+#<math display="inline">d\left(x,y\right)=0 \Leftrightarrow x = y</math>
+#<math display="inline">d\left(x,y\right)=d\left(y,x\right)</math>
+#<math display="inline">d\left(x,y\right)\le d\left(x,z\right) + d\left(z,y\right)</math>
+{{Knowledge Metadata|Analysis|Definition}}

@@ -1,0 +1,10 @@
+Let <math display="inline">X, Y \subseteq U</math>, if <math display="inline">Y \subseteq X</math> then <math>X</math> can be written as the following disjoint union: <math display="block">X = \left( X \cap \overline{Y} \right) \cup \left( Y \right)</math>
+
+== Proof ==
+
+* <math>\subseteq</math>: Let <math display="inline">x \in X</math>, if <math display="inline">x \in Y</math> we are done, so if <math display="inline">x \not\in Y</math> then <math display="inline">x \in \overline{Y}</math> therefore <math display="inline">x \in \left( X \cap \overline{Y} \right)</math>.
+
+* <math>\supseteq</math>: Suppose <math display="inline">x \in \left( X \cap \overline{Y} \right) \cup \left( Y \right)</math>, if <math display="inline">x \in \left( X \cap \overline{Y} \right)</math> then <math display="inline">x \in X</math> as needed, otherwise <math display="inline">x \in Y \subseteq X</math> so <math display="inline">x \in X</math> as well.
+* To show they are disjoint, let's take <math display="inline">x \in \left( \overline{Y } \cap X \right) \cap Y</math> but if that's the case then <math display="inline">x \in \left( \overline{Y} \cap X \right)</math> and <math display="inline">x \in Y</math> , this is a contradiction because <math display="inline">x \in \left( \overline{Y} \cap X \right)</math> says that <math display="inline">x \in \overline{Y}</math>
+
+{{Knowledge Metadata|Set Theory|Proposition}}

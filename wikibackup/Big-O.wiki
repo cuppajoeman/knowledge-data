@@ -1,0 +1,7 @@
+Given a function <math>f,g : \mathbb{N}  \to \mathbb{R}^{>0}</math>, we say that <math>f</math> is in the big-O of <math>g</math> when the following holds:
+
+<math display="block">\exists c \in \mathbb{R}^{>0}, \bar{n} \in  \mathbb{N} \text{ such that } \forall n \in \mathbb{N}, \bar{n} \le n \implies f\left(n\right) \le  c g\left(n\right)</math>
+
+We denote the set of all functions that satisfy the above property as <math>\mathcal{O} \left(g\right) </math> so in this case we can see that <math>f \in \mathcal{O} \left(g\right) </math>
+
+{{Knowledge Metadata|Time Complexity|Definition}}

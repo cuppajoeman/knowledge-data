@@ -1,0 +1,14 @@
+<math display="block">A \cup B = B \cup A</math>
+
+== Proof ==
+
+* <math display="inline">\subseteq</math> 
+** Let <math display="inline">x \in A \cup B</math> then <math display="inline">x \in A</math> or <math display="inline">x \in B</math>, therefore <math display="inline">x \in B \cup A</math>
+* <math display="inline">\supseteq</math>
+** Let <math display="inline">x \in B \cup A</math> then <math display="inline">x \in B</math> or <math display="inline">x \in A</math>, therefore <math display="inline">x \in A \cup B</math>
+
+==Knowledge Used==
+
+* [[Set Equality]]
+* [[Finite Union of Sets]]
+{{Knowledge Metadata|Set Theory|Proposition}}

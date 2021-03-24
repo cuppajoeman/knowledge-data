@@ -1,0 +1,2 @@
+The values True and False are called the Boolean values, shorthand includes <math>\{ T, F \}</math> and <math>\{ 1, 0 \}</math>
+{{Knowledge Metadata|Computer Science|Definition}}

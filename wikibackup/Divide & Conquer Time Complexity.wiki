@@ -1,0 +1,16 @@
+==== Recall the Divide and Conquer algorithm ====
+* Divide problem of size <math display="inline">n</math> into <math display="inline">a</math> smaller subproblems of size <math display="inline">\frac{n}{b}</math> each
+* Recursively solve each subproblem
+* Combine the subproblems solutions into the solution of the original problem
+
+==== Based on the above, we can conclude that the runtime for <math>n > 1</math> is given by: <math display="block">T\left(n\right) = a  \cdot  T\left(\frac{n}{b}\right)  +  c  \cdot n^{d}</math>====
+
+* The reason why is that <math>a \cdot T(\frac{n}{b})</math> represents the time required for the <math>a</math> recursive calls, each to an input of since <math>\frac{n}{b}</math>; and the second term, <math>c \cdot n^d</math>, represents the time required to divide up the input into <math>a
+</math> pieces of size <math>\frac{n}{b}</math> each and to combine the results of the recursive calls into the result of the main call. The power <math>d</math> depends on the algorithm at hand: if dividing the input and combining the answer takes constant time, <math>d = 0</math>; if it takes linear time, then <math>d=1</math> and so on 
+
+==== And for <math display="inline">n =1</math> we have: <math display="block">T\left(1\right)=c</math>====
+With constants <math display="inline">a \ge 1, b > 1, c \ge 0, d \ge 0</math>  where <math display="inline">a, b, c, d \in \mathbb{Z}</math>,  
+
+Remark: We note that the Master Theorem allows us obtain the solution to the above recurrence in a convenient form, and and allows us to simplify the running time analysis of many divide & conquer algorithms 
+
+{{Knowledge Metadata|Divide & Conquer|Analysis}}

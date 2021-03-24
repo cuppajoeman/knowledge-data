@@ -1,0 +1,5 @@
+An <math>n</math>-tuple is an ordered list of <math>n</math> elements written as: <math display="block">\left( x_{1}, x_{2},  \dots ,x_{n - 1},x_{n} \right) \stackrel{\text{def}}{=} \{ \{x_1\}, \{x_1, x_2\}, \{x_1, x_2, x_3\}, ..., \{x_1, x_2, \ldots, x_n \} \}</math>
+
+We say that two <math>n</math>-tuples, <math>a, b</math>  are equal when we have <math>\forall i \in \left[ n \right] </math>  that <math>a_{i} = b_{i} </math> (And say that <math>a_i</math> is the <math>i</math>-th coordinate of <math>a</math>)
+
+{{Knowledge Metadata|Set Theory|Definition}}

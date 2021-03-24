@@ -1,0 +1,46 @@
+Suppose the sequence <math display="inline">\left \{ E _ { n } \right \} _ { n = 1 } ^ \infty</math> is either an increasing or decreasing sequence of events, then<math display="block">\lim_{n\to\infty}P\left( E_{n}\right) = P\left( \lim_{n\to\infty}E_{n}\right)</math>
+
+== Proof ==
+
+* Suppose <math display="inline">\left \{ E _ { n } \right \} _ { n = 0 } ^ \infty</math> is an increasing sequence and define the events <math display="inline">F_{n}, n\ge 1</math> by <math display="inline">F_{1} = E_{1}</math> and
+<math display="block">F_{n} = E_{n} \cap \overline{ \bigcup_{i=1}^{n-1} E_{i}} = E_{n} \cap \overline{E_{n-1}} \qquad n > 1</math>
+
+* Since <math display="inline">\bigcup_{i=1}^{n-1} E_{i} = E_{n-1}</math> because the events are increasing. Visually if you were to draw these sets as concentric circles <math display="inline">F_{i}  </math> would represent the donut created by the set <math display="inline">E_{i}</math> and <math display="inline">E_{i-1}</math>. It is clear from the definition that for any <math display="inline">F_{i}, F_{j}</math> that <math display="inline">F_{i} \cap F_{j} = \varnothing</math> by using the fact that one of <math display="inline">i, j</math> are smaller than each other, moreover we can see that
+<math display="block">\phi:\quad \bigcup_{i=1}^{\infty} F_{i} = \bigcup_{i=1}^{\infty} E_{i} \qquad \text{ and } \qquad \bigcup_{i=1}^{n} F_{i} = \bigcup_{i=1}^{n} E_{i} \quad \text{ for all } n \ge 1</math>
+
+* Then we have
+<math display="block">\begin{aligned}
+  P\left( \lim_{n\to\infty}E_{n}\right) \stackrel{L}{=} P\left( \bigcup_{i=1}^{\infty} E_{i}\right) &\stackrel{\phi}{=} P\left( \bigcup_{i=1}^{\infty} F_{i}\right)\\
+                                              &\stackrel{A3}{=}  \sum_{i=1}^{\infty} P\left(F_{i}\right)\\
+                                              &\stackrel{S}{=} \lim_{n\to\infty} \sum_{i=1}^{n} P\left( F_{i}\right)\\
+                                              &\stackrel{A3}{=} \lim_{n\to\infty} P\left( \bigcup_{i=1}^{n} F_{i}\right)\\
+                                              &\stackrel{\phi}{=} \lim_{n\to\infty} P\left( \bigcup_{i=1}^{n} E_{i}\right)\\
+                                              &\stackrel{L}{=} \lim_{n\to\infty} P\left(E_{n}\right)\end{aligned}</math>as needed.
+
+* Now notice that if we have a decreasing sequence of events <math display="inline">\left \{ E _ { n } \right \} _ { n = 0 } ^{\infty}</math> then we know that
+<math display="block">\dotsb \supseteq E_{n} \supseteq E_{n-1} \supseteq \dotsb  \supseteq E_{2} \supseteq E_{1}</math>
+
+* or in another light using <math>O</math>
+<math display="block">\overline{E}_{1} \subseteq \overline{E}_{2} \subseteq \dotsb  \subseteq \overline{E}_{n - 1} \subseteq \overline{E}_{n} \subseteq \dotsb</math>
+
+* So <math display="inline">\left \{  \overline{E_{n}} \right \} _ { n = 0 } ^{\infty}</math> is increasing, so we apply the last result to this sequence to obtain
+<math display="block">P\left( \bigcup_{i=1}^{\infty} \overline{E_{i}}\right) = \lim_{n\to\infty} P\left(\overline{E_{n}}\right)</math>
+
+* By <math>D</math> we know that
+<math display="block">\bigcup_{i=1}^{\infty} \overline{E_{i}} = \overline{ \bigcap_{i=1}^{\infty} E_{i}}</math>
+
+* So
+<math display="block">P\left( \overline{ \bigcap_{i=1}^{\infty} E_{i}}\right) = \lim_{n\to\infty} P\left(\overline{E_{n}}\right)</math>
+
+* But then apply <math>C</math> to both sides we get:
+<math display="block">P\left( \overline{ \bigcap_{i=1}^{\infty} E_{i}}\right) = 1  -  P\left( \bigcap_{i=1}^{\infty} E_{i}\right) = \lim_{n\to \infty } \left( 1  -  P\left(E_{n}\right) \right) = 1 - \lim_{n\to \infty } P\left(E_{n}\right)</math>Rather:<math display="block">P\left( \bigcap_{i=1}^{\infty} E_{i}\right) = \lim_{n\to\infty} P\left(E_{n}\right)</math>
+
+== Knowledge Used ==
+
+* <math>L</math>: [[Limit of a Sequence of Events]]
+* <math>A</math>: [[Probability of an Event]]
+*<math>D</math>: [[DeMorgan's Laws]]
+* <math>S</math>: [[Infinite Series]]
+* <math>C</math>: [[Event Complement Probability]]
+* <math>O</math>: [[Complement Subset]]
+{{Knowledge Metadata|Probability|Proposition}}

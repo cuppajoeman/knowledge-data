@@ -1,0 +1,7 @@
+Let <math display="inline">\Omega</math> be a region and <math display="inline">f</math> be a function defined on <math display="inline">\Omega \setminus \left\{ z_{0} \right\}</math> for some <math display="inline">z_{0} \in \Omega</math>
+
+We say that the limit of <math display="inline">f\left(z\right)</math> as <math display="inline">z \to z_{0}</math> equals <math display="inline">w</math> if for each <math display="inline">\varepsilon > 0</math>, there exists <math display="inline">\delta > 0</math> such that <math display="block">\left| f\left(z\right) - w \right| < \varepsilon \text{ for all } z \in \Omega \text{ such that } \left| z  -  z_{0} \right| \le \delta</math>
+
+And we write <math display="inline">\lim_{z\to z_{0}} f\left(z\right)=w</math> as "<math display="inline">f\left(z\right) \to w</math> as <math display="inline">z \to z_{0}</math>&quot;
+
+{{Knowledge Metadata|Complex Analysis|Definition}}

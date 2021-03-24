@@ -1,0 +1,15 @@
+Let <math>a, b \in \mathbb{Z} </math>,and assume without loss of generality that <math>a < b</math>, and define <math>X = \left\{ x: x \in \mathbb{Z}, a \le x \le b \right\}</math>then <math display="block">\left| X  \right| = b - a  + 1</math>
+
+==Proof==
+
+* Observe that <math>\left[ b \right] \setminus \left[ a \right]=\left\{ a + 1, a + 2, \ldots, b \right\}
+</math> which can be written as <math>\left\{ a + 1, a + 2, \ldots, a + (b-a) \right\}
+</math>which is in bijection to the set <math>\{ 1,  \ldots, b-a \}</math> through the function <math>x \mapsto x - a</math>, and we know that this set has <math>b-a</math> elements, therefore <math>\left[ b \right] \setminus \left[ a \right]
+</math> does as well.
+* We now observe that <math>X = ([b] \setminus [a]) \cup \{ a \}</math> and so <math display="block">\left| X \right|= b  - a  + 1</math>
+
+== Knowledge Used ==
+
+* [[Set of 1 to n]]
+* [[Bijection]]
+{{Knowledge Metadata|Number Theory|Proposition}}

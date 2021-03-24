@@ -1,0 +1,7 @@
+A string only containing symbols from the alphabet
+
+== Knowledge Used ==
+
+* [[Alphabet]]
+* [[String]]
+{{Knowledge Metadata|Computability|Definition}}

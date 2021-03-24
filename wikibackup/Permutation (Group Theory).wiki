@@ -1,0 +1,7 @@
+A permutation is a bijective self map
+ 
+== Knowlege Used ==
+* [[Bijection]] 
+* [[Self Map]]
+
+{{Knowledge Metadata|Group Theory|Definition}}

@@ -1,0 +1,3 @@
+If <math>\Gamma</math> is a set of [[Language/Formula|<math>\mathfrak{L}</math>-formulas]], we say that <math>\mathfrak{A}</math> satisfies <math>\Gamma</math>  with assignment <math>s</math>, and write <math>\mathfrak{A} \models \Gamma\left[ s \right]</math> if for each <math>\gamma \in \Gamma</math>  , [[Structure & Truth/Satisfaction|<math>\mathfrak{A} \models \gamma\left[ s \right]</math>]]
+[[Category:Definition]]
+[[Category:Structure & Truth]]

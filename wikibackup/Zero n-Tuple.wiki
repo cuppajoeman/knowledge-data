@@ -1,0 +1,7 @@
+Let 0 denote the list of length <math>n</math> whose coordinates are all <math>0 \in \mathbb{F}</math> :
+<math display="block">\vec{0}=(0, \ldots, 0)</math>
+
+== Knowledge Used ==
+* {{link|target=N-Tuple}}
+
+{{Knowledge Metadata|Vector Spaces|Definition}}

@@ -1,0 +1,3 @@
+<math display="inline">A4 = 440 \text{Hz}</math>, then using the canonical mapping of <math display="inline">C \to 0, C\sharp \to 1, \ldots, B \to 11</math>, let's call that mapping <math display="inline">n</math>, so that <math display="inline">n\left(E\right)=4</math> then the function which maps scientific notation to the frequency is given by<math display="block">\mathcal{F}\left( XY \right) \stackrel{\text{def}}{=} 440\text{Hz}  \cdot 2 ^{Y - 5}  \cdot 2^{\frac{n\left(X\right)  -  9}{12}} </math>We can see that <math>\mathcal{F} (B4) = 440\text{Hz} \cdot 2^{-1} \cdot 2^{\frac{1}{12}}</math>
+
+{{Knowledge Metadata|Music Theory|Definition}}

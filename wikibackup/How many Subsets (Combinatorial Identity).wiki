@@ -1,0 +1,5 @@
+If we were to count the number of subsets of size <math display="inline">k</math> then the solution would be <math display="inline">\binom{n}{k}</math>, a partition of all the possible subsets is based on their size, therefore the number of subsets of a set containing <math display="inline">n</math> elements is
+
+<math display="block">\sum_{k=0}^{n} \binom{n}{k} =  \sum_{k=0}^{n} \binom{n}{k} 1  \cdot 1 = \left( 1  +  1 \right)^{n} = 2^{n}</math>
+
+{{Knowledge Metadata|Combinatorics|Question}}

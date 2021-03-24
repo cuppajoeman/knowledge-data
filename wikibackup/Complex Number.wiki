@@ -1,0 +1,2 @@
+A complex number is a [[N-Tuple|2-tuple]] <math>\left( a,b \right) </math>  where <math>a, b \in  \mathbb{R}</math>, we will write this as <math>a  + bi</math>
+{{Knowledge Metadata|Complex Numbers|Definition}}

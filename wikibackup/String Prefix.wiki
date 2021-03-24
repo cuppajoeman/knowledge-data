@@ -1,0 +1,6 @@
+Given an alphabet <math>\Sigma</math> and strings <math>x,y \in \Sigma</math> say that a string <math display="inline">x</math> is a prefix of a string <math display="inline">y</math> if a string <math display="inline">z \in \Sigma</math> exists where <math display="inline">xz = y</math>. Additionally <math display="inline">x</math> is a proper prefix of <math display="inline">y</math> when <math display="inline">x \neq y</math>
+
+== Knowledge Used ==
+
+* [[String over an Alphabet]]
+{{Knowledge Metadata|Computability|Definition}}

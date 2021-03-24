@@ -1,0 +1,28 @@
+The least <math display="inline">t \in \mathbb{N}</math> for which <math display="inline">G</math> has a proper coloring using a set <math display="inline">C</math> of <math display="inline">t</math> colors is called the chromatic number of <math display="inline">G</math> and is denoted <math display="inline">\chi\left(G\right)</math> Let <math display="inline">G = \left( V,E  \right)</math> be a finite graph and <math display="inline">H = \left( W, F \right)</math> be an induced subgraph of <math display="inline">G</math>, then <math display="block">0 \le \chi \left(G\right)  -  \chi \left(H\right) \le \left| V \right|  -  \left| W \right|</math>
+
+== Proof ==
+* We begin by showing the first inequality <math display="inline">0 \le \chi \left(G\right) - \chi \left(H\right)</math>, or more naturally <math display="inline">\chi \left(H\right)\le \chi \left(G\right)</math>.
+** Suppose we have a proper coloring of <math display="inline">G</math>, and that <math display="inline">H</math> is a proper sub graph of <math display="inline">G</math> (saying that <math display="inline">W \subsetneq V</math>, or else it's just the same graph), we claim that the same coloring is a proper coloring of <math display="inline">H</math>
+*** One can see why as a statement of the form <math display="inline">\forall x \in X, P\left(x\right)</math>, then for any <math display="inline">Y \subseteq X</math> we also have <math display="inline">\forall y \in Y, P\left(y\right)</math>, and because <math display="inline">H</math> is induced by <math display="inline">G</math> we can see that <math display="inline">F \subseteq E</math>, so these facts combined tell us that it is indeed a proper coloring.
+** The above argument showed that the same coloring holds, but if you find a coloring with <math display="inline">m</math> colors you immediately know that <math display="inline">\chi \left(H\right) \le m</math> and so we obtain <math display="block">\chi \left(H \right) \le \chi \left(G\right) \Leftrightarrow 0 \le \chi \left(G\right)  -  \chi \left(H\right)</math>
+----
+* We'd now like to show the second inequality, namely that <math display="block">\chi \left(G\right)  -  \chi \left(H \right) \le \left| V \right| -  \left| W \right|</math>
+* We also point out that <math display="inline">\left| V \right|  - \left| W \right|</math> is the number of vertices removed from <math display="inline">G</math> to make <math display="inline">H</math>, and that <math display="inline">\chi \left(G\right)  -  \chi \left(H\right)</math> is there difference in chromatic number.
+* Since <math display="inline">H</math> may be obtained by removing finitely many vertices from <math display="inline">G</math> (and any attached edges), we will show that upon each removal of a vertex that the chromatic number must decrease at most by 1. This yields the desired inequality (that will be explained later in the proof)
+** Assume for the sake of contradiction that by removing one vertex (and any attached edges) from <math display="inline">G</math>, forming a new graph <math display="inline">G'</math> that the chromatic number of <math display="inline">G'</math> has been reduced by <math display="inline">2</math> from <math display="inline">\chi \left(G\right)</math>.
+*** We will reform <math display="inline">G</math> by re-adding the node which was removed and all of it's incident edges
+**** Since we already had a coloring <math display="inline">G'</math> with <math display="inline">\chi \left(G\right) - 2</math> colors, we will re-use this coloring, but then color the re-added node a color which has not yet been seen.
+**** This makes sure that the coloring of <math display="inline">G</math> is indeed proper, but we have a proper coloring of <math display="inline">G</math> with <math display="inline">\chi \left(G\right)  - 1</math> which is clearly a contradiction.
+** We now know that the chromatic number decreases by at most 1
+*** We note that it could always not decrease at all, to see why consider a line of <math display="inline">n \in \mathbb{N}^{\ge 3}</math> nodes, and remove the endpoint.
+----
+* Now, with <math display="inline">G</math> we remove a vertex and incident edges, to obtain a new graph <math display="inline">G'</math>, obtaining that <math display="inline">\chi \left(G\right)  -  \chi \left(G'\right) \le \left| V \right| -  \left| V' \right| = 1</math>, using the above proof.
+* Now, with <math display="inline">G'</math> we remove a vertex and incident edges, to obtain a new graph <math display="inline">G''</math>, obtaining that <math display="inline">\chi \left(G'\right)  -  \chi \left(G''\right) \le \left| V' \right| -  \left| V'' \right|</math>
+* After <math>n</math> applications like above and with <math display="inline">G^{n}</math> we remove a vertex and incident edges, to obtain a new graph <math display="inline">G^{n + 1}</math>, obtaining that <math display="inline">\chi \left(G^{n}\right)  -  \chi \left(G^{n + 1}\right) \le \left| V^{n} \right| -  \left| V^{n + 1} \right|</math>
+** The sum of all of these inequalities yields <math display="inline">\chi \left(G\right)  -  \chi \left(G^{n + 1}\right) \le \left| V \right| -  \left| V^{n + 1} \right|</math>
+* Hence after finitely many vertex extractions on <math>G</math> we obtain <math display="inline">H</math>, then following the above logic, we obtain: <math display="block">\chi \left(G\right)  -  \chi \left(H\right) \le \left| V \right| -  \left| W \right|</math>
+Thus we have <math display="block">0 \le \chi \left(G\right)  -  \chi \left(H\right) \le \left| V \right| -  \left| W \right|</math>
+
+
+[[Category:Graph Theory]]
+[[Category:Proposition]]

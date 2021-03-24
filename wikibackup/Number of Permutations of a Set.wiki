@@ -1,0 +1,17 @@
+=== The number of permutations on <math display="inline">\left[ n \right]</math> is <math display="inline">n!</math> ===
+
+== Proof ==
+* Consider <math display="inline">1 \in \left\{ 1, \ldots, n \right\}</math>, initially there are <math display="inline">n</math> different options for what <math display="inline">f\left(1\right)</math> may be
+* After choosing a fixed value for <math display="inline">f\left(1\right)</math> we can then choose a value for <math display="inline">2</math> to map to, but now in order for <math display="inline">f</math> to remain a bijection <math display="inline">2</math> must not map to any of the previously selected elements, so there will be <math display="inline">n-1</math> choices for what <math display="inline">2</math> can map to, then <math display="inline">n-3</math> choices for what <math display="inline">3</math> can map to, and so on.
+* This pattern continues for each element in the domain and thus we conclude the number of permutations on <math display="inline">\left[ n \right]</math> is <math display="inline">n!</math>
+
+== Corollary ==
+
+* Let <math display="inline">m \in \mathbb{N}</math>, and fix <math display="inline">X \subseteq \left[ n \right]</math> where <math display="inline">\left| X \right|=m</math> then the number of permutations <math display="inline">\sigma : X \to \left[ n \right]</math> is 
+<math display="block">{{}^{n}\!P_{m}}= \frac{n!}{\left( n-m \right)!}</math>
+
+== Proof ==
+* Following the same proof technique, you would end up with <math display="inline">n  \cdot \left( n-1 \right)  \cdot \left( n-2 \right) \dotsb \left( n - m  + 1 \right)</math>
+** Note: There are exactly <math display="inline">m</math> elements in this multiplication, to see why, you can use the number being subtracted to enumerate them
+*** So there is <math display="inline">0, \ldots, m  - 1</math> then because of [[Number of Integers Between Two Integers]], we can see that that gives <math display="block">m -1  - 0  + 1 =m</math>
+*** Algebraically that product is <math display="block">\frac{n!}{\left( n-m \right)!}</math> As required

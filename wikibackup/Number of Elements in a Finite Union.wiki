@@ -1,0 +1,38 @@
+Let <math display="inline">X_{1} , X_{2} , \dotsc  , X_{n - 1} , X_{n} \subseteq  U </math> let's set <math display="inline">N\left(S\right) = \left| S \right|</math> for any set <math display="inline">S</math>, the following holds
+
+<math display="block">\begin{aligned}
+  N\left( X_{1} \cup X_{2} \cup \dotsb  \cup X_{n - 1} \cup X_{n}\right) &= \sum_{i=1}^{n} N\left(X_{i}\right) \\ 
+                                                                                                               &- \sum_{0 \le i_{1} < i_{2} \le n} N\left(X_{i_{1}} \cap X_{i_{2}}\right)  \\
+                                                                                                               &+ \sum_{0 \le i_{1} < i_{2} < i_{3} \le n} N\left(X_{i_{1}} \cap X_{i_{2}} \cap X_{i_{3}}\right) \\
+                                                                                                               &\vdots \\
+                                                                                                               &+ \left( -1 \right) ^{r  + 1} \sum_{0 \le i_{1} < i_{2} < \ldots < i_{r} \le n} N\left(X_{i_{1}} \cap X_{i_{2}} \cap \dotsb \cap X_{i_{r-1}} \cap X_{i_{r}}\right) \\
+                                                                                                               &\vdots \\
+                                                                                                               &+ \left( -1 \right) ^{ n  +  1}   N\left( \bigcap_{i=1}^{n} X_{i} \right) \\\end{aligned}</math>
+
+== Proof ==
+
+* To prove that these two numbers are equal, we start with the fact that the left hand side simply counts the number elements in the set <math display="inline">\bigcup_{i=1}^{n} X_{i}</math>, to show that that the number on the right hand side is equal to that, we will also show that it counts the number of elements in the set <math display="inline">\bigcup_{i=1}^{n} X_{i}</math>.
+** Let <math display="inline">a \in  \bigcup_{i=1}^{n} X_{i}</math>, if this is the case then there exists <math display="inline">X_{\alpha_{1}}, X _{\alpha_{2}} \ldots X_{\alpha_{k}}, X_{\beta_{1}}, X _{\beta{_2}} \ldots X_{\beta_{o}} </math> such that <math display="inline">a \in X_{\alpha_{1}} \cap X _{\alpha_{2}} \cap \dotsb \cap X_{\alpha_{k}}  </math>and <math display="inline">a \not\in X_{\beta_{1}} \cap X _{\beta_{2}} \cap \dotsb \cap X_{\beta_{o}}  </math>
+*** If this is the case then the sum <math display="inline">\sum_{i=1}^{n} N\left(X_{i}\right)</math> over counts <math display="inline">a</math> <math display="inline">\alpha_{k}</math> times, this is because <math display="inline">a</math> counted for each <math display="inline">X_{\alpha_{j}}</math>, as <math display="inline">a \in X_{\alpha_{j}}</math>
+*** We consider the following sum <math display="inline">\sum_{0 \le i_{1} < i_{2} \le n} N\left(X_{i_{1}} \cap X_{i_{2}}\right)</math>. We know that <math display="inline">a \in X_{\alpha_{j}} \cap X_{\alpha_{l}}</math> for any <math display="inline">\alpha_{j}, \alpha_{l} \in \left\{ \alpha_{1} , \alpha_{2} , \dotsc  , \alpha_{k - 1} , \alpha_{k} \right\} </math>. We notice that the number of ways to choose two elements from the set <math display="inline">\left\{ \alpha_{1} , \alpha_{2} , \dotsc  , \alpha_{k - 1} , \alpha_{k} \right\}</math> is simply <math display="inline">\binom{a_{k}}{2}</math>thus this represents the number of times that <math display="inline">a</math> was over counted by this sum. Notice that we are subtracting this number.
+**** Also note that if we must choose two elements from <math display="inline">\left\{ \alpha_{1} , \alpha_{2} , \dotsc  , \alpha_{k - 1} , \alpha_{k} \right\}</math>, as if we had chosen at least one from <math display="inline">\left\{ \beta_{1} , \beta_{2} , \dotsc  , \beta_{o - 1} , \beta_{o} \right\}</math>, then <math>a \not\in X_{\circ} \cap X_{\beta_t}</math>
+*** Following the same logic, we see that if <math display="inline">a \in X_{\alpha_{j}} \cap X_{\alpha_{l}} \cap X_{\alpha_{m}}</math> then the third summation will over count <math display="inline">\binom{\alpha_{k}}{3}</math> times.
+*** Thus the <math display="inline">i</math>-th sum will over count <math display="inline">\binom{\alpha_{k}}{i}</math> times.
+* Now to see how many times the right hand side counts <math display="inline">a</math> we will simply sum all of the ways it counts it (taking into account the subtractions and additions like in the original summation) to see that it looks like:
+<math display="block">\sum_{i=1}^{\alpha_k} \left( -1 \right) ^{i  +  1} \binom{a_{k}}{i}</math>
+
+* Recall that the binomial theorem tells us about a sum starting from <math display="inline">0</math>, namely that
+<math display="block">\left( x  +  y \right) ^{\alpha_k}= \sum_{i=0}^{\alpha_k} \binom{\alpha_k}{i} x ^{i} y ^{\alpha_k -i} </math>
+
+* We attempt to manipulate this sum to answer our question about how many times the right hand side counts <math display="inline">a</math>. By letting <math display="inline">x = -1, y = 1</math> we see that
+<math display="block">0 = \sum_{i=0}^{\alpha_k} \left( -1 \right) ^{i} \binom{\alpha_k}{i} = 1  + \sum_{i=1}^{\alpha_k} \left( -1 \right) ^{i} \binom{\alpha_k}{i} \Leftrightarrow 1 = \sum_{i=1}^{\alpha_k} \left( -1 \right) ^{i  +  1} \binom{\alpha_k}{i}</math>
+
+Therefore the right hand side of only counts <math display="inline">a</math> once, as required.
+
+== Knowledge Used ==
+
+* [[Binomial Theorem]]
+* [[Number of Combinations of a Set]]
+* [[Sigma Notation]]
+* [[Cardinality (Finite Set)]]
+{{Knowledge Metadata|Combinatorics|Theorem}}

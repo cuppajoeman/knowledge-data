@@ -1,0 +1,5 @@
+For brevity: 
+\[
+	\left[ n \right]\stackrel{\mathtt{D}}{=}\left\{ 1, \ldots, n \right\}
+\]
+{{Knowledge Metadata|Set Theory|Notation}}

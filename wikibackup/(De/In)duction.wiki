@@ -1,0 +1,26 @@
+Let <math>\mathcal{L}</math> be a language that consists of a single unary predicate symbol <math>R</math>, and let <math>B</math> be the infinite set of axioms
+
+<math display="block">
+\begin{array}{c}
+B=\left\{R\left(x_{1}\right),\right. \\
+R\left(x_{1}\right) \rightarrow R\left(x_{2}\right) \\
+R\left(x_{2}\right) \rightarrow R\left(x_{3}\right) \\
+\vdots \\
+R\left(x_{i}\right) \rightarrow R\left(x_{i+1}\right) \\
+\vdots \\
+\end{array}
+</math>Using [[Rule of Inference (Modus Ponens)|modus ponens]] as the only rule of inference, prove by induction that <math>B \vdash R\left(x_{j}\right)</math> for each natural number <math>j \geq 1</math>.
+
+== Proof ==
+
+* Base Case
+** We can see that <math>B \vdash R\left(x_{1}\right)</math> by the deduction <math>\left( R\left(x_{1}\right) \right)</math>
+
+* Induction step 
+** Let <math>k \in \mathbb{N}^{\ge 1}</math> and assume that <math>B \vdash R\left(x_{k}\right)</math>, let's say by the deduction <math>D = \left( \phi _{1}, \phi _{2},  \dots ,\phi _{m - 1},\phi _{m}, R\left(x_{k}\right) \right)</math>, 
+*** We want <math>B \vdash R\left(x_{k + 1}\right)</math> and so we must find a deduction for it. 
+**** We know that the rule of inference we are looking for has the following form <math display="block">\left( \left\{ R\left(x_{k}\right), R\left(x_{k}\right)\to R\left(x_{k + 1}\right) \right\}, R\left(x_{k + 1}\right) \right)</math>, in order to use this rule, we must have <math display="block">\left\{ R\left(x_{k}\right), R\left(x_{k}\right)\to R\left(x_{k + 1}\right) \right\}</math> as a subset of the previous steps in our deduction.  
+**** To satisfy this we construct the following deduction 
+<math display="block">  \left( R\left(x_{k}\right)\to R\left(x_{k + 1}\right), \phi _{1}, \phi _{2},  \dots ,\phi _{m - 1},\phi _{m}, R\left(x_{k}\right), R\left(x_{k + 1}\right) \right)</math>
+[[Category:Question]]
+[[Category:Deduction]]

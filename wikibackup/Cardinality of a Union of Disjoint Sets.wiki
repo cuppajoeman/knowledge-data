@@ -1,0 +1,8 @@
+Suppose <math>A</math> and <math>B</math> are disjoint, then:<math display="block">\left| A \cup B \right|= \left| A \right| + \left| B \right|
+</math>
+
+== Proof ==
+
+
+{{Knowledge Metadata|Cardinality|Proposition}}
+[[isA::PIP]]

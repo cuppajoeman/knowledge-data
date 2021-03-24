@@ -1,0 +1,22 @@
+For two partially ordered sets <math display="inline">\langle A, \le  \rangle</math> and <math display="inline">\langle B, \le \rangle</math>, the lexicographical ordering on the cartesian project <math display="inline">A \times B</math> is defined by <math display="inline">\left( a, b \right) \le \left(  c, d \right)</math> if and only if <math display="inline">a < c</math> or ( <math display="inline">a = c</math> and <math display="inline">b \le d</math> ). Eg, the ordering you find in a dictionary. If the orderings on <math display="inline">A</math> and <math display="inline">B</math> are linear, show that the lexicographical ordering is linear on <math display="inline">A \times B</math>.
+
+== Proof ==
+
+* We must show that <math display="inline">\le</math> is a partial ordering of <math display="inline">X</math> and that <math display="inline">\forall \left( a, b \right), \left( c,d \right) \in A  \times B, \left( \left( a, b \right) \le \left( c, d \right) \lor \left(  c,d \right) \le \left( a, b \right) \right) \lor \left( a, b \right)= \left( c,d \right)</math>.
+** To show that it is a partial ordering, we must show that <math display="inline">\le</math> is a transitive, antisymmetric relation on <math display="inline">A \times B</math>.
+** Transitivity:
+*** Suppose <math>((a, b) \le (c, d) ) \land ((c,d) \le (e,f))</math>, let's show that <math>(a, b) \le (e,f)</math>, from our assumption, the following are possible:
+***#<math display="inline">a < c</math>
+***#<math display="inline">a = c, b \le d</math>
+***#<math display="inline">c < e</math>
+***#<math display="inline">c = e, d \le f</math>
+**** Although any combination of <math display="inline">1,2</math> with <math display="inline">3,4</math> will yield one of the following outcomes
+***** <math display="inline">c = e, b \le f</math> or,
+***** <math display="inline">a \le e</math> as needed.
+** Antisymmetry
+*** Supposing <math display="inline">\left(  \left( a, b \right) \le \left( c, d \right) \right) \land \left(  \left( c, d \right) \le \left(  a, b \right) \right)</math>, the only possibility is that <math display="inline">a \le c</math> and <math display="inline">c \le a</math>, if any of the equalities were strict than we would have gotten a contradiction so <math display="inline">a = c</math>, if thatâ€™s the case then <math display="inline">b \le d</math> and <math display="inline">d \le b</math> thus <math display="inline">\left( a, b \right)= \left(  c,d \right)</math>
+**Finally we show
+*** <math display="inline">\forall \left( a, b \right), \left( c,d \right) \in A  \times B, \left( \left( a, b \right) \le \left( c, d \right) \lor \left(  c,d \right) \le \left( a, b \right) \right) \lor \left( a, b \right)= \left( c,d \right)</math>
+**** We use the fact that <math display="inline">\langle A, \le  \rangle</math> and <math display="inline">\langle B , \le \rangle</math> are linear orders, so we have that property for each of those elements, thus when we compare <math display="inline">\left( a, b \right)</math> and <math display="inline">\left( c, d \right)</math> this forces one of the above three properties to be true.
+
+{{Knowledge Metadata|Relations|Question}}

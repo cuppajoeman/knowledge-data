@@ -1,0 +1,30 @@
+=== ''First Discovered - First Explored'' ===
+  '''algorithm''' BFS(<math>G</math>, ''root'') '''is'''
+      
+      ''root''.state <math>\leftarrow</math> discovered
+      ''root''.distance_from_root <math>\leftarrow</math> 0
+      ''root''.path_parent <math>\leftarrow</math> DNE
+      
+      '''for each''' <math>v \in V \setminus \{s \}</math> do
+          <math>v</math>.state <math>\leftarrow</math> undiscovered
+          <math>v</math>.distance_from_root <math>\leftarrow \infty</math>                             
+          <math>v</math>.path_parent <math>\leftarrow</math> DNE
+       
+      let ''Q'' be a queue
+      ''Q''.enqueue(''root'')
+      '''while''' ''Q'' is not empty '''do'''
+          <math>u \leftarrow</math> ''Q''.dequeue()
+          
+          '''if''' <math>u</math> is the goal '''then'''
+              '''return''' <math>u</math>
+          
+          '''for each''' <math>(u, x) \in E</math>  '''do'''
+              '''if''' <math>x</math>.state <math>\neq</math> discovered '''then'''
+                  <math>x</math>.state = discovered
+                  <math>x</math>.distance_from_root = <math>x</math>.distance_from_root + 1
+                  <math>x</math>.path_parent = <math>u</math>
+                  ''Q''.enqueue(<math>x</math>)
+
+----
+Parent: {{link|target=Searching}}
+[[isA::Algorithm]]

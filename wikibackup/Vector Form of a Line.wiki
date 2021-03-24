@@ -1,0 +1,5 @@
+Let <math display="inline">l</math> be a line and let <math display="inline">\vec{x}</math> and <math display="inline">\vec{b}</math> be vectors. If <math display="inline">l = \left\{ \vec{y}: m \vec{x}  +  \vec{b} \text{ for some }  m \in \mathbb{R} \right\}</math> then <math display="block">\vec{y} = m \vec{x}  +  \vec{b}</math>
+
+is <math display="inline">l</math> represented in vector form, and we say that <math display="inline">\vec{x}</math> is the direction vector for <math display="inline">l</math> as <math display="inline">m</math> scales it across our whole space.
+
+{{Knowledge Metadata|Linear Algebra|Definition}}

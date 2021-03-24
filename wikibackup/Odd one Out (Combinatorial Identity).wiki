@@ -1,0 +1,14 @@
+<math display="block">\binom{n}{r} = \binom{n - 1}{r-1 }  +  \binom{n - 1 }{r} \qquad 1 \le r \le n</math>
+
+== Proof ==
+
+* Left hand side: 
+** Let <math display="inline">X</math> be a set of size <math display="inline">n</math>, <math display="inline">\binom{n }{r}</math> counts all the subsets of <math display="inline">X</math> of size <math display="inline">r</math>.
+
+* Right hand side:
+** Let <math display="inline">x_{i} \in X</math> and count all subsets that must contain <math display="inline">x_{i}</math> if that's the case then we know that there are <math display="inline">n-1</math> other elements to choose from, and and we need <math display="inline">r-1</math> more elements to have <math display="inline">r</math> elements in total, thus there are <math display="inline">\binom{n-1}{r-1}</math> subsets of <math display="inline">X</math> which contain <math display="inline">x_{i}</math>
+** Let's now count all the subsets of <math display="inline">X</math> that don't contain <math display="inline">x_{i}</math> we may choose from all elements except <math display="inline">x_{i}</math>, thus the number of choices we have is <math display="inline">\binom{n-1}{r}</math>
+** Since every subset either contains <math display="inline">x_{i}</math> or not, then this forms a partition of all possible subsets of <math display="inline">X</math> of size <math display="inline">r</math> therefore we obtain
+<math display="block">\binom{n}{r} = \binom{n - 1}{r-1 }  +  \binom{n - 1 }{r} \qquad 1 \le r \le n</math> as needed.
+
+{{Knowledge Metadata|Combinatorics|Identity}}

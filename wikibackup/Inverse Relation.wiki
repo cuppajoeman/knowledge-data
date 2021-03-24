@@ -1,0 +1,3 @@
+For any relation <math>R</math>, we define <math display="block">R^{-1} \stackrel{\text{def}}{=} \{ (y,x): (x,y) \in R \}</math>
+
+{{Knowledge Metadata|Relations|Definition}}

@@ -1,0 +1,11 @@
+The complex conjugate of <math display="inline">z = x  +  iy</math> is the number <math display="inline">\overline{z}=x  -  iy</math>, geometrically this reflects along the <math display="inline">x</math> axis.
+
+Conjugating twice leaves us where we started so <math display="inline">\overline{\overline{z}} = \overline{x  -  iy}= x + iy = z</math> (it is an involution)
+
+==Knowledge Used==
+
+* [[Involution]]
+
+*
+
+{{Knowledge Metadata|Complex Numbers|Definition}}

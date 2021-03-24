@@ -1,0 +1,7 @@
+Given a set of notes, we can consider the fretboard representation of these notes, so that for any <math>X \subseteq \mathbb{G}</math> we write:<math display="block">\mathbb{F}(X) = \{ ( x,y ): \mathcal{S}_x \cdot 2^{\frac{y}{12}} \in X \} \subseteq \mathbb{N}^2</math>For a visual representation see [[Guitar Note Equivalence]]
+
+== Knowledge Used ==
+
+* [[Fretboard to Frequency Mapping]]
+
+{{Knowledge Metadata|Guitar|Definition}}

@@ -1,0 +1,6 @@
+Given a group <math display="inline">G</math> we say that <math display="inline">g</math> is an involution if and only if <math display="inline">o\left(g\right)=2</math>
+
+== Knowledge Used ==
+
+* [[Order of an Element]]
+{{Knowledge Metadata|Group Theory|Definition}}

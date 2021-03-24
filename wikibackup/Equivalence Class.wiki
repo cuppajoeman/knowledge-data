@@ -1,0 +1,5 @@
+Given an equivalence relation <math display="inline">E \subseteq X \times X</math>, an equivalence class is a set of the form: <math display="block">\left\{ y \in X: y E x \right\}</math>
+
+for any <math display="inline">x \in X</math>
+
+{{Knowledge Metadata|Relations|Definition}}

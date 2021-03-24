@@ -1,0 +1,21 @@
+If <math>\Gamma_{P}=\left\{\gamma_{1 P}, \gamma_{2 P}, \ldots, \gamma_{n_{P}}\right\}</math> is a nonempty finite set of propositional formulas and <math>\phi_{P}</math> is a propositional formula, then <math>\phi_{P}</math> is a [[Propositional Consequence|propositional consequence]] of <math>\Gamma_{P}</math> if and only if<math display="block">
+\left[\gamma_{1} p \wedge \gamma_{2} p \wedge \cdots \wedge \gamma_{n} p\right] \rightarrow \phi_{P}
+</math>
+
+is a [[tautology]].
+
+== Proof ==
+<math display="inline">\left( \implies \right)</math> 
+
+* Assume that <math display="inline">\phi _{P}</math> is a propositional consequence of <math display="inline">\Gamma_{P}</math>, we’ll show that <math display="inline">\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right] \to \phi _{P}</math> is a tautology
+** Let <math display="inline">v</math> be a truth assignment function, our goal is to show that <math display="inline">\bar{v}\left(\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right] \to \phi _{P}\right) = T</math>, after recursively applying the definition of <math display="inline">\bar{v}</math>, it will finally be applied to each <math display="inline">\gamma_{iP}</math>
+*** if <math display="inline">v\left(\gamma_{iP}\right)=T</math> for every <math display="inline">i \in \left[ n \right]</math> then since <math display="inline">\phi _{P}</math> is a propositional consequence of <math display="inline">\Gamma_{P}</math> then <math display="inline">\bar{v}\left(\phi _{P}\right)=T</math> this in combination with <math display="inline">\bar{v}\left(\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right]\right)=T</math> shows that <math display="inline">\bar{v}\left(\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right] \to \phi _{P}\right) = T</math>
+*** Otherwise there exists an <math display="inline">i \in \left[ n \right]</math> such that <math display="inline">v\left(\gamma_{iP}\right)=F</math> thus we know that <math display="inline">\bar{v}\left(\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right] \right) = F</math> and so the implication is vacuously true, this can also be seen by the equivalence of <math display="inline">P \to Q</math> and <math display="inline">\neg P \lor Q</math>
+
+----<math display="inline">\left( \Longleftarrow  \right)</math> 
+
+* Assume that <math display="inline">\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right] \to \phi _{P}</math> is a tautology, that is for any variable assignment function <math display="inline">\bar{v}\left(\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right] \to \phi _{P}\right) = T</math>, what we’d like to show is that <math display="inline">\phi _{P}</math> is a propositional consequence of <math display="inline">\Gamma_{P}</math>, that is if "every truth assignment function <math display="inline">\bar{t}</math> such that or every <math display="inline">i \in \left[ n \right]</math>,  <math display="inline">\bar{t}\left(\gamma_{iP}\right)=T</math> then we obtain <math display="inline">\bar{t}\left(\phi _{P}\right)=T</math>"
+** So we commence by assuming that <math display="inline">\bar{t}\left(\gamma_{iP}\right)=T</math> for all <math display="inline">i \in \left[ n \right]</math>, and then by our original hypothesis we know that <math display="inline">\bar{v}\left(\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right] \to \phi _{P}\right) = T</math>, which becomes <math display="inline">\bar{t}\left(\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right]\right) \to \bar{t}\left(\phi _{P}\right) = T</math>, and we already know that <math display="inline">\bar{t}\left(\left[ \gamma_{1P} \land \gamma_{2P}\land \dotsb \land \gamma_{nP} \right]\right)=T</math>, and so in order for the tautology to remain a tautology, it requires that <math display="inline">\bar{t}\left(\phi _{P}\right)=T</math>, as required.
+
+[[Category:Lemma]]
+[[Category:Propositional Logic]]

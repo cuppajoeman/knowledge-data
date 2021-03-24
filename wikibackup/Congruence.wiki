@@ -1,0 +1,8 @@
+For <math display="inline">a, b, \in \mathbb{Z}</math> and <math display="inline">n \in \mathbb{N}</math> we say that <math display="inline">a</math> is congruent to <math display="inline">b</math> and write <math display="inline">a  \equiv b \mod n</math> when <math display="block">n \mid a - b</math>
+
+A fundamental observation is that <math display="inline">a</math> and <math display="inline">b</math> are congruent if and only if they have the same remainder modulo <math display="inline">n</math>. To see this, we apply the <math>\alpha</math> to both <math display="inline">a</math> and <math display="inline">b</math> with <math display="inline">n</math> to obtain <math display="inline">a = n q_{a} + r_{a}</math> and <math display="inline">b = n q_{b} + r_{b}</math>, then <math display="inline">a  -  b = n \left( q_{a} - q_{b}  \right)  +  r_{a} - r_{b}</math> then <math display="inline">n \mid a - b</math> if and only if <math display="inline">n \mid r_{a} -  r_{b}</math>, or equivalently <math display="inline">a  \equiv b \mod n \Leftrightarrow r_{a} \equiv r_{b} \mod n</math>
+
+== Knowledge Used ==
+
+* [[Quotient Remainder Theorem]]
+{{Knowledge Metadata|Modular Arithmetic|Definition}}

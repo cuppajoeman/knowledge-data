@@ -1,0 +1,5 @@
+We denote the set of natural numbers with <math>\mathbb{N}</math> and define it as the set 
+
+<math display="block">\left\{ 1, 2, 3, 4, \ldots \right\}</math>
+
+{{Knowledge Metadata|Set Theory|Definition}}

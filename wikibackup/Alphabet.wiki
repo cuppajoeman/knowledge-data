@@ -1,0 +1,4 @@
+Any non-empty finite set, we denote it's members as symbols
+== Conventions ==
+* We usually use the capital Greek letters <math>\Sigma, \Gamma</math> for alphabets
+{{Knowledge Metadata|Computability|Definition}}

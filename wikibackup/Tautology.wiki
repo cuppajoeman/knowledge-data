@@ -1,0 +1,3 @@
+A [[Propositional Formula|propositional formula]] <math>\phi</math> is a tautology if and only if <math>\bar{v}\left(\phi \right)=T</math> for any [[Propositional Formula Assignment Function|truth assignment function]] <math>v</math>
+[[Category:Definition]]
+[[Category:Propositional Logic]]

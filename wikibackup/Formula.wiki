@@ -1,0 +1,9 @@
+If <math>\mathfrak{L}</math> is a [[First Order Language|first-order language]], a formula of <math>\mathfrak{L}</math> is a nonempty finite string <math>\phi</math> of symbols from <math>\mathfrak{L}</math> such that either: 
+
+# <math>\phi :\equiv = t_1t_2</math>, where <math>t_1</math> and <math>t_2</math> are [[Term|terms]] of <math>\mathfrak{L}</math>
+# <math>\phi :\equiv Rt_1t_2, \ldots, t_n</math>, where <math>R</math> is an <math>n</math>-ary relation symbol of <math>\mathfrak{L}</math> and <math>t_1t_2, \ldots, t_n</math> are all [[Term|terms]] of <math>\mathfrak{L}</math>, or
+# <math>\phi :\equiv \left( \neg \alpha  \right)</math>, where <math>\alpha </math> is a formula of <math>\mathfrak{L}</math>.
+# <math>\phi :\equiv \left(  \alpha \lor \beta   \right)</math>, where <math>\alpha </math> and <math>\beta </math> are a formulas of <math>\mathfrak{L}</math>, or
+# <math>\phi :\equiv \left(  \forall v \right)\left( \alpha  \right)</math>, where <math>v</math> is a variable and <math>\alpha </math> is a formula of <math>\mathfrak{L}</math>
+[[Category:Definition]]
+[[Category:Language]]

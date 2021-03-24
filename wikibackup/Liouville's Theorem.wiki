@@ -1,0 +1,3 @@
+If <math display="inline">f\left(z\right)</math> is complex-differentiable for all <math display="inline">z \in \mathbb{C}</math> and bounded, then <math display="inline">f</math> must be a constant function.
+
+{{Knowledge Metadata|Complex Analysis|Theorem}}

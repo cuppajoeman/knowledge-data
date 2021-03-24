@@ -1,0 +1,12 @@
+Suppose that <math display="inline">\Sigma \vdash \theta</math>. Then if <math display="inline">\Sigma'</math> is formed by taking any <math display="inline">\sigma \in \Sigma</math> and if <math display="inline">\sigma</math> has a universal quantifier whose scope is the entire formula then we remove it, else if it doesn't we give it one.  
+
+== Proof ==
+*Given the deduction <math display="inline">\mathcal{D}</math> of <math display="inline">\theta</math>, then if at any point we use the second clause namely using the fact that an <math display="inline">\mathcal{L}</math>-formula was in <math display="inline">\Sigma</math>, then it may no longer be valid, so instead will will justify these lines by the third clause of the definition of a deduction.
+**So let <math display="inline">X</math> be the lines of the deduction that were justified by the fact that they were an element of <math display="inline">\Sigma</math>,
+*** If the line was originally of the form <math display="inline">\forall x \sigma</math>, then  <math display="inline">\sigma \in \Sigma'</math>, and that line is no longer justified by clause 3, so we'll prepend a deduction of <math display="inline">\forall x \sigma</math>
+****We know such a deduction exists by using the fact that [[Equivalence of Removal of Universal Quantification|we know tha]]<nowiki/>t <math display="inline">\Sigma' \vdash \sigma</math>, (by the second clause) if and only if <math display="inline">\Sigma' \vdash \forall x \sigma</math>. Then each of the lines in <math display="inline">X</math> are now justified by the third clause.
+***If the line was originally of the form <math display="inline">\sigma</math>, then <math display="inline">\forall x \sigma \in \Sigma'</math>, we apply the same logic  and prepend the proof of <math display="inline">\sigma</math> so that each line will be justified.
+
+Thus we have produced a valid deduction, as required.
+[[Category:Deduction]]
+[[Category:Lemma]]

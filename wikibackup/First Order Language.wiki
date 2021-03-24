@@ -1,0 +1,11 @@
+A first order language <math>\mathfrak{L}</math> is an infinite collection of distinct symbols, no one of which is properly contained in another, separated into the following categories
+* Parenthesis: (, )
+* Connectives: <math>\lor, \neg</math>
+* Quantifier: <math>\forall</math>
+* Variables: for each positive integer <math>n: v_1, v_2, \ldots, v_n, \ldots</math> We denote the set of variables symbols as Vars
+* Equality symbol: =
+* Constant symbols: Some set of zero or more symbols
+* Function symbols: For each positive integer <math>n</math>, some set of zero or more <math>n</math>-ary function symbols
+* Relation symbols: For each positive integer <math>n</math>, some set of zero or more <math>n</math>-ary relation symbols
+[[Category:Definition]]
+[[Category:Language]]

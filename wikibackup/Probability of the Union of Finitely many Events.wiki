@@ -1,0 +1,20 @@
+Let <math display="inline">E_{1} , E_{2} , \dotsc  , E_{n - 1} , E_{n} \subseteq S </math> for any sample space <math display="inline">S</math>, the following holds:<math display="block">\begin{aligned}
+  P\left( E_{1} \cup E_{2} \cup \dotsb  \cup E_{n - 1} \cup E_{n}\right) &= \sum_{i=1}^{n} P\left(E_{i}\right) \\ 
+                                                                                                               &- \sum_{0 \le i_{1} < i_{2} \le n} P\left(E_{i_{1}} \cap E_{i_{2}}\right)  \\
+                                                                                                               &+ \sum_{0 \le i_{1} < i_{2} < i_{3} \le n} P\left(E_{i_{1}} \cap E_{i_{2}} \cap E_{i_{3}}\right) \\
+                                                                                                               &\vdots \\
+                                                                                                               &+ \left( -1 \right) ^{r  + 1} \sum_{0 \le i_{1} < i_{2} < \ldots < i_{r} \le n} P\left(E_{i_{1}} \cap E_{i_{2}} \cap \dotsb \cap E_{i_{r-1}} \cap E_{i_{r}}\right) \\
+                                                                                                               &\vdots \\
+                                                                                                               &+ \left( -1 \right) ^{ n  +  1}   P\left( \bigcap_{i=1}^{n} E_{i} \right) \\\end{aligned}</math>
+
+== Proof ==
+
+* The proof follows the same structure as [[Number of Elements in a Finite Union]] but this time realizing that the left hand side can be written as the following summation using a disjoint union <math display="block">\sum_{x \in  E_{1} \cup E_{2} \cup \dotsb  \cup E_{n - 1} \cup E_{n}} P(\{x\}) =   P\left( E_{1} \cup E_{2} \cup \dotsb  \cup E_{n - 1} \cup E_{n}\right)</math>and noting that this time the left hand side counts each <math>P(\{x\})</math> exactly once.
+* Now for any <math>x \in  E_{1} \cup E_{2} \cup \dotsb  \cup E_{n - 1} \cup E_{n}</math> then there exists <math display="inline">E_{\alpha_{1}}, E_{\alpha_{2}} \ldots E_{\alpha_{k}} </math> such that <math display="inline">x \in E_{\alpha_{1}} \cap E _{\alpha_{2}} \cap \dotsb \cap E_{\alpha_{k}}  </math>now follow the proof of [[Number of Elements in a Finite Union]] where we over count <math>P(\{x\})</math> in the right hand side.
+
+== Knowledge Used ==
+
+* [[Number of Elements in a Finite Union]]
+* [[Probability of an Event]]
+
+{{Knowledge Metadata|Probability|Proposition}}

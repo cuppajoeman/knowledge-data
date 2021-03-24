@@ -1,0 +1,6 @@
+A rule of inference (for a given language) of type Modus Ponens, is any element from the following set: <math display="block">\{(\{\alpha, \alpha \rightarrow \beta\}, \beta) \mid \alpha \text { and } \beta \text { are formulas of } \mathcal{L}\}</math>
+
+== Knowledge Used ==
+
+* [[Formula]]
+{{Knowledge Metadata|Deductions|Definition}}

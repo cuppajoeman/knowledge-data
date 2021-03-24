@@ -1,0 +1,11 @@
+Given a sequence <math display="inline">\left \{ a _ { n } \right \} _ { n = 0 } ^ \infty</math> then we define <math display="block">a_{1}  +  a_{2}  +  a_{3}  +  \ldots \stackrel{\mathtt{N}}{=} \sum_{i=1}^{\infty} a_{i} \stackrel{\mathtt{D}}{=} \lim_{n\to\infty} \sum_{i=1}^{n} a_{i}</math>
+
+== Knowledge Used ==
+
+* [[Notation Equals]]
+* [[Definition Equals]]
+* [[Limit]]
+* [[Sigma Notation]]
+* [[Sequence]]
+
+{{Knowledge Metadata|Algebra|Definition}}

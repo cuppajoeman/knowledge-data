@@ -1,0 +1,3 @@
+If a [[Formula|formula]] <math>\psi</math>  contains a subformula <math>\left( \forall v \right) \left( \alpha  \right)</math> (meaning that the string of symbols that make up <math>\left( \forall v  \right) \left( \alpha  \right)</math> is a substring that make up the symbols in <math>\psi</math> ), we will say that the scope of the quantifier <math>\forall</math> is <math>\alpha</math>
+[[Category:Definition]]
+[[Category:Language]]

@@ -1,0 +1,18 @@
+
+Let <math>f: A \to B</math> be a function, it's inverse exists if and only if <math>f</math> is both a surjection and an injection
+
+== Proof ==
+
+* (<math>\Rightarrow</math>) (Assume that the inverse function exists)
+** Suppose <math display="inline">f</math> is not surjective, if that's the case then <math display="inline">\exists y^{\star} \in B</math> such that <math display="inline">\forall x \in A, f\left(x\right) \neq y^{\star}</math>, then <math display="inline">y^{\star} \in B</math> (<math display="inline">f^{-1}</math>'s domain), but it maps to nothing, so then <math display="inline">f^{^{-1}}</math> would not be a function.
+** Suppose <math display="inline">f</math> is not injective, then we have <math display="inline">y^{\star} \in B</math> such that <math display="inline">\exists x_{1}, x_{2} \in A, x_{1} \neq x_{2}</math>, but <math display="inline">f\left(x_{1}\right)=f\left(x_{2}\right)=y^{\star}</math>, if that's the case then we will get that <math display="inline">x_{1}=f^{-1}\left(y^{\star}\right)= x_{2}</math>, but <math display="inline">x_{1} \neq x_{2}</math> so then <math display="inline">f^{^{-1}}</math> cannot be a function.
+* (<math>\Leftarrow</math>) (Assume that <math>f</math> is both a surjection and injection)
+** We must show that <math>f^{-1}</math>is a function, that is every input is mapped to exactly one output, suppose that's not the case, that there's an <math>b \in B</math> such that <math>f^{-1}(b) = a_1</math> and <math>f^{-1}(b) = a_2</math> with <math>a_1 \neq a_2</math>, but then by the definition of inverse, we get that <math>f(a_1) = f(a_2) = b</math> which contradictions with the fact that <math>f</math> is an injection.
+
+== Knowledge Used ==
+
+* [[Inverse Function]]
+* [[Surjection]]
+* [[Injection]]
+* [[Bi-Conditional]]
+{{Knowledge Metadata|Functions|Theorem}}

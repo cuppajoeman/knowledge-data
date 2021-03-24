@@ -1,0 +1,3 @@
+A subset <math display="inline">\Omega \subseteq \mathbb{C}</math> is a region if it constsis of an open set and possibly some boundary points.
+
+{{Knowledge Metadata|Complex Analysis|Definition}}

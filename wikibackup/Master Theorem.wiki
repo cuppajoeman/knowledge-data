@@ -1,0 +1,32 @@
+If <math display="inline">T\left(n\right)</math> is the function satisfying the following recurrence (where <math display="inline">n = b^{k}</math> for some <math display="inline">k \in \mathbb{N}</math>)<math display="block">T\left(n\right) =
+  \begin{cases}
+    a  \cdot T\left(\frac{n}{b}\right) + c \cdot n ^{d}, &\text{ if } n > 1\\
+    c, & \text{ if } n =1
+  \end{cases}</math>with <math>a \ge 1, b > 1, d \ge 0</math> and <math>a, b, d \in \mathbb{N}</math>, then:
+<math display="block">T\left(n\right) \in
+  \begin{cases}
+    \Theta\left(n ^{d}\right), & \text{ if } a < b^{d}\\
+    \Theta\left(n ^{d} \log n\right), & \text{ if } a = b^{d}\\
+    \Theta\left(n^{log_ba}\right), & \text{ if } a > b^{d}
+  \end{cases}</math>
+
+== Proof ==
+To see why we follow the tree of recursive calls made by the algorithm:
+
+* At level 0, the root represents one call for an input of size <math display="inline">n</math> . The time required to divide up the input and to recombine after (excluding the call to <math display="inline">T</math> with the smaller input) is <math display="inline">c \cdot n^{d}</math>
+* At level 1 we will have calls made by the root call at level 0, we know there are <math display="inline">a</math> such calls all on inputs of zie <math display="inline">\frac{n}{b}</math>. The time required for each of these calls again ignoring the sub calls (same as above) is <math display="inline">c \left( \frac{n}{b} \right)^{d}</math> so the total time for each of the <math display="inline">a</math> calls to divide and recombine separately is <math display="inline">ac\left( \frac{n}{b} \right)^{d}</math> (because this program runs sequentially)
+* At level 2, we follow the same analysis. Since each of the above <math display="inline">a</math> calls now makes <math display="inline">a</math> calls themselves we have <math display="inline">a^{2}</math> calls working on inputs of size <math display="inline">\frac{n}{b^{2}}</math>. Therefore the total time required by these <math display="inline">a^{2}</math> calls is <math display="inline">a^{2} c\left( \frac{n}{b^{2}} \right)^{d}</math>
+* So generalizing, we can see at level <math display="inline">i</math> we have <math display="inline">a^{i}</math> calls on inputs of size <math display="inline">\frac{n}{b^{i}}</math> and the total time required for these calls would be <math display="inline">a^{i}c\left( \frac{n}{b^{i}} \right)^{d}</math>
+* We note that the leaves of the tree are when we call on size <math display="inline">T\left(1\right)</math> so, if we want to know how many levels in the tree there are we need to know for what <math display="inline">i</math> we have <math display="inline">\frac{n}{b^{i}}=1</math> which is precisely <math display="inline">\log_b n</math>
+** Thus our analysis carries for each <math display="inline">i \in \left\{ 0, 1, 2, \ldots, \log_b n \right\}</math>, and so the total time required for all the calls at all levels becomes <math display="block">T\left(n\right) =\sum_{i=0}^{\log_b n} a^{i}c \left( \frac{n}{b^{i}} \right)^{d}=c n ^{d} \sum_{i=0}^{\log_b n} \left( \frac{a}{b^{d}} \right)^{i}</math>
+** Note that <math display="inline">\sum_{i=0}^{\log_b n} \left( \frac{a}{b^{d}} \right)^{i}</math> is of the form <math display="inline">\sum_{i=0}^{k} x^{i}</math> which is a geometric series.
+*** Recall the following two summations
+*** Infinite Geometric sum, for <math display="inline">x \in \left( -1, 1 \right)</math>, one has: <math display="block">\sum_{i=0}^{\infty} x^{i}=\frac{1}{1-x}</math>
+*** Finite Geometric sum, for any <math display="inline">x \ge 0</math>: <math display="block">\sum_{i=0}^{k} x^{i}=\frac{x^{k + 1} - 1}{x - 1}</math>
+* '''Case 1:''' Therefore by the above summations, if  <math display="inline">\frac{a}{b^{d}} < 1</math> or simply <math display="inline">a < b^{d}</math> we obtain that <math display="block">\sum_{i=0}^{\log_b n} \left( \frac{a}{b^{d}} \right)^{i} < \sum_{i=0}^{\infty} \left( \frac{a}{b^{d}} \right)^{i}=\frac{1}{1 - \frac{a}{b^{d}}} \in \Theta\left(1\right)</math> So in this case we obtain that <math display="inline">T\left(n\right) \in \Theta\left(n^{d}\right)</math>
+* '''Case 2:''' When <math display="inline">a = b^{d}</math> then one has: <math display="block">\sum_{i=0}^{\log_{b}(n)} \left( \frac{a}{b^{d}} \right)^{i}=\sum_{i=0}^{\log_{b}(n)} 1^{i} = 1  +  \log_{b}(n) \in \Theta\left(\log(n)\right)</math> and we have <math display="inline">T\left(n\right) \in \Theta\left(n^{d}\log(n)\right)</math>
+* '''Case 3:''' Finally when <math display="inline">\frac{a}{b^{d}} > 1 \Leftrightarrow a > b^{d}</math> we get :<math display="block">\sum_{i=0}^{\log_{b}(n)} \left( \frac{a}{b^{d}} \right)^{i} = \frac{\left( \frac{a}{b^{d}} \right)^{i + \log_{b}(n)} - 1}{\frac{a}{b^{d} - 1}} = \alpha  \cdot \left( \left( \frac{a}{b^{d}} \right)^{1 + \log_{b}(n)} - 1 \right) \in \Theta\left(\frac{a^{\log_{b}(n)}}{\left( b^{\log_{b}(n)} \right)^{d}}\right) = \Theta\left(\frac{n^{\log_{b}(a)}}{n^d}\right)</math>
+* Note in the last step we used the fact that <math display="inline">a^{\log_{b}(n)} = n ^{\log_{b}(a)}</math>, see the proof here.
+* In this case we have that <math display="inline">T\left(n\right) \in \Theta\left(n^{\log_{b}(a)}\right)</math>
+
+{{Knowledge Metadata|Time Complexity|Theorem}}

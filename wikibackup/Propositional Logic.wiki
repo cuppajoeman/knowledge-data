@@ -1,0 +1,15 @@
+[[Category:Logic]]
+
+== Definitions ==
+{{#ask:
+[[Category:Definition]]
+[[Category:Propositional Logic]]
+|format=ul
+}}
+
+== Lemmas ==
+{{#ask:
+[[Category:Lemma]]
+[[Category:Propositional Logic]]
+|format=ul
+}}

@@ -1,0 +1,1 @@
+<math display="block">\mathbb{P}\left( S \right) \stackrel{\text{def}}{=}  \left\{ X: X \subseteq S \right\}  </math>

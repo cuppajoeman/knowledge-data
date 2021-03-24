@@ -1,0 +1,6 @@
+We say an edge (A, B) is a weak tie if A and B are acquaintances.
+
+-----
+Parent: {{link|target=Social Networks}}
+
+[[IsA::Definition]]

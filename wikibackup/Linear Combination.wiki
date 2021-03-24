@@ -1,0 +1,5 @@
+Let <math display="inline">U</math> be a non-empty subset of vector space <math display="inline">V</math>. A linear combination of vectors in <math display="inline">U</math> is an expression of the form <math display="block">c_{1}\vec{u}_{1} + c_{2}\vec{u}_{2}+  \ldots+  c_{k - 1}\vec{u}_{k - 1}+ c_{k}\vec{u}_{k}</math>
+
+where <math display="inline">\vec{u}_{1}, \vec{u}_{2},  \ldots ,\vec{u}_{k - 1},\vec{u}_{k} \in U</math> and <math display="inline">c_{1}, c_{2},  \ldots ,c_{k - 1},c_{k} \in \mathbb{R}</math>, we say that a linear combination is trivial when <math display="inline">c_1 = c_2 = \ldots = c_{k-1} = c_{k} = 0</math> otherwise it is non-trivial.
+
+{{Knowledge Metadata|Linear Algebra|Definition}}

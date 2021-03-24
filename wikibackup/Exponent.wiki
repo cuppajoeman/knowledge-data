@@ -1,0 +1,3 @@
+Let <math>\mathbb{F} </math>  be a [[field]], and let <math>\alpha \in  \mathbb{F} </math>   then for any <math>\mathbb{N} ^{\ge 1} </math>  we define <math display="block">\alpha^{m} = \underbrace{\alpha  \dotsb \alpha  }_{m \text{ times } }  </math>
+
+Fundamental Properties:<math display="block">\left( \alpha ^{m}  \right) ^{n} = \alpha ^{m  \cdot n} \text{ and } \left( \alpha \beta  \right) ^{m} = \alpha ^{m} \beta ^{m} </math>

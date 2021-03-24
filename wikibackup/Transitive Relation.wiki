@@ -1,0 +1,4 @@
+For a relation <math>R</math> we say it is transitive if for any <math>x,y</math> and <math>z</math>, <math>( xRy \land yRz ) \Rightarrow xRz</math>
+
+Parent: {{link|target=Relations}}
+[[isA::Definition]]

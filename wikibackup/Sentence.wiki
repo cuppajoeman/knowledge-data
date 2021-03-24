@@ -1,0 +1,3 @@
+A sentence in a [[First Order Language|language]] <math>\mathfrak{L}</math> is a [[Formula|formula]] of <math>\mathfrak{L}</math> that contains no [[Free Variable|free variables]].
+[[Category:Definition]]
+[[Category:Language]]

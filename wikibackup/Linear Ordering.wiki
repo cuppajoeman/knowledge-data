@@ -1,0 +1,11 @@
+A linear ordering <math display="inline">E</math> of <math display="inline">X</math> is a partial ordering <math display="inline">E</math> of <math display="inline">X</math> such that for all <math display="inline">x, y \in X</math>, <math display="inline">\left(  x E y  \right) \lor \left(  y E x \right) \lor\left( x = y \right)</math>. We say that <math display="inline">\left(  X, E \right)</math> is a linearly ordered set.
+
+== Examples ==
+
+* <math display="inline">\left(  \mathbb{R}, <  \right) , \left(  \mathbb{R}, \le  \right),  \left(  \mathbb{R}, >  \right) , \left(  \mathbb{R}, \ge  \right)</math>
+* Assume the same setup as [[Lexicographic Linear Ordering]] but modify the relation to be <math display="inline">\left( a, b \right) \le \left( c, d \right)</math> if and only if both <math display="inline">a \le c</math> and <math display="inline">b \le d</math>. We can see that this is a partial ordering, but it is not a linear order as <math display="inline">\left( 1, 0 \right) \not \le \left( 0, 1 \right)</math> and <math display="inline">\left( 0, 1 \right) \not \le \left( 1, 0 \right)</math> and <math display="inline">\left( 1, 0 \right) \neq \left(  0, 1 \right)</math>
+
+== Knowledge Used ==
+
+* [[Partial Ordering]]
+{{Knowledge Metadata|Relations|Definition}}

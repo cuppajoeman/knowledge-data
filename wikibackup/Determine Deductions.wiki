@@ -1,0 +1,31 @@
+1. Let the collection of nonlogical axioms be, (and suppose we don't have any logical axioms)
+<math display="block>\Sigma=\{(A(x) \wedge A(x)) \rightarrow B(x, y), A(x), B(x, y) \rightarrow A(x)\}</math>
+and let the rule of inference be [[Rule of Inference (Modus Ponens)|modus ponens]] 
+
+For each of the following, decide if it is a deduction. If it is not a deduction, explain how you know that it is not a deduction.
+
+# <math display="block">\begin{array}{l}
+A(x) \\
+A(x) \wedge A(x) \\
+(A(x) \wedge A(x)) \rightarrow B(x, y) \\
+B(x, y)
+\end{array}</math>
+# <math display="block">\begin{array}{l}
+B(x, y) \rightarrow A(x)\\
+A(x)\\
+B(x,y)
+\end{array}</math>
+# <math display="block">\begin{array}{c}
+(A(x) \wedge A(x)) \rightarrow B(x, y) \\
+B(x, y) \rightarrow A(x) \\
+(A(x) \wedge A(x)) \rightarrow A(x)
+\end{array}</math>
+
+== Solution ==
+
+# No: line 2 is not a non-logical axiom or part of the rules of inference
+# No: line 3 is not part of the nonlogical axioms, so it must be the result of a rule of inference, but we do not know that <math>A(x) \land A(x)</math> holds.
+# 
+
+[[Category:Question]]
+[[Category:Deduction]]

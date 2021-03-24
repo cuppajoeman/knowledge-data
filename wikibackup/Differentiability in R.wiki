@@ -1,0 +1,3 @@
+We say a function <math display="inline">f : \mathbb{R} \to \mathbb{R}</math> or <math display="inline">f : I \to \mathbb{R}</math> for some interval <math display="inline">I \subseteq \mathbb{R}</math> is differentiable at <math display="inline">a</math> if the following limit exits: <math display="block">\lim_{h\to0}\frac{f\left(a + h\right) - f\left(a\right)}{h}</math>If the limit does exist then we can write <math>f'(a)</math> to represent it.
+
+{{Knowledge Metadata|Single Variable|Definition}}

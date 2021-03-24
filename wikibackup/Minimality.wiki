@@ -1,0 +1,2 @@
+Given a property, to show that a set is the minimal set of elements that satisfies the property, then one may show that for any other set of elements satisfying the same property, that the chosen set is a subset.
+[[Category:Technique]]

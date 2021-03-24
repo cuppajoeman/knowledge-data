@@ -1,0 +1,5 @@
+An algorithm for a function <math>f(w)</math> is a Turing Machine that computes <math>f(w)</math>. 
+
+''Note'': When we say "There is an algorithm", we mean that "There exists a Turing machine that executes the algorithm"
+
+{{Knowledge Metadata|Computability|Definition}}

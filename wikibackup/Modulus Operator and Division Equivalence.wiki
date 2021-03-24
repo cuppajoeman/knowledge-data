@@ -1,0 +1,12 @@
+<math display="inline">\forall n, l \in \mathbb{Z}</math> <math display="block">n ~\%~ l = 0 \Leftrightarrow l \mid n</math>
+
+==Proof==
+*<math display="inline">\left( \Rightarrow \right)</math>
+**We assume that <math display="inline">n ~\%~ l = 0</math> so then the unique number <math display="inline">x \in \left\{ 0, \ldots, l-1 \right\}</math> such that <math display="inline">n \equiv x \;(\bmod\; l)</math> is <math display="inline">0</math>, since <math display="inline">x =0</math> then we know that <math display="inline">n  \equiv 0 \;(\bmod\; l)</math> by itâ€™s definition that is <math display="inline">l \mid n  - 0</math>, so then <math display="inline">l \mid n</math>
+*<math display="inline">\left( \Leftarrow \right)</math>
+** We assume that <math display="inline">l \mid n</math> therefore we know that there exists <math display="inline">k \in \mathbb{Z}</math> such that <math display="inline">n = kl</math> or equivalently <math display="inline">n - 0  = kl</math> so <math display="inline">n  \equiv 0 \;(\bmod\; l)</math> so we know that <math display="block">n ~\%~ l =0</math>
+
+== Knowledge Used ==
+
+* [[Modulus Operator]]
+{{Knowledge Metadata|Modular Arithmetic|Lemma}}

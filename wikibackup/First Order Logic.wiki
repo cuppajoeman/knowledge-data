@@ -1,0 +1,7 @@
+== Sections ==
+{{#ask:
+ [[Category:First Order Logic]]
+ [[Category:Section]] 
+ |format=ul
+}}
+[[Category:Logic]]

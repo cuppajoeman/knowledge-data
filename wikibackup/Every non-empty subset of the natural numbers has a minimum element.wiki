@@ -1,0 +1,18 @@
+== Proof ==
+
+We proceed with a proof by induction
+
+Suppose <math>A \subseteq \mathbb{N}</math> has no least element. 
+
+==== Base Case: ====
+
+* Since <math>A \subseteq \mathbb{N}</math>, we know for all <math>a \in A</math> that <math>a \ge 0</math>, thus if <math>0 \in A</math> then <math>A</math>  would have a least element, therefore <math>0 \not\in A</math>
+
+==== Inductive Step: ====
+
+* Let <math>k \in \mathbb{N}</math> suppose that for each <math>i \in \left[ k \right]</math> that <math>i \not\in A</math>, 
+** If <math>k + 1 \in \mathbb{N}</math>, then <math>A</math>  would have a least element, namely <math>k + 1</math>, therefore <math>k + 1 \not\in A</math>.
+
+By induction, we may conclude that <math>n \not\in A</math> for every <math>n \in \mathbb{N}</math>, thus, <math>A = \emptyset</math>
+
+{{Knowledge Metadata|Set Theory|Theorem}}

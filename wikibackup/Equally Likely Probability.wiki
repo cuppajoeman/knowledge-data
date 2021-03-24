@@ -1,0 +1,20 @@
+Let <math display="inline">S = \left[ n \right]</math> be a sample space such that all outcomes in the sample space are equally likely: <math display="block">P\left( \left\{ 1 \right\}\right) = P\left( \left\{ 2 \right\}\right) = \dotsb = P\left( \left\{  n \right\}\right) </math> Then <math display="block">P\left( \left\{ i \right\}\right) = \frac{1}{n} = \frac{1}{ \left| S \right|} \quad \text{ for } i \in \left[ n \right]</math>and for any event <math display="inline">E \subseteq S</math> <math display="block">P\left(E\right)= \frac{ \left| E \right|}{ \left| S \right|}</math>
+
+== Proof ==
+
+* From our assumption that all the outcomes are equal let us set <math display="inline">M</math> to <math display="inline">P\left( \left\{ i \right\}\right)</math> for any <math display="inline">i \in \left[ n \right]</math>. Notice that <math display="inline">S</math> can be written as the following disjoint union <math display="inline">\bigcup_{i=1}^{n} \left\{ i \right\}</math> then the axioms <math display="inline">2</math> and <math display="inline">3</math> from <math display="inline">\chi</math> we have
+<math display="block">\begin{aligned}
+  1 &\stackrel{2}{=} P\left(S\right)\\
+    &= P\left( \bigcup_{i=1}^{n} \left\{ i \right\}\right)\\
+    &\stackrel{3}{=} \sum_{i=1}^{n} P\left( \left\{ i \right\}\right)\\
+    &= n  \cdot \alpha\end{aligned}</math>
+
+* Therefore <math display="inline">\alpha = P\left( \left\{ i \right\}\right) = \frac{1}{n} = \frac{1}{ \left| S \right|}</math>.
+
+* Similarly for any event <math display="inline">E</math> we write it as the disjoint union <math display="inline">\bigcup_{x \in E} \left\{ x \right\}</math> and using the above fact, we have:
+<math display="block">P\left(E\right) = P\left( \sum_{x \in E} P\left( \left\{ x \right\}\right)\right) = \left| E \right|  \cdot  \frac{1}{n} = \frac{ \left| E \right|}{ \left| S \right|}</math>
+
+== Knowledge Used ==
+
+* <math>\chi</math>: [[Probability of an Event]]
+{{Knowledge Metadata|Probability|Proposition}}

@@ -1,0 +1,7 @@
+Parent: {{Link|target=Mathematics}}
+
+* [[Lattice Paths]]
+* [[Inclusion-Exclusion]]
+* [[Generating Functions]]
+
+{{Structure|Mathematics}}

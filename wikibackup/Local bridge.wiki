@@ -1,0 +1,8 @@
+A local bridge is an edge (A, B) whose removal would cause A and B to have graph distance greater than two.
+
+-----
+Parent: {{link|target=Social Networks}}
+
+Parent: {{link|target=Graph Theory}}
+
+[[IsA::Definition]]

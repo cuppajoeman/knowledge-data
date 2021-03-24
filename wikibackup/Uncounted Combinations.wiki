@@ -1,0 +1,7 @@
+<math display="block">\binom{n}{k}=\binom{n}{n-k}</math>
+
+== Proof idea ==
+for each choice of <math display="inline">k</math> elements, we can make a bijection to a choice of the other <math display="inline">n-k</math> elements not chosen therefore they count the same thing.
+[[Category:Theorem]]
+[[Category:Combinations]]
+[[Category:Proof Required]]

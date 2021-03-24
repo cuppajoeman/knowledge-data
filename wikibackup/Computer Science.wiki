@@ -1,0 +1,3 @@
+{{WhatLinksHere}}
+
+[[isA::Structure]]
