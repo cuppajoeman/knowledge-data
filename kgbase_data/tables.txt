@@ -20,6 +20,7 @@
                'Constant in Derivative': 'row-MVsK5Qvv7-yLBvcqAIF',
                'Constant in Integral': 'row-MVsRCwTZj-VG197ADgg',
                'Constant in Limit': 'row-MVrlzafDQUs460dyogz',
+               'Cross Product': 'row-MW_CY_MFj9qFeeTePR9',
                'Definition': 'row-MVXSSn_vJuk_qhboEnj',
                'Derivative': 'row-MVmQxUEzE_bTaPq5Zxb',
                'Differentiability implies Continuity': 'row-MVsGDRmhBBho-MEMM2U',
