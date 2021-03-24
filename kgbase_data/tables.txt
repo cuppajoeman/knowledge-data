@@ -13,6 +13,7 @@
                'Chord Integer Notation': 'row-MWPeJc6fjuxP6_Gkp1D',
                'Chord with respect to a different Root': 'row-MWQGQBwBRXrxWqzFAMM',
                'Circle': 'row-MW5aM0pQuT0-XZutGZC',
+               'Closed Ball': 'row-MW_EmAEb4xlOsj_RN4u',
                'Combinatorics': 'row-MVgRkgDKhzX5QTQiFf7',
                'Complete': 'row-MVXhdD9Mbtt901kMYRX',
                'Congruence': 'row-MWQPhOXanUNyNLRZh1k',

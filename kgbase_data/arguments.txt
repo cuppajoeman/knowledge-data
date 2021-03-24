@@ -1,7 +1,7 @@
-Title = Closed Ball
+Title = Bounded Subset of Rn
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Topology
-Knowledge Used = 
+Knowledge Used = Open Ball
 Formatted = True
