@@ -1,4 +1,4 @@
-We say that two sets <math>A, B</math> are disjoint when <math>A \cap B = \emptyset </math>
+We say that two sets $A, B$ are disjoint when $A \cap B = \emptyset $
 
 
 {{Knowledge Metadata|Set Theory|Definition}}

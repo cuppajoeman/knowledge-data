@@ -1,7 +1,7 @@
-Title = Boundary of a Set
+Title = Disjoint Sets
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Topology
-Knowledge Used = Closure of a Set, Interior of a Set
+Parent = Set Theory
+Knowledge Used = Set, Set Intersection
 Formatted = True
