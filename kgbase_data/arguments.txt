@@ -1,7 +1,7 @@
-Title = Set Difference
+Title = Natural Numbers
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Set Theory
-Knowledge Used = Set, Set Membership
+Knowledge Used = Set
 Formatted = True

@@ -107,6 +107,7 @@
                'Secant Line': 'row-MVmctu4YPf4I67Jd2uA',
                'Semitone Integer Notation': 'row-MWPMKjIpQc_h-jmsOtB',
                'Set': 'row-MVXkrUXjeI-RFdZ5rgn',
+               'Set Difference': 'row-MW_QB69spniNtkGylqO',
                'Set Intersection': 'row-MWW5nAq5rxHudxccMPt',
                'Set Membership': 'row-MWVtgv29ndlgaEJTe7p',
                'Set Raised to a Power': 'row-MWWekVIlETWdEJ_FprV',
