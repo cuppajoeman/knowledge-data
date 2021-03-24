@@ -1,7 +1,7 @@
-Title = Modulus Operator
+Title = Set Raised to a Power
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Modular Arithmetic
-Knowledge Used = Congruence
+Parent = Set Theory
+Knowledge Used = Set,N-Tuple,Cartesian Product
 Formatted = True

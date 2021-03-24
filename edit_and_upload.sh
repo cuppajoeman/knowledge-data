@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Input is a name of the file without the extension`
+# Input is a name of the file without the extension
 
 # Compile it to pdf
 latexmk -pdf $1.tex
