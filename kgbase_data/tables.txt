@@ -52,6 +52,7 @@
                'Injective Function': 'row-MWWyT1yqJKtmQwvRj5C',
                'Integral': 'row-MVo4d_XzAHmClECX3YN',
                'Interior Point': 'row-MW_GczkBci_YH8DdyZs',
+               'Interior Subset Closure Superset': 'row-MW_KgzGKkMGZ-cb3RUe',
                'Interior of a Set': 'row-MW_HTzGyglIl7hxqwZW',
                'Inverse Function': 'row-MWX0gP4YqG2qM_Y_p3e',
                'Jean': 'row-MW6askHt-no26hyeGKX',
