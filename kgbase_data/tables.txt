@@ -27,6 +27,7 @@
                'Dimension': 'row-MW5XhWXWHVxg0CQtgZ4',
                'Disjoint Sets': 'row-MVVUKPf65sMpyPMannL',
                'Divides': 'row-MWQPMxHzYdGA05JKFxV',
+               'Dot Product': 'row-MWX3VdAOkPgoj15vgAQ',
                'Electromagnetic Induction': 'row-MVc6CcZibEW1w0fkIIg',
                'Empty Set': 'row-MWVszQlQ6wfcS8tjh6k',
                'Field': 'row-MW5ktrJKxY4h10Gu2et',
