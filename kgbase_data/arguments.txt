@@ -1,4 +1,4 @@
-Title = Open Subset of Rn
+Title = Closed Subset of Rn
 Type = Definition
 Content = Automatically
 Status = Complete
