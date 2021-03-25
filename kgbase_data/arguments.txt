@@ -1,7 +1,7 @@
-Title = Open Subset of Rn
-Type = Definition
+Title = A Set is Open iff it shares nothing with it's Boundary
+Type = Theorem
 Content = Automatically
 Status = Complete
 Parent = Topology
-Knowledge Used = Interior of a Set
+Knowledge Used = Boundary of a Set
 Formatted = True
