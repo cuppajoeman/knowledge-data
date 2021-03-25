@@ -1,7 +1,7 @@
-Title = Closure of a Set is Itself and Boundary
+Title = Boundary and Interior are Disjoint
 Type = Proposition
 Content = Automatically
 Status = Complete
 Parent = Topology
-Knowledge Used = Closure of a Set, Interior of a Set, Boundary of a Set
+Knowledge Used = Disjoint Sets, Boundary of a Set, Interior of a Set
 Formatted = True

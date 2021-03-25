@@ -20,6 +20,7 @@
                'Closed Ball': 'row-MW_EmAEb4xlOsj_RN4u',
                'Closure Point': 'row-MW_HygtZt4--eWW_L3O',
                'Closure of a Set': 'row-MW_IUOZX2JkYEz8UlNI',
+               'Closure of a Set is Itself and Boundary': 'row-MWaoP3a9IHe_azGILIj',
                'Codomain': 'row-MW_ZVz2dhGneU8yH68X',
                'Combinatorics': 'row-MVgRkgDKhzX5QTQiFf7',
                'Complete': 'row-MVXhdD9Mbtt901kMYRX',
