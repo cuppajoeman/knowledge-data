@@ -1,7 +1,7 @@
-Title = Boundary and Interior are Disjoint
-Type = Proposition
+Title = Set Complement
+Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Topology
-Knowledge Used = Disjoint Sets, Boundary of a Set, Interior of a Set
+Parent = Set Theory
+Knowledge Used = Set Membership, Set Non-Membership
 Formatted = True
