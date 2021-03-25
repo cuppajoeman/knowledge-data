@@ -1,7 +1,7 @@
-Title = Set Builder Notation
+Title = Open Subset of Rn
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Set Theory
-Knowledge Used = Predicate
+Parent = Topology
+Knowledge Used = Interior of a Set
 Formatted = True
