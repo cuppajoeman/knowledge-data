@@ -1,7 +1,7 @@
-Title = Cardinality of Disjoint Union
+Title = Closure of a Set is Itself and Boundary
 Type = Proposition
 Content = Automatically
 Status = Complete
-Parent = Set Theory
-Knowledge Used = Disjoint Sets, Empty Set, Cardinality of a Finite Set, Number of Elements in a Finite Union
+Parent = Topology
+Knowledge Used = Closure of a Set, Interior of a Set, Boundary of a Set
 Formatted = True
