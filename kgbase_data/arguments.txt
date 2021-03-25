@@ -1,7 +1,7 @@
-Title = Cardinality of a Finite Set
-Type = Definition
+Title = Cardinality of Disjoint Union
+Type = Proposition
 Content = Automatically
 Status = Complete
 Parent = Set Theory
-Knowledge Used = Bijective Function, Empty Set, Set of 1 to N, Set, Natural Numbers
+Knowledge Used = Disjoint Sets, Empty Set, Cardinality of a Finite Set, Number of Elements in a Finite Union
 Formatted = True

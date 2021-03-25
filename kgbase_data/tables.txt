@@ -10,6 +10,7 @@
                'Boundary of a Set': 'row-MW_LmL7AgdaL3RLWJVj',
                'Bounded Subset of Rn': 'row-MW_FxusNi0czapoWcz1',
                'Calculus': 'row-MVmPGUvyu4pPRdox7T6',
+               'Cardinality of a Finite Set': 'row-MWahqKITHoFT-Kj452B',
                'Cartesian Product': 'row-MWWeYQlw4rLsml7Bf9Y',
                'Cartesian Product is not Associative': 'row-MWW6SFfpvD5MNTcf2Kf',
                'Chord Integer Notation': 'row-MWPeJc6fjuxP6_Gkp1D',
