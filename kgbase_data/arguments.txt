@@ -1,7 +1,7 @@
-Title = Set Complement
-Type = Definition
+Title = Boundary Point is Half In Half Out
+Type = Theorem
 Content = Automatically
 Status = Complete
-Parent = Set Theory
-Knowledge Used = Set Membership, Set Non-Membership
+Parent = Topology
+Knowledge Used = Set Complement, Closure of a Set, Interior of a Set
 Formatted = True

@@ -123,6 +123,7 @@
                'Self Map': 'row-MW__A-jeNzwRkBERze1',
                'Semitone Integer Notation': 'row-MWPMKjIpQc_h-jmsOtB',
                'Set': 'row-MVXkrUXjeI-RFdZ5rgn',
+               'Set Complement': 'row-MWarbVUISxarH2mP3UW',
                'Set Difference': 'row-MW_QB69spniNtkGylqO',
                'Set Intersection': 'row-MWW5nAq5rxHudxccMPt',
                'Set Membership': 'row-MWVtgv29ndlgaEJTe7p',
