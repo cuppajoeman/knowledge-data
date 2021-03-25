@@ -1,7 +1,7 @@
-Title = A Set is Open iff Each Point is an Interior Point
-Type = Theorem
+Title = Open Subset of Rn
+Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Topology
-Knowledge Used = Interior Subset Closure Superset, Open Subset of Rn
+Knowledge Used = Closure of a Set
 Formatted = True
