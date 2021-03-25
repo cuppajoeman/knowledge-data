@@ -7,6 +7,7 @@
                'Basis Representation Function': 'row-MW6BTs_U0lB-mgExWm0',
                'Bijective Function': 'row-MWWzsptS35HzuB5AmU0',
                'Binomial Theorem': 'row-MVgSGWeieJH2cuLy5z1',
+               'Boundary Point is Half In Half Out': 'row-MWauIol-lNjgd02vUoI',
                'Boundary and Interior are Disjoint': 'row-MWapp4aTLnRqQdwzK5c',
                'Boundary of a Set': 'row-MW_LmL7AgdaL3RLWJVj',
                'Bounded Subset of Rn': 'row-MW_FxusNi0czapoWcz1',

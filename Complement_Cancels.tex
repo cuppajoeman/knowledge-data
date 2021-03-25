@@ -1,0 +1,33 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{Complement Cancels}
+Let $U$ be a set and let $X \subseteq U$ then 
+\[
+(X^{\complement})^{\complement} = X
+\]
+
+\begin{pf}
+  \begin{itemize}
+    \item $\subseteq$
+    \begin{itemize}
+    \item Let $x \in (X^{\complement})^{\complement}$ then $x \not\in X^{\complement}$, then suppose $x \not\in X$ then $x \in X^{\complement}$, that's a contradiction, so $x \in X$. 
+    \end{itemize}
+    \item $\supseteq$
+      \begin{itemize}
+        \item Let $x \in X$ we want to show that $x \in (X^{\complement})^{\complement}$ 
+        \begin{itemize}
+          \item If $x \in X$ then $x \not\in X^{\complement} \stackrel{\mathtt{D}}{=} \left\{ u \in U: u \not\in X \right\}$ therefore $x \in (X^{\complement})^{\complement}$
+        \end{itemize}
+      \end{itemize}
+  \end{itemize}
+  
+\end{pf}
+\end{theo*}
+
+\end{document}
+
+
