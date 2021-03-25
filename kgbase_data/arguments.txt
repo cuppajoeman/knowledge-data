@@ -1,7 +1,7 @@
-Title = Complement Cancels
-Type = Theorem
+Title = Set Builder Notation
+Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Set Theory
-Knowledge Used = Set Complement, 
+Knowledge Used = Predicate
 Formatted = True
