@@ -1,4 +1,5 @@
-{'Knowledge': {'Absolute Value': 'row-MVrlwyCxdAY1J_RQxnU',
+{'Knowledge': {"A Set is Open iff it shares nothing with it's Boundary": 'row-MWfSJYMlnevyFqxig6Y',
+               'Absolute Value': 'row-MVrlwyCxdAY1J_RQxnU',
                'Algebra': 'row-MVVN4tl5UOMTHjSTKUg',
                'Angle': 'row-MW5cLPLikXTk2AagoJE',
                'Antiderivative': 'row-MVmSGN4pvhiNBEtd1GG',

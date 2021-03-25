@@ -1,7 +1,7 @@
-Title = A Set is Open iff it shares nothing with it's Boundary
+Title = A Set is Open iff Each Point is an Interior Point
 Type = Theorem
 Content = Automatically
 Status = Complete
 Parent = Topology
-Knowledge Used = Boundary of a Set
+Knowledge Used = Interior Subset Closure Superset, Open Subset of Rn
 Formatted = True
