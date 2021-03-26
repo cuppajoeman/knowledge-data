@@ -1,7 +1,7 @@
-Title = S Closed iff Boundary is Subset
+Title = Subset is Absorbed
 Type = Theorem
 Content = Automatically
 Status = Complete
-Parent = Topology
-Knowledge Used = Closure of a Set is Itself and Boundary , Interior Subset Closure Superset
+Parent = Set Theory
+Knowledge Used = Set Union
 Formatted = True
