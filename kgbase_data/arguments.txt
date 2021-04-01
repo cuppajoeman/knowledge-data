@@ -1,4 +1,4 @@
-Title = Algorithm
+Title = Data Structure
 Type = Definition
 Content = Automatically
 Status = Complete
