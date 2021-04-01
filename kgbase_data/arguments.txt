@@ -1,7 +1,7 @@
-Title = Subset is Absorbed
-Type = Theorem
+Title = Algorithm
+Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Set Theory
-Knowledge Used = Set Union
+Parent = Computer Science
+Knowledge Used = 
 Formatted = True

@@ -146,6 +146,7 @@
                'Shape': 'row-MW5ZmYdh8GRjyqRoDTf',
                'Shift Equivalence for Intervals': 'row-MWP_-vAPD3M0NwqX1lO',
                'Subset': 'row-MWWmChK4BDwJ7lq8GZJ',
+               'Subset is Absorbed': 'row-MWg6SeR8bPHsHPZrZPW',
                'Sum Law for Limits': 'row-MVsG9g_7CAc44hxGLCm',
                'Summation of 1 to n': 'row-MVVFsXnJ25ojgHHfN12',
                'Surjective Function': 'row-MWWzTF3zuoYyq51xGLx',
