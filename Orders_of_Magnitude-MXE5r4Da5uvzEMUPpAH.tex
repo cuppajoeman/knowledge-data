@@ -1,0 +1,40 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+
+\begin{document}
+
+\begin{defn*}{Orders of Magnitude}
+
+% Please add the following required packages to your document preamble:
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+\begin{tabular}{llllll}
+\multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}In words\\ (long scale)\end{tabular}}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}In words\\ (short scale)\end{tabular}}} & \multicolumn{1}{c}{\textbf{Prefix (Symbol)}} & \multicolumn{1}{c}{\textbf{Decimal}} & \multicolumn{1}{c}{{\color[HTML]{000000} \textbf{Power of Ten}}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Order of\\ magnitude\end{tabular}}} \\
+quadrillionth & septillionth & yocto- (y) & 0.000000000000000000000001 & $ 10^{-24} $ & -24\\
+trilliardth & sextillionth & zepto- (z) & 0.000000000000000000001 & $ 10^{-21} $ & -21\\
+trillionth & quintillionth & atto- (a) & 0.000000000000000001 & $ 10^{-18} $ & -18\\
+billiardth & quadrillionth & femto- (f) & 0.000000000000001 & $ 10^{-15} $ & -15\\
+billionth & trillionth & pico- (p) & 0.000000000001 & $ 10^{-12} $ & -12\\
+milliardth & billionth & nano- (n) & 0.000000001 & $ 10^{-9} $ & -9\\
+millionth & millionth & micro- (µ) & 0.000001 & $ 10^{-6} $ & -6\\
+thousandth & thousandth & milli- (m) & 0.001 & $ 10^{-3} $ & -3\\
+hundredth & hundredth & centi- (c) & 0.01 & $ 10^{-2} $ & -2\\
+tenth & tenth & deci- (d) & 0.1 & $ 10^{-1} $ & -1\\
+one & one & & 1 & $ 10 ^{0} $  & 0\\
+ten & ten & deca- (da) & 10 & $ 10^{1} $ & 1\\
+hundred & hundred & hecto- (h) & 100 & $ 10^{2} $ & 2\\
+thousand & thousand & kilo- (k) & 1000 & $ 10^{3} $ & 3\\
+million & million & mega- (M) & 1000000 & $ 10^{6} $ & 6\\
+milliard & billion & giga- (G) & 1000000000 & $ 10^{9} $ & 9\\
+billion & trillion & tera- (T) & 1000000000000 & $ 10^{12} $ & 12\\
+billiard & quadrillion & peta- (P) & 1000000000000000 & $ 10^{15} $ & 15\\
+trillion & quintillion & exa- (E) & 1000000000000000000 & $ 10^{18} $ & 18\\
+trilliard & sextillion & zetta- (Z) & 1000000000000000000000 & $ 10^{21} $ & 21\\
+quadrillion & septillion & yotta- (Y) & 1000000000000000000000000 & $ 10^{24} $ & 24                                                                                       
+\end{tabular}
+\end{table}
+\end{defn*}
+
+\end{document}

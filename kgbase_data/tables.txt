@@ -40,6 +40,7 @@
                'Constant in Limit': 'row-MVrlzafDQUs460dyogz',
                'Correct Algorithm': 'row-MXDp_VLosTCGXuiU699',
                'Cross Product': 'row-MW_CY_MFj9qFeeTePR9',
+               'Data Structure': 'row-MXDr-roZXabtDRynM0b',
                'Definition': 'row-MVXSSn_vJuk_qhboEnj',
                'Derivative': 'row-MVmQxUEzE_bTaPq5Zxb',
                'Differentiability implies Continuity': 'row-MVsGDRmhBBho-MEMM2U',

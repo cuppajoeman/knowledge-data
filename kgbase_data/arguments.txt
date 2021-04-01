@@ -1,7 +1,7 @@
-Title = Data Structure
+Title = Orders of Magnitude
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Computer Science
+Parent = Mathematics
 Knowledge Used = 
 Formatted = True
