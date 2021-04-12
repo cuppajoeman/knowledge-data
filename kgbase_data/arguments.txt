@@ -1,7 +1,7 @@
-Title = Orders of Magnitude
+Title = Bus
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Mathematics
+Parent = Computer Architecture
 Knowledge Used = 
 Formatted = True
