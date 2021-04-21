@@ -163,6 +163,7 @@
                'Vector': 'row-MVVQcRiUZkrm5pv5Zld',
                'Vector Space': 'row-MW61QyoeTVuvQg_HVEL',
                'Vector Space Unique Identity': 'row-MYlm-S_PJUsKtvXoOqv',
+               'Vector Space Unique Inverse': 'row-MYlrpLZcIOUR1jFGQUO',
                'Vector Spaces': 'row-MYlltx38OyK2WUHd9QI',
                'Velocity': 'row-MVljOHe9a7JBztoV6yw',
                'Work': 'row-MVgGD0Sm08RRKJ9Sxqz',
