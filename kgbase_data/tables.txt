@@ -137,6 +137,7 @@
                'Relation': 'row-MWWmTa3Diz3wrV1ZcAY',
                'Rolles Theorem': 'row-MVmcr7bGBOMBTVhoH4S',
                'S Closed iff Boundary is Subset': 'row-MWg3IG37jgDcoJtWtHx',
+               'Scalar multiple times Identity is the Identity': 'row-MYok6VxKfK7YTI2qwtM',
                'Secant Line': 'row-MVmctu4YPf4I67Jd2uA',
                'Self Map': 'row-MW__A-jeNzwRkBERze1',
                'Semitone Integer Notation': 'row-MWPMKjIpQc_h-jmsOtB',

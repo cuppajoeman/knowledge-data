@@ -1,7 +1,7 @@
-Title = Scalar multiple times Identity is the Identity
+Title = minus 1 times a Vector is its Inverse
 Type = Theorem
 Content = Automatically
 Status = Complete
 Parent = Vector Spaces
-Knowledge Used = Vector Spaces
+Knowledge Used = Vector Space, Vector Space Unique Inverse
 Formatted = True
