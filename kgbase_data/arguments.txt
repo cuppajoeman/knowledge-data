@@ -1,7 +1,7 @@
-Title = Vector Space Unique Identity
+Title = Vector Space Unique Inverse
 Type = Theorem
 Content = Automatically
 Status = Complete
 Parent = Vector Spaces
-Knowledge Used =  Vector Space
+Knowledge Used = Vector Space
 Formatted = True
