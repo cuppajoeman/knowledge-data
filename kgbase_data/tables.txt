@@ -1,6 +1,7 @@
 {'Knowledge': {'A Set is Open iff Each Point is an Interior Point': 'row-MWfk7QOm3fNlT0zYQih',
                "A Set is Open iff it shares nothing with it's Boundary": 'row-MWfSJYMlnevyFqxig6Y',
                'Absolute Value': 'row-MVrlwyCxdAY1J_RQxnU',
+               'Addition in F^n': 'row-MYlhoKL7QV1QadbTEZN',
                'Algebra': 'row-MVVN4tl5UOMTHjSTKUg',
                'Algorithm': 'row-MXDp5HA6iYOn7QOIi7m',
                'Angle': 'row-MW5cLPLikXTk2AagoJE',

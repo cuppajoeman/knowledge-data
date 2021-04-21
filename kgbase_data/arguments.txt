@@ -1,7 +1,7 @@
-Title = Addition in F^n
+Title = Set of Functions from X to Y
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Linear Algebra
-Knowledge Used = Field, Set Raised to a Power
+Parent = Functions
+Knowledge Used = Function, Set
 Formatted = True
