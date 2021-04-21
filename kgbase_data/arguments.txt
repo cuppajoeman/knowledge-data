@@ -1,7 +1,7 @@
-Title = minus 1 times a Vector is its Inverse
-Type = Theorem
+Title = Scalar Times Vector is Zero implies one of them Zero
+Type = Deduction
 Content = Automatically
 Status = Complete
 Parent = Vector Spaces
-Knowledge Used = Vector Space, Vector Space Unique Inverse
+Knowledge Used = Vector Space, Scalar multiple times Identity is the Identity
 Formatted = True

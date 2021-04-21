@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo $2
+
 # Example ./new defn title
 cp $1.tex $2.tex
 
