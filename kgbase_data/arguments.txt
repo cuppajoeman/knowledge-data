@@ -1,7 +1,7 @@
-Title = 0 Times Vector is Identity
+Title = Scalar Multiple of Identity is Identity
 Type = Theorem
 Content = Automatically
-Status = Complete
-Parent = Vector Spaces
-Knowledge Used = Vector Space Unique Inverse
+Status = Complete.Work In Progress
+Parent = Vector Space
+Knowledge Used = Vector Space
 Formatted = True

@@ -1,4 +1,5 @@
-{'Knowledge': {'A Set is Open iff Each Point is an Interior Point': 'row-MWfk7QOm3fNlT0zYQih',
+{'Knowledge': {'0 Times Vector is Identity': 'row-MYlvAHkqZdGnxfVukQK',
+               'A Set is Open iff Each Point is an Interior Point': 'row-MWfk7QOm3fNlT0zYQih',
                "A Set is Open iff it shares nothing with it's Boundary": 'row-MWfSJYMlnevyFqxig6Y',
                'Absolute Value': 'row-MVrlwyCxdAY1J_RQxnU',
                'Addition in F^n': 'row-MYlhoKL7QV1QadbTEZN',
