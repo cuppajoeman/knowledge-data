@@ -1,7 +1,7 @@
-Title = Set of Functions from X to Y
-Type = Definition
+Title = Vector Space Unique Identity
+Type = Theorem
 Content = Automatically
 Status = Complete
-Parent = Functions
-Knowledge Used = Function, Set
+Parent = Vector Spaces
+Knowledge Used =  Vector Space
 Formatted = True
