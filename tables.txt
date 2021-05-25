@@ -124,6 +124,7 @@ Knowledge:
     Orders of Magnitude: row-MXE5r4Da5uvzEMUPpAH
     Particle: row-MYpdbS8HaccUd4FefMa
     Particle Physics: row-MYphYDk9rdkkZfeqEgv
+    Partition: row-Ma_0ZMyU-90m4mZfcrv
     Permutation: row-MW_eRhkS5HTWOyRTaLk
     Perpendicular: row-MVgKus2yralg7pc-TEq
     Physics: row-MVdx5BD8nEkIuad5bh2
