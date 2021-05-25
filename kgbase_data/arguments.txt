@@ -1,7 +1,7 @@
 Title = Graph
 Type = Definition
 Content = Automatically
-Status = Complete.Work In Progress
+Status = Complete
 Parent = Set Theory
 Knowledge Used = Set, N-Tuple, Cartesian Product
 Formatted = True
