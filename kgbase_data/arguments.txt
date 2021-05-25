@@ -1,7 +1,7 @@
-Title = Elementary Particle
+Title = Floor Function
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Physics
-Knowledge Used = Subatomic Particle
+Parent = Functions
+Knowledge Used = Function
 Formatted = True
