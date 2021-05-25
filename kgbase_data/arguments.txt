@@ -1,7 +1,7 @@
-Title = Ceiling Function
+Title = Partition
 Type = Definition
 Content = Automatically
 Status = Complete
-Parent = Functions
-Knowledge Used = Function
+Parent = Set Theory
+Knowledge Used = Subset, Disjoint Sets
 Formatted = True

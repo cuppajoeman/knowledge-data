@@ -24,6 +24,7 @@
                'Cardinality of a Finite Set': 'row-MWahqKITHoFT-Kj452B',
                'Cartesian Product': 'row-MWWeYQlw4rLsml7Bf9Y',
                'Cartesian Product is not Associative': 'row-MWW6SFfpvD5MNTcf2Kf',
+               'Ceiling Function': 'row-MaZxRwV2kERlZ2eW4cw',
                'Chord Integer Notation': 'row-MWPeJc6fjuxP6_Gkp1D',
                'Chord with respect to a different Root': 'row-MWQGQBwBRXrxWqzFAMM',
                'Circle': 'row-MW5aM0pQuT0-XZutGZC',
