@@ -61,6 +61,7 @@
                'Factorial': 'row-MW_XJawMb_nh7MiXeSt',
                'Field': 'row-MW5ktrJKxY4h10Gu2et',
                'Finite Geometric Sum': 'row-MW5vqeyIjCQLslPywnX',
+               'Floor Function': 'row-MaZwbV3jQZULf45H6Yi',
                'Fluid': 'row-MVgKodx_Pi-uXPWSFTY',
                'Force': 'row-MVdx6GFBxm-tNfJn3Rb',
                'Formula for a Chord with respect to a different Root': 'row-MWQGu9UDbw1GS17ZZ8N',

@@ -1,4 +1,4 @@
-Title = Floor Function
+Title = Ceiling Function
 Type = Definition
 Content = Automatically
 Status = Complete
