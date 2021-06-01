@@ -200,6 +200,7 @@
                'Modular Arithmetic': 'row-MWQOLEGqV1SUw0Wdmpu',
                'Music': 'row-MWPIEcZgVIvK-g5e5we',
                'Music Theory': 'row-MWPIHSGgLACJl6hYa6X',
+               'Number Theory': 'row-Mb7cBhtlVQZXC6z_Rpq',
                'Particle Physics': 'row-MYphYDk9rdkkZfeqEgv',
                'Physics': 'row-MVdx5BD8nEkIuad5bh2',
                'Probability': 'row-MVVRrurswL2z4kSVHGi',

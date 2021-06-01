@@ -1,7 +1,7 @@
-Title = X
-Type = Definition.Theorem.Proposition.Property
+Title = Quotient Remainder
+Type = Deduction
 Content = Automatically
-Status = Complete.Work In Progress
-Parent = P
+Status = Complete
+Parent = Number Theory
 Knowledge Used = 
-Formatted = True.False
+Formatted = True
