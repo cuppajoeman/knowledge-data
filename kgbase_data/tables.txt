@@ -72,6 +72,7 @@
                'Functions': 'row-MVXikcspQp-N_H6kRxy',
                'Fundamental Theorem of Calculus Part I': 'row-MVo4osJ0Q0S3IZ6TWot',
                'Fundamental Theorem of Calculus Part II': 'row-MVo4TeuyLgCffCfCIWP',
+               'GCD Invariant for Remainder': 'row-Mb7hQBpFM0hPw9UuEZ_',
                'Generator': 'row-MVc53r4ThkfgkMH1pex',
                'Geometry': 'row-MW4i_wslKALrJzhJ6ll',
                'Graph': 'row-Ma_2J539m4Iu5kSrOT0',

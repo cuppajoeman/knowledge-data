@@ -1,7 +1,7 @@
-Title = GCD Invariant for Remainder
-Type = Deduction
+Title = Euclidean Algorithm
+Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Number Theory
-Knowledge Used = Quotient Remainder 
+Knowledge Used = GCD Invariant for Remainder
 Formatted = True
