@@ -2,6 +2,9 @@
 \usepackage{tikz,lmodern,amssymb}
 \usepackage{knowledge}
 
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+
 \begin{document}
 
 \begin{defn*}{Euclidean Algorithm}
@@ -9,25 +12,28 @@
 Given two positive integers $m$ and $n$ find their greatest common divisor, that is, the largest positive integer that evenly divides both $m$ and $n$.
 
 \begin{enumerate}
-  # Divide $m$ by $n$ and let $r$ be the remainder where $0 \le r < n$
-  # If $r =0$, the algorithm terminates; $n$ is the answer.
-  # Set $m \leftarrow n$, $n \leftarrow r$ and return to step 1
+  \item Divide $m$ by $n$ and let $r$ be the remainder where $0 \le r < n$
+  \item If $r =0$, the algorithm terminates; $n$ is the answer.
+  \item Set $m \leftarrow n$, $n \leftarrow r$ and return to step 1
 \end{enumerate}
 
-\textbf{Algorithm} Euclid_Alg \textbf{is}
-  \textbf{inputs}: $ n, m$ 
-  r $\leftarrow m ~\%~ n$ 
-  \textbf{if} r $ = 0$ \textbf{then}
-    return r
-  \textbf{end}
-  return Euclid_Alg($ n, r $)
-\textbf{end Algorithm} Euclid_Alg \textbf{is}
+\begin{algorithmic}[1]
+  \Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
+  \State $r\gets a\bmod b$
+  \While{$r\not=0$}\Comment{We have the answer if r is 0}
+  \State $a\gets b$
+  \State $b\gets r$
+  \State $r\gets a\bmod b$
+  \EndWhile\label{euclidendwhile}
+  \State \textbf{return} $b$\Comment{The gcd is b}
+  \EndProcedure
+\end{algorithmic}
 
-\section*{Correctness}
+\section{Correctness*}
 \begin{pf}
   \begin{itemize}
     \item Note that by the GCD invariant we have: $\gcd(m,n) = \gcd(n,r)$, then each time we go to step 3 this chain of equalities would expand by one
-    \itemTo see why we would be applying the quotient remainder theorem on $n$ in the next iteration to obtain $n = q n_1 + r_1$, then we would have 
+    \item To see why we would be applying the quotient remainder theorem on $n$ in the next iteration to obtain $n = q n_1 + r_1$, then we would have 
     \[
       \gcd(n,m) = \gcd(n,r) = \gcd(n_1, r_1)
     \]
@@ -37,7 +43,7 @@ Given two positive integers $m$ and $n$ find their greatest common divisor, that
   \end{itemize}
 \end{pf}
 
-\section*{Termination}
+\section{Termination*}
 
 The program terminates if $r = 0$, the value of $n$ decreases by at least 1 after each iteration specified by the strict inequality from the quotient remainder theorem, therefore if $n_k$ is the value of $n$ after $k$ iterations then $n_0, n_1, ...$ is a decreasing sequence of positive integers, and so it must be finite, therefore there is a $r \in \mathbb{N}$ such that the algorithm terminates on iteration $r$ (as $n_r = 0$)
 
