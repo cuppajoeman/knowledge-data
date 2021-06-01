@@ -1,7 +1,7 @@
-Title = Function
-Type = Definition
+Title = X
+Type = Definition.Theorem.Proposition.Property
 Content = Automatically
-Status = Complete
-Parent = Set Theory
-Knowledge Used = Relation
-Formatted = True
+Status = Complete.Work In Progress
+Parent = P
+Knowledge Used = 
+Formatted = True.False
