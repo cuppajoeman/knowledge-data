@@ -18,14 +18,12 @@ Given two positive integers $m$ and $n$ find their greatest common divisor, that
 \end{enumerate}
 
 \begin{algorithmic}[1]
-  \Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
-  \State $r\gets a\bmod b$
-  \While{$r\not=0$}\Comment{We have the answer if r is 0}
-  \State $a\gets b$
-  \State $b\gets r$
-  \State $r\gets a\bmod b$
-  \EndWhile\label{euclidendwhile}
-  \State \textbf{return} $b$\Comment{The gcd is b}
+  \Procedure{gcd}{$a,b$}
+  \If $ m ~\%~ n = 0$ :
+  \State \textbf{return} n \Comment{Base Case}
+  \Else
+    \State \textbf{return} $ \gcd(n, m ~\%~ n)$ 
+  \EndIf
   \EndProcedure
 \end{algorithmic}
 
