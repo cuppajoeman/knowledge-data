@@ -19,7 +19,7 @@ Given two positive integers $m$ and $n$ find their greatest common divisor, that
 
 \begin{algorithmic}[1]
   \Procedure{gcd}{$a,b$}
-  \If $ m ~\%~ n = 0$ :
+  \If {$ m ~\%~ n = 0$}
   \State \textbf{return} n \Comment{Base Case}
   \Else
     \State \textbf{return} $ \gcd(n, m ~\%~ n)$ 
