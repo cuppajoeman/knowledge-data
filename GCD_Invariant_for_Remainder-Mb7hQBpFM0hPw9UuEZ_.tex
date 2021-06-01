@@ -23,14 +23,9 @@
           m - q  \cdot n =  r
           \]
           shows us that if $ d \mid m$ and $ d \mid n$ then $ d \mid r$
-        \item Going the other direction would be assuming that $ d$ is a divisor of $ n$ and $ r$, and showing that $ d$ also divides $ m$. To show this prove that
+        \item Going the other direction would be assuming that $ d$ is a divisor of $ n$ and $ r$, and showing that $ d$ also divides $ m$. This is clear from the original equation:
           \[
-            \left( d \nmid m \land  d \mid n \right) \Rightarrow \left( d \nmid m  - qn \right)
-          \]
-          by doing so, it implies that if $ d \nmid m$ then $ d \nmid r$ which is a contradiction so $ d$ must divide $ m$. 
-        \item Therefore we can conclude that
-          \[
-            \gcd(m,n) = \gcd(n,r)
+            m = q  \cdot  n  +  r
           \]
         \end{itemize}
         \item If $ r =  0$ then we know that $ m = q  \cdot n$ which is the definition of $ n \mid m$ and it's clear that $ \gcd(m, n) = \gcd(q  \cdot n, n) =  n$ 
