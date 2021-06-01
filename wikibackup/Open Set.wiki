@@ -1,3 +1,3 @@
-Given a metric space <math display="inline">\left( X, d \right)</math> we say that <math display="inline">U \subseteq X</math> is open if <math display="inline">\forall u \in U</math>, there exists <math display="inline">\varepsilon > 0</math> such that <math display="inline">B\left(u, \varepsilon\right) \subseteq U</math>
+Given a metric space $\left( X, d \right)$ we say that $U \subseteq X$ is open if $\forall u \in U$, there exists $\varepsilon > 0$ such that $B\left(u, \varepsilon\right) \subseteq U$
 
 {{Knowledge Metadata|Analysis|Definition}}

@@ -1,5 +1,8 @@
-A surjection is a function <math>f : X \to Y </math> such that 
-<math display="block">\forall y \in Y, \exists x \in X, \text{ such that  } f\left(x\right)=y</math>
+A surjection is a function $f : X \to Y $ such that 
+
+\[
+	\forall y \in Y, \exists x \in X, \text{ such that  } f\left(x\right)=y
+\]
 
 == Knowledge Used ==
 

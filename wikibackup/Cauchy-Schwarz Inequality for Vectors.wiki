@@ -1,28 +1,45 @@
-For any <math display="inline">\vec{v}, \vec{u} \in \mathbb{R} ^{n}</math> we have <math display="block">\left| \vec{v}  \cdot  \vec{u} \right| \le \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert</math>
+For any $\vec{v}, \vec{u} \in \mathbb{R} ^{n}$ we have 
+\[
+	\left| \vec{v}  \cdot  \vec{u} \right| \le \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert
+\]
 
 == Proof ==
 
-* We start by using the algebraic definition of <math>\alpha </math> to obtain an equivalent statements using <math>\gamma</math>, since <math>\sqrt{ \left( \vec{v}  \cdot \vec{u} \right) ^{2}} , \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert \in [0, \infty)</math>
-<math display="block">\begin{aligned}
-  \sqrt{ \left( \vec{v}  \cdot \vec{u} \right) ^{2}} \le \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert &\Rightarrow \left( \vec{v}  \cdot  \vec{u} \right) ^{2} \le \left( \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert \right) ^{2}\\\end{aligned}</math>
+* We start by using the algebraic definition of $\alpha $ to obtain an equivalent statements using $\gamma$, since $\sqrt{ \left( \vec{v}  \cdot \vec{u} \right) ^{2}} , \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert \in [0, \infty)$
 
-* It follows directly from the geometric definition of <math>\beta</math>, we have
-<math display="block">\vec{v}  \cdot  \vec{u} \stackrel{\mathtt{D}}{=} \left\Vert v \right\Vert \left\Vert u \right\Vert \cos  \left( \theta \right) </math>
+\[
+	\begin{aligned} \sqrt{ \left( \vec{v}  \cdot \vec{u} \right) ^{2}} \le \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert &\Rightarrow \left( \vec{v}  \cdot  \vec{u} \right) ^{2} \le \left( \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert \right) ^{2}\\\end{aligned}
+\]
+
+* It follows directly from the geometric definition of $\beta$, we have
+
+\[
+	\vec{v}  \cdot  \vec{u} \stackrel{\mathtt{D}}{=} \left\Vert v \right\Vert \left\Vert u \right\Vert \cos  \left( \theta \right) 
+\]
 
 * Then 
-<math display="block">\left( \vec{v}  \cdot  \vec{u} \right) ^{2} =   \left(  \left\Vert v \right\Vert \left\Vert u \right\Vert \cos  \left( \theta \right) \right) ^{2}</math>
 
-* We recall that <math display="inline">-1 \le \cos  \left( \theta \right) \le 1</math> therefore <math display="inline">0 \le \cos  \left( \theta \right) ^{2} \le 1</math> thus we have 
-<math display="block">\left( \vec{v}   \cdot \vec{u} \right) ^{2} = \left( \left\Vert v \right\Vert \left\Vert u \right\Vert \right) ^{2} \cos  \left( \theta \right) ^{2 } \le \left( \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert \right) ^{2}  \cdot 1</math>
+\[
+	\left( \vec{v}  \cdot  \vec{u} \right) ^{2} =   \left(  \left\Vert v \right\Vert \left\Vert u \right\Vert \cos  \left( \theta \right) \right) ^{2}
+\]
+
+* We recall that $-1 \le \cos  \left( \theta \right) \le 1$ therefore $0 \le \cos  \left( \theta \right) ^{2} \le 1$ thus we have 
+
+\[
+	\left( \vec{v}   \cdot \vec{u} \right) ^{2} = \left( \left\Vert v \right\Vert \left\Vert u \right\Vert \right) ^{2} \cos  \left( \theta \right) ^{2 } \le \left( \left\Vert \vec{v} \right\Vert \left\Vert \vec{u} \right\Vert \right) ^{2}  \cdot 1
+\]
 
 * In other words, we've just obtained that 
-<math display="block">\left( \vec{v}  \cdot  \vec{u} \right) ^{2} \le \left( \left\Vert \vec{v}  \right\Vert \left\Vert \vec{u} \right\Vert \right) ^{2}</math>
+
+\[
+	\left( \vec{v}  \cdot  \vec{u} \right) ^{2} \le \left( \left\Vert \vec{v}  \right\Vert \left\Vert \vec{u} \right\Vert \right) ^{2}
+\]
 
 * So we have the result
 
 == Knowledge Used ==
 
-* <math>\alpha</math>: {{link|target=Absolute Value}}
-* <math>\beta</math>:  {{link|target=Dot Product}}
-* <math>\gamma</math>: {{link|target=X^n is Increasing}}
+* $\alpha$: {{link|target=Absolute Value}}
+* $\beta$:  {{link|target=Dot Product}}
+* $\gamma$: {{link|target=X^n is Increasing}}
 {{Knowledge Metadata|Linear Algebra|Theorem}}

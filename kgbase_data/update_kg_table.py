@@ -48,7 +48,7 @@ for table_data in project_tables:
 
 #pprint.pprint(tables)
 # Also write it to a file, because why not, relative to proj root
-with open("kgbase_data/tables.txt", "w") as f:
+with open("tables.txt", "w") as f:
     s = pprint.pformat(tables)
     s =  yaml.dump(tables, default_flow_style=False, indent=4)
     f.write(s)

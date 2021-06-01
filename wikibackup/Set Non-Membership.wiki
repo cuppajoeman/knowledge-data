@@ -1,1 +1,4 @@
-Given a set <math>X</math> if <math>x</math> is not one of the elements in <math>X</math>, then we may write:<math display="block">x \not\in X</math>
+Given a set $X$ if $x$ is not one of the elements in $X$, then we may write:
+\[
+	x \not\in X
+\]

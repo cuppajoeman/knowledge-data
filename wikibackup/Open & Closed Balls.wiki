@@ -1,5 +1,11 @@
-Let <math display="inline">\left( M, d \right)</math> be a metric space, an open ball of radius <math display="inline">\varepsilon > 0</math>: <math display="block">B\left(x,\varepsilon\right)\stackrel{\text{def}}{=} \left\{ y: d\left(x,y\right)< \varepsilon \right\}</math>
+Let $\left( M, d \right)$ be a metric space, an open ball of radius $\varepsilon > 0$: 
+\[
+	B\left(x,\varepsilon\right)\stackrel{\text{def}}{=} \left\{ y: d\left(x,y\right)< \varepsilon \right\}
+\]
 
-A closed ball: <math display="block">\overline{B\left(x,y\right)} \stackrel{\text{def}}{=} \left\{ y: d\left(x,y\right) \le \varepsilon \right\}</math>
+A closed ball: 
+\[
+	\overline{B\left(x,y\right)} \stackrel{\text{def}}{=} \left\{ y: d\left(x,y\right) \le \varepsilon \right\}
+\]
 
 {{Knowledge Metadata|Analysis|Definition}}

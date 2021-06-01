@@ -1,11 +1,14 @@
-Let <math display="inline">U</math> be a set and let <math display="inline">X \subseteq U</math> then <math display="block">\overline{\overline{X}}= X</math>
+Let $U$ be a set and let $X \subseteq U$ then 
+\[
+	\overline{\overline{X}}= X
+\]
 
 == Proof ==
-* <math display="inline">\subseteq</math>
-** Let <math display="inline">x \in \overline{\overline{X}}</math> then <math display="inline">x \not\in \overline{X}</math>, then suppose <math display="inline">x \not\in X</math> then <math display="inline">x \in \overline{X}</math>, that's a contradiction, so <math display="inline">x \in X</math>. More directly <math display="inline">x \not\in \overline{X}= \left\{ u \in U: u \not\in X \right\}</math> therefore it's not true that <math display="inline">x \not\in X</math> so <math display="inline">x \in X</math>.
-* <math display="inline">\supseteq</math>
-** Let <math display="inline">x \in X</math> we want to show that <math display="inline">x \in \overline{\overline{X}}</math> 
-*** If <math display="inline">x \in X</math> then <math display="inline">x \not\in \overline{X}</math> therefore <math display="inline">x \in \overline{\overline{X}}</math>
+* $\subseteq$
+** Let $x \in \overline{\overline{X}}$ then $x \not\in \overline{X}$, then suppose $x \not\in X$ then $x \in \overline{X}$, that's a contradiction, so $x \in X$. More directly $x \not\in \overline{X}= \left\{ u \in U: u \not\in X \right\}$ therefore it's not true that $x \not\in X$ so $x \in X$.
+* $\supseteq$
+** Let $x \in X$ we want to show that $x \in \overline{\overline{X}}$ 
+*** If $x \in X$ then $x \not\in \overline{X}$ therefore $x \in \overline{\overline{X}}$
 
 == Knowledge Used ==
 
