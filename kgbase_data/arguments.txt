@@ -1,7 +1,7 @@
-Title = Euclidean Algorithm
+Title = Least Common Multiple
 Type = Definition
 Content = Automatically
 Status = Complete
 Parent = Number Theory
-Knowledge Used = GCD Invariant for Remainder
+Knowledge Used = Divides
 Formatted = True

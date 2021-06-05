@@ -59,6 +59,7 @@
                'Electromagnetic Induction': 'row-MVc6CcZibEW1w0fkIIg',
                'Elementary Particle': 'row-MYphBWku04DfcKT7K6N',
                'Empty Set': 'row-MWVszQlQ6wfcS8tjh6k',
+               'Euclidean Algorithm': 'row-Mb7rCHuasoS6X2oxDKc',
                'Factorial': 'row-MW_XJawMb_nh7MiXeSt',
                'Field': 'row-MW5ktrJKxY4h10Gu2et',
                'Finite Geometric Sum': 'row-MW5vqeyIjCQLslPywnX',
